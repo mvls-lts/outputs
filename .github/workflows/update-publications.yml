@@ -63,6 +63,7 @@ jobs:
             DT
             ggplot2
             here
+            readxl
       
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
