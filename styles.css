@@ -1,0 +1,70 @@
+/* Custom styles for Network Publications website */
+
+/* SoTL badge styling */
+.badge.bg-success {
+  background-color: #18bc9c !important;
+  font-size: 0.75em;
+  font-weight: 500;
+  padding: 0.3em 0.6em;
+}
+
+/* Improve table readability */
+.dataTables_wrapper {
+  font-size: 0.9em;
+}
+
+.dataTables_filter input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+/* Publication links */
+.dataTable a {
+  color: #2c3e50;
+  text-decoration: none;
+  border-bottom: 1px dotted #2c3e50;
+}
+
+.dataTable a:hover {
+  color: #18bc9c;
+  border-bottom-color: #18bc9c;
+}
+
+/* Callout boxes */
+.callout-note {
+  border-left-color: #2c3e50;
+}
+
+/* Statistics on homepage */
+.callout-note .callout-body {
+  font-size: 1.1em;
+}
+
+/* Footer styling */
+.nav-footer {
+  font-size: 0.85em;
+  color: #6c757d;
+}
+
+/* Mermaid diagrams */
+.mermaid {
+  text-align: center;
+  margin: 2em 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dataTables_wrapper {
+    font-size: 0.8em;
+  }
+  
+  .dataTable td {
+    padding: 0.5em;
+  }
+}
+
+/* Year chart styling */
+.cell-output-display {
+  margin-top: 1em;
+}

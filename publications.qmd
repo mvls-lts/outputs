@@ -1,0 +1,131 @@
+---
+title: "Publications"
+subtitle: "Complete list of network publications"
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(jsonlite)
+library(dplyr)
+library(tidyr)
+library(DT)
+library(glue)
+library(stringr)
+```
+
+```{r}
+#| label: load-data
+#| include: false
+
+pub_data <- fromJSON(here::here("_data", "publications.json"))
+pubs <- pub_data$publications |>
+  as_tibble() |>
+  mutate(
+    # Create clickable title if URL exists
+    title_link = case_when(
+      !is.na(url) & url != "" ~ glue('<a href="{url}" target="_blank">{title}</a>'),
+      TRUE ~ title
+    ),
+    # Clean up publication type for display
+    type_clean = str_to_title(str_replace_all(type, "-", " ")),
+    # Handle NA years
+    year = replace_na(year, 0),
+    # SoTL indicator
+    sotl_badge = if_else(
+      is_sotl == TRUE,
+      '<span class="badge bg-success">SoTL</span>',
+      ''
+    )
+  )
+```
+
+## All Publications
+
+Browse and search all `r nrow(pubs)` publications from network members. Use the dropdown filters below each column header to filter by type, year, or other criteria.
+
+::: {.callout-tip collapse="true"}
+## Publication Types in This Collection
+
+```{r}
+#| label: type-summary
+#| echo: false
+#| results: asis
+
+type_counts <- pubs |>
+  count(type_clean, sort = TRUE) |>
+  filter(!is.na(type_clean), type_clean != "")
+
+for (i in seq_len(nrow(type_counts))) {
+  cat(glue("- **{type_counts$type_clean[i]}**: {type_counts$n[i]}\n"))
+}
+```
+
+Use the **Type** column filter below to show only specific publication types.
+:::
+
+```{r}
+#| label: pub-table
+#| echo: false
+
+pubs |>
+  select(
+    Title = title_link,
+    Year = year,
+    Journal = journal,
+    Type = type_clean,
+    SoTL = sotl_badge,
+    `Network Authors` = network_authors
+  ) |>
+  datatable(
+    escape = FALSE,  # Allow HTML in Title and SoTL columns
+    filter = "top",
+    options = list(
+      pageLength = 25,
+      order = list(list(1, "desc")),  # Sort by year descending
+      columnDefs = list(
+        list(width = "35%", targets = 0),  # Title column width
+        list(width = "8%", targets = 1),   # Year column width
+        list(width = "5%", targets = 4),   # SoTL column width
+        list(className = "dt-left", targets = "_all")
+      ),
+      dom = "Bfrtip",
+      buttons = c("csv", "excel")
+    ),
+    extensions = "Buttons",
+    rownames = FALSE
+  )
+```
+
+## Publications by Year
+
+```{r}
+#| label: by-year
+#| echo: false
+#| fig-width: 10
+#| fig-height: 5
+
+library(ggplot2)
+
+year_counts <- pubs |>
+  filter(year > 0) |>
+  count(year) |>
+  arrange(year)
+
+ggplot(year_counts, aes(x = year, y = n)) +
+geom_col(fill = "#2c3e50") +
+  labs(
+    x = "Year",
+    y = "Number of Publications",
+    title = "Publications per Year"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold")
+  )
+```
+
+---
+
+*Data sourced from ORCID. Last updated: `r pub_data$last_updated`*

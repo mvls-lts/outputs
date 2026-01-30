@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Network Publications"
+  description: "A curated list of publications from our research network"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: All Publications
+      - href: sotl.qmd
+        text: SoTL Publications
+      - href: authors.qmd
+        text: Authors
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/YOUR-USERNAME/YOUR-REPO
+        aria-label: GitHub
+  page-footer:
+    center: |
+      Last updated: {{< meta last-updated >}} | 
+      Data sourced from [ORCID](https://orcid.org)
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-summary: "Show code"
+
+execute:
+  freeze: auto

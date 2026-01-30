@@ -1,0 +1,98 @@
+---
+title: "About"
+subtitle: "How this publication list works"
+---
+
+## Overview
+
+This website automatically aggregates and displays publications from members of our research network. Rather than manually maintaining a list that quickly becomes outdated, we leverage the [ORCID](https://orcid.org) infrastructure to keep our publication list current.
+
+## How It Works
+
+```{mermaid}
+flowchart LR
+    A[ORCID Profiles] -->|Weekly fetch| B[R Script]
+    B --> C[SoTL Classification]
+    C --> D[JSON Data File]
+    D --> E[Quarto Website]
+    E -->|GitHub Actions| F[GitHub Pages]
+```
+
+1. **Data Source**: Each network member maintains their own ORCID profile with their publications
+2. **Automated Fetching**: A weekly GitHub Actions workflow runs an R script that queries the ORCID public API
+3. **Deduplication**: Publications that appear on multiple authors' profiles (collaborations) are deduplicated by DOI
+4. **SoTL Classification**: Publications are automatically tagged as education-related based on journal names and title keywords
+5. **Website Generation**: Quarto renders the data into a searchable, browsable website
+6. **Deployment**: The site is automatically deployed to GitHub Pages
+
+## SoTL Classification
+
+Publications are automatically classified as Scholarship of Teaching and Learning (SoTL) or education-related using two methods:
+
+### Journal Matching
+
+Publications appearing in known education journals are automatically tagged. The list includes journals across higher education, medical education, science education, and discipline-specific pedagogy journals.
+
+### Keyword Matching
+
+For publications not matched by journal, titles are scanned for education-related terms such as "teaching", "learning", "pedagogy", "curriculum", "assessment", "student", and many others.
+
+This classification is imperfect but provides a useful filter without requiring manual curation. The keyword and journal lists can be expanded by editing `R/fetch_orcid_publications.R`.
+
+## Benefits of This Approach
+
+- **Always current**: Authors update their ORCID profiles; our list updates automatically
+- **No manual maintenance**: No spreadsheets to update or forms to fill out
+- **Single source of truth**: ORCID serves as the canonical record
+- **Collaboration tracking**: We can see which network members have co-authored together
+- **Transparent**: All code is open source and auditable
+
+## Technical Details
+
+### Stack
+
+- **R**: Data fetching and processing (tidyverse ecosystem)
+- **Quarto**: Website generation
+- **GitHub Actions**: Automated weekly updates
+- **GitHub Pages**: Free hosting
+
+### Key R Packages
+
+- `httr2`: API requests to ORCID
+- `jsonlite`: JSON data handling
+- `dplyr` / `tidyr`: Data manipulation
+- `DT`: Interactive tables
+
+### ORCID API
+
+We use the [ORCID Public API v3.0](https://info.orcid.org/documentation/api-tutorials/), which:
+
+- Requires no authentication for reading public profiles
+- Returns structured JSON with publication metadata
+- Includes DOIs for deduplication
+- Provides author names and affiliations
+
+## Adding or Removing Authors
+
+To modify the list of tracked authors:
+
+1. Edit `R/fetch_orcid_publications.R`
+2. Add or remove ORCID iDs from the `orcid_ids` vector
+3. Commit and push—the next scheduled run will include the changes
+
+Alternatively, trigger a manual update via the GitHub Actions interface.
+
+## Limitations
+
+- **Only ORCID-indexed publications**: Works not added to ORCID profiles won't appear
+- **Metadata quality varies**: Publication details depend on how they were entered in ORCID
+- **Weekly updates**: There's up to a 7-day delay between ORCID updates and website updates
+- **No full-text**: We only display metadata, not full papers
+
+## Source Code
+
+The complete source code for this website is available on GitHub. Feel free to fork and adapt for your own network.
+
+## Contact
+
+For questions or suggestions about this publication list, please [open an issue](https://github.com/YOUR-USERNAME/YOUR-REPO/issues) on GitHub.

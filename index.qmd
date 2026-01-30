@@ -1,0 +1,73 @@
+---
+title: "Network Publications"
+subtitle: "Research outputs from our academic network"
+last-updated: "Auto-updated weekly"
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(jsonlite)
+library(dplyr)
+library(tidyr)
+library(glue)
+
+# Load publication data
+pub_data <- fromJSON(here::here("_data", "publications.json"))
+```
+
+## Overview
+
+This website provides an automatically updated list of publications from members of our research network. Publication data is sourced directly from [ORCID](https://orcid.org) profiles and updated weekly via GitHub Actions.
+
+Publications are automatically classified to identify those related to the **Scholarship of Teaching and Learning (SoTL)** and education research.
+ 
+::: {.callout-note}
+## Current Statistics
+
+- **`r pub_data$n_authors`** network members
+- **`r pub_data$n_publications`** unique publications
+- **`r pub_data$n_sotl`** SoTL/education publications (`r round(100 * pub_data$n_sotl / pub_data$n_publications, 1)`%)
+- **Last updated:** `r pub_data$last_updated`
+:::
+
+## Recent Publications
+
+The most recent journal articles from network members:
+
+```{r}
+#| label: recent-pubs
+#| echo: false
+#| results: asis
+
+pubs <- pub_data$publications |>
+ as_tibble() |>
+ filter(type == "journal-article") |>
+ head(10)
+
+for (i in seq_len(nrow(pubs))) {
+ pub <- pubs[i, ]
+ 
+ # Build citation string
+ title_text <- if (!is.na(pub$url) && pub$url != "") {
+   glue("[{pub$title}]({pub$url})")
+ } else {
+   pub$title
+ }
+ 
+ year_text <- if (!is.na(pub$year)) glue(" ({pub$year})") else ""
+ journal_text <- if (!is.na(pub$journal) && pub$journal != "") glue(" *{pub$journal}*.") else ""
+ 
+ cat(glue("- {title_text}{year_text}.{journal_text}\n\n"))
+}
+```
+
+[View all publications →](publications.qmd)
+
+## Quick Links
+
+- [Browse all publications](publications.qmd) - Full searchable list
+- [SoTL publications](sotl.qmd) - Education and teaching-focused research
+- [Network authors](authors.qmd) - View all contributing authors
+- [About this site](about.qmd) - How this works
