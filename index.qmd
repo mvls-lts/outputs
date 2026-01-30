@@ -31,7 +31,7 @@ This website provides an automatically updated list of outputs from the College 
 
 ## Recent SoTL Publications
 
-Publications are automatically classified to identify those related to the **Scholarship of Teaching and Learning (SoTL)** and education research. 
+Publications are automatically classified based on journal name and keywords to identify those related to the **Scholarship of Teaching and Learning (SoTL)** and those that are likely to be discipline-specific, so errors may occur. 
 
 ```{r}
 #| label: recent-pubs

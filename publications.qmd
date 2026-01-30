@@ -87,7 +87,7 @@ pubs |>
         NULL,
         NULL,
         NULL,
-        list(search = "SoTL"),
+        NULL,
         NULL
       )
     ),
