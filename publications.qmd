@@ -22,6 +22,7 @@ pub_data <- fromJSON(here::here("_data", "publications.json"))
 pubs <- pub_data$publications |>
   as_tibble() |>
   mutate(
+    # Create clickable title if URL exists
     title_link = case_when(
       !is.na(url) & url != "" ~ glue('<a href="{url}" target="_blank">{title}</a>'),
       TRUE ~ title
@@ -70,7 +71,7 @@ pubs |>
     `Network Authors` = network_authors
   ) |>
   datatable(
-    escape = FALSE,
+    escape = FALSE,  # This is critical for HTML links to render
     filter = "top",
     options = list(
       pageLength = 25,

@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-01-30 09:06:42 GMT",
-  "n_authors": 40,
-  "n_publications": 588,
-  "n_sotl": 185,
+  "last_updated": "2026-01-30 10:21:26 GMT",
+  "n_authors": 42,
+  "n_publications": 643,
+  "n_sotl": 191,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -362,6 +362,24 @@
       "name": "Tomoko Iwata",
       "school": "Scool of Medicine, Dentistry and Nursing",
       "display_name": "Tomoko Iwata"
+    },
+    {
+      "orcid_id": "0000-0002-6237-8661",
+      "given_name": "Carolyn",
+      "family_name": "Loveridge",
+      "affiliation": "University of Glasgow",
+      "name": "Carolyn Loveridge",
+      "school": "MVLS Graduate School",
+      "display_name": "Carolyn Loveridge"
+    },
+    {
+      "orcid_id": "0000-0002-0493-6135",
+      "given_name": "Leighann",
+      "family_name": "Sherry",
+      "affiliation": "University of Glasgow",
+      "name": "Leighann Sherry",
+      "school": "School of Infection & Immunity",
+      "display_name": "Leighann Sherry"
     }
   ],
   "publications": [
@@ -414,6 +432,20 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "LinkedIn to Get In: embedding learning activities to support student career development through online professional networking",
+      "year": 2026,
+      "journal": "Access Microbiology",
+      "type": "journal-article",
+      "doi": "10.1099/acmi.0.001125.v3",
+      "url": "https://doi.org/10.1099/acmi.0.001125.v3",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -517,6 +549,17 @@
       "network_orcids": "0000-0002-4191-5245; 0009-0005-8413-9820; 0000-0003-4496-6141; 0000-0002-7786-5315; 0000-0001-7715-5973; 0000-0002-0240-707X; 0000-0002-8514-7030; 0000-0003-4241-4933; 0000-0002-7493-5277; 0000-0003-4143-4430; 0000-0001-8756-6848; 0000-0002-8429-5154; 0000-0003-0899-9616; 0000-0003-0148-0854; 0000-0001-6222-354X; 0000-0003-0830-7915; 0000-0001-8262-9248; 0000-0003-2975-5581; 0009-0009-9107-2520; 0009-0001-0736-7118; 0000-0003-3098-156X; 0000-0002-9634-9738",
       "network_schools": "School of Psychology and Neuroscience; School of Health & Wellbeing; School of Biodiversity One Health and Veterinary Medicine; School of Cancer Sciences; MVLS Graduate School; School of Medicine Dentistry and Nursing; School of Molecular Biosciences; School of Health and Wellbeing; Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
+    },
+    {
+      "title": "Assessment as Partnership: Building Trust Through Dialogue",
+      "year": 2025,
+      "type": "conference-paper",
+      "network_authors": "James Bartlett; Ailsa Foley; Laura Sharp; Maria Manuel Afonso; Helena Paterson; Samantha Fontaine; Laura Richmond; Susan Lindsay; Genevieve Stapleton; Sharon Greenwood; Dimitar Karadzhov; Shaun Bremner-Hart; Lindsey Pope; Lynsay Crawford; Judith Stevenson; Carolina Kuepper-Tetzel; Alessandro Brombin; Zayba Ghazali-Mohammed; Hayley  Connell; Lynsey  Yeoman; Sue Campbell; Tomoko Iwata",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Ailsa Foley [School of Health & Wellbeing]; Laura Sharp [School of Health & Wellbeing]; Maria Afonso [School of Biodiversity One Health and Veterinary Medicine]; Helena Paterson [School of Psychology and Neuroscience]; Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]; Laura Richmond [School of Cancer Sciences]; Susan Lindsay [MVLS Graduate School]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Greenwood [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]; Shaun Bremner-Hart [School of Molecular Biosciences]; Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]; Judith Stevenson [School of Psychology and Neuroscience]; Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]; Alessandro Brombin [MVLS Graduate School]; Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]; Hayley Connell [School of Health and Wellbeing]; Lynsey Yeoman [School of Health & Wellbeing]; Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-4191-5245; 0009-0005-8413-9820; 0000-0003-4496-6141; 0000-0002-7786-5315; 0000-0001-7715-5973; 0000-0002-0240-707X; 0000-0002-8514-7030; 0000-0003-4241-4933; 0000-0002-7493-5277; 0000-0003-4143-4430; 0000-0001-8756-6848; 0000-0002-8429-5154; 0000-0003-0899-9616; 0000-0003-0148-0854; 0000-0001-6222-354X; 0000-0003-0830-7915; 0000-0001-8262-9248; 0000-0003-2975-5581; 0009-0009-9107-2520; 0009-0001-0736-7118; 0000-0003-3098-156X; 0000-0002-9634-9738",
+      "network_schools": "School of Psychology and Neuroscience; School of Health & Wellbeing; School of Biodiversity One Health and Veterinary Medicine; School of Cancer Sciences; MVLS Graduate School; School of Medicine Dentistry and Nursing; School of Molecular Biosciences; School of Health and Wellbeing; Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Assessment as Partnership: Building Trust Through Dialogue",
@@ -949,6 +992,32 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "LinkedIn to Get In: embedding learning activities to support student career development through online professional networking",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.1099/acmi.0.001125.v2",
+      "url": "https://doi.org/10.1099/acmi.0.001125.v2",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "LinkedIn to Get In: embedding learning activities to support student career development through online professional networking",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.1099/acmi.0.001125.v1",
+      "url": "https://doi.org/10.1099/acmi.0.001125.v1",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -2424,6 +2493,19 @@
       "is_sotl": false
     },
     {
+      "title": "Phase II proof‐of‐concept study of atorvastatin in castration‐resistant prostate cancer",
+      "year": 2023,
+      "journal": "BJU International",
+      "type": "journal-article",
+      "doi": "10.1111/bju.15851",
+      "url": "https://doi.org/10.1111/bju.15851",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "Phosphorylation of the N-terminus of Syntaxin-16 controls interaction with mVps45 and GLUT4 trafficking in adipocytes",
       "year": 2023,
       "journal": "PeerJ",
@@ -2888,6 +2970,19 @@
       "network_schools": "School of Psychology and Neuroscience; School of Health & Wellbeing; School of Biodiversity One Health and Veterinary Medicine; School of Cancer Sciences; MVLS Graduate School; School of Medicine Dentistry and Nursing; School of Molecular Biosciences; School of Health and Wellbeing; Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Evaluation of the Suitability of RNAscope as a Technique to Measure Gene Expression in Clinical Diagnostics: A Systematic Review",
+      "year": 2022,
+      "journal": "Molecular Diagnosis & Therapy",
+      "type": "journal-article",
+      "doi": "10.1007/s40291-021-00570-2",
+      "url": "https://doi.org/10.1007/s40291-021-00570-2",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
     },
     {
       "title": "Evolutionary diversification of the canonical Wnt signaling effector TCF/LEF in chordates",
@@ -4525,6 +4620,19 @@
       "is_sotl": false
     },
     {
+      "title": "Activation of β-Catenin Cooperates with Loss of Pten to Drive AR-Independent Castration-Resistant Prostate Cancer.",
+      "year": 2019,
+      "journal": "Cancer research",
+      "type": "journal-article",
+      "doi": "10.1158/0008-5472.can-19-1684",
+      "url": "https://doi.org/10.1158/0008-5472.can-19-1684",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "Alternative (Authentic) Assessments: Professional Skill Enhancement and Development of Graduate Attributes.",
       "year": 2019,
       "journal": "12th Annual University of Glasgow Learning and Teaching Conference, Glasgow, UK",
@@ -4538,6 +4646,31 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Alternative (Authentic) Assessments: Professional Skill Enhancement and Development of Graduate Attributes.",
+      "year": 2019,
+      "journal": "12th Annual University of Glasgow Learning and Teaching Conference",
+      "type": "conference-abstract",
+      "network_authors": "James Bartlett; Ailsa Foley; Laura Sharp; Maria Manuel Afonso; Helena Paterson; Samantha Fontaine; Laura Richmond; Susan Lindsay; Genevieve Stapleton; Sharon Greenwood; Dimitar Karadzhov; Shaun Bremner-Hart; Lindsey Pope; Lynsay Crawford; Judith Stevenson; Carolina Kuepper-Tetzel; Alessandro Brombin; Zayba Ghazali-Mohammed; Hayley  Connell; Lynsey  Yeoman; Sue Campbell; Tomoko Iwata",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Ailsa Foley [School of Health & Wellbeing]; Laura Sharp [School of Health & Wellbeing]; Maria Afonso [School of Biodiversity One Health and Veterinary Medicine]; Helena Paterson [School of Psychology and Neuroscience]; Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]; Laura Richmond [School of Cancer Sciences]; Susan Lindsay [MVLS Graduate School]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Greenwood [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]; Shaun Bremner-Hart [School of Molecular Biosciences]; Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]; Judith Stevenson [School of Psychology and Neuroscience]; Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]; Alessandro Brombin [MVLS Graduate School]; Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]; Hayley Connell [School of Health and Wellbeing]; Lynsey Yeoman [School of Health & Wellbeing]; Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-4191-5245; 0009-0005-8413-9820; 0000-0003-4496-6141; 0000-0002-7786-5315; 0000-0001-7715-5973; 0000-0002-0240-707X; 0000-0002-8514-7030; 0000-0003-4241-4933; 0000-0002-7493-5277; 0000-0003-4143-4430; 0000-0001-8756-6848; 0000-0002-8429-5154; 0000-0003-0899-9616; 0000-0003-0148-0854; 0000-0001-6222-354X; 0000-0003-0830-7915; 0000-0001-8262-9248; 0000-0003-2975-5581; 0009-0009-9107-2520; 0009-0001-0736-7118; 0000-0003-3098-156X; 0000-0002-9634-9738",
+      "network_schools": "School of Psychology and Neuroscience; School of Health & Wellbeing; School of Biodiversity One Health and Veterinary Medicine; School of Cancer Sciences; MVLS Graduate School; School of Medicine Dentistry and Nursing; School of Molecular Biosciences; School of Health and Wellbeing; Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "BRF1 accelerates prostate tumourigenesis and perturbs immune infiltration.",
+      "year": 2019,
+      "journal": "Oncogene",
+      "type": "journal-article",
+      "doi": "10.1038/s41388-019-1106-x",
+      "url": "https://doi.org/10.1038/s41388-019-1106-x",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "Bioinformatics: the Power of Computers in Biology – a Practical Guide",
       "year": 2019,
       "journal": "F1000 Research",
@@ -4548,6 +4681,19 @@
       "network_authors_school": "Stevie Bain [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5641-2931",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Candida auris exhibits resilient biofilm characteristics in vitro: implications for environmental persistence",
+      "year": 2019,
+      "journal": "Journal of Hospital Infection",
+      "type": "journal-article",
+      "doi": "10.1016/j.jhin.2019.06.006",
+      "url": "https://doi.org/10.1016/j.jhin.2019.06.006",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -4759,6 +4905,19 @@
       "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]; Eugene Dawydiak [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0001-6222-354X; 0000-0002-4777-1326",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Interkingdom interactions on the denture surface: Implications for oral hygiene.",
+      "year": 2019,
+      "journal": "Biofilm",
+      "type": "journal-article",
+      "doi": "10.1016/j.bioflm.2019.100002",
+      "url": "https://doi.org/10.1016/j.bioflm.2019.100002",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -5188,6 +5347,19 @@
       "is_sotl": false
     },
     {
+      "title": "Gaining Insights from Candida Biofilm Heterogeneity: One Size Does Not Fit All",
+      "year": 2018,
+      "journal": "Journal of Fungi",
+      "type": "journal-article",
+      "doi": "10.3390/jof4010012",
+      "url": "https://doi.org/10.3390/jof4010012",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Illuminating the translocation stream",
       "year": 2018,
       "journal": "Current Opinion in Plant Biology",
@@ -5198,6 +5370,19 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Impact of frequency of denture cleaning on microbial and clinical parameters - a bench to chairside approach.",
+      "year": 2018,
+      "journal": "Journal of oral microbiology",
+      "type": "journal-article",
+      "doi": "10.1080/20002297.2018.1538437",
+      "url": "https://doi.org/10.1080/20002297.2018.1538437",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -5266,11 +5451,36 @@
       "is_sotl": false
     },
     {
+      "title": "Sprouty2 loss-induced IL6 drives castration-resistant prostate cancer through scavenger receptor B1.",
+      "year": 2018,
+      "journal": "EMBO molecular medicine",
+      "type": "journal-article",
+      "doi": "10.15252/emmm.201708347",
+      "url": "https://doi.org/10.15252/emmm.201708347",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "Staged Introduction of Blended Learning – To Blend or Not to Blend?",
       "year": 2018,
       "journal": "11th Annual University of Glasgow Learning and Teaching Conference, Glasgow, UK",
       "type": "conference-abstract",
       "url": "https://www.gla.ac.uk/media/Media_585508_smxx.pdf",
+      "network_authors": "James Bartlett; Ailsa Foley; Laura Sharp; Maria Manuel Afonso; Helena Paterson; Samantha Fontaine; Laura Richmond; Susan Lindsay; Genevieve Stapleton; Sharon Greenwood; Dimitar Karadzhov; Shaun Bremner-Hart; Lindsey Pope; Lynsay Crawford; Judith Stevenson; Carolina Kuepper-Tetzel; Alessandro Brombin; Zayba Ghazali-Mohammed; Hayley  Connell; Lynsey  Yeoman; Sue Campbell; Tomoko Iwata",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Ailsa Foley [School of Health & Wellbeing]; Laura Sharp [School of Health & Wellbeing]; Maria Afonso [School of Biodiversity One Health and Veterinary Medicine]; Helena Paterson [School of Psychology and Neuroscience]; Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]; Laura Richmond [School of Cancer Sciences]; Susan Lindsay [MVLS Graduate School]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Greenwood [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]; Shaun Bremner-Hart [School of Molecular Biosciences]; Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]; Judith Stevenson [School of Psychology and Neuroscience]; Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]; Alessandro Brombin [MVLS Graduate School]; Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]; Hayley Connell [School of Health and Wellbeing]; Lynsey Yeoman [School of Health & Wellbeing]; Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-4191-5245; 0009-0005-8413-9820; 0000-0003-4496-6141; 0000-0002-7786-5315; 0000-0001-7715-5973; 0000-0002-0240-707X; 0000-0002-8514-7030; 0000-0003-4241-4933; 0000-0002-7493-5277; 0000-0003-4143-4430; 0000-0001-8756-6848; 0000-0002-8429-5154; 0000-0003-0899-9616; 0000-0003-0148-0854; 0000-0001-6222-354X; 0000-0003-0830-7915; 0000-0001-8262-9248; 0000-0003-2975-5581; 0009-0009-9107-2520; 0009-0001-0736-7118; 0000-0003-3098-156X; 0000-0002-9634-9738",
+      "network_schools": "School of Psychology and Neuroscience; School of Health & Wellbeing; School of Biodiversity One Health and Veterinary Medicine; School of Cancer Sciences; MVLS Graduate School; School of Medicine Dentistry and Nursing; School of Molecular Biosciences; School of Health and Wellbeing; Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Staged Introduction of Blended Learning – To Blend or Not to Blend?",
+      "year": 2018,
+      "journal": "11th Annual University of Glasgow Learning and Teaching Conference, Glasgow, UK",
+      "type": "conference-abstract",
       "network_authors": "James Bartlett; Ailsa Foley; Laura Sharp; Maria Manuel Afonso; Helena Paterson; Samantha Fontaine; Laura Richmond; Susan Lindsay; Genevieve Stapleton; Sharon Greenwood; Dimitar Karadzhov; Shaun Bremner-Hart; Lindsey Pope; Lynsay Crawford; Judith Stevenson; Carolina Kuepper-Tetzel; Alessandro Brombin; Zayba Ghazali-Mohammed; Hayley  Connell; Lynsey  Yeoman; Sue Campbell; Tomoko Iwata",
       "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Ailsa Foley [School of Health & Wellbeing]; Laura Sharp [School of Health & Wellbeing]; Maria Afonso [School of Biodiversity One Health and Veterinary Medicine]; Helena Paterson [School of Psychology and Neuroscience]; Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]; Laura Richmond [School of Cancer Sciences]; Susan Lindsay [MVLS Graduate School]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Greenwood [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]; Shaun Bremner-Hart [School of Molecular Biosciences]; Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]; Judith Stevenson [School of Psychology and Neuroscience]; Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]; Alessandro Brombin [MVLS Graduate School]; Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]; Hayley Connell [School of Health and Wellbeing]; Lynsey Yeoman [School of Health & Wellbeing]; Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-4191-5245; 0009-0005-8413-9820; 0000-0003-4496-6141; 0000-0002-7786-5315; 0000-0001-7715-5973; 0000-0002-0240-707X; 0000-0002-8514-7030; 0000-0003-4241-4933; 0000-0002-7493-5277; 0000-0003-4143-4430; 0000-0001-8756-6848; 0000-0002-8429-5154; 0000-0003-0899-9616; 0000-0003-0148-0854; 0000-0001-6222-354X; 0000-0003-0830-7915; 0000-0001-8262-9248; 0000-0003-2975-5581; 0009-0009-9107-2520; 0009-0001-0736-7118; 0000-0003-3098-156X; 0000-0002-9634-9738",
@@ -5290,6 +5500,19 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Surface disinfection challenges for Candida auris: an in-vitro study",
+      "year": 2018,
+      "journal": "Journal of Hospital Infection",
+      "type": "journal-article",
+      "doi": "10.1016/j.jhin.2017.11.015",
+      "url": "https://doi.org/10.1016/j.jhin.2017.11.015",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
     },
     {
       "title": "The Coumarin Glucoside, Esculin, Reveals Rapid Changes in Phloem-Transport Velocity in Response to Environmental Cues",
@@ -5344,6 +5567,19 @@
       "is_sotl": false
     },
     {
+      "title": "The comparative efficacy of antiseptics against Candida auris biofilms.",
+      "year": 2018,
+      "journal": "International journal of antimicrobial agents",
+      "type": "journal-article",
+      "doi": "10.1016/j.ijantimicag.2018.05.007",
+      "url": "https://doi.org/10.1016/j.ijantimicag.2018.05.007",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "The experience and impact of anxiety in autistic adults: A thematic analysis",
       "year": 2018,
       "journal": "Research in Autism Spectrum Disorders",
@@ -5395,6 +5631,19 @@
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Transcriptome Assembly and Profiling of Candida auris Reveals Novel Insights into Biofilm-Mediated Resistance.",
+      "year": 2018,
+      "journal": "mSphere",
+      "type": "journal-article",
+      "doi": "10.1128/msphere.00334-18",
+      "url": "https://doi.org/10.1128/msphere.00334-18",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
     },
     {
       "title": "Understanding students’ experiences in a PE, health and well-being context",
@@ -5509,6 +5758,58 @@
       "is_sotl": false
     },
     {
+      "title": "Analysis of Nkx3.1:Cre-driven Erk5 deletion reveals a profound spinal deformity which is linked to increased osteoclast activity.",
+      "year": 2017,
+      "journal": "Scientific reports",
+      "type": "journal-article",
+      "doi": "10.1038/s41598-017-13346-8",
+      "url": "https://doi.org/10.1038/s41598-017-13346-8",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "Biofilm-Forming Capability of Highly Virulent, Multidrug-Resistant Candida auris.",
+      "year": 2017,
+      "journal": "Emerging infectious diseases",
+      "type": "journal-article",
+      "doi": "10.3201/eid2302.161320",
+      "url": "https://doi.org/10.3201/eid2302.161320",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Biofilms Formed by Isolates from Recurrent Vulvovaginal Candidiasis Patients Are Heterogeneous and Insensitive to Fluconazole",
+      "year": 2017,
+      "journal": "Antimicrobial Agents and Chemotherapy",
+      "type": "journal-article",
+      "doi": "10.1128/aac.01065-17",
+      "url": "https://doi.org/10.1128/aac.01065-17",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Candida albicans biofilm heterogeneity does not influence denture stomatitis but strongly influences denture cleansing capacity.",
+      "year": 2017,
+      "journal": "Journal of medical microbiology",
+      "type": "journal-article",
+      "doi": "10.1099/jmm.0.000419",
+      "url": "https://doi.org/10.1099/jmm.0.000419",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Chapter 229 - Feline Upper Respiratory Infections",
       "year": 2017,
       "journal": "Textbook of veterinary internal medicine: diseases of the dog and the cat",
@@ -5607,6 +5908,32 @@
       "is_sotl": false
     },
     {
+      "title": "Implications of Antimicrobial Combinations in Complex Wound Biofilms Containing Fungi",
+      "year": 2017,
+      "journal": "Antimicrobial Agents and Chemotherapy",
+      "type": "journal-article",
+      "doi": "10.1128/aac.00672-17",
+      "url": "https://doi.org/10.1128/aac.00672-17",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Increased T-cell Infiltration Elicited by Erk5 Deletion in a Pten-Deficient Mouse Model of Prostate Carcinogenesis.",
+      "year": 2017,
+      "journal": "Cancer research",
+      "type": "journal-article",
+      "doi": "10.1158/0008-5472.can-16-2565",
+      "url": "https://doi.org/10.1158/0008-5472.can-16-2565",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "Metformin suppresses adipogenesis through both AMP-activated protein kinase (AMPK)-dependent and AMPK-independent mechanisms",
       "year": 2017,
       "journal": "Molecular and Cellular Endocrinology",
@@ -5693,6 +6020,32 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "The application of phenotypic microarray analysis to anti-fungal drug development.",
+      "year": 2017,
+      "journal": "Journal of microbiological methods",
+      "type": "journal-article",
+      "doi": "10.1016/j.mimet.2017.01.004",
+      "url": "https://doi.org/10.1016/j.mimet.2017.01.004",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Tolerance of Pseudomonas aeruginosa in in-vitro biofilms to high-level peracetic acid disinfection",
+      "year": 2017,
+      "journal": "Journal of Hospital Infection",
+      "type": "journal-article",
+      "doi": "10.1016/j.jhin.2017.06.024",
+      "url": "https://doi.org/10.1016/j.jhin.2017.06.024",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Virus Resistance Is Not Costly in a Marine Alga Evolving under Multiple Environmental Stressors",
       "year": 2017,
       "journal": "Viruses",
@@ -5729,6 +6082,19 @@
       "is_sotl": false
     },
     {
+      "title": "A Prospective Surveillance Study of Candidaemia: Epidemiology, Risk Factors, Antifungal Treatment and Outcome in Hospitalized Patients",
+      "year": 2016,
+      "journal": "Frontiers in Microbiology",
+      "type": "journal-article",
+      "doi": "10.3389/fmicb.2016.00915",
+      "url": "https://doi.org/10.3389/fmicb.2016.00915",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Are nestin-positive mesenchymal stromal cells a better source of cells for CNS repair?",
       "year": 2016,
       "journal": "Neurochemistry international",
@@ -5739,6 +6105,19 @@
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "Biofilm formation is a risk factor for mortality in patients with Candida albicans bloodstream infection—Scotland, 2012–2013",
+      "year": 2016,
+      "journal": "Clinical Microbiology and Infection",
+      "type": "journal-article",
+      "doi": "10.1016/j.cmi.2015.09.018",
+      "url": "https://doi.org/10.1016/j.cmi.2015.09.018",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -5780,6 +6159,19 @@
       "is_sotl": false
     },
     {
+      "title": "Development and characterisation of a novel three-dimensional inter-kingdom wound biofilm model.",
+      "year": 2016,
+      "journal": "Biofouling",
+      "type": "journal-article",
+      "doi": "10.1080/08927014.2016.1252337",
+      "url": "https://doi.org/10.1080/08927014.2016.1252337",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Evaluation of Road Safety Scotland’s Early Years Resource  ",
       "year": 2016,
       "journal": "Transport Scotland: Scottish Government",
@@ -5804,6 +6196,32 @@
       "is_sotl": false
     },
     {
+      "title": "In Vitro Effect of Porphyromonas gingivalis Methionine Gamma Lyase on Biofilm Composition and Oral Inflammatory Response",
+      "year": 2016,
+      "journal": "PLOS ONE",
+      "type": "journal-article",
+      "doi": "10.1371/journal.pone.0169157",
+      "url": "https://doi.org/10.1371/journal.pone.0169157",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Integrating Candida albicans metabolism with biofilm heterogeneity by transcriptome mapping.",
+      "year": 2016,
+      "journal": "Scientific reports",
+      "type": "journal-article",
+      "doi": "10.1038/srep35436",
+      "url": "https://doi.org/10.1038/srep35436",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Low Vocal Pitch Preference Drives First Impressions Irrespective of Context in Male Voices but Not in Female Voices",
       "year": 2016,
       "journal": "Perception",
@@ -5814,6 +6232,19 @@
       "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0001-7715-5973",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Sleeping Beauty screen reveals Pparg activation in metastatic prostate cancer.",
+      "year": 2016,
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "type": "journal-article",
+      "doi": "10.1073/pnas.1601571113",
+      "url": "https://doi.org/10.1073/pnas.1601571113",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
       "is_sotl": false
     },
     {
@@ -5876,6 +6307,19 @@
       "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Ailsa Foley [School of Health & Wellbeing]; Laura Sharp [School of Health & Wellbeing]; Maria Afonso [School of Biodiversity One Health and Veterinary Medicine]; Helena Paterson [School of Psychology and Neuroscience]; Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]; Laura Richmond [School of Cancer Sciences]; Susan Lindsay [MVLS Graduate School]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Greenwood [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]; Shaun Bremner-Hart [School of Molecular Biosciences]; Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]; Judith Stevenson [School of Psychology and Neuroscience]; Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]; Alessandro Brombin [MVLS Graduate School]; Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]; Hayley Connell [School of Health and Wellbeing]; Lynsey Yeoman [School of Health & Wellbeing]; Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-4191-5245; 0009-0005-8413-9820; 0000-0003-4496-6141; 0000-0002-7786-5315; 0000-0001-7715-5973; 0000-0002-0240-707X; 0000-0002-8514-7030; 0000-0003-4241-4933; 0000-0002-7493-5277; 0000-0003-4143-4430; 0000-0001-8756-6848; 0000-0002-8429-5154; 0000-0003-0899-9616; 0000-0003-0148-0854; 0000-0001-6222-354X; 0000-0003-0830-7915; 0000-0001-8262-9248; 0000-0003-2975-5581; 0009-0009-9107-2520; 0009-0001-0736-7118; 0000-0003-3098-156X; 0000-0002-9634-9738",
       "network_schools": "School of Psychology and Neuroscience; School of Health & Wellbeing; School of Biodiversity One Health and Veterinary Medicine; School of Cancer Sciences; MVLS Graduate School; School of Medicine Dentistry and Nursing; School of Molecular Biosciences; School of Health and Wellbeing; Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Viable Compositional Analysis of an Eleven Species Oral Polymicrobial Biofilm",
+      "year": 2016,
+      "journal": "Frontiers in Microbiology",
+      "type": "journal-article",
+      "doi": "10.3389/fmicb.2016.00912",
+      "url": "https://doi.org/10.3389/fmicb.2016.00912",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -5980,6 +6424,19 @@
       "is_sotl": false
     },
     {
+      "title": "New strategic insights into managing fungal biofilms",
+      "year": 2015,
+      "journal": "Frontiers in Microbiology",
+      "type": "journal-article",
+      "doi": "10.3389/fmicb.2015.01077",
+      "url": "https://doi.org/10.3389/fmicb.2015.01077",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "New tricks for an old dog: ribosome biogenesis contributes to stem cell homeostasis",
       "year": 2015,
       "journal": "Current Opinion in Genetics & Development",
@@ -5990,6 +6447,19 @@
       "network_authors_school": "Alessandro Brombin [MVLS Graduate School]",
       "network_orcids": "0000-0001-8262-9248",
       "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "Polymicrobial Candida biofilms: friends and foe in the oral cavity.",
+      "year": 2015,
+      "journal": "FEMS yeast research",
+      "type": "journal-article",
+      "doi": "10.1093/femsyr/fov077",
+      "url": "https://doi.org/10.1093/femsyr/fov077",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -6154,6 +6624,19 @@
       "is_sotl": false
     },
     {
+      "title": "Biofilms formed by Candida albicans bloodstream isolates display phenotypic and transcriptional heterogeneity that are associated with resistance and pathogenicity",
+      "year": 2014,
+      "journal": "BMC Microbiology",
+      "type": "journal-article",
+      "doi": "10.1186/1471-2180-14-182",
+      "url": "https://doi.org/10.1186/1471-2180-14-182",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Contracting, equal, and expanding learning schedules: The optimal distribution of learning sessions depends on retention interval",
       "year": 2014,
       "journal": "Memory and Cognition",
@@ -6180,6 +6663,32 @@
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Development of an in vitroperiodontal biofilm model for assessing antimicrobial and host modulatory effects of bioactive molecules",
+      "year": 2014,
+      "journal": "BMC Oral Health",
+      "type": "journal-article",
+      "doi": "10.1186/1472-6831-14-80",
+      "url": "https://doi.org/10.1186/1472-6831-14-80",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Extracellular DNA release confers heterogeneity in Candida albicans biofilm formation",
+      "year": 2014,
+      "journal": "BMC Microbiology",
+      "type": "journal-article",
+      "doi": "10.1186/s12866-014-0303-6",
+      "url": "https://doi.org/10.1186/s12866-014-0303-6",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
     },
     {
       "title": "Familiarity breeds dissent",
@@ -6309,6 +6818,32 @@
       "is_sotl": false
     },
     {
+      "title": "Utilising polyphenols for the clinical management of Candida albicans biofilms",
+      "year": 2014,
+      "journal": "International Journal of Antimicrobial Agents",
+      "type": "journal-article",
+      "doi": "10.1016/j.ijantimicag.2014.05.017",
+      "url": "https://doi.org/10.1016/j.ijantimicag.2014.05.017",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "p300-mediated acetylation of COMMD1 regulates its stability, and the ubiquitylation and nucleolar translocation of the RelA NF-κB subunit.",
+      "year": 2014,
+      "journal": "Journal of cell science",
+      "type": "journal-article",
+      "doi": "10.1242/jcs.149328",
+      "url": "https://doi.org/10.1242/jcs.149328",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "A biogenic amine and a neuropeptide act identically: Tyramine signals through calcium in drosophila tubule stellate cells",
       "year": 2013,
       "journal": "Proceedings of the Royal Society B Biological Sciences",
@@ -6348,6 +6883,19 @@
       "is_sotl": false
     },
     {
+      "title": "Candida albicansFungaemia following Traumatic Urethral Catheterisation in a Paraplegic Patient with Diabetes Mellitus and Candiduria Treated by Caspofungin",
+      "year": 2013,
+      "journal": "Case Reports in Infectious Diseases",
+      "type": "journal-article",
+      "doi": "10.1155/2013/693480",
+      "url": "https://doi.org/10.1155/2013/693480",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Cat got your tongue? Using the tip-of-the-tongue state to investigate fixed expressions",
       "year": 2013,
       "journal": "Cognitive Science",
@@ -6384,6 +6932,32 @@
       "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-3242-0806",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Investigating the biological properties of carbohydrate derived fulvic acid (CHD-FA) as a potential novel therapy for the management of oral biofilm infections",
+      "year": 2013,
+      "journal": "BMC Oral Health",
+      "type": "journal-article",
+      "doi": "10.1186/1472-6831-13-47",
+      "url": "https://doi.org/10.1186/1472-6831-13-47",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Liposomal Amphotericin B Displays Rapid Dose-Dependent Activity against Candida albicans Biofilms",
+      "year": 2013,
+      "journal": "Antimicrobial Agents and Chemotherapy",
+      "type": "journal-article",
+      "doi": "10.1128/aac.02344-12",
+      "url": "https://doi.org/10.1128/aac.02344-12",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -6449,6 +7023,19 @@
       "is_sotl": false
     },
     {
+      "title": "A Comparative In Vitro Study of Two Denture Cleaning Techniques as an Effective Strategy for InhibitingCandida albicansBiofilms on Denture Surfaces and Reducing Inflammation",
+      "year": 2012,
+      "journal": "Journal of Prosthodontics",
+      "type": "journal-article",
+      "doi": "10.1111/j.1532-849x.2012.00865.x",
+      "url": "https://doi.org/10.1111/j.1532-849x.2012.00865.x",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "A High-Throughput Method for Illumina RNA-Seq Library Preparation.",
       "year": 2012,
       "journal": "Frontiers in plant science",
@@ -6459,6 +7046,19 @@
       "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-3242-0806",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Antifungal, Cytotoxic, and Immunomodulatory Properties of Tea Tree Oil and Its Derivative Components: Potential Role in Management of Oral Candidosis in Cancer Patients",
+      "year": 2012,
+      "journal": "Frontiers in Microbiology",
+      "type": "journal-article",
+      "doi": "10.3389/fmicb.2012.00220",
+      "url": "https://doi.org/10.3389/fmicb.2012.00220",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -6474,6 +7074,19 @@
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Carbohydrate Derived Fulvic Acid: An in vitro Investigation of a Novel Membrane Active Antiseptic Agent Against Candida albicans Biofilms",
+      "year": 2012,
+      "journal": "Frontiers in Microbiology",
+      "type": "journal-article",
+      "doi": "10.3389/fmicb.2012.00116",
+      "url": "https://doi.org/10.3389/fmicb.2012.00116",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
     },
     {
       "title": "Conflict between Intrinsic Leaf Asymmetry and Phyllotaxis in the Resupinate Leaves of Alstroemeria psittacina.",
@@ -6541,6 +7154,19 @@
       "is_sotl": false
     },
     {
+      "title": "Fungal Biofilm Resistance",
+      "year": 2012,
+      "journal": "International Journal of Microbiology",
+      "type": "journal-article",
+      "doi": "10.1155/2012/528521",
+      "url": "https://doi.org/10.1155/2012/528521",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Genomic Transformation of the Picoeukaryote Ostreococcus tauri",
       "year": 2012,
       "journal": "JOVE",
@@ -6564,6 +7190,19 @@
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "In Vitro Candida albicans Biofilm Induced Proteinase Activity and SAP8 Expression Correlates with In Vivo Denture Stomatitis Severity",
+      "year": 2012,
+      "journal": "Mycopathologia",
+      "type": "journal-article",
+      "doi": "10.1007/s11046-012-9522-2",
+      "url": "https://doi.org/10.1007/s11046-012-9522-2",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -6732,6 +7371,19 @@
       "is_sotl": false
     },
     {
+      "title": "c-Src dependency of NSAID-induced effects on NF-κB-mediated apoptosis in colorectal cancer cells.",
+      "year": 2011,
+      "journal": "Carcinogenesis",
+      "type": "journal-article",
+      "doi": "10.1093/carcin/bgr077",
+      "url": "https://doi.org/10.1093/carcin/bgr077",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "pGOODs: new plasmids for the co-expression of proteins in Escherichia coli.",
       "year": 2011,
       "journal": "Biotechnology letters",
@@ -6754,6 +7406,32 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "FTY720 and (S)-FTY720 vinylphosphonate inhibit sphingosine kinase 1 and promote its proteasomal degradation in human pulmonary artery smooth muscle, breast cancer and androgen-independent prostate cancer cells.",
+      "year": 2010,
+      "journal": "Cellular signalling",
+      "type": "journal-article",
+      "doi": "10.1016/j.cellsig.2010.05.022",
+      "url": "https://doi.org/10.1016/j.cellsig.2010.05.022",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "Nucleolar targeting of RelA(p65) is regulated by COMMD1-dependent ubiquitination.",
+      "year": 2010,
+      "journal": "Cancer research",
+      "type": "journal-article",
+      "doi": "10.1158/0008-5472.can-09-1397",
+      "url": "https://doi.org/10.1158/0008-5472.can-09-1397",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
       "is_sotl": false
     },
     {
@@ -6819,6 +7497,19 @@
       "is_sotl": false
     },
     {
+      "title": "The sphingosine kinase 1 inhibitor 2-(p-hydroxyanilino)-4-(p-chlorophenyl)thiazole induces proteasomal degradation of sphingosine kinase 1 in mammalian cells.",
+      "year": 2010,
+      "journal": "The Journal of biological chemistry",
+      "type": "journal-article",
+      "doi": "10.1074/jbc.m110.127993",
+      "url": "https://doi.org/10.1074/jbc.m110.127993",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "Auxin transport through non-hair cells sustains root-hair development.",
       "year": 2009,
       "type": "journal-article",
@@ -6879,6 +7570,19 @@
       "network_authors": "Susan Lindsay",
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_orcids": "0000-0003-4241-4933",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "New aspects of sphingosine 1-phosphate signaling in mammalian cells.",
+      "year": 2009,
+      "journal": "Advances in enzyme regulation",
+      "type": "journal-article",
+      "doi": "10.1016/j.advenzreg.2009.01.011",
+      "url": "https://doi.org/10.1016/j.advenzreg.2009.01.011",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
       "network_schools": "MVLS Graduate School",
       "is_sotl": false
     },
@@ -7076,6 +7780,19 @@
       "is_sotl": false
     },
     {
+      "title": "The proapoptotic effects of sulindac, sulindac sulfone and indomethacin are mediated by nucleolar translocation of the RelA(p65) subunit of NF-kappaB.",
+      "year": 2007,
+      "journal": "Oncogene",
+      "type": "journal-article",
+      "doi": "10.1038/sj.onc.1210891",
+      "url": "https://doi.org/10.1038/sj.onc.1210891",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "A motion capture library for the study of identity, gender, and emotion perception from biological motion",
       "year": 2006,
       "journal": "Behavior Research Methods",
@@ -7235,6 +7952,19 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "The DAZL family proteins are PABP-binding proteins that regulate translation in germ cells.",
+      "year": 2005,
+      "journal": "The EMBO journal",
+      "type": "journal-article",
+      "doi": "10.1038/sj.emboj.7600738",
+      "url": "https://doi.org/10.1038/sj.emboj.7600738",
+      "network_authors": "Carolyn Loveridge",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
+      "network_orcids": "0000-0002-6237-8661",
+      "network_schools": "MVLS Graduate School",
       "is_sotl": false
     },
     {

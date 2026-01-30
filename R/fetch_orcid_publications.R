@@ -360,19 +360,28 @@ publications <- all_publications |>
 # Deduplicate by DOI (same publication may appear for multiple authors)
 # Keep track of all authors for each unique publication
 publications_deduped <- publications |>
+  # For publications with DOIs, group and combine authors
   group_by(doi) |>
   mutate(
+    # Only combine authors who actually have this publication on their ORCID
     all_authors = paste(unique(author_display[author_display != ""]), collapse = "; "),
     all_authors_with_school = paste(unique(author_with_school[author_with_school != ""]), collapse = "; "),
     all_orcids = paste(unique(orcid_id), collapse = "; "),
     all_schools = paste(unique(school[!is.na(school) & school != ""]), collapse = "; ")
   ) |>
   ungroup() |>
-  distinct(
-    coalesce(doi, paste(title, year, sep = "_")),
-    .keep_all = TRUE
+  # Keep one row per unique publication (by DOI, or by title+year if no DOI)
+  # For items without DOI, don't group - treat each as separate
+  mutate(
+    unique_id = if_else(
+      !is.na(doi) & doi != "",
+      doi,
+      paste(title, year, orcid_id, sep = "_")  # Include orcid_id to prevent false merging
+    )
   ) |>
-  select(-`coalesce(doi, paste(title, year, sep = "_"))`) |>
+  distinct(unique_id, .keep_all = TRUE) |>
+  select(-unique_id) |>
+  # Clean up
   select(
     title,
     year,
@@ -385,7 +394,9 @@ publications_deduped <- publications |>
     network_orcids = all_orcids,
     network_schools = all_schools
   ) |>
+  # Sort by year (most recent first), then title
   arrange(desc(year), title) |>
+  # Filter out entries with no title
   filter(!is.na(title), title != "")
 
 message(glue("\nDeduplicated publications: {nrow(publications_deduped)}"))
