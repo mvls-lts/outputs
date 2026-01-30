@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-01-30 11:33:41 GMT",
-  "n_authors": 44,
-  "n_publications": 664,
-  "n_sotl": 193,
+  "last_updated": "2026-01-30 12:38:46 UTC",
+  "n_authors": 46,
+  "n_publications": 688,
+  "n_sotl": 196,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -394,9 +394,27 @@
       "given_name": "Michelle",
       "family_name": "Welsh",
       "affiliation": "University of Glasgow",
-      "name": "michelle Welsh",
+      "name": "Michelle Welsh",
       "school": "School of Medicine Dentistry and Nursing",
-      "display_name": "michelle Welsh"
+      "display_name": "Michelle Welsh"
+    },
+    {
+      "orcid_id": "0000-0002-8352-7451",
+      "given_name": "Hamish",
+      "family_name": "Runciman",
+      "affiliation": "University of Glasgow",
+      "name": "Hamish Runciman",
+      "school": "School of Medicine Dentistry and Nursing",
+      "display_name": "Hamish Runciman"
+    },
+    {
+      "orcid_id": "0000-0001-9767-4180",
+      "given_name": "Sharon",
+      "family_name": "Sneddon",
+      "affiliation": "University of Glasgow",
+      "name": "Sharon Sneddon",
+      "school": "School of Medicine Dentistry and Nursing",
+      "display_name": "Sharon Sneddon"
     }
   ],
   "publications": [
@@ -847,6 +865,18 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Generative AI for Healthcare Students and Professionals MOOC",
+      "year": 2025,
+      "type": "other",
+      "url": "https://www.coursera.org/learn/generative-ai-for-healthcare-students-and-professionals",
+      "network_authors": "Hamish Runciman",
+      "network_authors_school": "Hamish Runciman [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0002-8352-7451",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Graphic Medicine: Comics, Health and the Power of Stories",
@@ -1513,7 +1543,7 @@
       "doi": "10.1007/978-3-031-73270-6_8",
       "url": "https://doi.org/10.1007/978-3-031-73270-6_8",
       "network_authors": "Michelle Welsh",
-      "network_authors_school": "michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
@@ -2890,9 +2920,9 @@
       "type": "journal-article",
       "doi": "10.1080/1360144x.2021.1917415",
       "url": "https://doi.org/10.1080/1360144X.2021.1917415",
-      "network_authors": "Emma Bailey; Genevieve Stapleton",
-      "network_authors_school": "Emma Bailey [School of Medicine Dentistry and Nursing]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0003-3826-9956; 0000-0002-7493-5277",
+      "network_authors": "Emma Bailey; Genevieve Stapleton; Sharon Sneddon",
+      "network_authors_school": "Emma Bailey [School of Medicine Dentistry and Nursing]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-3826-9956; 0000-0002-7493-5277; 0000-0001-9767-4180",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
@@ -3145,6 +3175,20 @@
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
       "is_sotl": false
+    },
+    {
+      "title": "Increasing Collaborative Discussion in Case-Based Learning Improves Student Engagement and Knowledge Acquisition",
+      "year": 2022,
+      "journal": "Medical Science Educator",
+      "type": "journal-article",
+      "doi": "10.1007/s40670-022-01614-w",
+      "url": "https://doi.org/10.1007/s40670-022-01614-w",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Lecture capture: Practical recommendations for students and instructors.",
@@ -4371,9 +4415,9 @@
       "type": "journal-article",
       "doi": "10.1111/tct.13147",
       "url": "https://doi.org/10.1111/tct.13147",
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0002-7493-5277",
+      "network_authors": "Genevieve Stapleton; Sharon Sneddon",
+      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7493-5277; 0000-0001-9767-4180",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
@@ -4539,6 +4583,19 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Site-specific deacylation by ABHD17a controls BK channel splice variant activity",
+      "year": 2020,
+      "journal": "Journal of Biological Chemistry",
+      "type": "journal-article",
+      "doi": "10.1074/jbc.ra120.015349",
+      "url": "https://doi.org/10.1074/jbc.RA120.015349",
+      "network_authors": "Hamish Runciman",
+      "network_authors_school": "Hamish Runciman [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0002-8352-7451",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Student-Staff Partnerships to Enhance Assessment and Feedback",
       "year": 2020,
       "type": "conference-paper",
@@ -4646,9 +4703,9 @@
       "type": "journal-article",
       "doi": "10.14297/jpaap.v8i2.411",
       "url": "https://doi.org/10.14297/jpaap.v8i2.411",
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0002-7493-5277",
+      "network_authors": "Genevieve Stapleton; Sharon Sneddon",
+      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7493-5277; 0000-0001-9767-4180",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
@@ -5231,6 +5288,19 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Systems based analysis of human embryos and gene networks involved in cell lineage allocation.",
+      "year": 2019,
+      "journal": "BMC genomics",
+      "type": "journal-article",
+      "doi": "10.1186/s12864-019-5558-8",
+      "url": "https://doi.org/10.1186/s12864-019-5558-8",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Temporally separated feline calicivirus isolates do not cluster phylogenetically and are similarly neutralised by high-titre vaccine strain FCV-F9 antisera in vitro.",
       "year": 2019,
       "journal": "Journal of feline medicine and surgery",
@@ -5518,6 +5588,18 @@
       "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
       "network_orcids": "0000-0002-0493-6135",
       "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Interactome comparison of human embryonic stem cell lines with the inner cell mass and trophectoderm",
+      "year": 2018,
+      "type": "other",
+      "doi": "10.1101/411439",
+      "url": "https://doi.org/10.1101/411439",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -6163,7 +6245,7 @@
       "doi": "10.1016/j.jpurol.2016.08.006",
       "url": "https://doi.org/10.1016/j.jpurol.2016.08.006",
       "network_authors": "Michelle Welsh",
-      "network_authors_school": "michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
@@ -6508,6 +6590,20 @@
       "is_sotl": false
     },
     {
+      "title": "Using Facebook as a platform for self-regulated curriculum evaluation and feedback for medical students.",
+      "year": 2016,
+      "journal": "Medical teacher",
+      "type": "journal-article",
+      "doi": "10.1080/0142159x.2016.1209473",
+      "url": "https://doi.org/10.1080/0142159x.2016.1209473",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Viable Compositional Analysis of an Eleven Species Oral Polymicrobial Biofilm",
       "year": 2016,
       "journal": "Frontiers in Microbiology",
@@ -6544,6 +6640,19 @@
       "network_authors_school": "Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_orcids": "0000-0001-8756-6848",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Derivation of the human embryonic stem cell line RCM1.",
+      "year": 2015,
+      "journal": "Stem cell research",
+      "type": "journal-article",
+      "doi": "10.1016/j.scr.2015.12.020",
+      "url": "https://doi.org/10.1016/j.scr.2015.12.020",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7159,6 +7268,19 @@
       "is_sotl": false
     },
     {
+      "title": "Global gene expression profiling of individual human oocytes and embryos demonstrates heterogeneity in early development.",
+      "year": 2013,
+      "journal": "PloS one",
+      "type": "journal-article",
+      "doi": "10.1371/journal.pone.0064192",
+      "url": "https://doi.org/10.1371/journal.pone.0064192",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Investigating the biological properties of carbohydrate derived fulvic acid (CHD-FA) as a potential novel therapy for the management of oral biofilm infections",
       "year": 2013,
       "journal": "BMC Oral Health",
@@ -7299,6 +7421,32 @@
       "is_sotl": false
     },
     {
+      "title": "Autophagy and senescence in cancer-associated fibroblasts metabolically supports tumor growth and metastasis via glycolysis and ketone production.",
+      "year": 2012,
+      "journal": "Cell cycle (Georgetown, Tex.)",
+      "type": "journal-article",
+      "doi": "10.4161/cc.20718",
+      "url": "https://doi.org/10.4161/cc.20718",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "BRCA1 mutations drive oxidative stress and glycolysis in the tumor microenvironment: implications for breast cancer prevention with antioxidant therapies.",
+      "year": 2012,
+      "journal": "Cell cycle (Georgetown, Tex.)",
+      "type": "journal-article",
+      "doi": "10.4161/cc.22776",
+      "url": "https://doi.org/10.4161/cc.22776",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Barriers and attitudes influencing non-engagement in a peer feedback model to inform evidence for GP appraisal",
       "year": 2012,
       "journal": "BMC Medical Education",
@@ -7313,6 +7461,19 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "CTGF drives autophagy, glycolysis and senescence in cancer-associated fibroblasts via HIF1 activation, metabolically promoting tumor growth.",
+      "year": 2012,
+      "journal": "Cell cycle (Georgetown, Tex.)",
+      "type": "journal-article",
+      "doi": "10.4161/cc.20717",
+      "url": "https://doi.org/10.4161/cc.20717",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Carbohydrate Derived Fulvic Acid: An in vitro Investigation of a Novel Membrane Active Antiseptic Agent Against Candida albicans Biofilms",
       "year": 2012,
       "journal": "Frontiers in Microbiology",
@@ -7323,6 +7484,19 @@
       "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
       "network_orcids": "0000-0002-0493-6135",
       "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Comparison of gene expression in fresh and frozen-thawed human preimplantation embryos.",
+      "year": 2012,
+      "journal": "Reproduction (Cambridge, England)",
+      "type": "journal-article",
+      "doi": "10.1530/rep-12-0047",
+      "url": "https://doi.org/10.1530/rep-12-0047",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7493,6 +7667,19 @@
       "is_sotl": false
     },
     {
+      "title": "Mitochondria \"fuel\" breast cancer metabolism: fifteen markers of mitochondrial biogenesis label epithelial cancer cells, but are excluded from adjacent stromal cells.",
+      "year": 2012,
+      "journal": "Cell cycle (Georgetown, Tex.)",
+      "type": "journal-article",
+      "doi": "10.4161/cc.22777",
+      "url": "https://doi.org/10.4161/cc.22777",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Native environment modulates leaf size and response to simulated foliar shade across wild tomato species.",
       "year": 2012,
       "journal": "PloS one",
@@ -7554,6 +7741,19 @@
       "network_authors": "Eileen Cowey",
       "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0001-9241-9500",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Using the \"reverse Warburg effect\" to identify high-risk breast cancer patients: stromal MCT4 predicts poor clinical outcome in triple-negative breast cancers.",
+      "year": 2012,
+      "journal": "Cell cycle (Georgetown, Tex.)",
+      "type": "journal-article",
+      "doi": "10.4161/cc.11.6.19530",
+      "url": "https://doi.org/10.4161/cc.11.6.19530",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
@@ -7656,6 +7856,19 @@
       "is_sotl": false
     },
     {
+      "title": "Warburg meets autophagy: cancer-associated fibroblasts accelerate tumor growth and metastasis via oxidative stress, mitophagy, and aerobic glycolysis.",
+      "year": 2011,
+      "journal": "Antioxidants & redox signaling",
+      "type": "journal-article",
+      "doi": "10.1089/ars.2011.4243",
+      "url": "https://doi.org/10.1089/ars.2011.4243",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "c-Src dependency of NSAID-induced effects on NF-κB-mediated apoptosis in colorectal cancer cells.",
       "year": 2011,
       "journal": "Carcinogenesis",
@@ -7694,6 +7907,19 @@
       "is_sotl": false
     },
     {
+      "title": "Derivation of Man-1 and Man-2 research grade human embryonic stem cell lines.",
+      "year": 2010,
+      "journal": "In vitro cellular & developmental biology. Animal",
+      "type": "journal-article",
+      "doi": "10.1007/s11626-010-9291-5",
+      "url": "https://doi.org/10.1007/s11626-010-9291-5",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "FTY720 and (S)-FTY720 vinylphosphonate inhibit sphingosine kinase 1 and promote its proteasomal degradation in human pulmonary artery smooth muscle, breast cancer and androgen-independent prostate cancer cells.",
       "year": 2010,
       "journal": "Cellular signalling",
@@ -7704,6 +7930,19 @@
       "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
       "network_orcids": "0000-0002-6237-8661",
       "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "Gene expression analysis of a new source of human oocytes and embryos for research and human embryonic stem cell derivation.",
+      "year": 2010,
+      "journal": "Fertility and sterility",
+      "type": "journal-article",
+      "doi": "10.1016/j.fertnstert.2010.08.050",
+      "url": "https://doi.org/10.1016/j.fertnstert.2010.08.050",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7730,6 +7969,19 @@
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "Opticin: a potent anti-angiogenic/antiproliferative agent for breast cancer therapy.",
+      "year": 2010,
+      "journal": "Breast cancer research : BCR",
+      "type": "journal-article",
+      "doi": "10.1186/bcr2550",
+      "url": "https://doi.org/10.1186/bcr2550",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7804,6 +8056,19 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Clinically failed eggs as a source of normal human embryo stem cells.",
+      "year": 2009,
+      "journal": "Stem cell research",
+      "type": "journal-article",
+      "doi": "10.1016/j.scr.2009.01.002",
+      "url": "https://doi.org/10.1016/j.scr.2009.01.002",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7908,6 +8173,19 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_orcids": "0000-0003-0899-9616",
       "network_schools": "School of Health and Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Expression of genes involved in early cell fate decisions in human embryos and their regulation by growth factors.",
+      "year": 2008,
+      "journal": "Reproduction (Cambridge, England)",
+      "type": "journal-article",
+      "doi": "10.1530/rep-07-0359",
+      "url": "https://doi.org/10.1530/rep-07-0359",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -8191,6 +8469,32 @@
       "is_sotl": false
     },
     {
+      "title": "Estrogens in testis biology.",
+      "year": 2005,
+      "journal": "Annals of the New York Academy of Sciences",
+      "type": "journal-article",
+      "doi": "10.1196/annals.1336.008",
+      "url": "https://doi.org/10.1196/annals.1336.008",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Expression of androgen and estrogen receptors in sertoli cells: studies using the mouse SK11 cell line.",
+      "year": 2005,
+      "journal": "Endocrinology",
+      "type": "journal-article",
+      "doi": "10.1210/en.2005-0914",
+      "url": "https://doi.org/10.1210/en.2005-0914",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "FGFR3 regulates brain size by controlling progenitor cell proliferation and apoptosis during embryonic development",
       "year": 2005,
       "journal": "Developmental Biology",
@@ -8380,6 +8684,19 @@
       "is_sotl": false
     },
     {
+      "title": "Differentiation potential of intestinal mesenchyme and its interaction with epithelial cells: a study using beta-galactosidase-expressing fibroblast lines.",
+      "year": 2001,
+      "journal": "Cell biology international",
+      "type": "journal-article",
+      "doi": "10.1006/cbir.2000.0705",
+      "url": "https://doi.org/10.1006/cbir.2000.0705",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Form and animacy in the perception of affect from biological motion",
       "year": 2001,
       "journal": "Journal of Vision",
@@ -8415,6 +8732,19 @@
       "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0001-7715-5973",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Truncation of the Mll gene in exon 5 by gene targeting leads to early preimplantation lethality of homozygous embryos.",
+      "year": 2001,
+      "journal": "Genesis (New York, N.Y. : 2000)",
+      "type": "journal-article",
+      "doi": "10.1002/gene.1066",
+      "url": "https://doi.org/10.1002/gene.1066",
+      "network_authors": "Sharon Sneddon",
+      "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
