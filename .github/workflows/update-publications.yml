@@ -1,36 +1,23 @@
-# GitHub Actions workflow to update publications weekly
-# This workflow:
-# 1. Fetches latest publication data from ORCID
-# 2. Renders the Quarto website
-# 3. Deploys to GitHub Pages
-
 name: Update Publications
 
 on:
-  # Run weekly on Sundays at 02:00 UTC
   schedule:
     - cron: '0 2 * * 0'
-  
-  # Allow manual triggering
   workflow_dispatch:
-  
-  # Also run on pushes to main (for testing)
   push:
     branches:
-      - main
+      - master
     paths:
       - 'R/**'
       - '*.qmd'
       - '_quarto.yml'
       - '.github/workflows/**'
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -46,30 +33,33 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
-          r-version: '4.3.0'
+          r-version: '4.4.0'
           use-public-rspm: true
       
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+      
       - name: Install R packages
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            httr2
-            purrr
-            dplyr
-            tidyr
-            stringr
-            jsonlite
-            glue
-            DT
-            ggplot2
-            here
-            readxl
+        run: |
+          install.packages(c(
+            "httr2",
+            "purrr", 
+            "dplyr",
+            "tidyr",
+            "stringr",
+            "jsonlite",
+            "glue",
+            "DT",
+            "ggplot2",
+            "here",
+            "readxl"
+          ), repos = "https://cloud.r-project.org")
+        shell: Rscript {0}
       
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-      
-      - name: Create data directory
-        run: mkdir -p _data
       
       - name: Fetch ORCID publications
         run: Rscript R/fetch_orcid_publications.R
