@@ -1,5 +1,5 @@
 ---
-title: "Network Publications"
+title: "MVLS LTS Network Outputs"
 subtitle: "Research outputs from our academic network"
 last-updated: "Auto-updated weekly"
 ---
@@ -19,22 +19,19 @@ pub_data <- fromJSON(here::here("_data", "publications.json"))
 
 ## Overview
 
-This website provides an automatically updated list of publications from members of our research network. Publication data is sourced directly from [ORCID](https://orcid.org) profiles and updated weekly via GitHub Actions.
+This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from [ORCID](https://orcid.org) profiles and updated weekly via GitHub Actions.
 
-Publications are automatically classified to identify those related to the **Scholarship of Teaching and Learning (SoTL)** and education research.
- 
-::: {.callout-note}
+::: callout-note
 ## Current Statistics
 
-- **`r pub_data$n_authors`** network members
-- **`r pub_data$n_publications`** unique publications
-- **`r pub_data$n_sotl`** SoTL/education publications (`r round(100 * pub_data$n_sotl / pub_data$n_publications, 1)`%)
-- **Last updated:** `r pub_data$last_updated`
+-   **`r pub_data$n_authors`** linked authors
+-   **`r pub_data$n_sotl`** SoTL/education outputs
+-   **Last updated:** `r pub_data$last_updated`
 :::
 
-## Recent Publications
+## Recent SoTL Publications
 
-The most recent journal articles from network members:
+Publications are automatically classified to identify those related to the **Scholarship of Teaching and Learning (SoTL)** and education research. 
 
 ```{r}
 #| label: recent-pubs
@@ -43,23 +40,30 @@ The most recent journal articles from network members:
 
 pubs <- pub_data$publications |>
  as_tibble() |>
- filter(type == "journal-article") |>
+ filter(type == "journal-article",
+        !is.na(sotl_matched_on)) |>
  head(10)
 
 for (i in seq_len(nrow(pubs))) {
- pub <- pubs[i, ]
- 
- # Build citation string
- title_text <- if (!is.na(pub$url) && pub$url != "") {
-   glue("[{pub$title}]({pub$url})")
- } else {
-   pub$title
- }
- 
- year_text <- if (!is.na(pub$year)) glue(" ({pub$year})") else ""
- journal_text <- if (!is.na(pub$journal) && pub$journal != "") glue(" *{pub$journal}*.") else ""
- 
- cat(glue("- {title_text}{year_text}.{journal_text}\n\n"))
+  pub <- pubs[i, ]
+  
+  # Build citation string with school in brackets
+  author_text <- if (!is.na(pub$network_authors_school) && pub$network_authors_school != "") {
+    glue("{pub$network_authors_school}. ")
+  } else {
+    ""
+  }
+  
+  title_text <- if (!is.na(pub$url) && pub$url != "") {
+    glue("[{pub$title}]({pub$url})")
+  } else {
+    pub$title
+  }
+  
+  year_text <- if (!is.na(pub$year)) glue(" ({pub$year})") else ""
+  journal_text <- if (!is.na(pub$journal) && pub$journal != "") glue(" *{pub$journal}*.") else ""
+  
+  cat(glue("- {author_text}{title_text}{year_text}.{journal_text}\n\n"))
 }
 ```
 
@@ -67,7 +71,6 @@ for (i in seq_len(nrow(pubs))) {
 
 ## Quick Links
 
-- [Browse all publications](publications.qmd) - Full searchable list
-- [SoTL publications](sotl.qmd) - Education and teaching-focused research
-- [Network authors](authors.qmd) - View all contributing authors
-- [About this site](about.qmd) - How this works
+-   [Browse all outputs](publications.qmd) - Full searchable list
+-   [Network authors](authors.qmd) - View all contributing authors
+-   [About this site](about.qmd) - How this works

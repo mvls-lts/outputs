@@ -23,3 +23,5 @@ Thumbs.db
 *.bak
 .httr-oauth
 .quarto
+
+**/*.quarto_ipynb

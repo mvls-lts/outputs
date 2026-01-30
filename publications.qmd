@@ -1,6 +1,5 @@
 ---
-title: "Publications"
-subtitle: "Complete list of network publications"
+title: "Outputs"
 ---
 
 ```{r}
@@ -23,30 +22,21 @@ pub_data <- fromJSON(here::here("_data", "publications.json"))
 pubs <- pub_data$publications |>
   as_tibble() |>
   mutate(
-    # Create clickable title if URL exists
     title_link = case_when(
       !is.na(url) & url != "" ~ glue('<a href="{url}" target="_blank">{title}</a>'),
       TRUE ~ title
     ),
-    # Clean up publication type for display
     type_clean = str_to_title(str_replace_all(type, "-", " ")),
-    # Handle NA years
     year = replace_na(year, 0),
-    # SoTL indicator
-    sotl_badge = if_else(
-      is_sotl == TRUE,
-      '<span class="badge bg-success">SoTL</span>',
-      ''
-    )
+    sotl_label = if_else(is_sotl == TRUE, "SoTL", "Discpline-specific"),
+    school_display = replace_na(network_schools, "—")
   )
 ```
 
-## All Publications
+Browse and search all `r nrow(pubs)` outputs from network members. Use the dropdown filters and search box below each column header to filter by type, year, or other criteria.
 
-Browse and search all `r nrow(pubs)` publications from network members. Use the dropdown filters below each column header to filter by type, year, or other criteria.
-
-::: {.callout-tip collapse="true"}
-## Publication Types in This Collection
+::: {.callout-tip}
+## Output Types in This Collection
 
 ```{r}
 #| label: type-summary
@@ -58,12 +48,12 @@ type_counts <- pubs |>
   filter(!is.na(type_clean), type_clean != "")
 
 for (i in seq_len(nrow(type_counts))) {
-  cat(glue("- **{type_counts$type_clean[i]}**: {type_counts$n[i]}\n"))
+  cat(glue("- **{type_counts$type_clean[i]}**: {type_counts$n[i]}\n"), sep = "\n")
 }
 ```
 
-Use the **Type** column filter below to show only specific publication types.
 :::
+
 
 ```{r}
 #| label: pub-table
@@ -73,31 +63,37 @@ pubs |>
   select(
     Title = title_link,
     Year = year,
+    School = school_display,
     Journal = journal,
     Type = type_clean,
-    SoTL = sotl_badge,
+    Category = sotl_label,
     `Network Authors` = network_authors
   ) |>
   datatable(
-    escape = FALSE,  # Allow HTML in Title and SoTL columns
+    escape = FALSE,
     filter = "top",
     options = list(
       pageLength = 25,
-      order = list(list(1, "desc")),  # Sort by year descending
+      order = list(list(1, "desc")),
       columnDefs = list(
-        list(width = "35%", targets = 0),  # Title column width
-        list(width = "8%", targets = 1),   # Year column width
-        list(width = "5%", targets = 4),   # SoTL column width
+        list(width = "30%", targets = 0),
+        list(width = "6%", targets = 1),
+        list(width = "6%", targets = 5),
         list(className = "dt-left", targets = "_all")
       ),
-      dom = "Bfrtip",
-      buttons = c("csv", "excel")
+      searchCols = list(
+        NULL,
+        NULL,
+        NULL,
+        NULL,
+        NULL,
+        list(search = "SoTL"),
+        NULL
+      )
     ),
-    extensions = "Buttons",
     rownames = FALSE
   )
 ```
-
 ## Publications by Year
 
 ```{r}
@@ -126,6 +122,6 @@ geom_col(fill = "#2c3e50") +
   )
 ```
 
----
+------------------------------------------------------------------------
 
 *Data sourced from ORCID. Last updated: `r pub_data$last_updated`*

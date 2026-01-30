@@ -24,9 +24,13 @@ pub_data <- fromJSON(here::here("_data", "publications.json"))
 authors <- pub_data$authors |>
   as_tibble() |>
   mutate(
-    full_name = paste(given_name, family_name) |> trimws(),
+    full_name = if_else(
+      !is.na(display_name) & display_name != "",
+      display_name,
+      paste(given_name, family_name) |> trimws()
+    ),
     orcid_link = glue('<a href="https://orcid.org/{orcid_id}" target="_blank">{orcid_id}</a>'),
-    affiliation_display = replace_na(affiliation, "—")
+    school_display = replace_na(school, "—")
   ) |>
   arrange(family_name, given_name)
 ```
@@ -42,7 +46,7 @@ This publication list draws from **`r nrow(authors)`** ORCID profiles. Click on 
 authors |>
   select(
     Name = full_name,
-    Affiliation = affiliation_display,
+    School = school_display,
     `ORCID iD` = orcid_link
   ) |>
   datatable(

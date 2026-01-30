@@ -9,6 +9,7 @@ library(tidyr)
 library(stringr)
 library(jsonlite)
 library(glue)
+library(readxl)
 
 # ---- Configuration ----
 
@@ -51,8 +52,7 @@ sotl_keywords <- c(
 
 # Known education/SoTL journals (case-insensitive matching)
 # Add journals relevant to your network's disciplines
-sotl_journals <- c
-(
+sotl_journals <- c(
   # General higher education
   "higher education", "studies in higher education", "teaching in higher education",
   "higher education research", "research in higher education",
@@ -115,49 +115,20 @@ sotl_journals <- c
 
 # List of ORCID IDs for network members
 # Add or remove IDs as needed
-orcid_ids <- c(
+# ---- Load ORCID IDs from Excel ----
 
-"0000-0002-0806-1081",
-"0000-0003-3826-9956",
-"0000-0002-2155-8658",
-"0000-0001-9914-3199",
-"0000-0002-7938-8743",
-"0000-0002-4191-5245",
-"0009-0005-8413-9820",
-"0000-0003-4496-6141",
-"0000-0002-7786-5315",
-"0000-0001-7715-5973",
-"0000-0002-0240-707X",
-"0000-0002-8514-7030",
-"0000-0003-4241-4933",
-"0000-0002-7493-5277",
-"0000-0002-5641-2931",
-"0000-0003-4143-4430",
-"0000-0001-8756-6848",
-"0000-0002-8429-5154",
-"0000-0002-5487-1763",
-"0000-0003-0899-9616",
-"0000-0003-3771-8713",
-"0000-0002-2237-5087",
-"0000-0003-0148-0854",
-"0000-0002-3242-0806",
-"0000-0002-0589-3464",
-"0000-0001-6222-354X",
-"0000-0003-0830-7915",
-"0000-0002-4343-7128",
-"0000-0001-8262-9248",
-"0000-0003-2975-5581",
-"0009-0009-9107-2520",
-"0000-0002-4500-1395",
-"0000-0002-4777-1326",
-"0000-0002-5688-9537",
-"0009-0003-8516-6199",
-"0009-0003-8135-3114",
-"0009-0007-3998-9329",
-"0009-0001-0736-7118",
-"0000-0003-3098-156X",
-"0000-0002-9634-9738"
-)
+# Read the Excel file with network members
+members_df <- read_excel("_data/MVLS LTS ORCiD.xlsx") |>
+  mutate(
+    # Clean up ORCID URLs to extract just the ID
+    orcid_id = str_extract(ORCiD, "[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]"),
+    # Clean up school names for consistency
+    school = str_trim(School),
+    name = str_trim(Name)
+  ) |>
+  filter(!is.na(orcid_id))  # Remove any rows without valid ORCID
+
+orcid_ids <- members_df$orcid_id
 
 # ---- Helper Functions ----
 
@@ -330,12 +301,9 @@ format_authors <- function(authors_df) {
 
 # ---- Main Execution ----
 
-message("Starting ORCID publication fetch...")
-message(glue("Processing {length(orcid_ids)} ORCID IDs"))
-
-# First, fetch all author names
+# First, fetch all author names and merge with Excel data
 message("\n--- Fetching author names ---")
-authors <- map_dfr(orcid_ids, function(id) {
+authors_orcid <- map_dfr(orcid_ids, function(id) {
   Sys.sleep(0.5)  # Be polite to the API
   name <- get_orcid_name(id)
   tibble(
@@ -346,8 +314,24 @@ authors <- map_dfr(orcid_ids, function(id) {
   )
 })
 
+# Merge with Excel data to get School
+authors <- authors_orcid |>
+  left_join(
+    members_df |> select(orcid_id, name, school),
+    by = "orcid_id"
+  ) |>
+  # Use Excel name if available, otherwise construct from ORCID
+  mutate(
+    display_name = if_else(
+      !is.na(name),
+      name,
+      paste(given_name, family_name) |> str_trim()
+    )
+  )
+
 message(glue("\nSuccessfully retrieved {sum(!is.na(authors$family_name))} author names"))
 message(glue("Successfully retrieved {sum(!is.na(authors$affiliation))} affiliations"))
+message(glue("Successfully matched {sum(!is.na(authors$school))} schools from Excel"))
 
 # Fetch all publications
 message("\n--- Fetching publications ---")
@@ -365,26 +349,30 @@ publications <- all_publications |>
     author_display = paste(
       if_else(is.na(given_name), "", given_name),
       if_else(is.na(family_name), "", family_name)
-    ) |> str_trim()
+    ) |> str_trim(),
+    author_with_school = if_else(
+      !is.na(school) & school != "",
+      glue("{display_name} [{school}]"),
+      display_name
+    )
   )
 
 # Deduplicate by DOI (same publication may appear for multiple authors)
 # Keep track of all authors for each unique publication
 publications_deduped <- publications |>
-  # For publications with DOIs, group and combine authors
   group_by(doi) |>
   mutate(
     all_authors = paste(unique(author_display[author_display != ""]), collapse = "; "),
-    all_orcids = paste(unique(orcid_id), collapse = "; ")
+    all_authors_with_school = paste(unique(author_with_school[author_with_school != ""]), collapse = "; "),
+    all_orcids = paste(unique(orcid_id), collapse = "; "),
+    all_schools = paste(unique(school[!is.na(school) & school != ""]), collapse = "; ")
   ) |>
   ungroup() |>
-  # Keep one row per unique publication (by DOI, or by title+year if no DOI)
   distinct(
     coalesce(doi, paste(title, year, sep = "_")),
     .keep_all = TRUE
   ) |>
   select(-`coalesce(doi, paste(title, year, sep = "_"))`) |>
-  # Clean up
   select(
     title,
     year,
@@ -393,12 +381,11 @@ publications_deduped <- publications |>
     doi,
     url,
     network_authors = all_authors,
-    network_orcids = all_orcids
+    network_authors_school = all_authors_with_school,
+    network_orcids = all_orcids,
+    network_schools = all_schools
   ) |>
-  # Sort by year (most recent first), then title
-
   arrange(desc(year), title) |>
-  # Filter out entries with no title
   filter(!is.na(title), title != "")
 
 message(glue("\nDeduplicated publications: {nrow(publications_deduped)}"))

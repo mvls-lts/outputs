@@ -5,7 +5,7 @@ subtitle: "How this publication list works"
 
 ## Overview
 
-This website automatically aggregates and displays publications from members of our research network. Rather than manually maintaining a list that quickly becomes outdated, we leverage the [ORCID](https://orcid.org) infrastructure to keep our publication list current.
+This website automatically aggregates and displays publications from members of the College of MVLS Learning Teaching and Scholarship network. Rather than manually maintaining a list that quickly becomes outdated, we leverage the [ORCID](https://orcid.org) infrastructure to keep our publication list current.
 
 ## How It Works
 
@@ -39,49 +39,6 @@ For publications not matched by journal, titles are scanned for education-relate
 
 This classification is imperfect but provides a useful filter without requiring manual curation. The keyword and journal lists can be expanded by editing `R/fetch_orcid_publications.R`.
 
-## Benefits of This Approach
-
-- **Always current**: Authors update their ORCID profiles; our list updates automatically
-- **No manual maintenance**: No spreadsheets to update or forms to fill out
-- **Single source of truth**: ORCID serves as the canonical record
-- **Collaboration tracking**: We can see which network members have co-authored together
-- **Transparent**: All code is open source and auditable
-
-## Technical Details
-
-### Stack
-
-- **R**: Data fetching and processing (tidyverse ecosystem)
-- **Quarto**: Website generation
-- **GitHub Actions**: Automated weekly updates
-- **GitHub Pages**: Free hosting
-
-### Key R Packages
-
-- `httr2`: API requests to ORCID
-- `jsonlite`: JSON data handling
-- `dplyr` / `tidyr`: Data manipulation
-- `DT`: Interactive tables
-
-### ORCID API
-
-We use the [ORCID Public API v3.0](https://info.orcid.org/documentation/api-tutorials/), which:
-
-- Requires no authentication for reading public profiles
-- Returns structured JSON with publication metadata
-- Includes DOIs for deduplication
-- Provides author names and affiliations
-
-## Adding or Removing Authors
-
-To modify the list of tracked authors:
-
-1. Edit `R/fetch_orcid_publications.R`
-2. Add or remove ORCID iDs from the `orcid_ids` vector
-3. Commit and push—the next scheduled run will include the changes
-
-Alternatively, trigger a manual update via the GitHub Actions interface.
-
 ## Limitations
 
 - **Only ORCID-indexed publications**: Works not added to ORCID profiles won't appear
@@ -93,6 +50,3 @@ Alternatively, trigger a manual update via the GitHub Actions interface.
 
 The complete source code for this website is available on GitHub. Feel free to fork and adapt for your own network.
 
-## Contact
-
-For questions or suggestions about this publication list, please [open an issue](https://github.com/YOUR-USERNAME/YOUR-REPO/issues) on GitHub.

@@ -3,23 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "Network Publications"
-  description: "A curated list of publications from our research network"
+  title: "MVLS LTS Network"
+  description: "Outputs from our network"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: publications.qmd
-        text: All Publications
-      - href: sotl.qmd
-        text: SoTL Publications
+        text: All Outputs
       - href: authors.qmd
         text: Authors
       - href: about.qmd
         text: About
     right:
       - icon: github
-        href: https://github.com/YOUR-USERNAME/YOUR-REPO
+        href: https://github.com/mvls-lts/outputs
         aria-label: GitHub
   page-footer:
     center: |
