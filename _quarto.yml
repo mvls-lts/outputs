@@ -33,6 +33,10 @@ format:
     toc: true
     code-fold: true
     code-summary: "Show code"
+    include-in-header:
+      - text: |
+          <script data-goatcounter="https://emilynordmann.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 execute:
   freeze: auto
+

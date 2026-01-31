@@ -4,35 +4,35 @@
     "href": "publications.html",
     "title": "Outputs",
     "section": "",
-    "text": "Browse and search all 664 outputs from network members. Use the dropdown filters and search box below each column header to filter by type, year, or other criteria."
+    "text": "Browse and search all 692 outputs from network members. Use the dropdown filters and search box below each column header to filter by type, year, or other criteria."
   },
   {
     "objectID": "publications.html#publications-by-year",
     "href": "publications.html#publications-by-year",
     "title": "Outputs",
     "section": "Publications by Year",
-    "text": "Publications by Year\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\n\n\n\n\n\n\n\n\nData sourced from ORCID. Last updated: 2026-01-30 11:33:41 GMT"
+    "text": "Publications by Year\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\n\n\n\n\n\n\n\n\nData sourced from ORCID. Last updated: 2026-01-31 21:33:02 GMT"
   },
   {
     "objectID": "authors.html",
     "href": "authors.html",
     "title": "Network Authors",
     "section": "",
-    "text": "This publication list draws from 44 ORCID profiles. Click on any ORCID iD to view their full profile."
+    "text": "This publication list draws from 48 ORCID profiles. Click on any ORCID iD to view their full profile."
   },
   {
     "objectID": "authors.html#network-members",
     "href": "authors.html#network-members",
     "title": "Network Authors",
     "section": "",
-    "text": "This publication list draws from 44 ORCID profiles. Click on any ORCID iD to view their full profile."
+    "text": "This publication list draws from 48 ORCID profiles. Click on any ORCID iD to view their full profile."
   },
   {
     "objectID": "authors.html#adding-new-authors",
     "href": "authors.html#adding-new-authors",
     "title": "Network Authors",
     "section": "Adding New Authors",
-    "text": "Adding New Authors\nTo add a new author to this network publication list:\n\nEnsure they have an ORCID profile with their publications listed\nAdd their ORCID iD to the orcid_ids vector in R/fetch_orcid_publications.R\nThe publication list will update automatically on the next scheduled run\n\n\nData sourced from ORCID. Last updated: 2026-01-30 11:11:43 GMT"
+    "text": "Adding New Authors\nTo add a new author to this network publication list:\n\nEnsure they have an ORCID profile with their publications listed\nAdd their ORCID iD to the orcid_ids vector in R/fetch_orcid_publications.R\nThe publication list will update automatically on the next scheduled run\n\n\nData sourced from ORCID. Last updated: 2026-01-31 21:33:02 GMT"
   },
   {
     "objectID": "about.html",
@@ -81,14 +81,14 @@
     "href": "index.html",
     "title": "MVLS LTS Network Outputs",
     "section": "",
-    "text": "This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from ORCID profiles and updated weekly via GitHub Actions.\n\n\n\n\n\n\nNoteCurrent Statistics\n\n\n\n\n44 linked authors\n194 SoTL/education outputs\nLast updated: 2026-01-30 11:11:43 GMT"
+    "text": "This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from ORCID profiles and updated weekly via GitHub Actions.\n\n\n\n\n\n\nNoteCurrent Statistics\n\n\n\n\n48 linked authors\n196 SoTL/education outputs\nLast updated: 2026-01-31 21:33:02 GMT"
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "MVLS LTS Network Outputs",
     "section": "",
-    "text": "This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from ORCID profiles and updated weekly via GitHub Actions.\n\n\n\n\n\n\nNoteCurrent Statistics\n\n\n\n\n44 linked authors\n194 SoTL/education outputs\nLast updated: 2026-01-30 11:11:43 GMT"
+    "text": "This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from ORCID profiles and updated weekly via GitHub Actions.\n\n\n\n\n\n\nNoteCurrent Statistics\n\n\n\n\n48 linked authors\n196 SoTL/education outputs\nLast updated: 2026-01-31 21:33:02 GMT"
   },
   {
     "objectID": "index.html#recent-sotl-publications",

@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-30 12:38:46 UTC",
-  "n_authors": 46,
-  "n_publications": 688,
+  "last_updated": "2026-01-31 21:33:02 GMT",
+  "n_authors": 48,
+  "n_publications": 692,
   "n_sotl": 196,
   "authors": [
     {
@@ -415,6 +415,24 @@
       "name": "Sharon Sneddon",
       "school": "School of Medicine Dentistry and Nursing",
       "display_name": "Sharon Sneddon"
+    },
+    {
+      "orcid_id": "0000-0002-2135-6888",
+      "given_name": "Gaby",
+      "family_name": "Mahrholz",
+      "affiliation": "University of Glasgow",
+      "name": "Gaby Mahrholz",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Gaby Mahrholz"
+    },
+    {
+      "orcid_id": "0009-0006-2188-9648",
+      "given_name": "Gemma",
+      "family_name": "Masterton",
+      "affiliation": "University of Glasgow",
+      "name": "Gemma Masterton",
+      "school": "School of Biodiversity One Health and Veterinary Medicine",
+      "display_name": "Gemma Masterton"
     }
   ],
   "publications": [
@@ -931,9 +949,9 @@
       "type": "preprint",
       "doi": "10.31234/osf.io/pj56r_v1",
       "url": "https://doi.org/10.31234/osf.io/pj56r_v1",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
+      "network_authors": "Emily Nordmann; Ashley Robertson",
+      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Ashley Robertson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-0806-1081; 0000-0001-9914-3199",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
@@ -1535,6 +1553,18 @@
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "\"Show-and-tell\": an evaluation of working in partnership with autistic adults as an early career researcher exploring suicide theory",
+      "year": 2024,
+      "type": "preprint",
+      "doi": "10.31234/osf.io/4f3vt",
+      "url": "https://doi.org/10.31234/osf.io/4f3vt",
+      "network_authors": "Ashley Robertson",
+      "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-9914-3199",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
     },
     {
       "title": "3D-Printed Vulva: An Educational Tool for Adolescents",
@@ -3632,6 +3662,18 @@
       "is_sotl": false
     },
     {
+      "title": "Children’s Glasgow Sensory Questionnaire (C-GSQ): Validation of a Simplified and Visually Aided Questionnaire",
+      "year": 2021,
+      "type": "preprint",
+      "doi": "10.31234/osf.io/f6bg2",
+      "url": "https://doi.org/10.31234/osf.io/f6bg2",
+      "network_authors": "Ashley Robertson",
+      "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-9914-3199",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Children’s Social and Emotional Wellbeing During COVID-19: Providers’ and Policymakers’ Perspectives on Outcomes, Responses and Prevention",
       "year": 2021,
       "journal": "Institute for Inspiring Children's Futures, University of Strathclyde",
@@ -4356,6 +4398,19 @@
       "network_schools": "School of Molecular Biosciences",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Developing voice perception: an overview of current research and models in affect and identity recognition in children and adults",
+      "year": 2020,
+      "journal": "published in Cognitive Psychology Bulletin",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/eq2yx",
+      "url": "https://doi.org/10.31234/osf.io/eq2yx",
+      "network_authors": "Gaby Mahrholz",
+      "network_authors_school": "Gaby Mahrholz [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2135-6888",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
     },
     {
       "title": "FGFR3 is a positive regulator of osteoblast expansion and differentiation during zebrafish skull vault development",
@@ -5600,6 +5655,19 @@
       "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0001-9767-4180",
       "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Judgements of a speaker’s personality are correlated across differing content and stimulus type",
+      "year": 2018,
+      "journal": "PLOS ONE",
+      "type": "journal-article",
+      "doi": "10.1371/journal.pone.0204991",
+      "url": "https://doi.org/10.1371/journal.pone.0204991",
+      "network_authors": "Gaby Mahrholz",
+      "network_authors_school": "Gaby Mahrholz [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2135-6888",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
