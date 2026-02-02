@@ -4,35 +4,35 @@
     "href": "publications.html",
     "title": "Outputs",
     "section": "",
-    "text": "Browse and search all 692 outputs from network members. Use the dropdown filters and search box below each column header to filter by type, year, or other criteria."
+    "text": "Browse and search all 728 outputs from network members. Use the dropdown filters and search box below each column header to filter by type, year, or other criteria."
   },
   {
     "objectID": "publications.html#publications-by-year",
     "href": "publications.html#publications-by-year",
     "title": "Outputs",
     "section": "Publications by Year",
-    "text": "Publications by Year\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\n\n\n\n\n\n\n\n\nData sourced from ORCID. Last updated: 2026-01-31 21:33:02 GMT"
+    "text": "Publications by Year\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\n\n\n\n\n\n\n\n\nData sourced from ORCID. Last updated: 2026-02-02 08:56:31 GMT"
   },
   {
     "objectID": "authors.html",
     "href": "authors.html",
     "title": "Network Authors",
     "section": "",
-    "text": "This publication list draws from 48 ORCID profiles. Click on any ORCID iD to view their full profile."
+    "text": "This publication list draws from 49 ORCID profiles. Click on any ORCID iD to view their full profile."
   },
   {
     "objectID": "authors.html#network-members",
     "href": "authors.html#network-members",
     "title": "Network Authors",
     "section": "",
-    "text": "This publication list draws from 48 ORCID profiles. Click on any ORCID iD to view their full profile."
+    "text": "This publication list draws from 49 ORCID profiles. Click on any ORCID iD to view their full profile."
   },
   {
     "objectID": "authors.html#adding-new-authors",
     "href": "authors.html#adding-new-authors",
     "title": "Network Authors",
     "section": "Adding New Authors",
-    "text": "Adding New Authors\nTo add a new author to this network publication list:\n\nEnsure they have an ORCID profile with their publications listed\nAdd their ORCID iD to the orcid_ids vector in R/fetch_orcid_publications.R\nThe publication list will update automatically on the next scheduled run\n\n\nData sourced from ORCID. Last updated: 2026-01-31 21:33:02 GMT"
+    "text": "Adding New Authors\nTo add a new author to this network publication list:\n\nEnsure they have an ORCID profile with their publications listed\nAdd their ORCID iD to the orcid_ids vector in R/fetch_orcid_publications.R\nThe publication list will update automatically on the next scheduled run\n\n\nData sourced from ORCID. Last updated: 2026-02-02 08:56:31 GMT"
   },
   {
     "objectID": "about.html",
@@ -81,21 +81,21 @@
     "href": "index.html",
     "title": "MVLS LTS Network Outputs",
     "section": "",
-    "text": "This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from ORCID profiles and updated weekly via GitHub Actions.\n\n\n\n\n\n\nNoteCurrent Statistics\n\n\n\n\n48 linked authors\n196 SoTL/education outputs\nLast updated: 2026-01-31 21:33:02 GMT"
+    "text": "This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from ORCID profiles and updated weekly via GitHub Actions.\n\n\n\n\n\n\nNoteCurrent Statistics\n\n\n\n\n49 linked authors\n203 SoTL/education outputs\nLast updated: 2026-02-02 08:56:31 GMT"
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "MVLS LTS Network Outputs",
     "section": "",
-    "text": "This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from ORCID profiles and updated weekly via GitHub Actions.\n\n\n\n\n\n\nNoteCurrent Statistics\n\n\n\n\n48 linked authors\n196 SoTL/education outputs\nLast updated: 2026-01-31 21:33:02 GMT"
+    "text": "This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from ORCID profiles and updated weekly via GitHub Actions.\n\n\n\n\n\n\nNoteCurrent Statistics\n\n\n\n\n49 linked authors\n203 SoTL/education outputs\nLast updated: 2026-02-02 08:56:31 GMT"
   },
   {
     "objectID": "index.html#recent-sotl-publications",
     "href": "index.html#recent-sotl-publications",
     "title": "MVLS LTS Network Outputs",
     "section": "Recent SoTL Publications",
-    "text": "Recent SoTL Publications\nPublications are automatically classified based on journal name and keywords to identify those related to the Scholarship of Teaching and Learning (SoTL) and those that are likely to be discipline-specific, so errors may occur.\n\nJayne Orr [School of Biodiversity One Health and Veterinary Medicine]. Clinical‐year veterinary students are most likely to be confident and competent in calving procedures after blending simulator practicals with videos (2026). Veterinary Record.\nEmily Nordmann [School of Psychology and Neuroscience]. Lecture capture as Universal Design for Learning: a post-pandemic scoping review (2026). Current Opinion in Physiology.\nLeighann Sherry [School of Infection & Immunity]. LinkedIn to Get In: embedding learning activities to support student career development through online professional networking (2026). Access Microbiology.\nLindsey Pope [School of Health and Wellbeing]. Preparing Students to Care for Socially Excluded Patients: A Qualitative Study of Inclusion Health in Undergraduate Medical Education (2026). The Clinical Teacher.\nEileen Cowey [School of Medicine Dentistry and Nursing]. Undergraduate nursing students’ competence in evidence-based practice and associated barriers and facilitators in Arab countries: A systematised review (2026). Next Research.\nLauren Headland [School of Molecular Biosciences]. A manifesto for plant science education (2025). PLANTS, PEOPLE, PLANET.\nDimitar Karadzhov [School of Health & Wellbeing]. Advancing Competency Development in Global Mental Health: A Call for Contextualised, Collaborative and Future-Oriented Approaches (2025). Mental Health Open.\nShaun Bremner-Hart [School of Molecular Biosciences]. Assessment of distinct effects of Parinari curatellifolia Planch.ex Benth Ethanolic leaf extract on glucose transport in different cell types (2025). PeerJ.\nJayne Orr [School of Biodiversity One Health and Veterinary Medicine]. Clinical year veterinary students are concerned about calving cows and request more real‐life, practical exposure to enhance their confidence (2025). Veterinary Record.\nDavid Grinter [School of Health and Wellbeing]. Clinician and Client Reports of the Negative Effects of Neuropsychological Assessment for Dementia (2025). Journal of Geriatric Psychiatry and Neurology.\n\nView all publications →"
+    "text": "Recent SoTL Publications\nPublications are automatically classified based on journal name and keywords to identify those related to the Scholarship of Teaching and Learning (SoTL) and those that are likely to be discipline-specific, so errors may occur.\n\nJayne Orr [School of Biodiversity One Health and Veterinary Medicine]. Clinical‐year veterinary students are most likely to be confident and competent in calving procedures after blending simulator practicals with videos (2026). Veterinary Record.\nEmily Nordmann [School of Psychology and Neuroscience]. Lecture capture as Universal Design for Learning: a post-pandemic scoping review (2026). Current Opinion in Physiology.\nLeighann Sherry [School of Infection & Immunity]; Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]. LinkedIn to Get In: embedding learning activities to support student career development through online professional networking (2026). Access Microbiology.\nLindsey Pope [School of Health and Wellbeing]. Preparing Students to Care for Socially Excluded Patients: A Qualitative Study of Inclusion Health in Undergraduate Medical Education (2026). The Clinical Teacher.\nEileen Cowey [School of Medicine Dentistry and Nursing]. Undergraduate nursing students’ competence in evidence-based practice and associated barriers and facilitators in Arab countries: A systematised review (2026). Next Research.\nLauren Headland [School of Molecular Biosciences]. A manifesto for plant science education (2025). PLANTS, PEOPLE, PLANET.\nDimitar Karadzhov [School of Health & Wellbeing]. Advancing Competency Development in Global Mental Health: A Call for Contextualised, Collaborative and Future-Oriented Approaches (2025). Mental Health Open.\nShaun Bremner-Hart [School of Molecular Biosciences]. Assessment of distinct effects of Parinari curatellifolia Planch.ex Benth Ethanolic leaf extract on glucose transport in different cell types (2025). PeerJ.\nJayne Orr [School of Biodiversity One Health and Veterinary Medicine]. Clinical year veterinary students are concerned about calving cows and request more real‐life, practical exposure to enhance their confidence (2025). Veterinary Record.\nDavid Grinter [School of Health and Wellbeing]. Clinician and Client Reports of the Negative Effects of Neuropsychological Assessment for Dementia (2025). Journal of Geriatric Psychiatry and Neurology.\n\nView all publications →"
   },
   {
     "objectID": "index.html#quick-links",

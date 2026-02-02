@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-01-31 21:33:02 GMT",
-  "n_authors": 48,
-  "n_publications": 692,
-  "n_sotl": 196,
+  "last_updated": "2026-02-02 08:56:31 GMT",
+  "n_authors": 49,
+  "n_publications": 728,
+  "n_sotl": 203,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -433,6 +433,15 @@
       "name": "Gemma Masterton",
       "school": "School of Biodiversity One Health and Veterinary Medicine",
       "display_name": "Gemma Masterton"
+    },
+    {
+      "orcid_id": "0000-0001-8910-6490",
+      "given_name": "Anna",
+      "family_name": "McGregor",
+      "affiliation": "University of Glasgow",
+      "name": "Anna McGregor",
+      "school": "School of Biodiversity, One Health and Veterinary Medicine",
+      "display_name": "Anna McGregor"
     }
   ],
   "publications": [
@@ -495,10 +504,10 @@
       "type": "journal-article",
       "doi": "10.1099/acmi.0.001125.v3",
       "url": "https://doi.org/10.1099/acmi.0.001125.v3",
-      "network_authors": "Leighann Sherry",
-      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
-      "network_orcids": "0000-0002-0493-6135",
-      "network_schools": "School of Infection & Immunity",
+      "network_authors": "Leighann Sherry; Anna McGregor",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]; Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-0493-6135; 0000-0001-8910-6490",
+      "network_schools": "School of Infection & Immunity; School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1069,10 +1078,10 @@
       "type": "preprint",
       "doi": "10.1099/acmi.0.001125.v2",
       "url": "https://doi.org/10.1099/acmi.0.001125.v2",
-      "network_authors": "Leighann Sherry",
-      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
-      "network_orcids": "0000-0002-0493-6135",
-      "network_schools": "School of Infection & Immunity",
+      "network_authors": "Leighann Sherry; Anna McGregor",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]; Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-0493-6135; 0000-0001-8910-6490",
+      "network_schools": "School of Infection & Immunity; School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1082,10 +1091,10 @@
       "type": "preprint",
       "doi": "10.1099/acmi.0.001125.v1",
       "url": "https://doi.org/10.1099/acmi.0.001125.v1",
-      "network_authors": "Leighann Sherry",
-      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
-      "network_orcids": "0000-0002-0493-6135",
-      "network_schools": "School of Infection & Immunity",
+      "network_authors": "Leighann Sherry; Anna McGregor",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]; Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-0493-6135; 0000-0001-8910-6490",
+      "network_schools": "School of Infection & Immunity; School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1100,6 +1109,20 @@
       "network_authors_school": "Sharon Greenwood [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-4143-4430",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Methods in a place: bringing together language, ecology and geography for a final-year undergraduate field course",
+      "year": 2025,
+      "journal": "Journal of Learning Development in Higher Education",
+      "type": "journal-article",
+      "doi": "10.47408/jldhe.vi37.1781",
+      "url": "https://doi.org/10.47408/jldhe.vi37.1781",
+      "network_authors": "Anna McGregor",
+      "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-8910-6490",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "journal"
     },
@@ -2171,6 +2194,20 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Winter meeting of the Anatomical Society, Nottingham 2023: A focus on anatomy education",
+      "year": 2024,
+      "journal": "Journal of Anatomy",
+      "type": "journal-article",
+      "doi": "10.1111/joa.13957",
+      "url": "https://doi.org/10.1111/joa.13957",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "World Trade Game – demonstrating how inequalities play out on the world stage  ",
       "year": 2024,
       "journal": "University of Glasgow",
@@ -2468,6 +2505,19 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Fair Winds and Following Seas Remotely: Modifying Perceptions of Fieldwork as a Requirement in Marine Science to Aid in Diversifying the Discipline",
+      "year": 2023,
+      "journal": "Oceanography",
+      "type": "journal-article",
+      "doi": "10.5670/oceanog.2024.131",
+      "url": "https://doi.org/10.5670/oceanog.2024.131",
+      "network_authors": "Anna McGregor",
+      "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-8910-6490",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "General Practice - It's Just Sitting Down! Perceptions of a General Practice-focussed Curriculum: A Qualitative Study of First-year Medical Students",
       "year": 2023,
       "type": "conference-paper",
@@ -2540,6 +2590,20 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "One Size Does Not Fit All in Remote Anatomy Teaching",
+      "year": 2023,
+      "journal": "Advances in Experimental Medicine and Biology",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-031-17135-2_4",
+      "url": "https://doi.org/10.1007/978-3-031-17135-2_4",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -2931,6 +2995,18 @@
       "is_sotl": false
     },
     {
+      "title": "Being creative in the face of adversity - Annual creativeHE collection 2021",
+      "year": 2022,
+      "type": "book-chapter",
+      "doi": "10.25416/ntr.17709860.v4",
+      "url": "https://doi.org/10.25416/NTR.17709860.V4",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Blended Learning Experiences of LGBTQ+ and Neurodivergent Students: A mixed-methods study",
       "year": 2022,
       "type": "preprint",
@@ -3048,6 +3124,20 @@
       "network_orcids": "0009-0009-9107-2520",
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": false
+    },
+    {
+      "title": "Embedding 21st century employability into assessment and feedback practice through a student–staff partnership",
+      "year": 2022,
+      "journal": "Access Microbiology",
+      "type": "journal-article",
+      "doi": "10.1099/acmi.0.000329",
+      "url": "https://doi.org/10.1099/acmi.0.000329",
+      "network_authors": "Anna McGregor",
+      "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-8910-6490",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Embedding Data Skills in Research Methods Education: Preparing Students for Reproducible Research",
@@ -4046,6 +4136,20 @@
       "network_orcids": "0000-0002-5641-2931",
       "network_schools": "School of Molecular Biosciences",
       "is_sotl": false
+    },
+    {
+      "title": "Simulating cadaveric dissection with virtual resources during Covid-19 in an undergraduate Anatomy Science programme",
+      "year": 2021,
+      "journal": "Journal of Learning Development in Higher Education",
+      "type": "journal-article",
+      "doi": "10.47408/jldhe.vi22.796",
+      "url": "https://doi.org/10.47408/jldhe.vi22.796",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
     },
     {
       "title": "Supporting Children’s Wellbeing During COVID-19: Providers’ and Policymakers’ Successes, Challenges, Lessons Learned and Recommended Actions",
@@ -5078,6 +5182,19 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Foraging rates of ram‐filtering North Atlantic right whales",
+      "year": 2019,
+      "journal": "Functional Ecology",
+      "type": "journal-article",
+      "doi": "10.1111/1365-2435.13357",
+      "url": "https://doi.org/10.1111/1365-2435.13357",
+      "network_authors": "Anna McGregor",
+      "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-8910-6490",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "Genetic and Cytological Methods to Study ESCRT Cell Cycle Function in Fission Yeast",
       "year": 2019,
       "journal": "Methods in Molecular Biology",
@@ -5566,6 +5683,20 @@
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Enhancing theoretical understanding of a practical biology course using active and self-directed learning strategies",
+      "year": 2018,
+      "journal": "Journal of Biological Education",
+      "type": "journal-article",
+      "doi": "10.1080/00219266.2017.1293557",
+      "url": "https://doi.org/10.1080/00219266.2017.1293557",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
     },
     {
       "title": "FGFR3 mutation increases bladder tumourigenesis by suppressing acute inflammation",
@@ -6075,10 +6206,10 @@
       "type": "journal-article",
       "doi": "10.1038/s41598-017-13346-8",
       "url": "https://doi.org/10.1038/s41598-017-13346-8",
-      "network_authors": "Carolyn Loveridge",
-      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
-      "network_orcids": "0000-0002-6237-8661",
-      "network_schools": "MVLS Graduate School",
+      "network_authors": "Carolyn Loveridge; Michelle Welsh",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]; Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0002-6237-8661; 0000-0003-1469-0201",
+      "network_schools": "MVLS Graduate School; School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -6238,10 +6369,10 @@
       "type": "journal-article",
       "doi": "10.1158/0008-5472.can-16-2565",
       "url": "https://doi.org/10.1158/0008-5472.can-16-2565",
-      "network_authors": "Carolyn Loveridge",
-      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]",
-      "network_orcids": "0000-0002-6237-8661",
-      "network_schools": "MVLS Graduate School",
+      "network_authors": "Carolyn Loveridge; Michelle Welsh",
+      "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]; Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0002-6237-8661; 0000-0003-1469-0201",
+      "network_schools": "MVLS Graduate School; School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7167,6 +7298,19 @@
       "is_sotl": false
     },
     {
+      "title": "The Masculinization Programming Window",
+      "year": 2014,
+      "journal": "Endocrine Development",
+      "type": "book-chapter",
+      "doi": "10.1159/000363609",
+      "url": "https://doi.org/10.1159/000363609",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "The genome of the stress-tolerant wild tomato species Solanum pennellii.",
       "year": 2014,
       "journal": "Nature genetics",
@@ -7388,6 +7532,19 @@
       "is_sotl": false
     },
     {
+      "title": "Penile reconstruction",
+      "year": 2013,
+      "journal": "Asian Journal of Andrology",
+      "type": "journal-article",
+      "doi": "10.1038/aja.2012.9",
+      "url": "https://doi.org/10.1038/aja.2012.9",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Sexual health needs and the LGBT community.",
       "year": 2013,
       "journal": "Nursing standard (Royal College of Nursing (Great Britain) : 1987)",
@@ -7473,6 +7630,19 @@
       "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-3242-0806",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Androgen receptor signalling in peritubular myoid cells is essential for normal differentiation and function of adult Leydig cells",
+      "year": 2012,
+      "journal": "International Journal of Andrology",
+      "type": "journal-article",
+      "doi": "10.1111/j.1365-2605.2011.01150.x",
+      "url": "https://doi.org/10.1111/j.1365-2605.2011.01150.x",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7617,6 +7787,19 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Effect of androgen treatment during foetal and/or neonatal life on ovarian function in prepubertal and adult rats",
+      "year": 2012,
+      "journal": "Reproduction",
+      "type": "journal-article",
+      "doi": "10.1530/rep-11-0239",
+      "url": "https://doi.org/10.1530/rep-11-0239",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7800,6 +7983,19 @@
       "is_sotl": false
     },
     {
+      "title": "The future of testis research is turning 6! Six years of International Network for Young Researchers in Male Fertility",
+      "year": 2012,
+      "journal": "International Journal of Andrology",
+      "type": "journal-article",
+      "doi": "10.1111/j.1365-2605.2012.01251.x",
+      "url": "https://doi.org/10.1111/j.1365-2605.2012.01251.x",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Urinary catheterization in acute stroke: Clinical realities. A mixed methods study",
       "year": 2012,
       "journal": "Clinical Rehabilitation",
@@ -7822,6 +8018,19 @@
       "network_authors": "Sharon Sneddon",
       "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Androgen Receptor Expression in the Caput Epididymal Epithelium Is Essential for Development of the Initial Segment and Epididymal Spermatozoa Transit",
+      "year": 2011,
+      "journal": "ENDOCRINOLOGY",
+      "type": "journal-article",
+      "doi": "10.1210/en.2010-0928",
+      "url": "https://doi.org/10.1210/EN.2010-0928",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
@@ -7884,6 +8093,19 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Smooth Muscle Cell-Specific Knockout of Androgen Receptor: A New Model for Prostatic Disease",
+      "year": 2011,
+      "journal": "ENDOCRINOLOGY",
+      "type": "journal-article",
+      "doi": "10.1210/en.2011-0282",
+      "url": "https://doi.org/10.1210/EN.2011-0282",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7963,6 +8185,56 @@
       "is_sotl": false
     },
     {
+      "title": "Androgen Action via Testicular Arteriole Smooth Muscle Cells Is Important for Leydig Cell Function, Vasomotion and Testicular Fluid Dynamics",
+      "year": 2010,
+      "journal": "PLOS ONE",
+      "type": "journal-article",
+      "doi": "10.1371/journal.pone.0013632",
+      "url": "https://doi.org/10.1371/JOURNAL.PONE.0013632",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Androgen action in the masculinization programming window and development of male reproductive organs",
+      "year": 2010,
+      "journal": "INTERNATIONAL JOURNAL OF ANDROLOGY",
+      "type": "journal-article",
+      "doi": "10.1111/j.1365-2605.2009.01005.x",
+      "url": "https://doi.org/10.1111/J.1365-2605.2009.01005.X",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Cell communication in the PTM-ARKO testes",
+      "year": 2010,
+      "journal": "INTERNATIONAL JOURNAL OF ANDROLOGY",
+      "type": "journal-article",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Critical androgen-sensitive periods of rat penis and clitoris development",
+      "year": 2010,
+      "journal": "INTERNATIONAL JOURNAL OF ANDROLOGY",
+      "type": "journal-article",
+      "doi": "10.1111/j.1365-2605.2009.00978.x",
+      "url": "https://doi.org/10.1111/J.1365-2605.2009.00978.X",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Data assimilation constrains new connections and components in a complex, eukaryotic circadian clock model.",
       "year": 2010,
       "type": "journal-article",
@@ -7975,6 +8247,19 @@
       "is_sotl": false
     },
     {
+      "title": "Deletion of Androgen Receptor in the Smooth Muscle of the Seminal Vesicles Impairs Secretory Function and Alters Its Responsiveness to Exogenous Testosterone and Estradiol",
+      "year": 2010,
+      "journal": "ENDOCRINOLOGY",
+      "type": "journal-article",
+      "doi": "10.1210/en.2009-1339",
+      "url": "https://doi.org/10.1210/EN.2009-1339",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Derivation of Man-1 and Man-2 research grade human embryonic stem cell lines.",
       "year": 2010,
       "journal": "In vitro cellular & developmental biology. Animal",
@@ -7984,6 +8269,30 @@
       "network_authors": "Sharon Sneddon",
       "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Developmental disorders of the penis: ontogeny",
+      "year": 2010,
+      "journal": "INTERNATIONAL JOURNAL OF ANDROLOGY",
+      "type": "journal-article",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Early effects of Sertoli cell-selective androgen receptor ablation on testicular gene expression",
+      "year": 2010,
+      "journal": "INTERNATIONAL JOURNAL OF ANDROLOGY",
+      "type": "journal-article",
+      "doi": "10.1111/j.1365-2605.2009.00964.x",
+      "url": "https://doi.org/10.1111/J.1365-2605.2009.00964.X",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
@@ -8010,6 +8319,30 @@
       "network_authors": "Sharon Sneddon",
       "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "N- and E-cadherin expression in human ovarian and urogenital duct development",
+      "year": 2010,
+      "journal": "FERTILITY AND STERILITY",
+      "type": "journal-article",
+      "doi": "10.1016/j.fertnstert.2009.01.113",
+      "url": "https://doi.org/10.1016/J.FERTNSTERT.2009.01.113",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "New Model for Age-Related Prostatic Disease: Smooth Muscle Cell-Specific Knockout of Androgen Receptor.",
+      "year": 2010,
+      "journal": "ENDOCRINE REVIEWS",
+      "type": "journal-article",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
@@ -8115,6 +8448,19 @@
       "is_sotl": false
     },
     {
+      "title": "Androgen action <i>via<\/i> testicular peritubular myoid cells is essential for male fertility",
+      "year": 2009,
+      "journal": "FASEB JOURNAL",
+      "type": "journal-article",
+      "doi": "10.1096/fj.09-138347",
+      "url": "https://doi.org/10.1096/FJ.09-138347",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Auxin transport through non-hair cells sustains root-hair development.",
       "year": 2009,
       "type": "journal-article",
@@ -8136,6 +8482,30 @@
       "network_authors": "Sharon Sneddon",
       "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0001-9767-4180",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Development of the male reproductive system: Potential mediators of androgen action during the male programming window",
+      "year": 2009,
+      "journal": "MECHANISMS OF DEVELOPMENT",
+      "type": "journal-article",
+      "doi": "10.1016/j.mod.2009.06.257",
+      "url": "https://doi.org/10.1016/J.MOD.2009.06.257",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Effect of Androgen Treatment During Fetal and/or Neonatal Life On Ovarian Function and Metabolic Factors in Rats.",
+      "year": 2009,
+      "journal": "BIOLOGY OF REPRODUCTION",
+      "type": "journal-article",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
@@ -8179,6 +8549,19 @@
       "is_sotl": false
     },
     {
+      "title": "Human <i>HSD17B1<\/i> expression masculinizes transgenic female mice",
+      "year": 2009,
+      "journal": "MOLECULAR AND CELLULAR ENDOCRINOLOGY",
+      "type": "journal-article",
+      "doi": "10.1016/j.mce.2008.10.047",
+      "url": "https://doi.org/10.1016/J.MCE.2008.10.047",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Identification of nonepithelial multipotent cells in the embryonic olfactory mucosa.",
       "year": 2009,
       "journal": "Stem cells (Dayton, Ohio)",
@@ -8189,6 +8572,19 @@
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "New Insights into the Role of Androgens in Wolffian Duct Stabilization in Male and Female Rodents",
+      "year": 2009,
+      "journal": "ENDOCRINOLOGY",
+      "type": "journal-article",
+      "doi": "10.1210/en.2008-0529",
+      "url": "https://doi.org/10.1210/EN.2008-0529",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -8270,6 +8666,19 @@
       "is_sotl": false
     },
     {
+      "title": "Identification in rats of a programming window for reproductive tract masculinization, disruption of which leads to hypospadias and cryptorchidism",
+      "year": 2008,
+      "journal": "JOURNAL OF CLINICAL INVESTIGATION",
+      "type": "journal-article",
+      "doi": "10.1172/jci34241",
+      "url": "https://doi.org/10.1172/JCI34241",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Innervation and receptor profiles of the human apocrine (epitrichial) sweat gland: routes for intervention in bromhidrosis.",
       "year": 2008,
       "journal": "The British journal of dermatology",
@@ -8319,6 +8728,19 @@
       "network_authors_school": "Eugene Dawydiak [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-4777-1326",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Activation of androgens by hydroxysteroid (17β) dehydrogenase 1 <i>in vivo<\/i> as a cause of prenatal masculinization and ovarian benign serous cystadenomas",
+      "year": 2007,
+      "journal": "MOLECULAR ENDOCRINOLOGY",
+      "type": "journal-article",
+      "doi": "10.1210/me.2007-0144",
+      "url": "https://doi.org/10.1210/ME.2007-0144",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -8386,6 +8808,19 @@
       "is_sotl": false
     },
     {
+      "title": "Role of androgens in fetal testis development and dysgenesis",
+      "year": 2007,
+      "journal": "ENDOCRINOLOGY",
+      "type": "journal-article",
+      "doi": "10.1210/en.2006-1622",
+      "url": "https://doi.org/10.1210/EN.2006-1622",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "The Role of Rhythm in the Development, Maintenance and Management of Stereotypic Behaviours",
       "year": 2007,
       "journal": "British Journal of Music Therapy",
@@ -8396,6 +8831,19 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-4496-6141",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "The critical time window for androgen-dependent development of the Wolffian duct in the rat",
+      "year": 2007,
+      "journal": "ENDOCRINOLOGY",
+      "type": "journal-article",
+      "doi": "10.1210/en.2007-0028",
+      "url": "https://doi.org/10.1210/EN.2007-0028",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -8446,6 +8894,19 @@
       "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0003-3098-156X",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Androgen-dependent mechanisms of Wolffian duct development and their perturbation by flutamide",
+      "year": 2006,
+      "journal": "ENDOCRINOLOGY",
+      "type": "journal-article",
+      "doi": "10.1210/en.2006-0149",
+      "url": "https://doi.org/10.1210/EN.2006-0149",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -9146,6 +9607,17 @@
       "network_orcids": "0000-0001-7715-5973",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "Arts-based Pedagogies in Level 3 Anatomy ",
+      "type": "website",
+      "url": "https://www.gla.ac.uk/myglasgow/learningandteaching/activelearning/casestudies/arts-based-pedagogies-in-anatomy/",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Can we be scientific about science education? ",
