@@ -1,26 +1,89 @@
 {
-  "last_updated": "2026-02-02 08:56:31 GMT",
+  "last_updated": "2026-02-02 09:14:41 UTC",
   "n_authors": 49,
   "n_publications": 728,
   "n_sotl": 203,
   "authors": [
     {
-      "orcid_id": "0000-0002-0806-1081",
-      "given_name": "Emily",
-      "family_name": "Nordmann",
+      "orcid_id": "0000-0003-4241-4933",
+      "given_name": "Susan",
+      "family_name": "Lindsay",
       "affiliation": "University of Glasgow",
-      "name": "Emily Nordmann",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Emily Nordmann"
+      "name": "Susan Lindsay",
+      "school": "MVLS Graduate School",
+      "display_name": "Susan Lindsay"
     },
     {
-      "orcid_id": "0000-0003-3826-9956",
-      "given_name": "Emma",
-      "family_name": "Bailey",
+      "orcid_id": "0000-0001-8262-9248",
+      "given_name": "Alessandro",
+      "family_name": "Brombin",
       "affiliation": "University of Glasgow",
-      "name": "Emma Bailey",
-      "school": "School of Medicine Dentistry and Nursing",
-      "display_name": "Emma Bailey"
+      "name": "Alessandro Brombin",
+      "school": "MVLS Graduate School",
+      "display_name": "Alessandro Brombin"
+    },
+    {
+      "orcid_id": "0000-0002-6237-8661",
+      "given_name": "Carolyn",
+      "family_name": "Loveridge",
+      "affiliation": "University of Glasgow",
+      "name": "Carolyn Loveridge",
+      "school": "MVLS Graduate School",
+      "display_name": "Carolyn Loveridge"
+    },
+    {
+      "orcid_id": "0000-0002-7786-5315",
+      "given_name": "Maria Manuel",
+      "family_name": "Afonso",
+      "affiliation": "University of Glasgow",
+      "name": "Maria Afonso",
+      "school": "School of Biodiversity One Health and Veterinary Medicine",
+      "display_name": "Maria Afonso"
+    },
+    {
+      "orcid_id": "0000-0002-0240-707X",
+      "given_name": "Samantha",
+      "family_name": "Fontaine",
+      "affiliation": "University of Glasgow",
+      "name": "Samantha Fontaine",
+      "school": "School of Biodiversity One Health and Veterinary Medicine",
+      "display_name": "Samantha Fontaine"
+    },
+    {
+      "orcid_id": "0000-0002-4343-7128",
+      "given_name": "Jayne",
+      "family_name": "Orr",
+      "affiliation": "University of Glasgow",
+      "name": "Jayne Orr",
+      "school": "School of Biodiversity One Health and Veterinary Medicine",
+      "display_name": "Jayne Orr"
+    },
+    {
+      "orcid_id": "0009-0006-2188-9648",
+      "given_name": "Gemma",
+      "family_name": "Masterton",
+      "affiliation": "University of Glasgow",
+      "name": "Gemma Masterton",
+      "school": "School of Biodiversity One Health and Veterinary Medicine",
+      "display_name": "Gemma Masterton"
+    },
+    {
+      "orcid_id": "0000-0001-8910-6490",
+      "given_name": "Anna",
+      "family_name": "McGregor",
+      "affiliation": "University of Glasgow",
+      "name": "Anna McGregor",
+      "school": "School of Biodiversity, One Health and Veterinary Medicine",
+      "display_name": "Anna McGregor"
+    },
+    {
+      "orcid_id": "0000-0002-8514-7030",
+      "given_name": "Laura",
+      "family_name": "Richmond",
+      "affiliation": "University of Glasgow",
+      "name": "Laura Richmond",
+      "school": "School of Cancer Sciences",
+      "display_name": "Laura Richmond"
     },
     {
       "orcid_id": "0000-0002-2155-8658",
@@ -30,33 +93,6 @@
       "name": "Mia Wilson",
       "school": "School of Health & Wellbeing",
       "display_name": "Mia Wilson"
-    },
-    {
-      "orcid_id": "0000-0001-9914-3199",
-      "given_name": "Ashley",
-      "family_name": "Robertson",
-      "affiliation": "University of Glasgow",
-      "name": "Ashley Robertson",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Ashley Robertson"
-    },
-    {
-      "orcid_id": "0000-0002-7938-8743",
-      "given_name": "Emanuele",
-      "family_name": "Conte",
-      "affiliation": "University of Glasgow",
-      "name": "Emanuele Conte",
-      "school": "School of Molecular Biosciences",
-      "display_name": "Emanuele Conte"
-    },
-    {
-      "orcid_id": "0000-0002-4191-5245",
-      "given_name": "James",
-      "family_name": "Bartlett",
-      "affiliation": "University of Glasgow",
-      "name": "James Bartlett",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "James Bartlett"
     },
     {
       "orcid_id": "0009-0005-8413-9820",
@@ -77,69 +113,6 @@
       "display_name": "Laura Sharp"
     },
     {
-      "orcid_id": "0000-0002-7786-5315",
-      "given_name": "Maria Manuel",
-      "family_name": "Afonso",
-      "affiliation": "University of Glasgow",
-      "name": "Maria Afonso",
-      "school": "School of Biodiversity One Health and Veterinary Medicine",
-      "display_name": "Maria Afonso"
-    },
-    {
-      "orcid_id": "0000-0001-7715-5973",
-      "given_name": "Helena",
-      "family_name": "Paterson",
-      "affiliation": "University of Glasgow",
-      "name": "Helena Paterson",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Helena Paterson"
-    },
-    {
-      "orcid_id": "0000-0002-0240-707X",
-      "given_name": "Samantha",
-      "family_name": "Fontaine",
-      "affiliation": "University of Glasgow",
-      "name": "Samantha Fontaine",
-      "school": "School of Biodiversity One Health and Veterinary Medicine",
-      "display_name": "Samantha Fontaine"
-    },
-    {
-      "orcid_id": "0000-0002-8514-7030",
-      "given_name": "Laura",
-      "family_name": "Richmond",
-      "affiliation": "University of Glasgow",
-      "name": "Laura Richmond",
-      "school": "School of Cancer Sciences",
-      "display_name": "Laura Richmond"
-    },
-    {
-      "orcid_id": "0000-0003-4241-4933",
-      "given_name": "Susan",
-      "family_name": "Lindsay",
-      "affiliation": "University of Glasgow",
-      "name": "Susan Lindsay",
-      "school": "MVLS Graduate School",
-      "display_name": "Susan Lindsay"
-    },
-    {
-      "orcid_id": "0000-0002-7493-5277",
-      "given_name": "Genevieve",
-      "family_name": "Stapleton",
-      "affiliation": "University of Glasgow",
-      "name": "Genevieve Stapleton",
-      "school": "School of Medicine Dentistry and Nursing",
-      "display_name": "Genevieve Stapleton"
-    },
-    {
-      "orcid_id": "0000-0002-5641-2931",
-      "given_name": "Stevie",
-      "family_name": "Bain",
-      "affiliation": "University of Glasgow",
-      "name": "Stevie Bain",
-      "school": "School of Molecular Biosciences",
-      "display_name": "Stevie Bain"
-    },
-    {
       "orcid_id": "0000-0003-4143-4430",
       "given_name": "Sharon",
       "family_name": "Greenwood",
@@ -158,51 +131,6 @@
       "display_name": "Dimitar Karadzhov"
     },
     {
-      "orcid_id": "0000-0002-8429-5154",
-      "given_name": "Shaun",
-      "family_name": "Bremner-Hart",
-      "affiliation": "University of Glasgow",
-      "name": "Shaun Bremner-Hart",
-      "school": "School of Molecular Biosciences",
-      "display_name": "Shaun Bremner-Hart"
-    },
-    {
-      "orcid_id": "0000-0002-5487-1763",
-      "given_name": "Kirsten",
-      "family_name": "Knox",
-      "affiliation": "University of Glasgow",
-      "name": "Kirsten Knox",
-      "school": "School of Molecular Biosciences",
-      "display_name": "Kirsten Knox"
-    },
-    {
-      "orcid_id": "0000-0003-0899-9616",
-      "given_name": "Lindsey",
-      "family_name": "Pope",
-      "affiliation": "University of Glasgow",
-      "name": "Lindsey Pope",
-      "school": "School of Health and Wellbeing",
-      "display_name": "Lindsey Pope"
-    },
-    {
-      "orcid_id": "0000-0003-3771-8713",
-      "given_name": "Marika",
-      "family_name": "Salonna",
-      "affiliation": "University of Glasgow",
-      "name": "Marika Salonna",
-      "school": "School of Molecular Biosciences",
-      "display_name": "Marika Salonna"
-    },
-    {
-      "orcid_id": "0000-0002-2237-5087",
-      "given_name": "Thinh",
-      "family_name": "Pham",
-      "affiliation": "University of Glasgow",
-      "name": "Thinh Pham",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Thinh Pham"
-    },
-    {
       "orcid_id": "0000-0003-0148-0854",
       "given_name": "Lynsay",
       "family_name": "Crawford",
@@ -210,15 +138,6 @@
       "name": "Lynsay Crawford",
       "school": "School of Health & Wellbeing",
       "display_name": "Lynsay Crawford"
-    },
-    {
-      "orcid_id": "0000-0002-3242-0806",
-      "given_name": "Lauren",
-      "family_name": "Headland",
-      "affiliation": "University of Glasgow",
-      "name": "Lauren Headland",
-      "school": "School of Molecular Biosciences",
-      "display_name": "Lauren Headland"
     },
     {
       "orcid_id": "0000-0002-0589-3464",
@@ -230,49 +149,22 @@
       "display_name": "Julie Langan Martin"
     },
     {
-      "orcid_id": "0000-0001-6222-354X",
-      "given_name": "Judith",
-      "family_name": "Stevenson",
+      "orcid_id": "0009-0001-0736-7118",
+      "given_name": "Lynsey ",
+      "family_name": "Yeoman",
       "affiliation": "University of Glasgow",
-      "name": "Judith Stevenson",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Judith Stevenson"
+      "name": "Lynsey Yeoman",
+      "school": "School of Health & Wellbeing",
+      "display_name": "Lynsey Yeoman"
     },
     {
-      "orcid_id": "0000-0003-0830-7915",
-      "given_name": "Carolina",
-      "family_name": "Kuepper-Tetzel",
+      "orcid_id": "0000-0003-0899-9616",
+      "given_name": "Lindsey",
+      "family_name": "Pope",
       "affiliation": "University of Glasgow",
-      "name": "Carolina Kuepper-Tetzel",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Carolina Kuepper-Tetzel"
-    },
-    {
-      "orcid_id": "0000-0002-4343-7128",
-      "given_name": "Jayne",
-      "family_name": "Orr",
-      "affiliation": "University of Glasgow",
-      "name": "Jayne Orr",
-      "school": "School of Biodiversity One Health and Veterinary Medicine",
-      "display_name": "Jayne Orr"
-    },
-    {
-      "orcid_id": "0000-0001-8262-9248",
-      "given_name": "Alessandro",
-      "family_name": "Brombin",
-      "affiliation": "University of Glasgow",
-      "name": "Alessandro Brombin",
-      "school": "MVLS Graduate School",
-      "display_name": "Alessandro Brombin"
-    },
-    {
-      "orcid_id": "0000-0003-2975-5581",
-      "given_name": "Zayba",
-      "family_name": "Ghazali-Mohammed",
-      "affiliation": "University of Glasgow",
-      "name": "Zayba Ghazali-Mohammed",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Zayba Ghazali-Mohammed"
+      "name": "Lindsey Pope",
+      "school": "School of Health and Wellbeing",
+      "display_name": "Lindsey Pope"
     },
     {
       "orcid_id": "0009-0009-9107-2520",
@@ -282,32 +174,6 @@
       "name": "Hayley Connell",
       "school": "School of Health and Wellbeing",
       "display_name": "Hayley Connell"
-    },
-    {
-      "orcid_id": "0000-0002-4500-1395",
-      "given_name": "Kate",
-      "family_name": "Haining",
-      "affiliation": "University of Glasgow",
-      "name": "Kate Haining",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Kate Haining"
-    },
-    {
-      "orcid_id": "0000-0002-4777-1326",
-      "given_name": "Eugene",
-      "family_name": "Dawydiak",
-      "affiliation": "University of Glasgow",
-      "name": "Eugene Dawydiak",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Eugene Dawydiak"
-    },
-    {
-      "orcid_id": "0000-0002-5688-9537",
-      "given_name": "Wilhelmiina",
-      "family_name": "Toivo",
-      "name": "Wilhelmiina Toivo",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Wilhelmiina Toivo"
     },
     {
       "orcid_id": "0009-0003-8516-6199",
@@ -328,51 +194,6 @@
       "display_name": "David Grinter"
     },
     {
-      "orcid_id": "0009-0007-3998-9329",
-      "given_name": "Sarah Lea",
-      "family_name": "Berger",
-      "affiliation": "Central Laser Facility, STFC",
-      "name": "Sarah Berger",
-      "school": "School of Molecular Biosciences",
-      "display_name": "Sarah Berger"
-    },
-    {
-      "orcid_id": "0009-0001-0736-7118",
-      "given_name": "Lynsey ",
-      "family_name": "Yeoman",
-      "affiliation": "University of Glasgow",
-      "name": "Lynsey Yeoman",
-      "school": "School of Health & Wellbeing",
-      "display_name": "Lynsey Yeoman"
-    },
-    {
-      "orcid_id": "0000-0003-3098-156X",
-      "given_name": "Sue",
-      "family_name": "Campbell",
-      "affiliation": "University of Glasgow",
-      "name": "Sue Campbell",
-      "school": "Scool of Medicine, Dentistry and Nursing",
-      "display_name": "Sue Campbell"
-    },
-    {
-      "orcid_id": "0000-0002-9634-9738",
-      "given_name": "Tomoko",
-      "family_name": "Iwata",
-      "affiliation": "University of Glasgow",
-      "name": "Tomoko Iwata",
-      "school": "Scool of Medicine, Dentistry and Nursing",
-      "display_name": "Tomoko Iwata"
-    },
-    {
-      "orcid_id": "0000-0002-6237-8661",
-      "given_name": "Carolyn",
-      "family_name": "Loveridge",
-      "affiliation": "University of Glasgow",
-      "name": "Carolyn Loveridge",
-      "school": "MVLS Graduate School",
-      "display_name": "Carolyn Loveridge"
-    },
-    {
       "orcid_id": "0000-0002-0493-6135",
       "given_name": "Leighann",
       "family_name": "Sherry",
@@ -380,6 +201,24 @@
       "name": "Leighann Sherry",
       "school": "School of Infection & Immunity",
       "display_name": "Leighann Sherry"
+    },
+    {
+      "orcid_id": "0000-0003-3826-9956",
+      "given_name": "Emma",
+      "family_name": "Bailey",
+      "affiliation": "University of Glasgow",
+      "name": "Emma Bailey",
+      "school": "School of Medicine Dentistry and Nursing",
+      "display_name": "Emma Bailey"
+    },
+    {
+      "orcid_id": "0000-0002-7493-5277",
+      "given_name": "Genevieve",
+      "family_name": "Stapleton",
+      "affiliation": "University of Glasgow",
+      "name": "Genevieve Stapleton",
+      "school": "School of Medicine Dentistry and Nursing",
+      "display_name": "Genevieve Stapleton"
     },
     {
       "orcid_id": "0000-0001-9241-9500",
@@ -417,6 +256,167 @@
       "display_name": "Sharon Sneddon"
     },
     {
+      "orcid_id": "0000-0002-7938-8743",
+      "given_name": "Emanuele",
+      "family_name": "Conte",
+      "affiliation": "University of Glasgow",
+      "name": "Emanuele Conte",
+      "school": "School of Molecular Biosciences",
+      "display_name": "Emanuele Conte"
+    },
+    {
+      "orcid_id": "0000-0002-5641-2931",
+      "given_name": "Stevie",
+      "family_name": "Bain",
+      "affiliation": "University of Glasgow",
+      "name": "Stevie Bain",
+      "school": "School of Molecular Biosciences",
+      "display_name": "Stevie Bain"
+    },
+    {
+      "orcid_id": "0000-0002-8429-5154",
+      "given_name": "Shaun",
+      "family_name": "Bremner-Hart",
+      "affiliation": "University of Glasgow",
+      "name": "Shaun Bremner-Hart",
+      "school": "School of Molecular Biosciences",
+      "display_name": "Shaun Bremner-Hart"
+    },
+    {
+      "orcid_id": "0000-0002-5487-1763",
+      "given_name": "Kirsten",
+      "family_name": "Knox",
+      "affiliation": "University of Glasgow",
+      "name": "Kirsten Knox",
+      "school": "School of Molecular Biosciences",
+      "display_name": "Kirsten Knox"
+    },
+    {
+      "orcid_id": "0000-0003-3771-8713",
+      "given_name": "Marika",
+      "family_name": "Salonna",
+      "affiliation": "University of Glasgow",
+      "name": "Marika Salonna",
+      "school": "School of Molecular Biosciences",
+      "display_name": "Marika Salonna"
+    },
+    {
+      "orcid_id": "0000-0002-3242-0806",
+      "given_name": "Lauren",
+      "family_name": "Headland",
+      "affiliation": "University of Glasgow",
+      "name": "Lauren Headland",
+      "school": "School of Molecular Biosciences",
+      "display_name": "Lauren Headland"
+    },
+    {
+      "orcid_id": "0009-0007-3998-9329",
+      "given_name": "Sarah Lea",
+      "family_name": "Berger",
+      "affiliation": "Central Laser Facility, STFC",
+      "name": "Sarah Berger",
+      "school": "School of Molecular Biosciences",
+      "display_name": "Sarah Berger"
+    },
+    {
+      "orcid_id": "0000-0002-0806-1081",
+      "given_name": "Emily",
+      "family_name": "Nordmann",
+      "affiliation": "University of Glasgow",
+      "name": "Emily Nordmann",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Emily Nordmann"
+    },
+    {
+      "orcid_id": "0000-0001-9914-3199",
+      "given_name": "Ashley",
+      "family_name": "Robertson",
+      "affiliation": "University of Glasgow",
+      "name": "Ashley Robertson",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Ashley Robertson"
+    },
+    {
+      "orcid_id": "0000-0002-4191-5245",
+      "given_name": "James",
+      "family_name": "Bartlett",
+      "affiliation": "University of Glasgow",
+      "name": "James Bartlett",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "James Bartlett"
+    },
+    {
+      "orcid_id": "0000-0001-7715-5973",
+      "given_name": "Helena",
+      "family_name": "Paterson",
+      "affiliation": "University of Glasgow",
+      "name": "Helena Paterson",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Helena Paterson"
+    },
+    {
+      "orcid_id": "0000-0002-2237-5087",
+      "given_name": "Thinh",
+      "family_name": "Pham",
+      "affiliation": "University of Glasgow",
+      "name": "Thinh Pham",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Thinh Pham"
+    },
+    {
+      "orcid_id": "0000-0001-6222-354X",
+      "given_name": "Judith",
+      "family_name": "Stevenson",
+      "affiliation": "University of Glasgow",
+      "name": "Judith Stevenson",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Judith Stevenson"
+    },
+    {
+      "orcid_id": "0000-0003-0830-7915",
+      "given_name": "Carolina",
+      "family_name": "Kuepper-Tetzel",
+      "affiliation": "University of Glasgow",
+      "name": "Carolina Kuepper-Tetzel",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Carolina Kuepper-Tetzel"
+    },
+    {
+      "orcid_id": "0000-0003-2975-5581",
+      "given_name": "Zayba",
+      "family_name": "Ghazali-Mohammed",
+      "affiliation": "University of Glasgow",
+      "name": "Zayba Ghazali-Mohammed",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Zayba Ghazali-Mohammed"
+    },
+    {
+      "orcid_id": "0000-0002-4500-1395",
+      "given_name": "Kate",
+      "family_name": "Haining",
+      "affiliation": "University of Glasgow",
+      "name": "Kate Haining",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Kate Haining"
+    },
+    {
+      "orcid_id": "0000-0002-4777-1326",
+      "given_name": "Eugene",
+      "family_name": "Dawydiak",
+      "affiliation": "University of Glasgow",
+      "name": "Eugene Dawydiak",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Eugene Dawydiak"
+    },
+    {
+      "orcid_id": "0000-0002-5688-9537",
+      "given_name": "Wilhelmiina",
+      "family_name": "Toivo",
+      "name": "Wilhelmiina Toivo",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Wilhelmiina Toivo"
+    },
+    {
       "orcid_id": "0000-0002-2135-6888",
       "given_name": "Gaby",
       "family_name": "Mahrholz",
@@ -426,22 +426,22 @@
       "display_name": "Gaby Mahrholz"
     },
     {
-      "orcid_id": "0009-0006-2188-9648",
-      "given_name": "Gemma",
-      "family_name": "Masterton",
+      "orcid_id": "0000-0003-3098-156X",
+      "given_name": "Sue",
+      "family_name": "Campbell",
       "affiliation": "University of Glasgow",
-      "name": "Gemma Masterton",
-      "school": "School of Biodiversity One Health and Veterinary Medicine",
-      "display_name": "Gemma Masterton"
+      "name": "Sue Campbell",
+      "school": "Scool of Medicine, Dentistry and Nursing",
+      "display_name": "Sue Campbell"
     },
     {
-      "orcid_id": "0000-0001-8910-6490",
-      "given_name": "Anna",
-      "family_name": "McGregor",
+      "orcid_id": "0000-0002-9634-9738",
+      "given_name": "Tomoko",
+      "family_name": "Iwata",
       "affiliation": "University of Glasgow",
-      "name": "Anna McGregor",
-      "school": "School of Biodiversity, One Health and Veterinary Medicine",
-      "display_name": "Anna McGregor"
+      "name": "Tomoko Iwata",
+      "school": "Scool of Medicine, Dentistry and Nursing",
+      "display_name": "Tomoko Iwata"
     }
   ],
   "publications": [
@@ -504,10 +504,10 @@
       "type": "journal-article",
       "doi": "10.1099/acmi.0.001125.v3",
       "url": "https://doi.org/10.1099/acmi.0.001125.v3",
-      "network_authors": "Leighann Sherry; Anna McGregor",
-      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]; Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_orcids": "0000-0002-0493-6135; 0000-0001-8910-6490",
-      "network_schools": "School of Infection & Immunity; School of Biodiversity, One Health and Veterinary Medicine",
+      "network_authors": "Anna McGregor; Leighann Sherry",
+      "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]; Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0001-8910-6490; 0000-0002-0493-6135",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Infection & Immunity",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -630,10 +630,10 @@
       "title": "Assessment as Partnership: Building Trust Through Dialogue",
       "year": 2025,
       "type": "conference-paper",
-      "network_authors": "Helena Paterson; Susan Lindsay",
-      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]; Susan Lindsay [MVLS Graduate School]",
-      "network_orcids": "0000-0001-7715-5973; 0000-0003-4241-4933",
-      "network_schools": "School of Psychology and Neuroscience; MVLS Graduate School",
+      "network_authors": "Susan Lindsay; Helena Paterson",
+      "network_authors_school": "Susan Lindsay [MVLS Graduate School]; Helena Paterson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-4241-4933; 0000-0001-7715-5973",
+      "network_schools": "MVLS Graduate School; School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1078,10 +1078,10 @@
       "type": "preprint",
       "doi": "10.1099/acmi.0.001125.v2",
       "url": "https://doi.org/10.1099/acmi.0.001125.v2",
-      "network_authors": "Leighann Sherry; Anna McGregor",
-      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]; Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_orcids": "0000-0002-0493-6135; 0000-0001-8910-6490",
-      "network_schools": "School of Infection & Immunity; School of Biodiversity, One Health and Veterinary Medicine",
+      "network_authors": "Anna McGregor; Leighann Sherry",
+      "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]; Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0001-8910-6490; 0000-0002-0493-6135",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Infection & Immunity",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1091,10 +1091,10 @@
       "type": "preprint",
       "doi": "10.1099/acmi.0.001125.v1",
       "url": "https://doi.org/10.1099/acmi.0.001125.v1",
-      "network_authors": "Leighann Sherry; Anna McGregor",
-      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]; Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_orcids": "0000-0002-0493-6135; 0000-0001-8910-6490",
-      "network_schools": "School of Infection & Immunity; School of Biodiversity, One Health and Veterinary Medicine",
+      "network_authors": "Anna McGregor; Leighann Sherry",
+      "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]; Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0001-8910-6490; 0000-0002-0493-6135",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Infection & Immunity",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
