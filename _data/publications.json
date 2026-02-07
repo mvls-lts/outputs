@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-07 15:14:13 UTC",
+  "last_updated": "2026-02-07 15:20:35 GMT",
   "n_authors": 60,
-  "n_publications": 868,
-  "n_sotl": 227,
+  "n_publications": 869,
+  "n_sotl": 228,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -615,6 +615,20 @@
       "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]; Leighann Sherry [School of Infection & Immunity]",
       "network_orcids": "0000-0001-8910-6490; 0000-0002-0493-6135",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Infection & Immunity",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Long-read sequencing reveals increased isoform diversity in key transcription factor effectors of intercellular signalling at the invertebrate-vertebrate transition",
+      "year": 2026,
+      "journal": "BMC Biology",
+      "type": "journal-article",
+      "doi": "10.1186/s12915-026-02522-w",
+      "url": "https://doi.org/10.1186/s12915-026-02522-w",
+      "network_authors": "Marika Salonna",
+      "network_authors_school": "Marika Salonna [School of Molecular Biosciences]",
+      "network_orcids": "0000-0003-3771-8713",
+      "network_schools": "School of Molecular Biosciences",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
