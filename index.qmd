@@ -1,6 +1,5 @@
 ---
 title: "MVLS LTS Network Outputs"
-subtitle: "Research outputs from our academic network"
 last-updated: "Auto-updated weekly"
 ---
 

@@ -105,13 +105,17 @@ pubs |>
 
 library(ggplot2)
 
+# UofG brand colours
+uofg_blue <- "#003865"
+uofg_cobalt <- "#0075B0"
+
 year_counts <- pubs |>
   filter(year > 0) |>
   count(year) |>
   arrange(year)
 
 ggplot(year_counts, aes(x = year, y = n)) +
-geom_col(fill = "#2c3e50") +
+  geom_col(fill = uofg_blue) +
   labs(
     x = "Year",
     y = "Number of Publications",
@@ -119,7 +123,10 @@ geom_col(fill = "#2c3e50") +
   ) +
   theme_minimal() +
   theme(
-    plot.title = element_text(hjust = 0.5, size = 14, face = "bold")
+    plot.title = element_text(hjust = 0.5, size = 14, face = "bold", colour = uofg_blue),
+    axis.title = element_text(colour = uofg_blue),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank()
   )
 ```
 
