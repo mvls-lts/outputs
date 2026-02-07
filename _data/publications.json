@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-07 15:20:35 GMT",
+  "last_updated": "2026-02-07 16:11:20 UTC",
   "n_authors": 60,
-  "n_publications": 869,
-  "n_sotl": 228,
+  "n_publications": 868,
+  "n_sotl": 227,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -2490,20 +2490,6 @@
       "network_orcids": "0000-0003-0899-9616",
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": false
-    },
-    {
-      "title": "Long-Read Sequencing Reveals Increased Isoform Diversity in Key Transcription Factor Effectors of Intercellular Signalling at the Invertebrate-Vertebrate Transition",
-      "year": 2024,
-      "journal": "bioRxiv",
-      "type": "other",
-      "doi": "10.1101/2024.11.12.623262",
-      "url": "https://doi.org/10.1101/2024.11.12.623262",
-      "network_authors": "Marika Salonna",
-      "network_authors_school": "Marika Salonna [School of Molecular Biosciences]",
-      "network_orcids": "0000-0003-3771-8713",
-      "network_schools": "School of Molecular Biosciences",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "Magnetic collars improve owner-reported pain scores in dogs with osteoarthritis in a blinded crossover study",
