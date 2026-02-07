@@ -59,7 +59,7 @@ header .navbar,
 .quarto-navigation-tool {
   background-color: #003865 !important;
   background: #003865 !important;
-  border-bottom: 3px solid #0075B0;
+  border-bottom: 3px solid #951272;
 }
 
 /* Navbar container background */
@@ -83,12 +83,12 @@ header#quarto-header {
 .navbar-nav .nav-link:focus,
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #00B5D1 !important;
+  color: #951272 !important;
 }
 
 .navbar-nav .nav-link.active {
   color: #FFFFFF !important;
-  border-bottom: 2px solid #00B5D1;
+  border-bottom: 2px solid #951272;
 }
 
 /* Navbar icons and buttons */
@@ -124,7 +124,7 @@ a:focus {
 
 /* ---- Callout Boxes ---- */
 .callout-note {
-  border-left: 4px solid var(--uofg-cobalt) !important;
+  border-left: 4px solid var(--uofg-thistle) !important;
   background-color: rgba(0, 117, 176, 0.05);
 }
 
@@ -147,7 +147,7 @@ a:focus {
 }
 
 .callout-important {
-  border-left: 4px solid var(--uofg-burgundy) !important;
+  border-left: 4px solid var(--uofg-thistle) !important;
   background-color: rgba(125, 34, 57, 0.05);
 }
 
@@ -168,7 +168,7 @@ a:focus {
 }
 
 .dataTables_filter input:focus {
-  border-color: var(--uofg-cobalt);
+  border-color: var(--uofg-thistle);
   outline: none;
   box-shadow: 0 0 0 2px rgba(0, 117, 176, 0.2);
 }
@@ -178,7 +178,7 @@ a:focus {
   background-color: var(--uofg-blue) !important;
   color: var(--uofg-white) !important;
   font-weight: 600;
-  border-bottom: 2px solid var(--uofg-cobalt) !important;
+  border-bottom: 2px solid var(--uofg-thistle) !important;
 }
 
 /* Table row styling */
@@ -227,8 +227,8 @@ a:focus {
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: var(--uofg-cobalt);
-  border-color: var(--uofg-cobalt);
+  background-color: var(--uofg-thistle);
+  border-color: var(--uofg-thistle);
 }
 
 .btn-secondary {
@@ -242,7 +242,7 @@ a:focus {
   color: var(--uofg-white);
   font-size: 0.85em;
   padding: 1.5em 0;
-  border-top: 3px solid var(--uofg-cobalt);
+  border-top: 3px solid var(--uofg-thistle);
 }
 
 .nav-footer a {
@@ -261,12 +261,12 @@ a:focus {
 /* ---- Code Blocks ---- */
 pre {
   background-color: var(--uofg-light-grey);
-  border-left: 3px solid var(--uofg-cobalt);
+  border-left: 3px solid var(--uofg-thistle);
   border-radius: 0 4px 4px 0;
 }
 
 code {
-  color: var(--uofg-burgundy);
+  color: var(--uofg-thistle);
 }
 
 /* ---- Table of Contents ---- */

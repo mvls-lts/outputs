@@ -1,6 +1,7 @@
 # Quarto
 /.quarto/
 /_site/
+/docs/
 
 # R
 .Rproj.user
