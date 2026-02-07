@@ -9,6 +9,7 @@ on:
       - master
     paths:
       - 'R/**'
+      - '_data/**'
       - '*.qmd'
       - '_quarto.yml'
       - '.github/workflows/**'
@@ -67,8 +68,11 @@ jobs:
       - name: Fetch ORCID publications
         run: Rscript R/fetch_orcid_publications.R
       
+      - name: Remove freeze directory to force re-render
+        run: rm -rf _freeze
+      
       - name: Render Quarto website
-        run: quarto render
+        run: quarto render --execute
       
       - name: Commit updated data
         run: |

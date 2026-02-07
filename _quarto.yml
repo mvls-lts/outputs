@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+execute:
+  freeze: false
+
 website:
   title: "MVLS LTS Network"
   description: "Outputs from our network"
@@ -36,5 +39,4 @@ format:
     include-in-header:
       - text: |
           <script data-goatcounter="https://emilynordmann.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
 
