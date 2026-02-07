@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-02 09:14:41 UTC",
-  "n_authors": 49,
-  "n_publications": 728,
-  "n_sotl": 203,
+  "last_updated": "2026-02-06 17:39:10 UTC",
+  "n_authors": 60,
+  "n_publications": 868,
+  "n_sotl": 227,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -192,6 +192,15 @@
       "name": "David Grinter",
       "school": "School of Health and Wellbeing",
       "display_name": "David Grinter"
+    },
+    {
+      "orcid_id": "0000-0002-4370-0707",
+      "given_name": "Claire ",
+      "family_name": "Donald",
+      "affiliation": "University of Glasgow",
+      "name": "Claire Donald",
+      "school": "School of Infection & Immunity",
+      "display_name": "Claire Donald"
     },
     {
       "orcid_id": "0000-0002-0493-6135",
@@ -442,6 +451,94 @@
       "name": "Tomoko Iwata",
       "school": "Scool of Medicine, Dentistry and Nursing",
       "display_name": "Tomoko Iwata"
+    },
+    {
+      "orcid_id": "0000-0003-2659-1980",
+      "given_name": "Simon",
+      "family_name": "Hanzal",
+      "name": "Simon Hanzal",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Simon Hanzal"
+    },
+    {
+      "orcid_id": "0000-0001-5163-7990",
+      "given_name": "Ashley",
+      "family_name": "Le Vin",
+      "affiliation": "University of Glasgow",
+      "name": "Ashley Le Vin",
+      "school": "School of Biodiversity, One Health and Veterinary Medicine",
+      "display_name": "Ashley Le Vin"
+    },
+    {
+      "orcid_id": "0000-0003-1865-1875",
+      "given_name": "Judith",
+      "family_name": "Jackson",
+      "affiliation": "University of Glasgow",
+      "name": "Judith Jackson",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Judith Jackson"
+    },
+    {
+      "orcid_id": "0000-0002-2579-6741",
+      "given_name": "Monika",
+      "family_name": "Mihm Carmichael",
+      "name": "Monika Mihm Carmichael",
+      "school": "School of Biodiversity, One Health and Veterinary Medicine",
+      "display_name": "Monika Mihm Carmichael"
+    },
+    {
+      "orcid_id": "0000-0002-5478-693X",
+      "given_name": "Denise",
+      "family_name": "Hough",
+      "affiliation": "University of Glasgow",
+      "name": "Denise Hough",
+      "school": "School of Biodiversity, One Health and Veterinary Medicine",
+      "display_name": "Denise Hough"
+    },
+    {
+      "orcid_id": "0000-0002-5478-693X",
+      "given_name": "Denise",
+      "family_name": "Hough",
+      "affiliation": "University of Glasgow",
+      "name": "Clare McFeely",
+      "school": "Scool of Medicine, Dentistry and Nursing",
+      "display_name": "Clare McFeely"
+    },
+    {
+      "orcid_id": "0000-0002-5478-693X",
+      "given_name": "Denise",
+      "family_name": "Hough",
+      "affiliation": "University of Glasgow",
+      "name": "Denise Hough",
+      "school": "School of Biodiversity, One Health and Veterinary Medicine",
+      "display_name": "Denise Hough"
+    },
+    {
+      "orcid_id": "0000-0002-5478-693X",
+      "given_name": "Denise",
+      "family_name": "Hough",
+      "affiliation": "University of Glasgow",
+      "name": "Clare McFeely",
+      "school": "Scool of Medicine, Dentistry and Nursing",
+      "display_name": "Clare McFeely"
+    },
+    {
+      "orcid_id": "0000-0002-8809-2303",
+      "given_name": "Alexia",
+      "family_name": "Revueltas Roux",
+      "affiliation": "University of Glasgow",
+      "name": "Alexia Revueltas Roux",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Alexia Revueltas Roux"
+    },
+    {
+      "orcid_id": "0000-0002-1959-8503",
+      "given_name": "Rafael",
+      "family_name": "Venson",
+      "affiliation": "University of Glasgow",
+      "name": "Rafael Henry-Venson",
+      "school": "School of Medicine, Dentistry and Nursing",
+      "display_name": "Rafael Henry-Venson"
     }
   ],
   "publications": [
@@ -452,10 +549,10 @@
       "type": "journal-article",
       "doi": "10.1002/vetr.5774",
       "url": "https://doi.org/10.1002/vetr.5774",
-      "network_authors": "Jayne Orr",
-      "network_authors_school": "Jayne Orr [School of Biodiversity One Health and Veterinary Medicine]",
-      "network_orcids": "0000-0002-4343-7128",
-      "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
+      "network_authors": "Jayne Orr; Monika Mihm Carmichael",
+      "network_authors_school": "Jayne Orr [School of Biodiversity One Health and Veterinary Medicine]; Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-4343-7128; 0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity One Health and Veterinary Medicine; School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -469,6 +566,16 @@
       "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-3242-0806",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Drawn Together: Exploring Substance Dependence and Recovery Through Comics and Dialogue",
+      "year": 2026,
+      "type": "conference-paper",
+      "network_authors": "Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
     },
     {
@@ -512,6 +619,44 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Microbe Profile: Candidozyma auris: an emergent and resilient yeast and new antifungal strategies",
+      "year": 2026,
+      "journal": "Microbiology",
+      "type": "journal-article",
+      "doi": "10.1099/mic.0.001664",
+      "url": "https://doi.org/10.1099/mic.0.001664",
+      "network_authors": "Leighann Sherry",
+      "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Perspective on use of debate as pedagogical practice: a framework to teach and assess learning of contentious materials",
+      "year": 2026,
+      "journal": "Frontiers in Education",
+      "type": "journal-article",
+      "network_authors": "Susan Lindsay",
+      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
+      "network_orcids": "0000-0003-4241-4933",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Practice what you preach: Designing student assignments that advance open and reproducible science",
+      "year": 2026,
+      "type": "preprint",
+      "doi": "10.31219/osf.io/jb72d_v3",
+      "url": "https://doi.org/10.31219/osf.io/jb72d_v3",
+      "network_authors": "Emily Nordmann",
+      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-0806-1081",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Preparing Students to Care for Socially Excluded Patients: A Qualitative Study of Inclusion Health in Undergraduate Medical Education",
       "year": 2026,
       "journal": "The Clinical Teacher",
@@ -526,6 +671,19 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Strategy and Motivation, Rather Than Fatigue, Drive Age‐Related Differences in Sustained Attention Performance: Evidence for Decoupled Beta‐Band Oscillations",
+      "year": 2026,
+      "journal": "European Journal of Neuroscience",
+      "type": "journal-article",
+      "doi": "10.1111/ejn.70402",
+      "url": "https://doi.org/10.1111/ejn.70402",
+      "network_authors": "Simon Hanzal",
+      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2659-1980",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Undergraduate nursing students' competence in evidence-based practice and associated barriers and facilitators in Arab countries: A systematised review",
       "year": 2026,
       "journal": "Next Research",
@@ -535,6 +693,17 @@
       "network_authors": "Eileen Cowey",
       "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0001-9241-9500",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "3D-Printed vulva: an educational tool for adolescents",
+      "year": 2025,
+      "type": "book-chapter",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
@@ -616,6 +785,31 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Age differences in motivation drive performance during the sustained attention to response task",
+      "year": 2025,
+      "journal": "PLOS One",
+      "type": "journal-article",
+      "doi": "10.1371/journal.pone.0324694",
+      "url": "https://doi.org/10.1371/journal.pone.0324694",
+      "network_authors": "Simon Hanzal",
+      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2659-1980",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Age differences in motivation drive performance during the sustained attention to response task",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.1101/2025.05.02.651857",
+      "url": "https://doi.org/10.1101/2025.05.02.651857",
+      "network_authors": "Simon Hanzal",
+      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2659-1980",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Ancient remedies to modern medicine: The evolution of drug discovery",
       "year": 2025,
       "journal": "Biological Sciences Review",
@@ -625,6 +819,20 @@
       "network_orcids": "0000-0002-8429-5154",
       "network_schools": "School of Molecular Biosciences",
       "is_sotl": false
+    },
+    {
+      "title": "Assessment Redesign Package: Process-Focused Redesign of an Honours-level Literature Review in a GenAI-Enabled World",
+      "year": 2025,
+      "journal": "Zenodo",
+      "type": "other",
+      "doi": "10.5281/zenodo.17456344",
+      "url": "https://doi.org/10.5281/ZENODO.17456344",
+      "network_authors": "Denise Hough",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-5478-693X",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Assessment as Partnership: Building Trust Through Dialogue",
@@ -689,16 +897,30 @@
       "is_sotl": false
     },
     {
+      "title": "Challenges of translational education research: Teachers’ interpretations of embodied learning",
+      "year": 2025,
+      "journal": "Cogent Education",
+      "type": "journal-article",
+      "doi": "10.1080/2331186x.2025.2490443",
+      "url": "https://doi.org/10.1080/2331186X.2025.2490443",
+      "network_authors": "Alexia Revueltas Roux",
+      "network_authors_school": "Alexia Revueltas Roux [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-8809-2303",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Clinical year veterinary students are concerned about calving cows and request more real‐life, practical exposure to enhance their confidence",
       "year": 2025,
       "journal": "Veterinary Record",
       "type": "journal-article",
       "doi": "10.1002/vetr.4964",
       "url": "https://doi.org/10.1002/vetr.4964",
-      "network_authors": "Jayne Orr",
-      "network_authors_school": "Jayne Orr [School of Biodiversity One Health and Veterinary Medicine]",
-      "network_orcids": "0000-0002-4343-7128",
-      "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
+      "network_authors": "Jayne Orr; Monika Mihm Carmichael",
+      "network_authors_school": "Jayne Orr [School of Biodiversity One Health and Veterinary Medicine]; Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-4343-7128; 0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity One Health and Veterinary Medicine; School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -827,6 +1049,19 @@
       "is_sotl": false
     },
     {
+      "title": "Empower LBGTQ+ people to be their authentic selves on campus with Rainbow Office Hours",
+      "year": 2025,
+      "journal": "Times Higher Education",
+      "type": "blog-post",
+      "url": "https://www.timeshighereducation.com/campus/empower-lbgtq-people-be-their-authentic-selves-campus-rainbow-office-hours",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Enabling and inhibiting doctors transitions: introducing the social identity resource and belonginess model (SIRB)",
       "year": 2025,
       "journal": "Advances in Health Sciences Education",
@@ -854,6 +1089,18 @@
       "is_sotl": false
     },
     {
+      "title": "Enhancing Academic Integrity & Literacy Among Life Sciences Postgraduates via a Moodle-based Intervention",
+      "year": 2025,
+      "journal": "Assessment in Higher Education Conference 2025",
+      "type": "conference-presentation",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Entrustable professional activities – the missing piece of the assessment jigsaw for UK undergraduate medical education? Is general practice the perfect place to start?",
       "year": 2025,
       "journal": "Education for Primary Care",
@@ -864,6 +1111,20 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_orcids": "0000-0003-0899-9616",
       "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Experiential learning through virtual reality by-proxy",
+      "year": 2025,
+      "journal": "Virtual Reality",
+      "type": "journal-article",
+      "doi": "10.1007/s10055-025-01106-3",
+      "url": "https://doi.org/10.1007/s10055-025-01106-3",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -892,6 +1153,17 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "From awareness to action: supporting communities through inclusive practices",
+      "year": 2025,
+      "journal": "PsyArXiv",
+      "type": "journal-article",
+      "network_authors": "Alexia Revueltas Roux",
+      "network_authors_school": "Alexia Revueltas Roux [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-8809-2303",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
     },
     {
       "title": "Generative AI for Healthcare Students and Professionals MOOC",
@@ -1006,6 +1278,18 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Inducing TRIB2 Targeted Protein Degradation to Reverse Chemoresistance in Acute Myeloid Leukaemia",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.1101/2025.10.03.680259",
+      "url": "https://doi.org/10.1101/2025.10.03.680259",
+      "network_authors": "Laura Richmond",
+      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
+      "network_orcids": "0000-0002-8514-7030",
+      "network_schools": "School of Cancer Sciences",
+      "is_sotl": false
+    },
+    {
       "title": "Investigating discrepancies in perceptions regarding the provision of hospital rest and relaxation spaces in Scotland during the COVID-19 pandemic and beyond: a qualitative study",
       "year": 2025,
       "journal": "BMJ Open",
@@ -1016,6 +1300,42 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_orcids": "0000-0003-0899-9616",
       "network_schools": "School of Health and Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Investigating recollection and false memory after alcohol-induced blackouts in sober young adults",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.31234/osf.io/fph62_v3",
+      "url": "https://doi.org/10.31234/osf.io/fph62_v3",
+      "network_authors": "Judith Jackson",
+      "network_authors_school": "Judith Jackson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-1865-1875",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Investigating recollection and false memory after alcohol-induced blackouts in sober young adults",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.31234/osf.io/fph62_v2",
+      "url": "https://doi.org/10.31234/osf.io/fph62_v2",
+      "network_authors": "Judith Jackson",
+      "network_authors_school": "Judith Jackson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-1865-1875",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Investigating recollection and false memory after alcohol-induced blackouts in sober young adults",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.31234/osf.io/fph62_v1",
+      "url": "https://doi.org/10.31234/osf.io/fph62_v1",
+      "network_authors": "Judith Jackson",
+      "network_authors_school": "Judith Jackson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-1865-1875",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -1073,6 +1393,19 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Letter to the editor of the Brit J Clin Pharmacol on Hartjes et al. 2025 https://doi.org/10.1002/bcp.70176",
+      "year": 2025,
+      "journal": "British Journal of Clinical Pharmacology",
+      "type": "journal-article",
+      "doi": "10.1002/bcp.70297",
+      "url": "https://doi.org/10.1002/bcp.70297",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "LinkedIn to Get In: embedding learning activities to support student career development through online professional networking",
       "year": 2025,
       "type": "preprint",
@@ -1095,6 +1428,20 @@
       "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]; Leighann Sherry [School of Infection & Immunity]",
       "network_orcids": "0000-0001-8910-6490; 0000-0002-0493-6135",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Infection & Immunity",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "MVLS GAINEd Advisory on UofG GenAI Assessment Scenarios",
+      "year": 2025,
+      "journal": "Zenodo",
+      "type": "other",
+      "doi": "10.5281/zenodo.17312533",
+      "url": "https://doi.org/10.5281/ZENODO.17312533",
+      "network_authors": "Denise Hough",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-5478-693X",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1163,6 +1510,18 @@
       "network_authors_school": "Sarah Berger [School of Molecular Biosciences]",
       "network_orcids": "0009-0007-3998-9329",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Oscillatory markers of vigilance, task-induced fatigue and motivation during sustained attention: Evidence for decoupled alpha- and beta-signatures",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.22541/au.173832301.11892740/v1",
+      "url": "https://doi.org/10.22541/au.173832301.11892740/v1",
+      "network_authors": "Simon Hanzal",
+      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2659-1980",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -1322,6 +1681,18 @@
       "is_sotl": false
     },
     {
+      "title": "Strategy and motivation, rather than fatigue, drive age-related differences in sustained attention performance: Evidence for decoupled beta-band oscillations",
+      "year": 2025,
+      "type": "preprint",
+      "doi": "10.22541/au.176595496.69565583/v1",
+      "url": "https://doi.org/10.22541/au.176595496.69565583/v1",
+      "network_authors": "Simon Hanzal",
+      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2659-1980",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Student experiences of decolonised psychology curricula",
       "year": 2025,
       "journal": "Equity in Education & Society",
@@ -1332,6 +1703,20 @@
       "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0003-2975-5581",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Teaching Forensic Nursing With Sensitivity",
+      "year": 2025,
+      "journal": "Nurse Educator",
+      "type": "journal-article",
+      "doi": "10.1097/nne.0000000000002074",
+      "url": "https://doi.org/10.1097/NNE.0000000000002074",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1458,6 +1843,34 @@
       "network_orcids": "0000-0001-7715-5973",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "Top Tips and Updates from MVLS Generative AI Network for Education (GAINEd)",
+      "year": 2025,
+      "journal": "Zenodo",
+      "type": "public-speech",
+      "doi": "10.5281/zenodo.17304831",
+      "url": "https://doi.org/10.5281/ZENODO.17304831",
+      "network_authors": "Denise Hough",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-5478-693X",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Trauma-informed pedagogy in forensic science education: Scoping review of and reflection on (very limited) available evidence",
+      "year": 2025,
+      "journal": "Science & Justice",
+      "type": "journal-article",
+      "doi": "10.1016/j.scijus.2024.12.003",
+      "url": "https://doi.org/10.1016/j.scijus.2024.12.003",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Use of Debate as an Authentic, Active Learning Assessment to Enhance Student Engagement and Development",
@@ -1617,6 +2030,18 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "A Killer Night in The Pub: Forensic Medicine and Toxicology",
+      "year": 2024,
+      "journal": "Pint of Science 2024",
+      "type": "lecture-speech",
+      "url": "https://pintofscience.co.uk/event/a-killer-night-in-the-pub",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "A Lifesaving Quality Improvement Project - Investigating the Practicality of the Emergency Medicine Bag in a Primary Care Setting",
       "year": 2024,
       "type": "conference-paper",
@@ -1678,10 +2103,22 @@
       "type": "preprint",
       "doi": "10.35542/osf.io/f9r5k",
       "url": "https://doi.org/10.35542/osf.io/f9r5k",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
-      "network_schools": "School of Psychology and Neuroscience",
+      "network_authors": "Emily Nordmann; Rafael Venson",
+      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-0806-1081; 0000-0002-1959-8503",
+      "network_schools": "School of Psychology and Neuroscience; School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Category is… staff and student experiences of Rainbow Office Hours",
+      "year": 2024,
+      "journal": "AdvanceHE EDI Colloquium 2024",
+      "type": "conference-abstract",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1822,6 +2259,18 @@
       "is_sotl": false
     },
     {
+      "title": "EEG markers of vigilance, task-induced fatigue and motivation during sustained attention: Evidence for decoupled alpha- and beta-signatures",
+      "year": 2024,
+      "type": "preprint",
+      "doi": "10.1101/2024.10.16.618638",
+      "url": "https://doi.org/10.1101/2024.10.16.618638",
+      "network_authors": "Simon Hanzal",
+      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2659-1980",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Education is essential for implementing the NHS workforce plan",
       "year": 2024,
       "journal": "BMJ",
@@ -1891,6 +2340,19 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Hollow fiber liquid-phase microextraction (HF-LPME)",
+      "year": 2024,
+      "journal": "Reference Module in Chemistry, Molecular Sciences and Chemical Engineering",
+      "type": "book-chapter",
+      "doi": "10.1016/b978-0-443-15978-7.00086-2",
+      "url": "https://doi.org/10.1016/b978-0-443-15978-7.00086-2",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "How do higher education staff understand the terms hybrid, hyflex, and blended learning? Choice, modality, and uncertainty.",
       "year": 2024,
       "type": "preprint",
@@ -1900,6 +2362,17 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "How to Evaluate Your Teaching Practice",
+      "year": 2024,
+      "type": "conference-paper",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1932,6 +2405,29 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "If we don't care about trauma, we don't care about equity: the case of forensics",
+      "year": 2024,
+      "journal": "Equity in Education & Society Conference",
+      "type": "conference-abstract",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Impact of Clinical Case Discussion in a Flipped Classroom Setting to Teach Pharmacology to Nursing",
+      "year": 2024,
+      "journal": "Association for Medical Education in Europe (AMEE) Conference 2024",
+      "type": "conference-abstract",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Improving CRISPR-Cas9 directed faithful transgene integration outcomes by reducing unwanted random DNA integration.",
       "year": 2024,
       "journal": "Journal of biomedical science",
@@ -1954,6 +2450,19 @@
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Inhibitors of the small membrane (M) protein viroporin prevent Zika virus infection",
+      "year": 2024,
+      "journal": "eLife",
+      "type": "journal-article",
+      "doi": "10.7554/elife.68404",
+      "url": "https://doi.org/10.7554/elife.68404",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
     },
     {
       "title": "Knowing me, knowing you: evaluation of the impact of trainer involvement at an enhanced induction programme for International Medical Graduates (IMGs)",
@@ -2074,6 +2583,19 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Probing sustained attention and fatigue across the lifespan",
+      "year": 2024,
+      "journal": "PLOS ONE",
+      "type": "journal-article",
+      "doi": "10.1371/journal.pone.0292695",
+      "url": "https://doi.org/10.1371/journal.pone.0292695",
+      "network_authors": "Simon Hanzal",
+      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2659-1980",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "RER-LX: A new scale to measure reduced emotional resonance in bilinguals’ later learnt language",
       "year": 2024,
       "journal": "Bilingualism: Language and Cognition",
@@ -2153,6 +2675,28 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Transforming Higher Education: How Can We Integrate Equality, Diversity, and Inclusion into Our Practice and Curriculum?",
+      "year": 2024,
+      "type": "conference-paper",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Transforming Histology Education Using a Freely Available Virtual Microscope Software",
+      "year": 2024,
+      "type": "conference-paper",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Turning Roadblocks into Speed Bumps: A Call for Implementation Reform in Science Communication About Retrieval Practice",
       "year": 2024,
       "journal": "Educational Psychology Review",
@@ -2165,6 +2709,32 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Unveiling the SChematic Organization of Pharmacological Information for Nurses: A New Approach to Pharmacology Education for Nurses",
+      "year": 2024,
+      "journal": "Journal of Nursing Education",
+      "type": "journal-article",
+      "doi": "10.3928/01484834-20240522-03",
+      "url": "https://doi.org/10.3928/01484834-20240522-03",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Using Combined Flipped Classroom and Case-Based Learning to Teach Pharmacology in a Nursing Undergraduate Degree: Student’s Learning Gains and Satisfaction",
+      "year": 2024,
+      "journal": "British Educational Research Association (BERA) Conference 2024",
+      "type": "conference-abstract",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Validity and Transparency in Quantifying Open-Ended Data",
@@ -2192,6 +2762,18 @@
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Why don’t we talk about Trauma-Informed Pedagogy in Forensic Science Education? A Scoping Review",
+      "year": 2024,
+      "journal": "University of West of Scotland Learning and Teaching Conference 2024",
+      "type": "conference-poster",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Winter meeting of the Anatomical Society, Nottingham 2023: A focus on anatomy education",
@@ -2350,6 +2932,19 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Cost of Illness in Patients With COVID-19 Admitted in three Brazilian Public Hospitals",
+      "year": 2023,
+      "journal": "Value in Health Regional Issues",
+      "type": "journal-article",
+      "doi": "10.1016/j.vhri.2023.02.004",
+      "url": "https://doi.org/10.1016/j.vhri.2023.02.004",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Data from Zebrafish MITF-Low Melanoma Subtype Models Reveal Transcriptional Subclusters and MITF-Independent Residual Disease",
       "year": 2023,
       "type": "preprint",
@@ -2412,6 +3007,18 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Developmental changes in individual alpha frequency: Recording EEG data during public engagement events",
+      "year": 2023,
+      "type": "preprint",
+      "doi": "10.1101/2023.01.20.524682",
+      "url": "https://doi.org/10.1101/2023.01.20.524682",
+      "network_authors": "Simon Hanzal",
+      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2659-1980",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
     },
     {
       "title": "EHD2 regulates plasma membrane integrity and downstream insulin receptor signaling events",
@@ -2674,6 +3281,18 @@
       "is_sotl": false
     },
     {
+      "title": "Probing sustained attention and fatigue across the lifespan",
+      "year": 2023,
+      "type": "preprint",
+      "doi": "10.1101/2023.09.27.559839",
+      "url": "https://doi.org/10.1101/2023.09.27.559839",
+      "network_authors": "Simon Hanzal",
+      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2659-1980",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Prostate cancer screening: well intentioned initiatives may use up resources but not improve health outcomes",
       "year": 2023,
       "journal": "BMJ",
@@ -2684,6 +3303,19 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_orcids": "0000-0003-0899-9616",
       "network_schools": "School of Health and Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Setting a tariff for IVF and ICSI treatment: a cost analysis",
+      "year": 2023,
+      "journal": "Human Fertility",
+      "type": "journal-article",
+      "doi": "10.1080/14647273.2023.2204409",
+      "url": "https://doi.org/10.1080/14647273.2023.2204409",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -3026,10 +3658,10 @@
       "type": "journal-article",
       "doi": "10.1080/1360144x.2021.1917415",
       "url": "https://doi.org/10.1080/1360144X.2021.1917415",
-      "network_authors": "Emma Bailey; Genevieve Stapleton; Sharon Sneddon",
-      "network_authors_school": "Emma Bailey [School of Medicine Dentistry and Nursing]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Sneddon [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0003-3826-9956; 0000-0002-7493-5277; 0000-0001-9767-4180",
-      "network_schools": "School of Medicine Dentistry and Nursing",
+      "network_authors": "Emma Bailey; Genevieve Stapleton; Sharon Sneddon; Ashley Le Vin",
+      "network_authors_school": "Emma Bailey [School of Medicine Dentistry and Nursing]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Sneddon [School of Medicine Dentistry and Nursing]; Ashley Le Vin [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0003-3826-9956; 0000-0002-7493-5277; 0000-0001-9767-4180; 0000-0001-5163-7990",
+      "network_schools": "School of Medicine Dentistry and Nursing; School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "journal"
     },
@@ -3045,6 +3677,17 @@
       "network_orcids": "0000-0002-5641-2931",
       "network_schools": "School of Molecular Biosciences",
       "is_sotl": false
+    },
+    {
+      "title": "COVID-19: Inequalities and Undergraduate Medical Education",
+      "year": 2022,
+      "type": "conference-paper",
+      "network_authors": "Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Computerised cognitive training during early-stage psychosis improves cognitive deficits and gamma-band oscillations: A pilot study",
@@ -3366,6 +4009,18 @@
       "is_sotl": false
     },
     {
+      "title": "Medico-Legal Death Investigation Systems – Brazil",
+      "year": 2022,
+      "journal": "Sri Lanka Journal of Forensic Medicine, Science & Law",
+      "type": "journal-article",
+      "url": "http://doi.org/10.4038/sljfmsl.v13i0.7913",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Myelinated axons are the primary target of hemin-mediated oxidative damage in a model of the central nervous system.",
       "year": 2022,
       "journal": "Experimental neurology",
@@ -3456,6 +4111,19 @@
       "is_sotl": false
     },
     {
+      "title": "Recombination, and Then What? How Zika Virus Hybrids Improve Their Fitness",
+      "year": 2022,
+      "journal": "Access Microbiology",
+      "type": "journal-article",
+      "doi": "10.1099/acmi.ac2021.po0398",
+      "url": "https://doi.org/10.1099/acmi.ac2021.po0398",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Reflections on the integration of virtual GP tutorials to the medical undergraduate curriculum at Glasgow",
       "year": 2022,
       "journal": "Education for Primary Care",
@@ -3468,6 +4136,19 @@
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "SARM1 Depletion Slows Axon Degeneration in a CNS Model of Neurotropic Viral Infection.",
+      "year": 2022,
+      "journal": "Frontiers in molecular neuroscience",
+      "type": "journal-article",
+      "doi": "10.3389/fnmol.2022.860410",
+      "url": "https://doi.org/10.3389/fnmol.2022.860410",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
     },
     {
       "title": "Sharing Practice on Framing Feedback Around Student Development",
@@ -3574,6 +4255,19 @@
       "is_sotl": false
     },
     {
+      "title": "Validation of the Brazilian version of the hepatitis B quality of life evaluation instrument - HBQOL, and its application to patients with chronic hepatitis B in Cascavel - PR",
+      "year": 2022,
+      "journal": "Brazilian Journal of Pharmaceutical Sciences",
+      "type": "journal-article",
+      "doi": "10.1590/s2175-97902022e191111",
+      "url": "https://doi.org/10.1590/s2175-97902022e191111",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Yamanaka Factors in the Budding Tunicate Botryllus schlosseri Show a Shared Spatio-Temporal Expression Pattern in Chordates",
       "year": 2022,
       "journal": "Frontiers in Cell and Developmental Biology",
@@ -3652,6 +4346,19 @@
       "is_sotl": false
     },
     {
+      "title": "A plasmid DNA-launched SARS-CoV-2 reverse genetics system and coronavirus toolkit for COVID-19 research",
+      "year": 2021,
+      "journal": "PLOS Biology",
+      "type": "journal-article",
+      "doi": "10.1371/journal.pbio.3001091",
+      "url": "https://doi.org/10.1371/journal.pbio.3001091",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "A virtual biobank for companion animals: A parvovirus pilot study.",
       "year": 2021,
       "journal": "The Veterinary record",
@@ -3711,6 +4418,19 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-4496-6141",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Analysis of Zika virus capsid-Aedes aegypti mosquito interactome reveals pro-viral host factors critical for establishing infection",
+      "year": 2021,
+      "journal": "Nature Communications",
+      "type": "journal-article",
+      "doi": "10.1038/s41467-021-22966-8",
+      "url": "https://doi.org/10.1038/s41467-021-22966-8",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -4022,6 +4742,19 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Limited replication of human cytomegalovirus in a trophoblast cell line",
+      "year": 2021,
+      "journal": "Journal of General Virology",
+      "type": "journal-article",
+      "doi": "10.1099/jgv.0.001683",
+      "url": "https://doi.org/10.1099/jgv.0.001683",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Navon, D.Mobilizing Mutations: Human genetics in the age of patient advocacy. Chicago: University of Chicago Press. 2019. 384 pp. $40 (cloth) $10 ‐ $40 (eBook). ISBN: 9780226638096 (cloth), 9780226638126 (eBook)",
       "year": 2021,
       "journal": "Sociology of Health & Illness",
@@ -4032,6 +4765,19 @@
       "network_authors_school": "Sharon Greenwood [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-4143-4430",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Oligodendrocytes are susceptible to Zika virus infection in a mouse model of perinatal exposure: Implications for <scp>CNS<\/scp> complications",
+      "year": 2021,
+      "journal": "Glia",
+      "type": "journal-article",
+      "doi": "10.1002/glia.24010",
+      "url": "https://doi.org/10.1002/glia.24010",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -4152,6 +4898,20 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Students' engagement in and perceptions of blended learning in a clinical module in a veterinary degree program",
+      "year": 2021,
+      "journal": "Journal of Veterinary Medical Education",
+      "type": "journal-article",
+      "doi": "10.3138/jvme.2019-0018",
+      "url": "https://doi.org/10.3138/jvme.2019-0018",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Supporting Children’s Wellbeing During COVID-19: Providers’ and Policymakers’ Successes, Challenges, Lessons Learned and Recommended Actions",
       "year": 2021,
       "journal": "Institute for Inspiring Children's Futures, University of Strathclyde",
@@ -4200,6 +4960,19 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "The morning after the night before: Alcohol-induced blackouts impair next day recall in sober young adults",
+      "year": 2021,
+      "journal": "PLOS ONE",
+      "type": "journal-article",
+      "doi": "10.1371/journal.pone.0250827",
+      "url": "https://doi.org/10.1371/journal.pone.0250827",
+      "network_authors": "Judith Jackson",
+      "network_authors_school": "Judith Jackson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-1865-1875",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
     },
     {
       "title": "The relationship between cognitive deficits and impaired short-term functional outcome in clinical high-risk for psychosis participants: A machine learning and modelling approach",
@@ -4319,6 +5092,19 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Zika Virus Infection Leads to Demyelination and Axonal Injury in Mature CNS Cultures",
+      "year": 2021,
+      "journal": "Viruses",
+      "type": "journal-article",
+      "doi": "10.3390/v13010091",
+      "url": "https://doi.org/10.3390/v13010091",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "10 simple rules for supporting a temporary online pivot in higher education",
       "year": 2020,
       "type": "preprint",
@@ -4330,6 +5116,19 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "<i>Toxorhynchites<\/i> Species: A Review of Current Knowledge",
+      "year": 2020,
+      "journal": "Insects",
+      "type": "journal-article",
+      "doi": "10.3390/insects11110747",
+      "url": "https://doi.org/10.3390/insects11110747",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
     },
     {
       "title": "A Measurement Invariance Analysis of the Interpersonal Needs Questionnaire and Acquired Capability for Suicide Scale in Autistic and Non-Autistic Adults",
@@ -4442,9 +5241,9 @@
       "type": "conference-paper",
       "doi": "10.1145/3397617.3398032",
       "url": "https://doi.org/10.1145/3397617.3398032",
-      "network_authors": "Zayba Ghazali-Mohammed",
-      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0003-2975-5581",
+      "network_authors": "Zayba Ghazali-Mohammed; Alexia Revueltas Roux",
+      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]; Alexia Revueltas Roux [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2975-5581; 0000-0002-8809-2303",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
@@ -4539,6 +5338,32 @@
       "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0001-9241-9500",
       "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "From design to difference: Increasing impact of IDC research",
+      "year": 2020,
+      "journal": "Extended Abstracts - Proceedings of the 2020 ACM Interaction Design and Children Conference, IDC 2020",
+      "type": "conference-paper",
+      "doi": "10.1145/3397617.3398060",
+      "url": "https://doi.org/10.1145/3397617.3398060",
+      "network_authors": "Alexia Revueltas Roux",
+      "network_authors_school": "Alexia Revueltas Roux [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-8809-2303",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Glucose-Regulated Protein 78 Interacts with Zika Virus Envelope Protein and Contributes to a Productive Infection",
+      "year": 2020,
+      "journal": "Viruses",
+      "type": "journal-article",
+      "doi": "10.3390/v12050524",
+      "url": "https://doi.org/10.3390/v12050524",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -4714,6 +5539,19 @@
       "is_sotl": false
     },
     {
+      "title": "Recombination between African and Asian lineages of Zika virus in vitro and its consequences for viral phenotype",
+      "year": 2020,
+      "journal": "Access Microbiology",
+      "type": "journal-article",
+      "doi": "10.1099/acmi.ac2020.po0680",
+      "url": "https://doi.org/10.1099/acmi.ac2020.po0680",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Revealing the reality of undergraduate GP teaching in UK medical curricula",
       "year": 2020,
       "journal": "British Journal of General Practice",
@@ -4789,6 +5627,19 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "The Aedes aegypti Domino Ortholog p400 Regulates Antiviral Exogenous Small Interfering RNA Pathway Activity and ago-2 Expression.",
+      "year": 2020,
+      "journal": "mSphere",
+      "type": "journal-article",
+      "doi": "10.1128/msphere.00081-20",
+      "url": "https://doi.org/10.1128/mSphere.00081-20",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -4945,6 +5796,19 @@
       "is_sotl": false
     },
     {
+      "title": "A review of the application of hollow-fiber liquid-phase microextraction in bioanalytical methods – A systematic approach with focus on forensic toxicology",
+      "year": 2019,
+      "journal": "Journal of Chromatography B: Analytical Technologies in the Biomedical and Life Sciences",
+      "type": "journal-article",
+      "doi": "10.1016/j.jchromb.2019.01.006",
+      "url": "https://doi.org/10.1016/j.jchromb.2019.01.006",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Absorption, Mentalizing, and Mysticism: Sensing the Presence of the Divine",
       "year": 2019,
       "journal": "Journal for the Cognitive Science of Religion",
@@ -4994,6 +5858,19 @@
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Antagonistic action of blood-feeding and mating on the gut immunity in the female mosquito Aedes aegypti",
+      "year": 2019,
+      "journal": "Access Microbiology",
+      "type": "journal-article",
+      "doi": "10.1099/acmi.imav2019.po0062",
+      "url": "https://doi.org/10.1099/acmi.imav2019.po0062",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
     },
     {
       "title": "BRF1 accelerates prostate tumourigenesis and perturbs immune infiltration.",
@@ -5079,6 +5956,19 @@
       "network_authors_school": "Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_orcids": "0000-0001-8756-6848",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Differentiation in prefrontal cortex recruitment during childhood: Evidence from cognitive control demands and social contexts.",
+      "year": 2019,
+      "journal": "Developmental cognitive neuroscience",
+      "type": "journal-article",
+      "doi": "10.1016/j.dcn.2019.100629",
+      "url": "https://doi.org/10.1016/j.dcn.2019.100629",
+      "network_authors": "Judith Jackson; Alexia Revueltas Roux",
+      "network_authors_school": "Judith Jackson [School of Psychology and Neuroscience]; Alexia Revueltas Roux [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-1865-1875; 0000-0002-8809-2303",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -5381,6 +6271,19 @@
       "is_sotl": false
     },
     {
+      "title": "Peripubertal GnRH and testosterone co-treatment leads to increased familiarity preferences in male sheep",
+      "year": 2019,
+      "journal": "Psychoneuroendocrinology",
+      "type": "journal-article",
+      "doi": "10.1016/j.psyneuen.2019.06.008",
+      "url": "https://doi.org/10.1016/j.psyneuen.2019.06.008",
+      "network_authors": "Denise Hough",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-5478-693X",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Pseudokinases: a tribble-edged sword.",
       "year": 2019,
       "journal": "The FEBS journal",
@@ -5486,6 +6389,19 @@
       "is_sotl": false
     },
     {
+      "title": "The Transcriptional and Protein Profile From Human Infected Neuroprogenitor Cells Is Strongly Correlated to Zika Virus Microcephaly Cytokines Phenotype Evidencing a Persistent Inflammation in the CNS",
+      "year": 2019,
+      "journal": "Frontiers in Immunology",
+      "type": "journal-article",
+      "doi": "10.3389/fimmu.2019.01928",
+      "url": "https://doi.org/10.3389/fimmu.2019.01928",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "The Use of Myelinating Cultures as a Screen of Glycomolecules for CNS Repair",
       "year": 2019,
       "journal": "Biology",
@@ -5496,6 +6412,19 @@
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "The circadian clock components BMAL1 and REV-ERBα regulate flavivirus replication.",
+      "year": 2019,
+      "journal": "Nature communications",
+      "type": "journal-article",
+      "doi": "10.1038/s41467-019-08299-7",
+      "url": "https://doi.org/10.1038/s41467-019-08299-7",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -5566,6 +6495,32 @@
       "is_sotl": false
     },
     {
+      "title": "Zika virus infection of glia leads to secondary injury to axons and dendrites",
+      "year": 2019,
+      "journal": "Access Microbiology",
+      "type": "journal-article",
+      "doi": "10.1099/acmi.imav2019.po0055",
+      "url": "https://doi.org/10.1099/acmi.imav2019.po0055",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Zika virus utilises the ubiquitin-proteasome pathway during infection of mosquito and human cells",
+      "year": 2019,
+      "journal": "Access Microbiology",
+      "type": "journal-article",
+      "doi": "10.1099/acmi.imav2019.po0059",
+      "url": "https://doi.org/10.1099/acmi.imav2019.po0059",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "A fluorescent activatable probe for imaging intracellular Mg2+",
       "year": 2018,
       "journal": "Organic & Biomolecular Chemistry",
@@ -5576,6 +6531,19 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Antiviral RNA Interference Activity in Cells of the Predatory Mosquito, <i>Toxorhynchites amboinensis<\/i>",
+      "year": 2018,
+      "journal": "Viruses",
+      "type": "journal-article",
+      "doi": "10.3390/v10120694",
+      "url": "https://doi.org/10.3390/v10120694",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -5777,6 +6745,19 @@
       "is_sotl": false
     },
     {
+      "title": "Infection with a Brazilian isolate of Zika virus generates RIG-I stimulatory RNA and the viral NS5 protein blocks type I IFN induction and signaling.",
+      "year": 2018,
+      "journal": "European journal of immunology",
+      "type": "journal-article",
+      "doi": "10.1002/eji.201847483",
+      "url": "https://doi.org/10.1002/eji.201847483",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Interactome comparison of human embryonic stem cell lines with the inner cell mass and trophectoderm",
       "year": 2018,
       "type": "other",
@@ -5879,6 +6860,19 @@
       "is_sotl": false
     },
     {
+      "title": "Rational Zika vaccine design via the modulation of antigen membrane anchors in chimpanzee adenoviral vectors.",
+      "year": 2018,
+      "journal": "Nature communications",
+      "type": "journal-article",
+      "doi": "10.1038/s41467-018-04859-5",
+      "url": "https://doi.org/10.1038/s41467-018-04859-5",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Respiratory disease in the cat in the shelter environment",
       "year": 2018,
       "journal": "BSAVA Manual of Canine and Feline Shelter Medicine",
@@ -5889,6 +6883,19 @@
       "network_authors_school": "Maria Afonso [School of Biodiversity One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-7786-5315",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Safety of Biologics Approved for the Treatment of Rheumatoid Arthritis and Other Autoimmune Diseases: A Disproportionality Analysis from the FDA Adverse Event Reporting System (FAERS)",
+      "year": 2018,
+      "journal": "BioDrugs",
+      "type": "journal-article",
+      "doi": "10.1007/s40259-018-0285-2",
+      "url": "https://doi.org/10.1007/s40259-018-0285-2",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -6200,6 +7207,19 @@
       "is_sotl": false
     },
     {
+      "title": "Aedes aegypti            Piwi4 Is a Noncanonical PIWI Protein Involved in Antiviral Responses",
+      "year": 2017,
+      "journal": "mSphere",
+      "type": "journal-article",
+      "doi": "10.1128/msphere.00144-17",
+      "url": "https://doi.org/10.1128/msphere.00144-17",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Analysis of Nkx3.1:Cre-driven Erk5 deletion reveals a profound spinal deformity which is linked to increased osteoclast activity.",
       "year": 2017,
       "journal": "Scientific reports",
@@ -6210,6 +7230,19 @@
       "network_authors_school": "Carolyn Loveridge [MVLS Graduate School]; Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0002-6237-8661; 0000-0003-1469-0201",
       "network_schools": "MVLS Graduate School; School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Application of a Urine and Hair Validated LC–MS-MS Method to Determine the Effect of Hair Color on the Incorporation of 25B-NBOMe, 25C-NBOMe and 25I-NBOMe into Hair in the Rat",
+      "year": 2017,
+      "journal": "Journal of Analytical Toxicology",
+      "type": "journal-article",
+      "doi": "10.1093/jat/bkx053",
+      "url": "https://doi.org/10.1093/jat/bkx053",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -6271,6 +7304,32 @@
       "network_authors_school": "Maria Afonso [School of Biodiversity One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-7786-5315",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Characterization of the Zika virus induced small RNA response in Aedes aegypti cells.",
+      "year": 2017,
+      "journal": "PLoS neglected tropical diseases",
+      "type": "journal-article",
+      "doi": "10.1371/journal.pntd.0006010",
+      "url": "https://doi.org/10.1371/journal.pntd.0006010",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Differential effects of lipid biosynthesis inhibitors on Zika and Semliki Forest viruses.",
+      "year": 2017,
+      "journal": "Veterinary journal (London, England : 1997)",
+      "type": "journal-article",
+      "doi": "10.1016/j.tvjl.2017.10.009",
+      "url": "https://doi.org/10.1016/j.tvjl.2017.10.009",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -6376,6 +7435,18 @@
       "is_sotl": false
     },
     {
+      "title": "Inhibition of type I interferon induction and signalling by mosquito-borne flaviviruses.",
+      "year": 2017,
+      "type": "journal-article",
+      "doi": "10.1111/cmi.12737",
+      "url": "https://doi.org/10.1111/cmi.12737",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
       "title": "Metformin suppresses adipogenesis through both AMP-activated protein kinase (AMPK)-dependent and AMPK-independent mechanisms",
       "year": 2017,
       "journal": "Molecular and Cellular Endocrinology",
@@ -6386,6 +7457,19 @@
       "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-8429-5154",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Mitigating the risk of Zika virus contamination of raw materials and cell lines in the manufacture of biologicals.",
+      "year": 2017,
+      "journal": "The Journal of general virology",
+      "type": "journal-article",
+      "doi": "10.1099/jgv.0.000995",
+      "url": "https://doi.org/10.1099/jgv.0.000995",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -6422,6 +7506,19 @@
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Quantitative proteomic profiling of bovine follicular fluid during follicle development",
+      "year": 2017,
+      "journal": "Biology of Reproduction",
+      "type": "journal-article",
+      "doi": "10.1093/biolre/iox148",
+      "url": "https://doi.org/10.1093/biolre/iox148",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
     },
     {
       "title": "Ruminant neurological disease: a retrospective cohort study",
@@ -6550,6 +7647,19 @@
       "is_sotl": false
     },
     {
+      "title": "Análisis del reconocimiento de la expresión facial emocional en niños y adolescentes mexicanos",
+      "year": 2016,
+      "journal": "Edupsykhé. Revista de Psicología y Educación",
+      "type": "journal-article",
+      "doi": "10.57087/edupsykhe.v15i1.3908",
+      "url": "https://doi.org/10.57087/edupsykhe.v15i1.3908",
+      "network_authors": "Alexia Revueltas Roux",
+      "network_authors_school": "Alexia Revueltas Roux [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-8809-2303",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Are nestin-positive mesenchymal stromal cells a better source of cells for CNS repair?",
       "year": 2016,
       "journal": "Neurochemistry international",
@@ -6648,6 +7758,18 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-4496-6141",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Full Genome Sequence and sfRNA Interferon Antagonist Activity of Zika Virus from Recife, Brazil.",
+      "year": 2016,
+      "type": "journal-article",
+      "doi": "10.1371/journal.pntd.0005048",
+      "url": "https://doi.org/10.1371/journal.pntd.0005048",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
     {
@@ -6842,6 +7964,18 @@
       "is_sotl": false
     },
     {
+      "title": "Comparison of two oestrus synchronisation protocols administered to dairy cows during routine reproduction services",
+      "year": 2015,
+      "journal": "Cattle Practice",
+      "type": "journal-article",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85089187947&partnerID=MN8TOARS",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "Derivation of the human embryonic stem cell line RCM1.",
       "year": 2015,
       "journal": "Stem cell research",
@@ -6865,6 +7999,19 @@
       "network_orcids": "0000-0003-4496-6141",
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
+    },
+    {
+      "title": "Fighting Arbovirus Transmission: Natural and Engineered Control of Vector Competence in Aedes Mosquitoes.",
+      "year": 2015,
+      "type": "journal-article",
+      "doi": "10.3390/insects6010236",
+      "url": "https://doi.org/10.3390/insects6010236",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Glutamine synthetase activity fuels nucleotide biosynthesis and supports growth of glutamine-restricted glioblastoma.",
@@ -7018,6 +8165,19 @@
       "is_sotl": false
     },
     {
+      "title": "Relative contribution of P450c17 towards the acute cortisol response: Lessons from sheep and goats",
+      "year": 2015,
+      "journal": "Molecular and Cellular Endocrinology",
+      "type": "journal-article",
+      "doi": "10.1016/j.mce.2015.01.018",
+      "url": "https://doi.org/10.1016/j.mce.2015.01.018",
+      "network_authors": "Denise Hough",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-5478-693X",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Responding to medical error and complaints",
       "year": 2015,
       "journal": "Clinical Communication in Medicine",
@@ -7131,6 +8291,19 @@
       "is_sotl": false
     },
     {
+      "title": "Activity of 3β-hydroxysteroid dehydrogenase associated with progesterone production in bovine granulosa cells cultured under different concentrations of serum, insulin-like growth factor I, and gonadotropin",
+      "year": 2014,
+      "journal": "Turkish Journal of Veterinary and Animal Sciences",
+      "type": "journal-article",
+      "doi": "10.3906/vet-1311-57",
+      "url": "https://doi.org/10.3906/vet-1311-57",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "Anti-inflammatories in cattle medicine",
       "year": 2014,
       "journal": "Livestock",
@@ -7165,6 +8338,18 @@
       "network_authors": "Leighann Sherry",
       "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
       "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Characterization of Aedes aegypti innate-immune pathways that limit Chikungunya virus replication.",
+      "year": 2014,
+      "type": "journal-article",
+      "doi": "10.1371/journal.pntd.0002994",
+      "url": "https://doi.org/10.1371/journal.pntd.0002994",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
       "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
@@ -7428,6 +8613,19 @@
       "is_sotl": false
     },
     {
+      "title": "Assessing Efficacy, Safety and Tolerability of Rituximab for Rheumatoid Arthritis: Meta-Analyses of Randomized Controlled Trials",
+      "year": 2013,
+      "journal": "Journal Biomedical and Biopharmaceutical Research",
+      "type": "journal-article",
+      "doi": "10.19277/bbr.10.2.67",
+      "url": "https://doi.org/10.19277/bbr.10.2.67",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Candida albicansFungaemia following Traumatic Urethral Catheterisation in a Paraplegic Patient with Diabetes Mellitus and Candiduria Treated by Caspofungin",
       "year": 2013,
       "journal": "Case Reports in Infectious Diseases",
@@ -7467,6 +8665,19 @@
       "is_sotl": false
     },
     {
+      "title": "Comparative Efficacy of Oral Nucleoside or Nucleotide Analog Monotherapy Used in Chronic Hepatitis B: A Mixed-Treatment Comparison Meta-analysis",
+      "year": 2013,
+      "journal": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+      "type": "journal-article",
+      "doi": "10.1002/phar.1188",
+      "url": "https://doi.org/10.1002/phar.1188",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Comparative transcriptomics reveals patterns of selection in domesticated and wild tomato.",
       "year": 2013,
       "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -7477,6 +8688,32 @@
       "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-3242-0806",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Economic evaluation of treatments for chronic hepatitis B",
+      "year": 2013,
+      "journal": "The Brazilian Journal of Infectious Diseases",
+      "type": "journal-article",
+      "doi": "10.1016/j.bjid.2012.12.005",
+      "url": "https://doi.org/10.1016/j.bjid.2012.12.005",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Factors influencing embryo transfer success in alpacas-A retrospective study",
+      "year": 2013,
+      "journal": "Animal Reproduction Science",
+      "type": "journal-article",
+      "doi": "10.1016/j.anireprosci.2012.10.010",
+      "url": "https://doi.org/10.1016/j.anireprosci.2012.10.010",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -7493,6 +8730,19 @@
       "is_sotl": false
     },
     {
+      "title": "Insulin analogues versus human insulin in type 1 diabetes: direct and indirect meta-analyses of efficacy and safety",
+      "year": 2013,
+      "journal": "Brazilian Journal of Pharmaceutical Sciences",
+      "type": "journal-article",
+      "doi": "10.1590/s1984-82502013000300011",
+      "url": "https://doi.org/10.1590/s1984-82502013000300011",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Investigating the biological properties of carbohydrate derived fulvic acid (CHD-FA) as a potential novel therapy for the management of oral biofilm infections",
       "year": 2013,
       "journal": "BMC Oral Health",
@@ -7502,6 +8752,18 @@
       "network_authors": "Leighann Sherry",
       "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
       "network_orcids": "0000-0002-0493-6135",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Knockdown of piRNA pathway proteins results in enhanced Semliki Forest virus production in mosquito cells.",
+      "year": 2013,
+      "type": "journal-article",
+      "doi": "10.1099/vir.0.053850-0",
+      "url": "https://doi.org/10.1099/vir.0.053850-0",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
       "network_schools": "School of Infection & Immunity",
       "is_sotl": false
     },
@@ -7630,6 +8892,19 @@
       "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-3242-0806",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Acute dietary restriction in heifers alters expression of genes regulating exposure and response to gonadotrophins and IGF in dominant follicles",
+      "year": 2012,
+      "journal": "Animal Reproduction Science",
+      "type": "journal-article",
+      "doi": "10.1016/j.anireprosci.2012.06.012",
+      "url": "https://doi.org/10.1016/j.anireprosci.2012.06.012",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -7803,6 +9078,32 @@
       "is_sotl": false
     },
     {
+      "title": "Effect of the metabolic environment at key stages of follicle development in cattle: Focus on steroid biosynthesis",
+      "year": 2012,
+      "journal": "Physiological Genomics",
+      "type": "journal-article",
+      "doi": "10.1152/physiolgenomics.00178.2011",
+      "url": "https://doi.org/10.1152/physiolgenomics.00178.2011",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Efficacy, safety and tolerability of using abatacept for the treatment of rheumatoid arthritis",
+      "year": 2012,
+      "journal": "Brazilian Journal of Pharmaceutical Sciences",
+      "type": "journal-article",
+      "doi": "10.1590/s1984-82502012000400022",
+      "url": "https://doi.org/10.1590/s1984-82502012000400022",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Encoding, maintenance, and retrieval processes in the lag effect: A multinomial processing tree analysis",
       "year": 2012,
       "journal": "Memory",
@@ -7944,6 +9245,43 @@
       "is_sotl": false
     },
     {
+      "title": "New Insights into Control of Arbovirus Replication and Spread by Insect RNA Interference Pathways.",
+      "year": 2012,
+      "type": "journal-article",
+      "doi": "10.3390/insects3020511",
+      "url": "https://doi.org/10.3390/insects3020511",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Perfil dos usuários de anticitocinas disponibilizadas pelo Sistema Único de Saúde no estado do Paraná para o tratamento da artrite reumatoide",
+      "year": 2012,
+      "journal": "Revista Brasileira de Reumatologia",
+      "type": "journal-article",
+      "doi": "10.1590/s0482-50042012000200005",
+      "url": "https://doi.org/10.1590/s0482-50042012000200005",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Profile of users of anticytokines offered by the health care system in the state of Paraná for the treatment of rheumatoid arthritis.",
+      "year": 2012,
+      "journal": "Revista brasileira de reumatologia",
+      "type": "journal-article",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84864877542&partnerID=MN8TOARS",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Stabilization of the Escherichia coli DNA polymerase III ε subunit by the θ subunit favors in vivo assembly of the Pol III catalytic core.",
       "year": 2012,
       "journal": "Archives of biochemistry and biophysics",
@@ -8022,6 +9360,19 @@
       "is_sotl": false
     },
     {
+      "title": "An analysis of quality of systematic reviews on pharmacist health interventions",
+      "year": 2011,
+      "journal": "International Journal of Clinical Pharmacy",
+      "type": "journal-article",
+      "doi": "10.1007/s11096-011-9592-0",
+      "url": "https://doi.org/10.1007/s11096-011-9592-0",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Androgen Receptor Expression in the Caput Epididymal Epithelium Is Essential for Development of the Initial Segment and Epididymal Spermatozoa Transit",
       "year": 2011,
       "journal": "ENDOCRINOLOGY",
@@ -8032,6 +9383,44 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Antiviral RNA interference responses induced by Semliki Forest virus infection of mosquito cells: characterization, origin, and frequency-dependent functions of virus-derived small interfering RNAs.",
+      "year": 2011,
+      "type": "journal-article",
+      "doi": "10.1128/jvi.02052-10",
+      "url": "https://doi.org/10.1128/jvi.02052-10",
+      "network_authors": "Claire  Donald",
+      "network_authors_school": "Claire Donald [School of Infection & Immunity]",
+      "network_orcids": "0000-0002-4370-0707",
+      "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Avaliação econômica das anticitocinas adalimumabe, etanercepte e infliximabe no tratamento da artrite reumatoide no Estado do Paraná",
+      "year": 2011,
+      "journal": "Physis: Revista de Saúde Coletiva",
+      "type": "journal-article",
+      "doi": "10.1590/s0103-73312011000200002",
+      "url": "https://doi.org/10.1590/s0103-73312011000200002",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Cost-effectiveness of telbivudine versus lamivudine for chronic hepatitis B",
+      "year": 2011,
+      "journal": "Brazilian Journal of Infectious Diseases",
+      "type": "journal-article",
+      "doi": "10.1016/s1413-8670(11)70180-5",
+      "url": "https://doi.org/10.1016/S1413-8670(11)70180-5",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -8096,6 +9485,19 @@
       "is_sotl": false
     },
     {
+      "title": "Revisiting the efficacy of long-acting insulin analogues on adults with type 1 diabetes using mixed-treatment comparisons",
+      "year": 2011,
+      "journal": "Diabetes Research and Clinical Practice",
+      "type": "journal-article",
+      "doi": "10.1016/j.diabres.2011.09.001",
+      "url": "https://doi.org/10.1016/j.diabres.2011.09.001",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Smooth Muscle Cell-Specific Knockout of Androgen Receptor: A New Model for Prostatic Disease",
       "year": 2011,
       "journal": "ENDOCRINOLOGY",
@@ -8118,6 +9520,19 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "The normal menstrual cycle in women",
+      "year": 2011,
+      "journal": "Animal Reproduction Science",
+      "type": "journal-article",
+      "doi": "10.1016/j.anireprosci.2010.08.030",
+      "url": "https://doi.org/10.1016/j.anireprosci.2010.08.030",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -8323,6 +9738,19 @@
       "is_sotl": false
     },
     {
+      "title": "Meta-analysis of the Efficacy and Safety of Adalimumab, Etanercept, and Infliximab for the Treatment of Rheumatoid Arthritis",
+      "year": 2010,
+      "journal": "Pharmacotherapy",
+      "type": "journal-article",
+      "doi": "10.1592/phco.30.4.339",
+      "url": "https://doi.org/10.1592/phco.30.4.339",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "N- and E-cadherin expression in human ovarian and urogenital duct development",
       "year": 2010,
       "journal": "FERTILITY AND STERILITY",
@@ -8448,6 +9876,45 @@
       "is_sotl": false
     },
     {
+      "title": "A Systematic Review and Meta-analysis of the Efficacy and Safety of Etanercept for Treating Rheumatoid Arthritis",
+      "year": 2009,
+      "journal": "Scandinavian Journal of Immunology",
+      "type": "journal-article",
+      "doi": "10.1111/j.1365-3083.2009.02296.x",
+      "url": "https://doi.org/10.1111/j.1365-3083.2009.02296.x",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "A meta-analysis of the efficacy and safety of using infliximab for the treatment of rheumatoid arthritis",
+      "year": 2009,
+      "journal": "Clinical Rheumatology",
+      "type": "journal-article",
+      "doi": "10.1007/s10067-009-1233-9",
+      "url": "https://doi.org/10.1007/s10067-009-1233-9",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "A systematic review and meta-analysis of the efficacy and safety of adalimumab for treating rheumatoid arthritis",
+      "year": 2009,
+      "journal": "Rheumatology International",
+      "type": "journal-article",
+      "doi": "10.1007/s00296-009-1111-4",
+      "url": "https://doi.org/10.1007/s00296-009-1111-4",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Androgen action <i>via<\/i> testicular peritubular myoid cells is essential for male fertility",
       "year": 2009,
       "journal": "FASEB JOURNAL",
@@ -8507,6 +9974,19 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Effect of a Pharmaceutical Care Program on quality of life and satisfaction with pharmacy services in patients with type 2 diabetes mellitus",
+      "year": 2009,
+      "journal": "Brazilian Journal of Pharmaceutical Sciences",
+      "type": "journal-article",
+      "doi": "10.1590/s1984-82502009000400027",
+      "url": "https://doi.org/10.1590/s1984-82502009000400027",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -8601,6 +10081,19 @@
       "is_sotl": false
     },
     {
+      "title": "PROJETO DE EDUCAÇÃO E INFORMAÇÃO DA GERÊNCIA GERAL DE MONITORAMENTO E FISCALIZAÇÃO DE PROPAGANDA, PUBLICIDADE, PROMOÇÃO E INFORMAÇÃO DE PRODUTOS SUJEITOS À VIGILÂNCIA SANITÁRIA: UM RELATO SOBRE AS ATIVIDADES DESENVOLVIDAS PELA UFPR E SEU IMPACTO.",
+      "year": 2009,
+      "journal": "Visão Acadêmica",
+      "type": "journal-article",
+      "doi": "10.5380/acd.v10i2.21338",
+      "url": "https://doi.org/10.5380/acd.v10i2.21338",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "UV-B action spectrum for UVR8-mediated HY5 transcript accumulation in Arabidopsis.",
       "year": 2009,
       "journal": "Photochemistry and photobiology",
@@ -8637,6 +10130,32 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_orcids": "0000-0003-0899-9616",
       "network_schools": "School of Health and Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Differential expression of signal transduction factors in ovarian follicle development: A functional role for betaglycan and FIBP in granulosa cells in cattle",
+      "year": 2008,
+      "journal": "Physiological Genomics",
+      "type": "journal-article",
+      "doi": "10.1152/physiolgenomics.00274.2007",
+      "url": "https://doi.org/10.1152/physiolgenomics.00274.2007",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Differentiation of the bovine dominant follicle from the cohort upregulates mRNA expression for new tissue development genes",
+      "year": 2008,
+      "journal": "Reproduction",
+      "type": "conference-paper",
+      "doi": "10.1530/rep-06-0193",
+      "url": "https://doi.org/10.1530/REP-06-0193",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -8692,6 +10211,19 @@
       "is_sotl": false
     },
     {
+      "title": "Mechanisms for Dominant Follicle Selection in Monovulatory Species: A Comparison of Morphological, Endocrine and Intraovarian Events in Cows, Mares and Women",
+      "year": 2008,
+      "journal": "Reproduction in Domestic Animals",
+      "type": "journal-article",
+      "doi": "10.1111/j.1439-0531.2008.01142.x",
+      "url": "https://doi.org/10.1111/j.1439-0531.2008.01142.x",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "Movement Style, Movement Features, and the Recognition of Affect from Human Movement",
       "year": 2008,
       "journal": "Understanding Events: From Perception to Action",
@@ -8744,6 +10276,19 @@
       "is_sotl": false
     },
     {
+      "title": "Dairy cow cleanliness and milk quality on organic and conventional farms in the UK",
+      "year": 2007,
+      "journal": "Journal of Dairy Research",
+      "type": "journal-article",
+      "doi": "10.1017/s002202990700249x",
+      "url": "https://doi.org/10.1017/S002202990700249X",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "Fibroblast growth factor receptor 3 kinase domain mutation increases cortical progenitor proliferation via mitogen-activated protein kinase activation",
       "year": 2007,
       "journal": "Journal of Neurochemistry",
@@ -8767,6 +10312,19 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-4496-6141",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Investigation of the vitamins A and E and β-carotene content in milk from UK organic and conventional dairy farms",
+      "year": 2007,
+      "journal": "Journal of Dairy Research",
+      "type": "journal-article",
+      "doi": "10.1017/s0022029907002816",
+      "url": "https://doi.org/10.1017/S0022029907002816",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -8922,6 +10480,19 @@
       "is_sotl": false
     },
     {
+      "title": "Comparing the fatty acid composition of organic and conventional milk",
+      "year": 2006,
+      "journal": "Journal of Dairy Science",
+      "type": "journal-article",
+      "doi": "10.3168/jds.s0022-0302(06)72261-5",
+      "url": "https://doi.org/10.3168/jds.S0022-0302(06)72261-5",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "Expression of coiled-coil protein 1, a novel gene downstream of FGF2, in the developing brain",
       "year": 2006,
       "journal": "Gene Expression Patterns",
@@ -8945,6 +10516,19 @@
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "Molecular evidence that growth of dominant follicles involves a reduction in follicle-stimulating hormone dependence and an increase in luteinizing hormone dependence in cattle",
+      "year": 2006,
+      "journal": "Biology of Reproduction",
+      "type": "journal-article",
+      "doi": "10.1095/biolreprod.105.045799",
+      "url": "https://doi.org/10.1095/biolreprod.105.045799",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -8984,6 +10568,19 @@
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Changes in mouse granulosa cell gene expression during early luteinization",
+      "year": 2005,
+      "journal": "Endocrinology",
+      "type": "journal-article",
+      "doi": "10.1210/en.2004-0999",
+      "url": "https://doi.org/10.1210/en.2004-0999",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
     },
     {
       "title": "Communicable disease control during major emergencies.",
@@ -9137,6 +10734,19 @@
       "is_sotl": false
     },
     {
+      "title": "The effect of eCG or estradiol at or after norgestomet removal on follicular dynamics, estrus and ovulation in early post-partum beef cows nursing calves",
+      "year": 2004,
+      "journal": "Theriogenology",
+      "type": "journal-article",
+      "doi": "10.1016/s0093-691x(03)00255-3",
+      "url": "https://doi.org/10.1016/S0093-691X(03)00255-3",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "AXR3 and SHY2 interact to regulate root hair development.",
       "year": 2003,
       "type": "journal-article",
@@ -9146,6 +10756,32 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Effect of oestradiol benzoate given after prostaglandin at two stages of follicle wave development on oestrus synchronisation, the LH surge and ovulation in heifers",
+      "year": 2003,
+      "journal": "Animal Reproduction Science",
+      "type": "journal-article",
+      "doi": "10.1016/s0378-4320(02)00238-5",
+      "url": "https://doi.org/10.1016/S0378-4320(02)00238-5",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Endocrine regulation of ovarian antral follicle development in cattle",
+      "year": 2003,
+      "journal": "Animal Reproduction Science",
+      "type": "journal-article",
+      "doi": "10.1016/s0378-4320(03)00092-7",
+      "url": "https://doi.org/10.1016/S0378-4320(03)00092-7",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -9187,6 +10823,32 @@
       "is_sotl": false
     },
     {
+      "title": "Effects of oestradiol and progesterone on secretion of gonadotrophins and health of first wave follicles during the oestrous cycle of beef heifers",
+      "year": 2002,
+      "journal": "Reproduction",
+      "type": "journal-article",
+      "doi": "10.1530/rep.0.1240531",
+      "url": "https://doi.org/10.1530/rep.0.1240531",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Follicle wave growth in cattle",
+      "year": 2002,
+      "journal": "Reproduction in Domestic Animals",
+      "type": "journal-article",
+      "doi": "10.1046/j.1439-0531.2002.00371.x",
+      "url": "https://doi.org/10.1046/j.1439-0531.2002.00371.x",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "Shaping Biological Motion: Adding realistic form cues to biological motion displays",
       "year": 2002,
       "journal": "Journal of Vision",
@@ -9197,6 +10859,32 @@
       "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0001-7715-5973",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "The final stages of dominant follicle selection in cattle",
+      "year": 2002,
+      "journal": "Domestic Animal Endocrinology",
+      "type": "conference-paper",
+      "doi": "10.1016/s0739-7240(02)00153-4",
+      "url": "https://doi.org/10.1016/S0739-7240(02)00153-4",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Alterations in intrafollicular regulatory factors and apoptosis during selection of follicles in the first follicular wave of the bovine estrous cycle",
+      "year": 2001,
+      "journal": "Biology of Reproduction",
+      "type": "journal-article",
+      "doi": "10.1095/biolreprod64.3.839",
+      "url": "https://doi.org/10.1095/biolreprod64.3.839",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -9248,6 +10936,18 @@
       "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-9634-9738",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Intrafollicular health markers during antral follicle wave development in cattle",
+      "year": 2001,
+      "journal": "Archiv fur Tierzucht",
+      "type": "journal-article",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-23744484263&partnerID=MN8TOARS",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -9312,6 +11012,32 @@
       "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0002-7493-5277",
       "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Historical perspective of turnover of dominant follicles during the bovine estrous cycle: Key concepts, studies, advancements, and terms",
+      "year": 2000,
+      "journal": "Journal of Dairy Science",
+      "type": "journal-article",
+      "doi": "10.3168/jds.s0022-0302(00)75033-8",
+      "url": "https://doi.org/10.3168/jds.S0022-0302(00)75033-8",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Identification of potential intrafollicular factors involved in selection of dominant follicles in heifers",
+      "year": 2000,
+      "journal": "Biology of Reproduction",
+      "type": "journal-article",
+      "doi": "10.1095/biolreprod63.3.811",
+      "url": "https://doi.org/10.1095/biolreprod63.3.811",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -9391,6 +11117,57 @@
       "is_sotl": false
     },
     {
+      "title": "Delayed resumption of cyclicity in postpartum dairy and beef cows",
+      "year": 1999,
+      "journal": "Reproduction in Domestic Animals",
+      "type": "journal-article",
+      "doi": "10.1111/j.1439-0531.1999.tb01252.x",
+      "url": "https://doi.org/10.1111/j.1439-0531.1999.tb01252.x",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Effect of Duration of Dominance of the Ovulatory Follicle on Onset of Estrus and Fertility in Heifers",
+      "year": 1999,
+      "journal": "Journal of Animal Science",
+      "type": "journal-article",
+      "doi": "10.2527/1999.7782219x",
+      "url": "https://doi.org/10.2527/1999.7782219x",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Effect of dominant follicle persistence on follicular fluid oestradiol and inhibin and on oocyte maturation in heifers",
+      "year": 1999,
+      "journal": "Journal of Reproduction and Fertility",
+      "type": "journal-article",
+      "doi": "10.1530/jrf.0.1160293",
+      "url": "https://doi.org/10.1530/jrf.0.1160293",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Regulation of follicle waves to maximize fertility in cattle.",
+      "year": 1999,
+      "journal": "Journal of reproduction and fertility. Supplement",
+      "type": "journal-article",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-0033251066&partnerID=MN8TOARS",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "A Novel Molecular Determinant for cAMP-dependent Regulation of the Frog Heart Na+/Ca2+Exchanger",
       "year": 1998,
       "journal": "Journal of Biological Chemistry",
@@ -9401,6 +11178,19 @@
       "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-9634-9738",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Hormonal Regulation of the Oestrous Cycle of Cattle",
+      "year": 1998,
+      "journal": "Reproduction in Domestic Animals",
+      "type": "journal-article",
+      "doi": "10.1111/j.1439-0531.1998.tb01348.x",
+      "url": "https://doi.org/10.1111/j.1439-0531.1998.tb01348.x",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -9430,6 +11220,19 @@
       "is_sotl": false
     },
     {
+      "title": "Resumption of follicular waves in beef cows is not associated with periparturient changes in follicle-stimulating hormone heterogeneity despite major changes in steroid and luteinizing hormone concentrations",
+      "year": 1998,
+      "journal": "Biology of Reproduction",
+      "type": "journal-article",
+      "doi": "10.1095/biolreprod58.6.1445",
+      "url": "https://doi.org/10.1095/biolreprod58.6.1445",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "Cyp7b, a novel brain cytochrome P450, catalyzes the synthesis of neurosteroids 7 -hydroxy dehydroepiandrosterone and 7 -hydroxy pregnenolone",
       "year": 1997,
       "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -9440,6 +11243,19 @@
       "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0002-7493-5277",
       "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Decline in serum follicle-stimulating hormone concentrations alters key intrafollicular growth factors involved in selection of the dominant follicle in heifers",
+      "year": 1997,
+      "journal": "Biology of Reproduction",
+      "type": "journal-article",
+      "doi": "10.1095/biolreprod57.6.1328",
+      "url": "https://doi.org/10.1095/biolreprod57.6.1328",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -9466,6 +11282,18 @@
       "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-9634-9738",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Regulation of follicle wave growth in cattle",
+      "year": 1996,
+      "journal": "Reproduction in Domestic Animals",
+      "type": "journal-article",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-0000736307&partnerID=MN8TOARS",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -9505,6 +11333,32 @@
       "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-9634-9738",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Association between the duration of dominance of the ovulatory follicle and pregnancy rate in beef heifers",
+      "year": 1994,
+      "journal": "Journal of Reproduction and Fertility",
+      "type": "journal-article",
+      "doi": "10.1530/jrf.0.1020123",
+      "url": "https://doi.org/10.1530/jrf.0.1020123",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Some effects of prematurely elevated concentrations of progesterone on luteal and follicular characteristics during the oestrous cycle in heifers",
+      "year": 1994,
+      "journal": "Animal Reproduction Science",
+      "type": "journal-article",
+      "doi": "10.1016/0378-4320(94)90004-3",
+      "url": "https://doi.org/10.1016/0378-4320(94)90004-3",
+      "network_authors": "Monika Mihm Carmichael",
+      "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-2579-6741",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -9673,6 +11527,16 @@
       "is_sotl": false
     },
     {
+      "title": "Hollow Fiber Liquid-Phase Microextraction",
+      "journal": "Comprehensive Sampling and Sample Preparation",
+      "type": "book-chapter",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Insect borne diseases and their prevention ",
       "type": "journal-article",
       "network_authors": "Sue Campbell",
@@ -9741,6 +11605,17 @@
       "network_orcids": "0000-0003-3098-156X",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
+    },
+    {
+      "title": "Using Combined Flipped Classroom and Case-Based Learning to Teach Pharmacology in a Nursing Undergraduate Degree: Student’s Learning Gains and Satisfaction",
+      "journal": "British Educational Research Association (BERA) Conference",
+      "type": "conference-abstract",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     }
   ],
   "sotl_keywords": ["teaching", "learning", "pedagog", "education", "student", "curriculum", "assessment", "classroom", "instruction", "academic development", "faculty development", "staff development", "higher education", "undergraduate", "postgraduate", "graduate student", "university student", "medical student", "dental student", "veterinary student", "first.?year", "transition", "widening participation", "access programme", "flipped", "blended learning", "online learning", "e-learning", "elearning", "active learning", "problem.?based learning", "team.?based learning", "simulation", "virtual patient", "objective structured clinical examination", "osce", "feedback", "formative", "summative", "peer instruction", "peer assessment", "educational research", "scholarship of teaching", "sotl", "course design", "module design", "learning outcome", "competenc", "self.?regulated learning", "metacognition", "study skill", "academic skill", "student engagement", "student experience", "student retention", "attainment gap", "clinical education", "clinical teaching", "medical education", "health profession", "healthcare education", "interprofessional", "work.?based learning", "placement", "practicum", "clerkship", "exam", "test.?taking", "grading", "marking", "rubric", "programmatic assessment", "portfolio", "reflective practice"],
