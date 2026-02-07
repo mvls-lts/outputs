@@ -13,6 +13,7 @@ on:
       - '*.qmd'
       - '_quarto.yml'
       - '.github/workflows/**'
+      - 'styles.css'
 
 permissions:
   contents: write
@@ -68,11 +69,31 @@ jobs:
       - name: Fetch ORCID publications
         run: Rscript R/fetch_orcid_publications.R
       
-      - name: Remove freeze directory to force re-render
-        run: rm -rf _freeze
+      - name: Show updated data timestamp
+        run: |
+          echo "=== Data file timestamp ==="
+          head -5 _data/publications.json
+      
+      - name: Clear ALL cached/rendered content
+        run: |
+          rm -rf _freeze
+          rm -rf .quarto
+          rm -rf docs
+          rm -rf *_files
+          rm -rf _site
+          echo "All cache directories cleared"
       
       - name: Render Quarto website
-        run: quarto render --execute
+        run: quarto render
+      
+      - name: Verify rendered output
+        run: |
+          echo "=== docs/ directory contents ==="
+          ls -la docs/
+          echo ""
+          echo "=== Checking last_updated in index.html ==="
+          grep -o "Last updated.*UTC\|Last updated.*GMT" docs/index.html || echo "Pattern not found, showing relevant section:"
+          grep -A2 "linked authors" docs/index.html | head -10
       
       - name: Commit updated data
         run: |

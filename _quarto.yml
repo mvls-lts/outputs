@@ -7,7 +7,6 @@ execute:
 
 website:
   title: "MVLS LTS Network"
-  description: "Outputs from our network"
   navbar:
     left:
       - href: index.qmd
