@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-08 04:35:36 UTC",
-  "n_authors": 60,
-  "n_publications": 868,
+  "last_updated": "2026-02-11 08:03:45 UTC",
+  "n_authors": 62,
+  "n_publications": 873,
   "n_sotl": 227,
   "authors": [
     {
@@ -539,6 +539,23 @@
       "name": "Rafael Henry-Venson",
       "school": "School of Medicine, Dentistry and Nursing",
       "display_name": "Rafael Henry-Venson"
+    },
+    {
+      "orcid_id": "0009-0005-8819-0826",
+      "given_name": "Nicholas James",
+      "family_name": "Rudzik",
+      "affiliation": "University of Glasgow",
+      "name": "Nicholas Rudzik",
+      "school": "School of Biodiversity, One Health and Veterinary Medicine",
+      "display_name": "Nicholas Rudzik"
+    },
+    {
+      "orcid_id": "0000-0003-4716-0557",
+      "given_name": "Steven",
+      "family_name": "McNair",
+      "name": "Steven McNair",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Steven McNair"
     }
   ],
   "publications": [
@@ -575,6 +592,19 @@
       "network_authors": "Lynsay Crawford",
       "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Evaluating risk of burnout and psychological challenges among forensic odontologists: A pilot study",
+      "year": 2026,
+      "journal": "Forensic Science, Medicine and Pathology",
+      "type": "journal-article",
+      "doi": "10.1007/s12024-025-01169-3",
+      "url": "https://doi.org/10.1007/s12024-025-01169-3",
+      "network_authors": "Julie Langan Martin",
+      "network_authors_school": "Julie Langan Martin [School of Health & Wellbeing]",
+      "network_orcids": "0000-0002-0589-3464",
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
     },
@@ -5013,6 +5043,16 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Theme 1: person-centred care\r\n",
+      "year": 2021,
+      "type": "book-chapter",
+      "network_authors": "Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
       "title": "Therapeutic Potential of Niche-Specific Mesenchymal Stromal Cells for Spinal Cord Injury Repair",
       "year": 2021,
       "journal": "Cells",
@@ -5933,6 +5973,19 @@
       "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-0148-0854",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Consistent pre-stimulus influences on auditory perception across the lifespan",
+      "year": 2019,
+      "journal": "NeuroImage",
+      "type": "journal-article",
+      "doi": "10.1016/j.neuroimage.2018.10.085",
+      "url": "https://doi.org/https://doi.org/10.1016/j.neuroimage.2018.10.085",
+      "network_authors": "Steven McNair",
+      "network_authors_school": "Steven McNair [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-4716-0557",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -7812,6 +7865,18 @@
       "is_sotl": false
     },
     {
+      "title": "Prestimulus influences on auditory perception from sensory representations and decision processes.",
+      "year": 2016,
+      "type": "journal-article",
+      "doi": "10.1073/pnas.1524087113",
+      "url": "https://doi.org/10.1073/pnas.1524087113",
+      "network_authors": "Steven McNair",
+      "network_authors_school": "Steven McNair [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-4716-0557",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Sleeping Beauty screen reveals Pparg activation in metastatic prostate cancer.",
       "year": 2016,
       "journal": "Proceedings of the National Academy of Sciences of the United States of America",
@@ -8431,6 +8496,19 @@
       "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-9634-9738",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Mental representations of emotional facial expressions are more complex rather than less accurate in older observers",
+      "year": 2014,
+      "journal": "Journal of Vision",
+      "type": "journal-article",
+      "doi": "10.1167/14.10.1385",
+      "url": "https://doi.org/10.1167/14.10.1385",
+      "network_authors": "Steven McNair",
+      "network_authors_school": "Steven McNair [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-4716-0557",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
