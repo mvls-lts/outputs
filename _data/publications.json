@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-11 08:03:45 UTC",
+  "last_updated": "2026-02-15 04:22:15 UTC",
   "n_authors": 62,
-  "n_publications": 873,
-  "n_sotl": 227,
+  "n_publications": 879,
+  "n_sotl": 229,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -659,6 +659,19 @@
       "network_authors_school": "Marika Salonna [School of Molecular Biosciences]",
       "network_orcids": "0000-0003-3771-8713",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
+      "year": 2026,
+      "type": "preprint",
+      "doi": "10.35542/osf.io/wc49t_v1",
+      "url": "https://doi.org/10.35542/osf.io/wc49t_v1",
+      "network_authors": "Sue Campbell; Tomoko Iwata; Rafael Venson",
+      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]; Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0003-3098-156X; 0000-0002-9634-9738; 0000-0002-1959-8503",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing; School of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -4745,6 +4758,20 @@
       "is_sotl": false
     },
     {
+      "title": "Learning needs, preferred learning methods and learning challenges of first five general practitioners in NHS Scotland: a qualitative study",
+      "year": 2021,
+      "journal": "BMJ Open",
+      "type": "journal-article",
+      "doi": "10.1136/bmjopen-2020-044859",
+      "url": "https://doi.org/10.1136/bmjopen-2020-044859",
+      "network_authors": "Lynsey  Yeoman",
+      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
+      "network_orcids": "0009-0001-0736-7118",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Lessons learned from early adopters of blended and online learning",
       "year": 2021,
       "journal": "Journal of Perspectives in Applied Academic Practice",
@@ -6363,6 +6390,19 @@
       "is_sotl": false
     },
     {
+      "title": "Recently-qualified general practitioners’ perceptions and experiences of General Practice Specialty Training (GPST) in deprived areas of NHS Scotland – a qualitative study",
+      "year": 2019,
+      "journal": "Education for Primary Care",
+      "type": "journal-article",
+      "doi": "10.1080/14739879.2019.1587317",
+      "url": "https://doi.org/10.1080/14739879.2019.1587317",
+      "network_authors": "Lynsey  Yeoman",
+      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
+      "network_orcids": "0009-0001-0736-7118",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
       "title": "Recognizing and responding to the spiritual needs of adults from minority religious groups in acute, chronic and palliative UK healthcare contexts: An explorative review",
       "year": 2019,
       "journal": "Health and Social Care Chaplaincy",
@@ -6584,6 +6624,19 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "A systematic review of interventions by healthcare professionals to improve management of non-communicable diseases and communicable diseases requiring long-term care in adults who are homeless",
+      "year": 2018,
+      "journal": "BMJ Open",
+      "type": "journal-article",
+      "doi": "10.1136/bmjopen-2017-020161",
+      "url": "https://doi.org/10.1136/bmjopen-2017-020161",
+      "network_authors": "Lynsey  Yeoman",
+      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
+      "network_orcids": "0009-0001-0736-7118",
+      "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
     },
     {
@@ -7497,6 +7550,19 @@
       "network_authors_school": "Claire Donald [School of Infection & Immunity]",
       "network_orcids": "0000-0002-4370-0707",
       "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Interventions by healthcare professionals to improve management of physical long-term conditions in adults who are homeless: a systematic review protocol",
+      "year": 2017,
+      "journal": "BMJ Open",
+      "type": "journal-article",
+      "doi": "10.1136/bmjopen-2017-016756",
+      "url": "https://doi.org/10.1136/bmjopen-2017-016756",
+      "network_authors": "Lynsey  Yeoman",
+      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
+      "network_orcids": "0009-0001-0736-7118",
+      "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
     },
     {
@@ -10015,6 +10081,19 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Centre variation in incidence, indication and diagnosis of adult native renal biopsy in Scotland",
+      "year": 2009,
+      "journal": "Nephrology Dialysis Transplantation",
+      "type": "journal-article",
+      "doi": "10.1093/ndt/gfn677",
+      "url": "https://doi.org/10.1093/ndt/gfn677",
+      "network_authors": "Lynsey  Yeoman",
+      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
+      "network_orcids": "0009-0001-0736-7118",
+      "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
     },
     {
