@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18 08:01:38 UTC",
+  "last_updated": "2026-02-18 15:23:49 UTC",
   "n_authors": 63,
   "n_publications": 880,
   "n_sotl": 230,
@@ -569,6 +569,20 @@
   ],
   "publications": [
     {
+      "title": "A manifesto for plant science education",
+      "year": 2026,
+      "journal": "PLANTS, PEOPLE, PLANET",
+      "type": "journal-article",
+      "doi": "10.1002/ppp3.70115",
+      "url": "https://doi.org/10.1002/ppp3.70115",
+      "network_authors": "Lauren Headland",
+      "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
+      "network_orcids": "0000-0002-3242-0806",
+      "network_schools": "School of Molecular Biosciences",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Clinical‐year veterinary students are most likely to be confident and competent in calving procedures after blending simulator practicals with videos",
       "year": 2026,
       "journal": "Veterinary Record",
@@ -783,20 +797,6 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "A manifesto for plant science education",
-      "year": 2025,
-      "journal": "PLANTS, PEOPLE, PLANET",
-      "type": "journal-article",
-      "doi": "10.1002/ppp3.70115",
-      "url": "https://doi.org/10.1002/ppp3.70115",
-      "network_authors": "Lauren Headland",
-      "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
-      "network_orcids": "0000-0002-3242-0806",
-      "network_schools": "School of Molecular Biosciences",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
