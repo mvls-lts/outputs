@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-15 04:22:15 UTC",
-  "n_authors": 62,
-  "n_publications": 879,
-  "n_sotl": 229,
+  "last_updated": "2026-02-18 08:01:38 UTC",
+  "n_authors": 63,
+  "n_publications": 880,
+  "n_sotl": 230,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -556,6 +556,15 @@
       "name": "Steven McNair",
       "school": "School of Psychology and Neuroscience",
       "display_name": "Steven McNair"
+    },
+    {
+      "orcid_id": "0009-0002-4183-600X",
+      "given_name": "Dougie",
+      "family_name": "Marks",
+      "affiliation": "University of Glasgow",
+      "name": "Dougie Marks",
+      "school": "Scool of Medicine, Dentistry and Nursing",
+      "display_name": "Dougie Marks"
     }
   ],
   "publications": [
@@ -609,7 +618,19 @@
       "is_sotl": false
     },
     {
-      "title": "Incoporating GenAI into critical appraisal undergraduate medical education summative coursework",
+      "title": "Experiences of Introducing  Virtual Clinical Experiences  (VCE) to Undergraduate GP  teaching at the University of  Glasgow",
+      "year": 2026,
+      "journal": "NADEGS",
+      "type": "conference-poster",
+      "network_authors": "Lynsey  Yeoman",
+      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
+      "network_orcids": "0009-0001-0736-7118",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Incorporating GenAI into critical appraisal undergraduate medical education summative coursework",
       "year": 2026,
       "journal": "NADEGS 2025",
       "type": "conference-presentation",
