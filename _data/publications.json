@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-18 15:23:49 UTC",
+  "last_updated": "2026-02-22 04:16:57 UTC",
   "n_authors": 63,
-  "n_publications": 880,
-  "n_sotl": 230,
+  "n_publications": 896,
+  "n_sotl": 238,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -619,6 +619,18 @@
       "is_sotl": false
     },
     {
+      "title": "Educating or academic integrity: effectiveness of a digital resource on plagiarism awareness among postgraduate bioscience students",
+      "year": 2026,
+      "journal": "Research Square",
+      "type": "journal-article",
+      "network_authors": "Laura Richmond",
+      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
+      "network_orcids": "0000-0002-8514-7030",
+      "network_schools": "School of Cancer Sciences",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Evaluating risk of burnout and psychological challenges among forensic odontologists: A pilot study",
       "year": 2026,
       "journal": "Forensic Science, Medicine and Pathology",
@@ -634,7 +646,7 @@
     {
       "title": "Experiences of Introducing  Virtual Clinical Experiences  (VCE) to Undergraduate GP  teaching at the University of  Glasgow",
       "year": 2026,
-      "journal": "NADEGS",
+      "journal": "NADEGS 2026",
       "type": "conference-poster",
       "network_authors": "Lynsey  Yeoman",
       "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
@@ -652,6 +664,19 @@
       "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
       "network_orcids": "0009-0001-0736-7118",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Interprofessional Feedback for Communication Skills Development: Collaborative Learning Between Dentistry and Clinical Psychology Students",
+      "year": 2026,
+      "journal": "19th Annual University of Glasgow Learning & Teaching Conference ",
+      "type": "conference-paper",
+      "url": "https://easychair.org/smart-program/LTConf26/",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -724,7 +749,7 @@
       "is_sotl": false
     },
     {
-      "title": "Perspective on use of debate as pedagogical practice: a framework to teach and assess learning of contentious materials",
+      "title": "Perspective on use of debate as pedagogical practice to teach and assess learning of contentious materials",
       "year": 2026,
       "journal": "Frontiers in Education",
       "type": "journal-article",
@@ -776,6 +801,20 @@
       "is_sotl": false
     },
     {
+      "title": "Teaching Forensic Nursing With Sensitivity",
+      "year": 2026,
+      "journal": "Nurse Educator",
+      "type": "journal-article",
+      "doi": "10.1097/nne.0000000000002074",
+      "url": "https://doi.org/10.1097/NNE.0000000000002074",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Undergraduate nursing students' competence in evidence-based practice and associated barriers and facilitators in Arab countries: A systematised review",
       "year": 2026,
       "journal": "Next Research",
@@ -788,6 +827,18 @@
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": " ‘MI in Dentistry’. Talking To Change – A Motivational Interviewing Podcast",
+      "year": 2025,
+      "journal": "Talking To Change – A Motivational Interviewing Podcast",
+      "type": "public-speech",
+      "url": "https://eprints.gla.ac.uk/367402/",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
     },
     {
       "title": "3D-Printed vulva: an educational tool for adolescents",
@@ -1101,6 +1152,19 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Does motivational interviewing have a role in dentistry?",
+      "year": 2025,
+      "journal": "British Dental Journal",
+      "type": "journal-article",
+      "doi": "10.1038/s41415-025-8319-x",
+      "url": "https://doi.org/10.1038/s41415-025-8319-x",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Editorial",
       "year": 2025,
       "journal": "Equity in Education &amp; Society",
@@ -1111,6 +1175,18 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-4496-6141",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Effective Communication in Dentistry Settings.",
+      "year": 2025,
+      "journal": "NES Annual Conference 2025 - Learning for Change: Tackling Health Inequity through Education and Workplace Learning",
+      "type": "conference-paper",
+      "url": "https://eprints.gla.ac.uk/367394/",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -1125,6 +1201,18 @@
       "network_orcids": "0000-0002-0589-3464",
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
+    },
+    {
+      "title": "Embedding PPIE training in postgraduate cancer research education",
+      "year": 2025,
+      "journal": "Research Square",
+      "type": "journal-article",
+      "network_authors": "Laura Richmond",
+      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
+      "network_orcids": "0000-0002-8514-7030",
+      "network_schools": "School of Cancer Sciences",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Empower LBGTQ+ people to be their authentic selves on campus with Rainbow Office Hours",
@@ -1177,6 +1265,17 @@
       "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Enhancing Academic Integrity and Literacy Among Life Sciences Postgraduates via a Moodle-based Intervention",
+      "year": 2025,
+      "type": "conference-paper",
+      "network_authors": "Laura Richmond",
+      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
+      "network_orcids": "0000-0002-8514-7030",
+      "network_schools": "School of Cancer Sciences",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Entrustable professional activities – the missing piece of the assessment jigsaw for UK undergraduate medical education? Is general practice the perfect place to start?",
@@ -1552,6 +1651,18 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Motivational Interviewing in Dentistry Settings",
+      "year": 2025,
+      "journal": "NES Annual Conference 2025 - Learning for Change: Tackling Health Inequity through Education and Workplace Learning",
+      "type": "conference-paper",
+      "url": "https://eprints.gla.ac.uk/367395/",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Negotiating the dual role of performer and learner: Medical students’ impression management in the clinical learning environment",
       "year": 2025,
       "journal": "Medical Teacher",
@@ -1785,20 +1896,6 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "Teaching Forensic Nursing With Sensitivity",
-      "year": 2025,
-      "journal": "Nurse Educator",
-      "type": "journal-article",
-      "doi": "10.1097/nne.0000000000002074",
-      "url": "https://doi.org/10.1097/NNE.0000000000002074",
-      "network_authors": "Rafael Venson",
-      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_orcids": "0000-0002-1959-8503",
-      "network_schools": "School of Medicine, Dentistry and Nursing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
       "title": "The ENTER study (E-DetectioN Tool for Emerging Mental DisoRders): general population recruitment and data integrity in online screening for psychosis risk",
       "year": 2025,
       "journal": "Frontiers in Psychiatry",
@@ -1809,6 +1906,19 @@
       "network_authors_school": "Kate Haining [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-4500-1395",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "The Effectiveness of a Cognitive-Behavioural Therapy Group for Managing Menopausal Symptoms in Breast Cancer Survivors",
+      "year": 2025,
+      "journal": "Radiotherapy and Oncology",
+      "type": "journal-article",
+      "doi": "10.1016/s0167-8140(25)03484-x",
+      "url": "https://doi.org/10.1016/s0167-8140(25)03484-x",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -2011,6 +2121,18 @@
       "network_orcids": "0000-0003-3771-8713",
       "network_schools": "School of Molecular Biosciences",
       "is_sotl": false
+    },
+    {
+      "title": "‘Fun Feedback Friday’: Remote online lectures that support belonging and engagement",
+      "year": 2025,
+      "type": "other",
+      "url": "https://uofgsotl.blog/fun-feedback-friday-remote-online-lectures-that-support-belonging-and-engagement/",
+      "network_authors": "Genevieve Stapleton",
+      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7493-5277",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "‘The best year’/‘I struggled with everything’: Widening participation experiences of pandemic online learning",
@@ -2525,6 +2647,18 @@
       "network_authors": "Lynsay Crawford",
       "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Incorporating Quality Improvement into the Undergraduate Medical Curriculum – Ideas for Change",
+      "year": 2024,
+      "journal": "NADEGS 2024",
+      "type": "conference-presentation",
+      "network_authors": "Lynsey  Yeoman",
+      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
+      "network_orcids": "0009-0001-0736-7118",
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
@@ -6225,6 +6359,17 @@
       "is_sotl": false
     },
     {
+      "title": "How Art Can Impact Your Wellbeing",
+      "year": 2019,
+      "journal": "Royal College of General Practitioners Annual Conference (RCGPAC) 2019",
+      "type": "conference-presentation",
+      "network_authors": "Lynsey  Yeoman",
+      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
+      "network_orcids": "0009-0001-0736-7118",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
+    },
+    {
       "title": "In the face of intellectual disability",
       "year": 2019,
       "journal": "OSF Registries",
@@ -7447,6 +7592,19 @@
       "is_sotl": false
     },
     {
+      "title": "Cognitive behaviour therapy-trained staff’s views on professional accreditation",
+      "year": 2017,
+      "journal": "Mental Health Practice",
+      "type": "journal-article",
+      "doi": "10.7748/mhp.2017.e1172",
+      "url": "https://doi.org/10.7748/mhp.2017.e1172",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Differential effects of lipid biosynthesis inhibitors on Zika and Semliki Forest viruses.",
       "year": 2017,
       "journal": "Veterinary journal (London, England : 1997)",
@@ -8116,6 +8274,20 @@
       "is_sotl": false
     },
     {
+      "title": "Breastfeeding support and promotion: The health professional's perspective",
+      "year": 2015,
+      "journal": "Journal of Health Visiting",
+      "type": "journal-article",
+      "doi": "10.12968/johv.2015.3.1.38",
+      "url": "https://doi.org/10.12968/johv.2015.3.1.38",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Comparison of two oestrus synchronisation protocols administered to dairy cows during routine reproduction services",
       "year": 2015,
       "journal": "Cattle Practice",
@@ -8190,6 +8362,20 @@
       "network_orcids": "0000-0002-5641-2931",
       "network_schools": "School of Molecular Biosciences",
       "is_sotl": false
+    },
+    {
+      "title": "Health professionals’ attitudes towards the promotion of breastfeeding",
+      "year": 2015,
+      "journal": "British Journal of Midwifery",
+      "type": "journal-article",
+      "doi": "10.12968/bjom.2015.23.1.50",
+      "url": "https://doi.org/10.12968/bjom.2015.23.1.50",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Impact of a clinical pathway on end-of-life care following stroke: A mixed methods study",
@@ -8788,6 +8974,19 @@
       "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-1959-8503",
       "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Can Recovery Capital Predict Addiction Problem Severity?",
+      "year": 2013,
+      "journal": "Alcoholism Treatment Quarterly",
+      "type": "journal-article",
+      "doi": "10.1080/07347324.2013.800430",
+      "url": "https://doi.org/10.1080/07347324.2013.800430",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
