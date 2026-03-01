@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-02-22 04:16:57 UTC",
+  "last_updated": "2026-03-01 04:23:29 UTC",
   "n_authors": 63,
-  "n_publications": 896,
-  "n_sotl": 238,
+  "n_publications": 905,
+  "n_sotl": 243,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -322,7 +322,7 @@
       "orcid_id": "0009-0007-3998-9329",
       "given_name": "Sarah Lea",
       "family_name": "Berger",
-      "affiliation": "Central Laser Facility, STFC",
+      "affiliation": "University of Glasgow",
       "name": "Sarah Berger",
       "school": "School of Molecular Biosciences",
       "display_name": "Sarah Berger"
@@ -597,6 +597,18 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Developing global citizenship competencies through debate: supporting student learning of contentious issues",
+      "year": 2026,
+      "journal": "Frontiers in Education",
+      "type": "journal-article",
+      "network_authors": "Susan Lindsay",
+      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
+      "network_orcids": "0000-0003-4241-4933",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Disentangling blade and vasculature shape in grapevine leaves",
       "year": 2026,
       "type": "preprint",
@@ -723,6 +735,18 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Long-read sequencing reveals increased isoform diversity in key transcription factor effectors of intercellular signalling at the invertebrate-vertebrate transition",
+      "year": 2026,
+      "journal": "BMC Biology",
+      "type": "journal-article",
+      "network_authors": "Marika Salonna",
+      "network_authors_school": "Marika Salonna [School of Molecular Biosciences]",
+      "network_orcids": "0000-0003-3771-8713",
+      "network_schools": "School of Molecular Biosciences",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
       "year": 2026,
       "type": "preprint",
@@ -747,18 +771,6 @@
       "network_orcids": "0000-0002-0493-6135",
       "network_schools": "School of Infection & Immunity",
       "is_sotl": false
-    },
-    {
-      "title": "Perspective on use of debate as pedagogical practice to teach and assess learning of contentious materials",
-      "year": 2026,
-      "journal": "Frontiers in Education",
-      "type": "journal-article",
-      "network_authors": "Susan Lindsay",
-      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
-      "network_orcids": "0000-0003-4241-4933",
-      "network_schools": "MVLS Graduate School",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "Practice what you preach: Designing student assignments that advance open and reproducible science",
@@ -1753,6 +1765,17 @@
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Personality-Informed Stress Management: A Behavioural Science Approach to Clinician Wellbeing",
+      "year": 2025,
+      "journal": "NHSGGC",
+      "type": "lecture-speech",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
     },
     {
       "title": "Practice what you preach: Designing student assignments that advance open and reproducible science",
@@ -2945,6 +2968,18 @@
       "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0001-7715-5973",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Victorious Voices",
+      "year": 2024,
+      "journal": "University of Glasgow",
+      "type": "artistic-performance",
+      "url": "https://www.gla.ac.uk/events/listings/index.html/event/13801",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -9429,6 +9464,19 @@
       "is_sotl": false
     },
     {
+      "title": "Does use of touch screen computer technology improve classroom engagement in children?",
+      "year": 2012,
+      "journal": "Online Educational Research Journal",
+      "type": "journal-article",
+      "url": "https://www.academia.edu/2950037/Does_use_of_touch_screen_computer_technology_improve_classroom_engagement_in_children",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Effect of androgen treatment during foetal and/or neonatal life on ovarian function in prepubertal and adult rats",
       "year": 2012,
       "journal": "Reproduction",
@@ -9938,6 +9986,19 @@
       "is_sotl": false
     },
     {
+      "title": "What Influences Binge Drinking in Students, and How Can We Intervene?",
+      "year": 2011,
+      "journal": "Emotions 2011: Fifth International Conference on the (Non)Expression of Emotions in Health and Disease",
+      "type": "conference-paper",
+      "url": "http://www.enpm.eu/contents/meetings/5th%20Emotions%20Conference%20Tilburg.pdf",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "c-Src dependency of NSAID-induced effects on NF-κB-mediated apoptosis in colorectal cancer cells.",
       "year": 2011,
       "journal": "Carcinogenesis",
@@ -10102,6 +10163,19 @@
       "is_sotl": false
     },
     {
+      "title": "How Does Personality Influence Binge Drinking Behaviours in Students?",
+      "year": 2010,
+      "journal": "24th European Health Psychology Conference, Cluj-Napoca",
+      "type": "conference-paper",
+      "url": "https://www.tandfonline.com/toc/gpsh20/25/sup1",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Meta-analysis of the Efficacy and Safety of Adalimumab, Etanercept, and Infliximab for the Treatment of Rheumatoid Arthritis",
       "year": 2010,
       "journal": "Pharmacotherapy",
@@ -10240,6 +10314,18 @@
       "is_sotl": false
     },
     {
+      "title": "Utilizing the Theory of Planned Behaviour to Develop a Binge Drinking Intervention",
+      "year": 2010,
+      "journal": "24th European Health Psychology Conference, Cluj-Napoca.",
+      "type": "conference-paper",
+      "url": "https://www.tandfonline.com/toc/gpsh20/25/sup1",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "A Systematic Review and Meta-analysis of the Efficacy and Safety of Etanercept for Treating Rheumatoid Arthritis",
       "year": 2009,
       "journal": "Scandinavian Journal of Immunology",
@@ -10290,6 +10376,19 @@
       "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
+    },
+    {
+      "title": "Assessing the Influence of Health Professionals’ Attitudes on Breast-feeding Rates",
+      "year": 2009,
+      "journal": "European Health Psychology Society Conference 2009",
+      "type": "conference-paper",
+      "url": "https://share.google/Dz8vdFL4ZyNGKzCgD",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Auxin transport through non-hair cells sustains root-hair development.",
@@ -10468,6 +10567,17 @@
       "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-1959-8503",
       "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "The Added Value of Applied Health Psychology in NHS Ayrshire and Arran",
+      "year": 2009,
+      "journal": "British Psychological Society Division of Health Psychology Conference 2009",
+      "type": "conference-paper",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
