@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-06 07:54:10 UTC",
+  "last_updated": "2026-03-08 04:11:53 UTC",
   "n_authors": 65,
-  "n_publications": 915,
-  "n_sotl": 252,
+  "n_publications": 918,
+  "n_sotl": 253,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -777,6 +777,17 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Measuring older people’s experience of mental health care: a systematic and critical review of patient and carer-reported experience measures",
+      "year": 2026,
+      "journal": "Journal of Mental Health",
+      "type": "journal-article",
+      "network_authors": "David Grinter",
+      "network_authors_school": "David Grinter [School of Health and Wellbeing]",
+      "network_orcids": "0009-0003-8135-3114",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": false
+    },
+    {
       "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
       "year": 2026,
       "type": "preprint",
@@ -1113,6 +1124,18 @@
       "type": "journal-article",
       "doi": "10.1177/08919887251407122",
       "url": "https://doi.org/10.1177/08919887251407122",
+      "network_authors": "David Grinter",
+      "network_authors_school": "David Grinter [School of Health and Wellbeing]",
+      "network_orcids": "0009-0003-8135-3114",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Clinician and Client Reports of the Negative Effects of Neuropsychological Assessment for Dementia",
+      "year": 2025,
+      "journal": "Journal of Geriatric Psychiatry and Neurology",
+      "type": "journal-article",
       "network_authors": "David Grinter",
       "network_authors_school": "David Grinter [School of Health and Wellbeing]",
       "network_orcids": "0009-0003-8135-3114",
@@ -10720,6 +10743,19 @@
       "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0009-0002-4183-600X",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "The Somerset team for early psychosis",
+      "year": 2009,
+      "journal": "Early Intervention in Psychiatry",
+      "type": "journal-article",
+      "doi": "10.1111/j.1751-7893.2009.00138.x",
+      "url": "https://doi.org/10.1111/j.1751-7893.2009.00138.x",
+      "network_authors": "David Grinter",
+      "network_authors_school": "David Grinter [School of Health and Wellbeing]",
+      "network_orcids": "0009-0003-8135-3114",
+      "network_schools": "School of Health and Wellbeing",
       "is_sotl": false
     },
     {
