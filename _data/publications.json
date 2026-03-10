@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-08 04:11:53 UTC",
+  "last_updated": "2026-03-10 08:04:00 UTC",
   "n_authors": 65,
-  "n_publications": 918,
+  "n_publications": 919,
   "n_sotl": 253,
   "authors": [
     {
@@ -811,6 +811,16 @@
       "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
       "network_orcids": "0000-0002-0493-6135",
       "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Pathways of Hope: Lived Experience of Drug + Alcohol Dependence, and Recovery",
+      "year": 2026,
+      "type": "conference-paper",
+      "network_authors": "Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
     },
     {
