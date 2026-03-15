@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-10 08:04:00 UTC",
+  "last_updated": "2026-03-15 04:33:51 UTC",
   "n_authors": 65,
-  "n_publications": 919,
-  "n_sotl": 253,
+  "n_publications": 923,
+  "n_sotl": 255,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -698,6 +698,20 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Geopolitics, international collaborations and publication ethics",
+      "year": 2026,
+      "journal": "Medical Education",
+      "type": "journal-article",
+      "doi": "10.1111/medu.70207",
+      "url": "https://doi.org/10.1111/medu.70207",
+      "network_authors": "Lindsey Pope",
+      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
+      "network_orcids": "0000-0003-0899-9616",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Incorporating GenAI into critical appraisal undergraduate medical education summative coursework",
       "year": 2026,
       "journal": "NADEGS 2025",
@@ -1222,6 +1236,17 @@
       "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-8429-5154",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Developing Student Academic Integrity Literacy: Evaluation of a Moodle-Based Training Resource Incorporating Formative Assessment",
+      "year": 2025,
+      "type": "conference-paper",
+      "network_authors": "Laura Richmond",
+      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
+      "network_orcids": "0000-0002-8514-7030",
+      "network_schools": "School of Cancer Sciences",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -3518,6 +3543,16 @@
       "is_sotl": false
     },
     {
+      "title": "Investigating the Impact of Public Engagement Training on Communication Skills and PE Perspectives",
+      "year": 2023,
+      "type": "conference-paper",
+      "network_authors": "Laura Richmond",
+      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
+      "network_orcids": "0000-0002-8514-7030",
+      "network_schools": "School of Cancer Sciences",
+      "is_sotl": false
+    },
+    {
       "title": "Low sulfated heparan sulfate mimetic differentially affects repair in immune-mediated and toxin-induced experimental models of demyelination.",
       "year": 2023,
       "journal": "Glia",
@@ -4309,6 +4344,17 @@
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Investigating The Impact of Public Engagement (PE) Training on Communication Skills and PE Perspectives",
+      "year": 2022,
+      "type": "other",
+      "url": "https://uofgsotl.blog/investigating-the-impact-of-public-engagementpe-training-on-communication-skills-and-pe-perspectives/",
+      "network_authors": "Laura Richmond",
+      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
+      "network_orcids": "0000-0002-8514-7030",
+      "network_schools": "School of Cancer Sciences",
+      "is_sotl": false
     },
     {
       "title": "Lecture Capture: Friend or Foe?",
