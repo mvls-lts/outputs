@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-15 04:33:51 UTC",
-  "n_authors": 65,
-  "n_publications": 923,
-  "n_sotl": 255,
+  "last_updated": "2026-03-18 16:52:52 UTC",
+  "n_authors": 66,
+  "n_publications": 955,
+  "n_sotl": 267,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -583,6 +583,15 @@
       "name": "Emilie Law",
       "school": "School of Biodiversity, One Health and Veterinary Medicine",
       "display_name": "Emilie Law"
+    },
+    {
+      "orcid_id": "0000-0002-7789-1185",
+      "given_name": "Ourania",
+      "family_name": "Varsou",
+      "affiliation": "University of Glasgow",
+      "name": "Ourania Varsou",
+      "school": "Scool of Medicine, Dentistry and Nursing",
+      "display_name": "Ourania Varsou"
     }
   ],
   "publications": [
@@ -876,6 +885,20 @@
       "network_orcids": "0000-0003-2659-1980",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "Studying with GenAI: Student views on the opportunities and risks of GenAI in higher education",
+      "year": 2026,
+      "journal": "Education and Information Technologies",
+      "type": "journal-article",
+      "doi": "10.1007/s10639-026-13923-3",
+      "url": "https://doi.org/10.1007/s10639-026-13923-3",
+      "network_authors": "Ashley Robertson",
+      "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-9914-3199",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Teaching Forensic Nursing With Sensitivity",
@@ -1452,6 +1475,20 @@
       "network_orcids": "0000-0002-8809-2303",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "From tokenism to transformation: Acknowledging the missing voices of marginalised students in higher education, beyond box-ticking frameworks",
+      "year": 2025,
+      "journal": "Open Scholarship of Teaching and Learning",
+      "type": "journal-article",
+      "doi": "10.56230/osotl.124",
+      "url": "https://doi.org/10.56230/osotl.124",
+      "network_authors": "Susan Lindsay",
+      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
+      "network_orcids": "0000-0003-4241-4933",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
     },
     {
       "title": "Generative AI for Healthcare Students and Professionals MOOC",
@@ -3199,6 +3236,18 @@
       "is_sotl": false
     },
     {
+      "title": "AI in Clinically Applied Anatomy: Friend or Foe Public",
+      "year": 2023,
+      "type": "book-chapter",
+      "doi": "10.25416/ntr.24435550.v1",
+      "url": "https://doi.org/10.25416/NTR.24435550.V1",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Anatomical variation of the aorta in the West of Scotland – A population with high cardiovascular disease burden. Implications for stent design and deployment",
       "year": 2023,
       "journal": "Journal of Anatomy",
@@ -3223,6 +3272,20 @@
       "network_orcids": "0009-0009-9107-2520",
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": false
+    },
+    {
+      "title": "Biomedical Visualisation Volume 14 ‒ COVID-19 Technology and Visualisation Adaptations for Biomedical Teaching",
+      "year": 2023,
+      "journal": "Springer International Publishing",
+      "type": "book",
+      "doi": "10.1007/978-3-031-17135-2",
+      "url": "https://doi.org/10.1007/978-3-031-17135-2",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Clinical supervisors' and students' perspectives on preparedness for veterinary workplace clinical training: An international study",
@@ -3418,6 +3481,18 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Equality, Diversity & Inclusion in Anatomical Sciences",
+      "year": 2023,
+      "type": "online-resource",
+      "doi": "10.6084/m9.figshare.24052368",
+      "url": "https://doi.org/10.6084/m9.figshare.24052368",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Evaluating the Pedagogical Effectiveness of Study Preregistration in the Undergraduate Dissertation",
       "year": 2023,
       "journal": "Advances in Methods and Practices in Psychological Science",
@@ -3586,12 +3661,26 @@
       "type": "book-chapter",
       "doi": "10.1007/978-3-031-17135-2_4",
       "url": "https://doi.org/10.1007/978-3-031-17135-2_4",
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0003-1469-0201",
-      "network_schools": "School of Medicine Dentistry and Nursing",
+      "network_authors": "Michelle Welsh; Ourania Varsou",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]; Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201; 0000-0002-7789-1185",
+      "network_schools": "School of Medicine Dentistry and Nursing; Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Online teaching using medical and anatomical imagery to explore research methods ",
+      "year": 2023,
+      "journal": "Inclusive Learning Design in Higher Education",
+      "type": "book-chapter",
+      "doi": "10.4324/9781003230144-11",
+      "url": "https://doi.org/10.4324/9781003230144-11",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
     },
     {
       "title": "Performance of ethnic minority versus White doctors in the MRCGP assessment 2016–2021: a cross-sectional study",
@@ -3824,6 +3913,20 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Teaching, Research, Innovation and Public Engagement",
+      "year": 2023,
+      "journal": "Springer International Publishing",
+      "type": "book",
+      "doi": "10.1007/978-3-031-22452-2",
+      "url": "https://doi.org/10.1007/978-3-031-22452-2",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "The cutting edge of cardiovascular anatomy",
       "year": 2023,
       "journal": "Journal of Anatomy",
@@ -3846,6 +3949,18 @@
       "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0001-7715-5973",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Ultrasound Basics for Handheld Systems",
+      "year": 2023,
+      "type": "book-chapter",
+      "doi": "10.25416/ntr.24512350.v1",
+      "url": "https://doi.org/10.25416/NTR.24512350.V1",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -4024,10 +4139,10 @@
       "type": "book-chapter",
       "doi": "10.25416/ntr.17709860.v4",
       "url": "https://doi.org/10.25416/NTR.17709860.V4",
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0003-1469-0201",
-      "network_schools": "School of Medicine Dentistry and Nursing",
+      "network_authors": "Michelle Welsh; Ourania Varsou",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]; Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201; 0000-0002-7789-1185",
+      "network_schools": "School of Medicine Dentistry and Nursing; Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -4145,6 +4260,19 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Helena Paterson [School of Psychology and Neuroscience]; Wilhelmiina Toivo [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081; 0000-0001-7715-5973; 0000-0002-5688-9537",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Developing and evaluating a prototype public health mobile app on the UK NHS Abdominal Aortic Aneurysm Screening Programme",
+      "year": 2022,
+      "journal": "Journal of Visual Communication in Medicine",
+      "type": "journal-article",
+      "doi": "10.1080/17453054.2022.2037409",
+      "url": "https://doi.org/10.1080/17453054.2022.2037409",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -4775,6 +4903,19 @@
       "is_sotl": false
     },
     {
+      "title": "A contextual thematic analysis of the accessory nerve in Scottish historical medical collections of the Royal Colleges of Edinburgh and Glasgow",
+      "year": 2021,
+      "journal": "Clinical Anatomy",
+      "type": "journal-article",
+      "doi": "10.1002/ca.23593",
+      "url": "https://doi.org/10.1002/ca.23593",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "A plasmid DNA-launched SARS-CoV-2 reverse genetics system and coronavirus toolkit for COVID-19 research",
       "year": 2021,
       "journal": "PLOS Biology",
@@ -5103,6 +5244,19 @@
       "is_sotl": false
     },
     {
+      "title": "Identifying Anatomical Structures on Ultrasound: Assistive Artificial Intelligence in Ultrasound-Guided Regional Anesthesia.",
+      "year": 2021,
+      "journal": "Clinical anatomy (New York, N.Y.)",
+      "type": "journal-article",
+      "doi": "10.1002/ca.23742",
+      "url": "https://doi.org/10.1002/ca.23742",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Improving pedagogy through Registered Reports",
       "year": 2021,
       "journal": "Open Scholarship of Teaching and Learning",
@@ -5196,6 +5350,20 @@
       "network_orcids": "0000-0002-4370-0707",
       "network_schools": "School of Infection & Immunity",
       "is_sotl": false
+    },
+    {
+      "title": "Medical Curriculum: How Do We Manage Incidental Findings in Educational Settings?",
+      "year": 2021,
+      "journal": "Medical Science Educator",
+      "type": "journal-article",
+      "doi": "10.1007/s40670-021-01211-3",
+      "url": "https://doi.org/10.1007/s40670-021-01211-3",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Navon, D.Mobilizing Mutations: Human genetics in the age of patient advocacy. Chicago: University of Chicago Press. 2019. 384 pp. $40 (cloth) $10 ‐ $40 (eBook). ISBN: 9780226638096 (cloth), 9780226638126 (eBook)",
@@ -5333,10 +5501,10 @@
       "type": "journal-article",
       "doi": "10.47408/jldhe.vi22.796",
       "url": "https://doi.org/10.47408/jldhe.vi22.796",
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0003-1469-0201",
-      "network_schools": "School of Medicine Dentistry and Nursing",
+      "network_authors": "Michelle Welsh; Ourania Varsou",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]; Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201; 0000-0002-7789-1185",
+      "network_schools": "School of Medicine Dentistry and Nursing; Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
     },
@@ -5608,6 +5776,34 @@
       "is_sotl": false
     },
     {
+      "title": "A Serious Game on Skull Anatomy for Dental Undergraduates",
+      "year": 2020,
+      "journal": "Advances in Experimental Medicine and Biology",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-030-43961-3_10",
+      "url": "https://doi.org/10.1007/978-3-030-43961-3_10",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "A marking of the cricothyroid membrane with extended neck returns to correct position after neck manipulation and repositioning",
+      "year": 2020,
+      "journal": "Acta Anaesthesiologica Scandinavica",
+      "type": "journal-article",
+      "doi": "10.1111/aas.13680",
+      "url": "https://doi.org/10.1111/aas.13680",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "A novel poly-ε-lysine based implant, Proliferate®, for promotion of CNS repair following spinal cord injury.",
       "year": 2020,
       "journal": "Biomaterials science",
@@ -5644,6 +5840,19 @@
       "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0001-9914-3199",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Arterial Anatomy of the Anterior Abdominal Wall: Ultrasound Evaluation as a Real-Time Guide to Percutaneous Instrumentation.",
+      "year": 2020,
+      "journal": "Clinical anatomy (New York, N.Y.)",
+      "type": "journal-article",
+      "doi": "10.1002/ca.23578",
+      "url": "https://doi.org/10.1002/ca.23578",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -5686,6 +5895,19 @@
       "is_sotl": false
     },
     {
+      "title": "Brain hyperintensities in magnetic resonance imaging of patients with mild acute focal neurology",
+      "year": 2020,
+      "journal": "Neurological Sciences",
+      "type": "journal-article",
+      "doi": "10.1007/s10072-020-04256-1",
+      "url": "https://doi.org/10.1007/s10072-020-04256-1",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "CRISPR Gene Editing of Murine Blood Stem and Progenitor Cells Induces MLL-AF9 Chromosomal Translocation and MLL-AF9 Leukaemogenesis.",
       "year": 2020,
       "journal": "International journal of molecular sciences",
@@ -5711,6 +5933,19 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Collect the Bones, Avoid the Cones: A Game-Based App for Public Engagement",
+      "year": 2020,
+      "journal": "Advances in Experimental Medicine and Biology",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-030-43961-3_9",
+      "url": "https://doi.org/10.1007/978-3-030-43961-3_9",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
     },
     {
       "title": "Coping amidst an assemblage of disadvantage: A qualitative metasynthesis of first‐person accounts of managing severe mental illness while homeless",
@@ -5778,6 +6013,20 @@
       "network_orcids": "0000-0002-2135-6888",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "Dissecting Art: Developing Object-Based Teaching Using Historical Collections.",
+      "year": 2020,
+      "journal": "Advances in experimental medicine and biology",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-030-31904-5_6",
+      "url": "https://doi.org/10.1007/978-3-030-31904-5_6",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "FGFR3 is a positive regulator of osteoblast expansion and differentiation during zebrafish skull vault development",
@@ -6044,6 +6293,19 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Scanning Conditions in Functional Connectivity Magnetic Resonance Imaging: How to Standardise Resting-State for Optimal Data Acquisition and Visualisation?",
+      "year": 2020,
+      "journal": "Advances in Experimental Medicine and Biology",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-030-37639-0_3",
+      "url": "https://doi.org/10.1007/978-3-030-37639-0_3",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Site-specific deacylation by ABHD17a controls BK channel splice variant activity",
       "year": 2020,
       "journal": "Journal of Biological Chemistry",
@@ -6143,6 +6405,19 @@
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Ultrasound Lumbar Spine Clinical Training Phantom: Which is the Best Embedding Medium?",
+      "year": 2020,
+      "journal": "Medical ultrasonography",
+      "type": "journal-article",
+      "doi": "10.11152/mu-2684",
+      "url": "https://doi.org/10.11152/mu-2684",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
     },
     {
       "title": "Understanding suicide risk in autistic adults:",
@@ -6260,6 +6535,19 @@
       "is_sotl": false
     },
     {
+      "title": "A qualitative literature review exploring the role of the inguinal ligament in the context of inguinal disruption management",
+      "year": 2019,
+      "journal": "Surgical and Radiologic Anatomy",
+      "type": "journal-article",
+      "doi": "10.1007/s00276-018-2170-6",
+      "url": "https://doi.org/10.1007/s00276-018-2170-6",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "A review of the application of hollow-fiber liquid-phase microextraction in bioanalytical methods – A systematic approach with focus on forensic toxicology",
       "year": 2019,
       "journal": "Journal of Chromatography B: Analytical Technologies in the Biomedical and Life Sciences",
@@ -6334,6 +6622,19 @@
       "network_authors_school": "Claire Donald [School of Infection & Immunity]",
       "network_orcids": "0000-0002-4370-0707",
       "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "Arterial Anatomy of the Anterior Abdominal Wall: Evidence-Based Safe Sites for Instrumentation based on Radiological Analysis of 100 Patients.",
+      "year": 2019,
+      "journal": "Clinical anatomy (New York, N.Y.)",
+      "type": "journal-article",
+      "doi": "10.1002/ca.23463",
+      "url": "https://doi.org/10.1002/ca.23463",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -6612,6 +6913,19 @@
       "is_sotl": false
     },
     {
+      "title": "Identifying variant anatomy during ultrasound-guided regional anaesthesia: opportunities for clinical improvement",
+      "year": 2019,
+      "journal": "British Journal of Anaesthesia",
+      "type": "journal-article",
+      "doi": "10.1016/j.bja.2019.02.003",
+      "url": "https://doi.org/https://doi.org/10.1016/j.bja.2019.02.003",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "In the face of intellectual disability",
       "year": 2019,
       "journal": "OSF Registries",
@@ -6850,6 +7164,18 @@
       "is_sotl": false
     },
     {
+      "title": "Sharps Injuries during Dissection: A Five‐year Retrospective Study in the Context of Safety",
+      "year": 2019,
+      "type": "journal-article",
+      "doi": "10.1002/ase.1894",
+      "url": "https://doi.org/10.1002/ase.1894",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Stakeholder perception of student employability: does the duration, type and location of work experience matter?",
       "year": 2019,
       "journal": "Higher Education",
@@ -6914,6 +7240,20 @@
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
       "is_sotl": false
+    },
+    {
+      "title": "The Use of Ultrasound in Educational Settings: What Should We Consider When Implementing this Technique for Visualisation of Anatomical Structures?",
+      "year": 2019,
+      "journal": "Advances in experimental medicine and biology",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-030-19385-0_1",
+      "url": "https://doi.org/10.1007/978-3-030-19385-0_1",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "The circadian clock components BMAL1 and REV-ERBα regulate flavivirus replication.",
@@ -7019,6 +7359,19 @@
       "network_authors_school": "Claire Donald [School of Infection & Immunity]",
       "network_orcids": "0000-0002-4370-0707",
       "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "3D printing the pterygopalatine fossa: a negative space model of a complex structure",
+      "year": 2018,
+      "journal": "Surgical and Radiologic Anatomy",
+      "type": "journal-article",
+      "doi": "10.1007/s00276-017-1916-x",
+      "url": "https://doi.org/10.1007/s00276-017-1916-x",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -7233,6 +7586,19 @@
       "is_sotl": false
     },
     {
+      "title": "Identifying the Emergence of the Superficial Peroneal Nerve through Deep Fascia on Ultrasound and by Dissection: Implications for Regional Anaesthesia in Foot and Ankle Surgery.",
+      "year": 2018,
+      "journal": "Clinical anatomy (New York, N.Y.)",
+      "type": "journal-article",
+      "doi": "10.1002/ca.23323",
+      "url": "https://doi.org/10.1002/ca.23323",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Illuminating the translocation stream",
       "year": 2018,
       "journal": "Current Opinion in Plant Biology",
@@ -7385,6 +7751,20 @@
       "network_orcids": "0000-0002-4370-0707",
       "network_schools": "School of Infection & Immunity",
       "is_sotl": false
+    },
+    {
+      "title": "Resin-embedded anatomical cross-sections as a teaching adjunct for medical curricula: is this technique an alternative to potting and plastination?",
+      "year": 2018,
+      "journal": "Journal of Anatomy",
+      "type": "journal-article",
+      "doi": "10.1111/joa.12816",
+      "url": "https://doi.org/10.1111/joa.12816",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Respiratory disease in the cat in the shelter environment",
@@ -8989,6 +9369,19 @@
       "is_sotl": false
     },
     {
+      "title": "Dying with dignity: Is this a universal concept?",
+      "year": 2014,
+      "journal": "Journal of Palliative Medicine",
+      "type": "journal-article",
+      "doi": "10.1089/jpm.2013.0340",
+      "url": "https://doi.org/10.1089/jpm.2013.0340",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Extracellular DNA release confers heterogeneity in Candida albicans biofilm formation",
       "year": 2014,
       "journal": "BMC Microbiology",
@@ -9024,6 +9417,19 @@
       "network_authors": "Tomoko Iwata",
       "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-9634-9738",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Functional connectivity magnetic resonance imaging in stroke: An evidence-based clinical review",
+      "year": 2014,
+      "journal": "International Journal of Stroke",
+      "type": "journal-article",
+      "doi": "10.1111/ijs.12033",
+      "url": "https://doi.org/10.1111/ijs.12033",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
@@ -9076,6 +9482,19 @@
       "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-3242-0806",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Stroke recovery and lesion reduction following acute isolated bilateral ischaemic pontine infarction: A case report",
+      "year": 2014,
+      "journal": "BMC Research Notes",
+      "type": "journal-article",
+      "doi": "10.1186/1756-0500-7-728",
+      "url": "https://doi.org/10.1186/1756-0500-7-728",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -10789,6 +11208,20 @@
       "network_orcids": "0000-0002-1959-8503",
       "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": false
+    },
+    {
+      "title": "Sharps injuries among medical students",
+      "year": 2009,
+      "journal": "Occupational Medicine",
+      "type": "journal-article",
+      "doi": "10.1093/occmed/kqp103",
+      "url": "https://doi.org/10.1093/occmed/kqp103",
+      "network_authors": "Ourania Varsou",
+      "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-7789-1185",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "The Added Value of Applied Health Psychology in NHS Ayrshire and Arran",
