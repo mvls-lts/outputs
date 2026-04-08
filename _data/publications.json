@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-05 04:38:24 UTC",
-  "n_authors": 66,
-  "n_publications": 961,
-  "n_sotl": 271,
+  "last_updated": "2026-04-08 07:32:43 UTC",
+  "n_authors": 67,
+  "n_publications": 963,
+  "n_sotl": 273,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -592,6 +592,14 @@
       "name": "Ourania Varsou",
       "school": "Scool of Medicine, Dentistry and Nursing",
       "display_name": "Ourania Varsou"
+    },
+    {
+      "orcid_id": "0000-0001-9284-5518",
+      "given_name": "Leah",
+      "family_name": "Marks",
+      "name": "Leah Martin",
+      "school": "School of Medicine Dentistry and Nursing",
+      "display_name": "Leah Martin"
     }
   ],
   "publications": [
@@ -6090,6 +6098,20 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Equipping Learners to Evaluate Online Health Care Resources: Longitudinal Study of Learning Design Strategies in a Health Care Massive Open Online Course",
+      "year": 2020,
+      "journal": "Journal of Medical Internet Research",
+      "type": "journal-article",
+      "doi": "10.2196/15177",
+      "url": "https://doi.org/10.2196/15177",
+      "network_authors": "Leah Marks",
+      "network_authors_school": "Leah Martin [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9284-5518",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "FGFR3 is a positive regulator of osteoblast expansion and differentiation during zebrafish skull vault development",
       "year": 2020,
       "type": "preprint",
@@ -6844,6 +6866,19 @@
       "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0003-0830-7915",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Equipping Learners to Evaluate Online Health Care Resources: Longitudinal Study of Learning Design Strategies in a Health Care Massive Open Online Course (Preprint)",
+      "year": 2019,
+      "type": "other",
+      "doi": "10.2196/preprints.15177",
+      "url": "https://doi.org/10.2196/preprints.15177",
+      "network_authors": "Leah Marks",
+      "network_authors_school": "Leah Martin [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9284-5518",
+      "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
