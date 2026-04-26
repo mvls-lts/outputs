@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-20 18:30:33 UTC",
+  "last_updated": "2026-04-26 04:54:29 UTC",
   "n_authors": 67,
-  "n_publications": 965,
-  "n_sotl": 275,
+  "n_publications": 967,
+  "n_sotl": 277,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -644,12 +644,24 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "Beyond Compliance: A Transferable and Scalable Framework for Introducing Equality, Diversity and Inclusion in Higher Education",
+      "title": "Beyond compliance: A transferable and scalable framework for introducing Equality, Diversity and Inclusion in higher education",
       "year": 2026,
       "journal": "Annals of Anatomy - Anatomischer Anzeiger",
       "type": "journal-article",
       "doi": "10.1016/j.aanat.2026.152840",
       "url": "https://doi.org/10.1016/j.aanat.2026.152840",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Beyond compliance: a transferable and scalable framework for introducing equality, diversity and inclusion in higher education",
+      "year": 2026,
+      "journal": "Annals of Anatomy = Anatomischer Anzeiger",
+      "type": "journal-article",
       "network_authors": "Michelle Welsh",
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0003-1469-0201",
@@ -996,6 +1008,17 @@
       "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-1959-8503",
       "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "The Human Library - learning how to unjudge",
+      "year": 2026,
+      "type": "conference-paper",
+      "network_authors": "Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
