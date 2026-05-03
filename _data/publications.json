@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-26 04:54:29 UTC",
+  "last_updated": "2026-05-03 05:25:15 UTC",
   "n_authors": 67,
-  "n_publications": 967,
+  "n_publications": 969,
   "n_sotl": 277,
   "authors": [
     {
@@ -644,6 +644,18 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Atendimento Arco-Íris: uma experiência de acolhimento lgbtq+ no ensino superior e seus potenciais para o contexto brasileiro",
+      "year": 2026,
+      "journal": "V Semana Internacional sobre Educação, Direitos Humanos, Diversidade Sexual e Gênero",
+      "type": "conference-paper",
+      "url": "https://osf.io/rd5fe/files/kgzfn",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Beyond compliance: A transferable and scalable framework for introducing Equality, Diversity and Inclusion in higher education",
       "year": 2026,
       "journal": "Annals of Anatomy - Anatomischer Anzeiger",
@@ -969,6 +981,16 @@
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Skills auditing, surfacing and signalling: embedding employability focussed activities in a Level 1 Life Sciences course",
+      "year": 2026,
+      "type": "conference-paper",
+      "network_authors": "Nicholas James Rudzik",
+      "network_authors_school": "Nicholas Rudzik [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0009-0005-8819-0826",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
     },
     {
       "title": "Strategy and Motivation, Rather Than Fatigue, Drive Age‐Related Differences in Sustained Attention Performance: Evidence for Decoupled Beta‐Band Oscillations",
