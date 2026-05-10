@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-03 05:25:15 UTC",
+  "last_updated": "2026-05-10 05:32:14 UTC",
   "n_authors": 67,
-  "n_publications": 969,
-  "n_sotl": 277,
+  "n_publications": 972,
+  "n_sotl": 279,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -830,6 +830,31 @@
       "is_sotl": false
     },
     {
+      "title": "How to… supervise open and efficient student research",
+      "year": 2026,
+      "type": "book-chapter",
+      "doi": "10.4337/9781035359066.00019",
+      "url": "https://doi.org/10.4337/9781035359066.00019",
+      "network_authors": "Emily Nordmann; Ashley Robertson",
+      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Ashley Robertson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-0806-1081; 0000-0001-9914-3199",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "How to… teach reproducible research",
+      "year": 2026,
+      "type": "book-chapter",
+      "doi": "10.4337/9781035359066.00011",
+      "url": "https://doi.org/10.4337/9781035359066.00011",
+      "network_authors": "James Bartlett; Helena Paterson; Gaby Mahrholz",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Helena Paterson [School of Psychology and Neuroscience]; Gaby Mahrholz [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-4191-5245; 0000-0001-7715-5973; 0000-0002-2135-6888",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Incorporating GenAI into critical appraisal undergraduate medical education summative coursework",
       "year": 2026,
       "journal": "NADEGS 2025",
@@ -954,6 +979,20 @@
       "network_orcids": "0000-0003-0148-0854",
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
+    },
+    {
+      "title": "Practice What You Preach: Designing Student Assignments That Advance Open and Reproducible Science",
+      "year": 2026,
+      "journal": "Advances in Methods and Practices in Psychological Science",
+      "type": "journal-article",
+      "doi": "10.1177/25152459261425883",
+      "url": "https://doi.org/10.1177/25152459261425883",
+      "network_authors": "Emily Nordmann; James Bartlett; Gaby Mahrholz",
+      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; James Bartlett [School of Psychology and Neuroscience]; Gaby Mahrholz [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-0806-1081; 0000-0002-4191-5245; 0000-0002-2135-6888",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Practice what you preach: Designing student assignments that advance open and reproducible science",
@@ -3769,7 +3808,7 @@
       "is_sotl": false
     },
     {
-      "title": "Low sulfated heparan sulfate mimetic differentially affects repair in immune-mediated and toxin-induced experimental models of demyelination.",
+      "title": "Low sulfated heparan sulfate mimetic differentially affects repair in immune‐mediated and toxin‐induced experimental models of demyelination",
       "year": 2023,
       "journal": "Glia",
       "type": "journal-article",
@@ -5945,12 +5984,12 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "A novel poly-ε-lysine based implant, Proliferate®, for promotion of CNS repair following spinal cord injury.",
+      "title": "A novel poly-ε-lysine based implant, Proliferate®, for promotion of CNS repair following spinal cord injury",
       "year": 2020,
-      "journal": "Biomaterials science",
+      "journal": "Biomaterials Science",
       "type": "journal-article",
       "doi": "10.1039/d0bm00097c",
-      "url": "https://doi.org/10.1039/d0bm00097c",
+      "url": "https://doi.org/10.1039/D0BM00097C",
       "network_authors": "Susan Lindsay",
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_orcids": "0000-0003-4241-4933",
@@ -6301,9 +6340,9 @@
       "is_sotl": false
     },
     {
-      "title": "Multi-target approaches to CNS repair: olfactory mucosa-derived cells and heparan sulfates.",
+      "title": "Multi-target approaches to CNS repair: olfactory mucosa-derived cells and heparan sulfates",
       "year": 2020,
-      "journal": "Nature reviews. Neurology",
+      "journal": "Nature Reviews Neurology",
       "type": "journal-article",
       "doi": "10.1038/s41582-020-0311-0",
       "url": "https://doi.org/10.1038/s41582-020-0311-0",
@@ -8471,7 +8510,7 @@
       "is_sotl": false
     },
     {
-      "title": "Human olfactory mesenchymal stromal cell transplants promote remyelination and earlier improvement in gait co-ordination after spinal cord injury.",
+      "title": "Human olfactory mesenchymal stromal cell transplants promote remyelination and earlier improvement in gait co‐ordination after spinal cord injury",
       "year": 2017,
       "journal": "Glia",
       "type": "journal-article",
