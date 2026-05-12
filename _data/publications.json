@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-10 05:32:14 UTC",
+  "last_updated": "2026-05-12 07:35:26 UTC",
   "n_authors": 67,
-  "n_publications": 972,
+  "n_publications": 973,
   "n_sotl": 279,
   "authors": [
     {
@@ -851,6 +851,16 @@
       "network_authors": "James Bartlett; Helena Paterson; Gaby Mahrholz",
       "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Helena Paterson [School of Psychology and Neuroscience]; Gaby Mahrholz [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-4191-5245; 0000-0001-7715-5973; 0000-0002-2135-6888",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "How to… teach reproducible research",
+      "year": 2026,
+      "type": "book-chapter",
+      "network_authors": "Helena Paterson",
+      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-7715-5973",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
