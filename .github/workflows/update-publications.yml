@@ -69,7 +69,7 @@ jobs:
             "ggplot2",
             "here",
             "readxl"
-          ), lib = lib, repos = "https://cloud.r-project.org", Ncpus = 2L)
+          ), lib = lib, dependencies = TRUE, Ncpus = 2L)
         shell: Rscript {0}
       
       - name: Fetch ORCID publications
