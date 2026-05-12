@@ -28,8 +28,7 @@ pubs <- pub_data$publications |>
       TRUE ~ title
     ),
     type_clean = str_to_title(str_replace_all(type, "-", " ")),
-    year = replace_na(year, 0),
-    sotl_label = if_else(is_sotl == TRUE, "SoTL", "Discpline-specific"),
+    sotl_label = if_else(is_sotl == TRUE, "SoTL", "Discipline-specific"),
     school_display = replace_na(network_schools, "—")
   )
 ```
@@ -110,7 +109,7 @@ uofg_blue <- "#003865"
 uofg_cobalt <- "#0075B0"
 
 year_counts <- pubs |>
-  filter(year > 0) |>
+  filter(!is.na(year)) |>
   count(year) |>
   arrange(year)
 

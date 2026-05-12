@@ -248,25 +248,33 @@ get_orcid_works <- function(orcid_id) {
   
   # Extract relevant fields from each work
   pubs <- map_dfr(works, function(work_group) {
-    # Get the preferred work summary (first one)
-    work <- work_group$`work-summary`[[1]]
-    
-    # Extract DOI if available
+    summaries <- work_group$`work-summary`
+    # Use first summary as the primary source for title, type, year, and url
+    work <- summaries[[1]]
+
+    # Extract DOI and journal — scan all summaries for the first non-NA value,
+    # since ORCID's preferred summary is not always the richest source
     doi <- NA_character_
-    external_ids <- work$`external-ids`$`external-id`
-    if (!is.null(external_ids)) {
-      doi_entry <- keep(external_ids, ~ .x$`external-id-type` == "doi")
-      if (length(doi_entry) > 0) {
-        doi <- doi_entry[[1]]$`external-id-value`
+    journal <- NA_character_
+    for (summary in summaries) {
+      if (is.na(doi)) {
+        external_ids <- summary$`external-ids`$`external-id`
+        if (!is.null(external_ids)) {
+          doi_entry <- keep(external_ids, ~ .x$`external-id-type` == "doi")
+          if (length(doi_entry) > 0) {
+            doi <- doi_entry[[1]]$`external-id-value`
+          }
+        }
       }
+      if (is.na(journal)) {
+        journal <- summary$`journal-title`$value %||% NA_character_
+      }
+      if (!is.na(doi) && !is.na(journal)) break
     }
-    
+
     # Extract publication year
     pub_year <- work$`publication-date`$year$value %||% NA_character_
-    
-    # Extract journal/container title
-    journal <- work$`journal-title`$value %||% NA_character_
-    
+
     tibble(
       orcid_id = orcid_id,
       put_code = work$`put-code`,
@@ -359,12 +367,21 @@ publications <- all_publications |>
 
 # ---- Deduplication / network-author aggregation ----
 
-# Normalise DOI first (helps matching)
+# Helper: normalise a title string for cross-stream fuzzy matching
+normalise_title <- function(x) {
+  x |>
+    str_to_lower() |>
+    str_replace_all("[[:punct:]]+", " ") |>
+    str_squish()
+}
+
+# Normalise DOI (strip URL prefix, lowercase, strip OSF version suffixes)
 publications2 <- publications |>
   mutate(
     doi = str_trim(doi),
     doi = str_to_lower(doi),
     doi = str_remove(doi, "^https?://(dx\\.)?doi\\.org/"),
+    doi = str_remove(doi, "_v\\d+$"),  # collapse OSF versioned DOIs (e.g. _v1, _v2, _v3)
     doi = na_if(doi, "")
   )
 
@@ -378,16 +395,14 @@ with_doi <- publications2 |>
     all_schools = paste(unique(school[!is.na(school) & school != ""]), collapse = "; ")
   ) |>
   ungroup() |>
-  distinct(doi, .keep_all = TRUE)
+  distinct(doi, .keep_all = TRUE) |>
+  mutate(title_key = normalise_title(title))
 
 no_doi <- publications2 |>
   filter(is.na(doi)) |>
   mutate(
-    title_key = title |>
-      str_to_lower() |>
-      str_replace_all("[[:punct:]]+", " ") |>
-      str_squish(),
-    journal_key = journal %||% "" |>
+    title_key = normalise_title(title),
+    journal_key = replace_na(journal, "") |>
       str_to_lower() |>
       str_replace_all("[[:punct:]]+", " ") |>
       str_squish(),
@@ -402,9 +417,57 @@ no_doi <- publications2 |>
   ) |>
   ungroup() |>
   distinct(merge_key, .keep_all = TRUE) |>
-  select(-title_key, -journal_key, -merge_key)
+  select(-journal_key, -merge_key)
 
-publications_deduped <- bind_rows(with_doi, no_doi) |>
+# Title + year fallback: attach no-DOI rows to DOI rows where title and year match.
+# This catches cases where one author's record has a DOI and another's does not.
+no_doi_matched   <- no_doi |> semi_join(with_doi, by = c("title_key", "year"))
+no_doi_unmatched <- no_doi |> anti_join(with_doi, by = c("title_key", "year"))
+
+if (nrow(no_doi_matched) > 0) {
+  message(glue("  Merging {nrow(no_doi_matched)} no-DOI row(s) into DOI rows via title+year match"))
+
+  extra <- no_doi_matched |>
+    group_by(title_key, year) |>
+    summarise(
+      extra_authors        = paste(unique(all_authors[all_authors != ""]),             collapse = "; "),
+      extra_authors_school = paste(unique(all_authors_with_school[all_authors_with_school != ""]), collapse = "; "),
+      extra_orcids         = paste(unique(all_orcids[all_orcids != ""]),               collapse = "; "),
+      extra_schools        = paste(unique(all_schools[!is.na(all_schools) & all_schools != ""]), collapse = "; "),
+      .groups = "drop"
+    )
+
+  with_doi <- with_doi |>
+    left_join(extra, by = c("title_key", "year")) |>
+    mutate(
+      all_authors = case_when(
+        !is.na(extra_authors) & extra_authors != "" ~
+          paste(all_authors, extra_authors, sep = "; "),
+        TRUE ~ all_authors
+      ),
+      all_authors_with_school = case_when(
+        !is.na(extra_authors_school) & extra_authors_school != "" ~
+          paste(all_authors_with_school, extra_authors_school, sep = "; "),
+        TRUE ~ all_authors_with_school
+      ),
+      all_orcids = case_when(
+        !is.na(extra_orcids) & extra_orcids != "" ~
+          paste(all_orcids, extra_orcids, sep = "; "),
+        TRUE ~ all_orcids
+      ),
+      all_schools = case_when(
+        !is.na(extra_schools) & extra_schools != "" ~
+          paste(all_schools, extra_schools, sep = "; "),
+        TRUE ~ all_schools
+      )
+    ) |>
+    select(-starts_with("extra_"))
+}
+
+publications_deduped <- bind_rows(
+    with_doi        |> select(-title_key),
+    no_doi_unmatched |> select(-title_key)
+  ) |>
   select(
     title,
     year,
@@ -419,6 +482,36 @@ publications_deduped <- bind_rows(with_doi, no_doi) |>
   ) |>
   arrange(desc(year), title) |>
   filter(!is.na(title), title != "")
+
+# ---- Preprint suppression ----
+# When a non-preprint row exists with the same normalised title, suppress the preprint.
+# This handles the common case of a paper appearing as both a preprint and a journal article.
+
+publications_deduped <- publications_deduped |>
+  mutate(title_key = normalise_title(title))
+
+titles_with_published_version <- publications_deduped |>
+  filter(!str_detect(tolower(coalesce(type, "")), "preprint")) |>
+  pull(title_key) |>
+  unique()
+
+n_suppressed <- publications_deduped |>
+  filter(
+    str_detect(tolower(coalesce(type, "")), "preprint"),
+    title_key %in% titles_with_published_version
+  ) |>
+  nrow()
+
+publications_deduped <- publications_deduped |>
+  filter(!(
+    str_detect(tolower(coalesce(type, "")), "preprint") &
+    title_key %in% titles_with_published_version
+  )) |>
+  select(-title_key)
+
+if (n_suppressed > 0) {
+  message(glue("  Suppressed {n_suppressed} preprint(s) superseded by a published version"))
+}
 
 
 message(glue("\nDeduplicated publications: {nrow(publications_deduped)}"))
