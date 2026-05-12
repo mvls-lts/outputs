@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-12 07:35:26 UTC",
+  "last_updated": "2026-05-12 20:41:09 UTC",
   "n_authors": 67,
-  "n_publications": 973,
-  "n_sotl": 279,
+  "n_publications": 934,
+  "n_sotl": 256,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -662,22 +662,10 @@
       "type": "journal-article",
       "doi": "10.1016/j.aanat.2026.152840",
       "url": "https://doi.org/10.1016/j.aanat.2026.152840",
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0003-1469-0201",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Beyond compliance: a transferable and scalable framework for introducing equality, diversity and inclusion in higher education",
-      "year": 2026,
-      "journal": "Annals of Anatomy = Anatomischer Anzeiger",
-      "type": "journal-article",
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0003-1469-0201",
-      "network_schools": "School of Medicine Dentistry and Nursing",
+      "network_authors": "Michelle Welsh; Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]; Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201; 0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing; School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -688,22 +676,10 @@
       "type": "journal-article",
       "doi": "10.1111/medu.70216",
       "url": "https://doi.org/10.1111/medu.70216",
-      "network_authors": "Lynsay Crawford; Lindsey Pope",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]; Lindsey Pope [School of Health and Wellbeing]",
-      "network_orcids": "0000-0003-0148-0854; 0000-0003-0899-9616",
-      "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing",
-      "is_sotl": true,
-      "sotl_matched_on": "journal"
-    },
-    {
-      "title": "Beyond the myths: epistemic justice in curriculum contestation",
-      "year": 2026,
-      "journal": "Medical Education",
-      "type": "journal-article",
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_orcids": "0000-0003-0148-0854",
-      "network_schools": "School of Health & Wellbeing",
+      "network_authors": "Lynsay Crawford; Lindsey Pope; Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]; Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854; 0000-0003-0899-9616; 0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing; School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
     },
@@ -771,7 +747,7 @@
       "title": "Embedding Reproducibility and Replicability in a Regression Modelling Assessment",
       "year": 2026,
       "type": "preprint",
-      "doi": "10.31219/osf.io/nce4y_v4",
+      "doi": "10.31219/osf.io/nce4y",
       "url": "https://doi.org/10.31219/osf.io/nce4y_v4",
       "network_authors": "James Bartlett",
       "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
@@ -848,20 +824,10 @@
       "type": "book-chapter",
       "doi": "10.4337/9781035359066.00011",
       "url": "https://doi.org/10.4337/9781035359066.00011",
-      "network_authors": "James Bartlett; Helena Paterson; Gaby Mahrholz",
-      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Helena Paterson [School of Psychology and Neuroscience]; Gaby Mahrholz [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-4191-5245; 0000-0001-7715-5973; 0000-0002-2135-6888",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
-      "title": "How to… teach reproducible research",
-      "year": 2026,
-      "type": "book-chapter",
-      "network_authors": "Helena Paterson",
-      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-7715-5973",
-      "network_schools": "School of Psychology and Neuroscience",
+      "network_authors": "James Bartlett; Helena Paterson; Gaby Mahrholz; Helena Paterson",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Helena Paterson [School of Psychology and Neuroscience]; Gaby Mahrholz [School of Psychology and Neuroscience]; Helena Paterson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-4191-5245; 0000-0001-7715-5973; 0000-0002-2135-6888; 0000-0001-7715-5973",
+      "network_schools": "School of Psychology and Neuroscience; School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -924,22 +890,10 @@
       "type": "journal-article",
       "doi": "10.1186/s12915-026-02522-w",
       "url": "https://doi.org/10.1186/s12915-026-02522-w",
-      "network_authors": "Marika Salonna",
-      "network_authors_school": "Marika Salonna [School of Molecular Biosciences]",
-      "network_orcids": "0000-0003-3771-8713",
-      "network_schools": "School of Molecular Biosciences",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Long-read sequencing reveals increased isoform diversity in key transcription factor effectors of intercellular signalling at the invertebrate-vertebrate transition",
-      "year": 2026,
-      "journal": "BMC Biology",
-      "type": "journal-article",
-      "network_authors": "Marika Salonna",
-      "network_authors_school": "Marika Salonna [School of Molecular Biosciences]",
-      "network_orcids": "0000-0003-3771-8713",
-      "network_schools": "School of Molecular Biosciences",
+      "network_authors": "Marika Salonna; Marika Salonna",
+      "network_authors_school": "Marika Salonna [School of Molecular Biosciences]; Marika Salonna [School of Molecular Biosciences]",
+      "network_orcids": "0000-0003-3771-8713; 0000-0003-3771-8713",
+      "network_schools": "School of Molecular Biosciences; School of Molecular Biosciences",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -958,7 +912,7 @@
       "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
       "year": 2026,
       "type": "preprint",
-      "doi": "10.35542/osf.io/wc49t_v1",
+      "doi": "10.35542/osf.io/wc49t",
       "url": "https://doi.org/10.35542/osf.io/wc49t_v1",
       "network_authors": "Sue Campbell; Tomoko Iwata; Rafael Venson",
       "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]; Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
@@ -991,6 +945,19 @@
       "is_sotl": false
     },
     {
+      "title": "Peer review report for: “Implementation of Motivational Interviewing as a Personalised Behaviour Change Counselling Approach for Disease Control in South African Primary Health Care”",
+      "year": 2026,
+      "journal": "F1000Research",
+      "type": "review",
+      "doi": "10.5256/f1000research.196694.r479515",
+      "url": "https://doi.org/10.5256/f1000research.196694.r479515",
+      "network_authors": "Dougie Marks",
+      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0009-0002-4183-600X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Practice What You Preach: Designing Student Assignments That Advance Open and Reproducible Science",
       "year": 2026,
       "journal": "Advances in Methods and Practices in Psychological Science",
@@ -1000,19 +967,6 @@
       "network_authors": "Emily Nordmann; James Bartlett; Gaby Mahrholz",
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; James Bartlett [School of Psychology and Neuroscience]; Gaby Mahrholz [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081; 0000-0002-4191-5245; 0000-0002-2135-6888",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Practice what you preach: Designing student assignments that advance open and reproducible science",
-      "year": 2026,
-      "type": "preprint",
-      "doi": "10.31219/osf.io/jb72d_v3",
-      "url": "https://doi.org/10.31219/osf.io/jb72d_v3",
-      "network_authors": "Emily Nordmann; James Bartlett",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; James Bartlett [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081; 0000-0002-4191-5245",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
@@ -1186,21 +1140,10 @@
       "type": "journal-article",
       "doi": "10.1111/papt.12597",
       "url": "https://doi.org/10.1111/papt.12597",
-      "network_authors": "Judith Stevenson",
-      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-6222-354X",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
-      "title": "A qualitative study exploring the role of perfectionism in trichotillomania",
-      "year": 2025,
-      "journal": "Psychology and Psychotherapy: Theory, Research and Practice",
-      "type": "journal-article",
-      "network_authors": "Judith Stevenson",
-      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-6222-354X",
-      "network_schools": "School of Psychology and Neuroscience",
+      "network_authors": "Judith Stevenson; Judith Stevenson",
+      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]; Judith Stevenson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-6222-354X; 0000-0001-6222-354X",
+      "network_schools": "School of Psychology and Neuroscience; School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -1235,18 +1178,6 @@
       "type": "journal-article",
       "doi": "10.1371/journal.pone.0324694",
       "url": "https://doi.org/10.1371/journal.pone.0324694",
-      "network_authors": "Simon Hanzal",
-      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0003-2659-1980",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
-      "title": "Age differences in motivation drive performance during the sustained attention to response task",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.1101/2025.05.02.651857",
-      "url": "https://doi.org/10.1101/2025.05.02.651857",
       "network_authors": "Simon Hanzal",
       "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0003-2659-1980",
@@ -1375,22 +1306,10 @@
       "type": "journal-article",
       "doi": "10.1177/08919887251407122",
       "url": "https://doi.org/10.1177/08919887251407122",
-      "network_authors": "David Grinter",
-      "network_authors_school": "David Grinter [School of Health and Wellbeing]",
-      "network_orcids": "0009-0003-8135-3114",
-      "network_schools": "School of Health and Wellbeing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Clinician and Client Reports of the Negative Effects of Neuropsychological Assessment for Dementia",
-      "year": 2025,
-      "journal": "Journal of Geriatric Psychiatry and Neurology",
-      "type": "journal-article",
-      "network_authors": "David Grinter",
-      "network_authors_school": "David Grinter [School of Health and Wellbeing]",
-      "network_orcids": "0009-0003-8135-3114",
-      "network_schools": "School of Health and Wellbeing",
+      "network_authors": "David Grinter; David Grinter",
+      "network_authors_school": "David Grinter [School of Health and Wellbeing]; David Grinter [School of Health and Wellbeing]",
+      "network_orcids": "0009-0003-8135-3114; 0009-0003-8135-3114",
+      "network_schools": "School of Health and Wellbeing; School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1647,7 +1566,7 @@
       "title": "Exploring Aromantic People's Sense of Belonging to the Queer Community",
       "year": 2025,
       "type": "preprint",
-      "doi": "10.31219/osf.io/4gcw6_v1",
+      "doi": "10.31219/osf.io/4gcw6",
       "url": "https://doi.org/10.31219/osf.io/4gcw6_v1",
       "network_authors": "Emily Nordmann",
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
@@ -1742,31 +1661,6 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "How to teach reproducible research",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/g5ehx_v1",
-      "url": "https://doi.org/10.31234/osf.io/g5ehx_v1",
-      "network_authors": "Helena Paterson",
-      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-7715-5973",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
-      "title": "How to…supervise open and efficient student research",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/pj56r_v1",
-      "url": "https://doi.org/10.31234/osf.io/pj56r_v1",
-      "network_authors": "Emily Nordmann; Ashley Robertson",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Ashley Robertson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081; 0000-0001-9914-3199",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
       "title": "Implementing, adapting, and evaluating an open online course to safely foster global understanding of suicide",
       "year": 2025,
       "journal": "Journal of Perspectives in Applied Academic Practice",
@@ -1835,32 +1729,8 @@
       "title": "Investigating recollection and false memory after alcohol-induced blackouts in sober young adults",
       "year": 2025,
       "type": "preprint",
-      "doi": "10.31234/osf.io/fph62_v3",
+      "doi": "10.31234/osf.io/fph62",
       "url": "https://doi.org/10.31234/osf.io/fph62_v3",
-      "network_authors": "Judith Jackson",
-      "network_authors_school": "Judith Jackson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0003-1865-1875",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
-      "title": "Investigating recollection and false memory after alcohol-induced blackouts in sober young adults",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/fph62_v2",
-      "url": "https://doi.org/10.31234/osf.io/fph62_v2",
-      "network_authors": "Judith Jackson",
-      "network_authors_school": "Judith Jackson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0003-1865-1875",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
-      "title": "Investigating recollection and false memory after alcohol-induced blackouts in sober young adults",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/fph62_v1",
-      "url": "https://doi.org/10.31234/osf.io/fph62_v1",
       "network_authors": "Judith Jackson",
       "network_authors_school": "Judith Jackson [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0003-1865-1875",
@@ -1885,7 +1755,7 @@
       "title": "Investigating the relationship between emotion regulation and perfectionism in university students",
       "year": 2025,
       "type": "preprint",
-      "doi": "10.31234/osf.io/68hts_v1",
+      "doi": "10.31234/osf.io/68hts",
       "url": "https://doi.org/10.31234/osf.io/68hts_v1",
       "network_authors": "Carolina Kuepper-Tetzel",
       "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
@@ -1909,19 +1779,6 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "Lecture capture as Universal Design for Learning: A post-pandemic scoping review",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/agxbj_v1",
-      "url": "https://doi.org/10.35542/osf.io/agxbj_v1",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
       "title": "Letter to the editor of the Brit J Clin Pharmacol on Hartjes et al. 2025 https://doi.org/10.1002/bcp.70176",
       "year": 2025,
       "journal": "British Journal of Clinical Pharmacology",
@@ -1933,32 +1790,6 @@
       "network_orcids": "0000-0002-1959-8503",
       "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": false
-    },
-    {
-      "title": "LinkedIn to Get In: embedding learning activities to support student career development through online professional networking",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.1099/acmi.0.001125.v2",
-      "url": "https://doi.org/10.1099/acmi.0.001125.v2",
-      "network_authors": "Anna McGregor; Leighann Sherry",
-      "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]; Leighann Sherry [School of Infection & Immunity]",
-      "network_orcids": "0000-0001-8910-6490; 0000-0002-0493-6135",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Infection & Immunity",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "LinkedIn to Get In: embedding learning activities to support student career development through online professional networking",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.1099/acmi.0.001125.v1",
-      "url": "https://doi.org/10.1099/acmi.0.001125.v1",
-      "network_authors": "Anna McGregor; Leighann Sherry",
-      "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]; Leighann Sherry [School of Infection & Immunity]",
-      "network_orcids": "0000-0001-8910-6490; 0000-0002-0493-6135",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Infection & Immunity",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "MVLS GAINEd Advisory on UofG GenAI Assessment Scenarios",
@@ -2118,32 +1949,6 @@
       "is_sotl": false
     },
     {
-      "title": "Practice what you preach: Designing student assignments that advance open and reproducible science",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.31219/osf.io/jb72d_v2",
-      "url": "https://doi.org/10.31219/osf.io/jb72d_v2",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Practice what you preach: Designing student assignments that advance open and reproducible science",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.31219/osf.io/jb72d_v1",
-      "url": "https://doi.org/10.31219/osf.io/jb72d_v1",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
       "title": "Reducing stigma and discrimination: A case study of a ‘Human Library' Reading event",
       "year": 2025,
       "journal": "Equity in Education & Society",
@@ -2230,18 +2035,6 @@
       "network_authors_school": "Sarah Berger [School of Molecular Biosciences]",
       "network_orcids": "0009-0007-3998-9329",
       "network_schools": "School of Molecular Biosciences",
-      "is_sotl": false
-    },
-    {
-      "title": "Strategy and motivation, rather than fatigue, drive age-related differences in sustained attention performance: Evidence for decoupled beta-band oscillations",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.22541/au.176595496.69565583/v1",
-      "url": "https://doi.org/10.22541/au.176595496.69565583/v1",
-      "network_authors": "Simon Hanzal",
-      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0003-2659-1980",
-      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -2364,35 +2157,12 @@
       "title": "The uncanny valley of familiarly unfamiliar voices: challenges in replicating the Mere Exposure Effect with voices",
       "year": 2025,
       "type": "preprint",
-      "doi": "10.31234/osf.io/8rmvf_v3",
+      "doi": "10.31234/osf.io/8rmvf",
       "url": "https://doi.org/10.31234/osf.io/8rmvf_v3",
-      "network_authors": "Helena Paterson",
-      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-7715-5973",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
-      "title": "The uncanny valley of familiarly unfamiliar voices: challenges in replicating the Mere Exposure Effect with voices",
-      "year": 2025,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/8rmvf_v1",
-      "url": "https://doi.org/10.31234/osf.io/8rmvf_v1",
-      "network_authors": "Helena Paterson",
-      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-7715-5973",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
-      "title": "The uncanny valley of familiarly unfamiliar voices: challenges in replicating the Mere Exposure Effect with voices",
-      "year": 2025,
-      "journal": "PsyArXiv",
-      "type": "journal-article",
-      "network_authors": "Helena Paterson",
-      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-7715-5973",
-      "network_schools": "School of Psychology and Neuroscience",
+      "network_authors": "Helena Paterson; Helena Paterson",
+      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]; Helena Paterson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-7715-5973; 0000-0001-7715-5973",
+      "network_schools": "School of Psychology and Neuroscience; School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -2554,6 +2324,7 @@
     {
       "title": "3D-Printed Vulva: An Educational Tool for Adolescents",
       "year": 2024,
+      "journal": "Biomedical Visualization",
       "type": "book-chapter",
       "doi": "10.1007/978-3-031-73270-6_8",
       "url": "https://doi.org/10.1007/978-3-031-73270-6_8",
@@ -2652,22 +2423,10 @@
       "type": "preprint",
       "doi": "10.35542/osf.io/f9r5k",
       "url": "https://doi.org/10.35542/osf.io/f9r5k",
-      "network_authors": "Emily Nordmann; Rafael Venson",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_orcids": "0000-0002-0806-1081; 0000-0002-1959-8503",
-      "network_schools": "School of Psychology and Neuroscience; School of Medicine, Dentistry and Nursing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Category is… staff and student experiences of Rainbow Office Hours",
-      "year": 2024,
-      "journal": "AdvanceHE EDI Colloquium 2024",
-      "type": "conference-abstract",
-      "network_authors": "Rafael Venson",
-      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_orcids": "0000-0002-1959-8503",
-      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "network_authors": "Emily Nordmann; Rafael Venson; Rafael Venson",
+      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]; Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-0806-1081; 0000-0002-1959-8503; 0000-0002-1959-8503",
+      "network_schools": "School of Psychology and Neuroscience; School of Medicine, Dentistry and Nursing; School of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -2775,22 +2534,10 @@
       "type": "journal-article",
       "doi": "10.1177/10731911241262140",
       "url": "https://doi.org/10.1177/10731911241262140",
-      "network_authors": "Judith Stevenson",
-      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-6222-354X",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Developing and evaluating a situated assessment instrument for trichotillomania: The SAM2 TAI",
-      "year": 2024,
-      "journal": "Assessment",
-      "type": "journal-article",
-      "network_authors": "Judith Stevenson",
-      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-6222-354X",
-      "network_schools": "School of Psychology and Neuroscience",
+      "network_authors": "Judith Stevenson; Judith Stevenson",
+      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]; Judith Stevenson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-6222-354X; 0000-0001-6222-354X",
+      "network_schools": "School of Psychology and Neuroscience; School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -2912,19 +2659,6 @@
       "network_orcids": "0000-0002-1959-8503",
       "network_schools": "School of Medicine, Dentistry and Nursing",
       "is_sotl": false
-    },
-    {
-      "title": "How do higher education staff understand the terms hybrid, hyflex, and blended learning? Choice, modality, and uncertainty.",
-      "year": 2024,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/fjkq8",
-      "url": "https://doi.org/10.35542/osf.io/fjkq8",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "How to Evaluate Your Teaching Practice",
@@ -3181,19 +2915,6 @@
       "is_sotl": false
     },
     {
-      "title": "Student Experiences of Decolonised Psychology Curricula",
-      "year": 2024,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/ujcph",
-      "url": "https://doi.org/10.35542/osf.io/ujcph",
-      "network_authors": "Zayba Ghazali-Mohammed",
-      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0003-2975-5581",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
       "title": "Taking Steps To Initiate the Decolonisation of the Global Mental Health MSc",
       "year": 2024,
       "journal": "The University of Glasgow Decolonising the Curriculum Community of Practice",
@@ -3385,19 +3106,6 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "journal"
-    },
-    {
-      "title": "“The best year” / “I struggled with everything”: Widening participation experiences of pandemic online learning",
-      "year": 2024,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/5bphj",
-      "url": "https://doi.org/10.35542/osf.io/5bphj",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "\"DECOLONISING THE CURRICULUM\": REPORTING BACK ON GLOBAL MENTAL HEALTH INITIATIVES",
@@ -3939,18 +3647,6 @@
       "is_sotl": false
     },
     {
-      "title": "Probing sustained attention and fatigue across the lifespan",
-      "year": 2023,
-      "type": "preprint",
-      "doi": "10.1101/2023.09.27.559839",
-      "url": "https://doi.org/10.1101/2023.09.27.559839",
-      "network_authors": "Simon Hanzal",
-      "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0003-2659-1980",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
       "title": "Prostate cancer screening: well intentioned initiatives may use up resources but not improve health outcomes",
       "year": 2023,
       "journal": "BMJ",
@@ -4231,20 +3927,6 @@
       "network_orcids": "0000-0001-8756-6848",
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
-    },
-    {
-      "title": "“It was building a plane as we were flying it!” Adapting teaching through a crisis: Lessons from educational leadership staff in Higher Education",
-      "year": 2023,
-      "journal": "EdArXiv",
-      "type": "preprint",
-      "doi": "10.35542/osf.io/qkg87",
-      "url": "https://doi.org/10.35542/osf.io/qkg87",
-      "network_authors": "Zayba Ghazali-Mohammed",
-      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0003-2975-5581",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "“Recovery is fearful to me...”: Conceptualizations, concerns and hopes about personal recovery in adults who are chronically homeless",
@@ -4558,18 +4240,6 @@
       "is_sotl": false
     },
     {
-      "title": "Fate mapping melanoma persister cells through regression and into recurrent disease in adult zebrafish",
-      "year": 2022,
-      "type": "preprint",
-      "doi": "10.1101/2022.03.17.484741",
-      "url": "https://doi.org/10.1101/2022.03.17.484741",
-      "network_authors": "Alessandro Brombin",
-      "network_authors_school": "Alessandro Brombin [MVLS Graduate School]",
-      "network_orcids": "0000-0001-8262-9248",
-      "network_schools": "MVLS Graduate School",
-      "is_sotl": false
-    },
-    {
       "title": "GP trainee prescribing assessment – a qualitative evaluation of the involvement of pharmacists",
       "year": 2022,
       "journal": "Education for Primary Care",
@@ -4681,10 +4351,10 @@
       "type": "journal-article",
       "doi": "10.3138/jvme-2020-0052",
       "url": "https://doi.org/10.3138/jvme-2020-0052",
-      "network_authors": "Alison Reid",
-      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_orcids": "0000-0001-9734-2143",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "network_authors": "Alison Reid; Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]; Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143; 0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "journal"
     },
@@ -4699,18 +4369,6 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "journal"
-    },
-    {
-      "title": "Lecture capture: friend or foe?",
-      "year": 2022,
-      "journal": "Journal of Veterinary Medical Education",
-      "type": "journal-article",
-      "network_authors": "Alison Reid",
-      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_orcids": "0000-0001-9734-2143",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "journal"
     },
@@ -5034,10 +4692,10 @@
       "type": "journal-article",
       "doi": "10.1080/14739879.2022.2129460",
       "url": "https://doi.org/10.1080/14739879.2022.2129460",
-      "network_authors": "Lindsey Pope",
-      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
-      "network_orcids": "0000-0003-0899-9616",
-      "network_schools": "School of Health and Wellbeing",
+      "network_authors": "Lindsey Pope; Lynsay Crawford",
+      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0899-9616; 0000-0003-0148-0854",
+      "network_schools": "School of Health and Wellbeing; School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -5053,18 +4711,6 @@
       "network_orcids": "0000-0003-4143-4430",
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
-    },
-    {
-      "title": "“I wouldn’t know what to do with the breasts”: the impact of patient gender on medical student confidence and comfort in clinical skills",
-      "year": 2022,
-      "journal": "Education for Primary Care",
-      "type": "journal-article",
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_orcids": "0000-0003-0148-0854",
-      "network_schools": "School of Health & Wellbeing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "“You cannot pour from an empty cup!”: child well-being service providers’ and policymakers’ professional supervision, coping and well-being during COVID-19",
@@ -5508,23 +5154,10 @@
       "type": "journal-article",
       "doi": "10.14297/jpaap.v9i2.488",
       "url": "https://doi.org/10.14297/jpaap.v9i2.488",
-      "network_authors": "Sue Campbell",
-      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]",
-      "network_orcids": "0000-0003-3098-156X",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Lessons learned from early adopters of blended and online learning",
-      "year": 2021,
-      "journal": "Journal of Perspectives in Applied Academic Practice",
-      "type": "journal-article",
-      "url": "https://jpaap.ac.uk/JPAAP/article/view/488",
-      "network_authors": "Samantha Fontaine",
-      "network_authors_school": "Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]",
-      "network_orcids": "0000-0002-0240-707X",
-      "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
+      "network_authors": "Sue Campbell; Samantha Fontaine",
+      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0003-3098-156X; 0000-0002-0240-707X",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing; School of Biodiversity One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -5886,18 +5519,6 @@
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Watch Party Lectures: Synchronous Delivery of Asynchronous Material",
-      "year": 2021,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/ys4jn",
-      "url": "https://doi.org/10.31234/osf.io/ys4jn",
-      "network_authors": "Emily Nordmann; Carolina Kuepper-Tetzel",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081; 0000-0003-0830-7915",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
     },
     {
       "title": "Watch party lectures: synchronous delivery of asynchronous material",
@@ -6322,19 +5943,6 @@
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
-    },
-    {
-      "title": "Lights, camera, active! Appreciation of active learning predicts positive attitudes towards lecture capture",
-      "year": 2020,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/2jgcs",
-      "url": "https://doi.org/10.31234/osf.io/2jgcs",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "Monitoring of urothelial cancer disease status after treatment by digital droplet PCR liquid biopsy assays",
@@ -7278,18 +6886,6 @@
       "is_sotl": false
     },
     {
-      "title": "Pathogen disgust predicts stigmatization of individuals with mental health conditions",
-      "year": 2019,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/skf93",
-      "url": "https://doi.org/10.31234/osf.io/skf93",
-      "network_authors": "Judith Stevenson; Eugene Dawydiak",
-      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]; Eugene Dawydiak [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-6222-354X; 0000-0002-4777-1326",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
-    },
-    {
       "title": "Peripubertal GnRH and testosterone co-treatment leads to increased familiarity preferences in male sheep",
       "year": 2019,
       "journal": "Psychoneuroendocrinology",
@@ -7383,6 +6979,7 @@
     {
       "title": "Sharps Injuries during Dissection: A Five‐year Retrospective Study in the Context of Safety",
       "year": 2019,
+      "journal": "Anatomical Sciences Education",
       "type": "journal-article",
       "doi": "10.1002/ase.1894",
       "url": "https://doi.org/10.1002/ase.1894",
@@ -7390,7 +6987,8 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-7789-1185",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "is_sotl": false
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
     },
     {
       "title": "Stakeholder perception of student employability: does the duration, type and location of work experience matter?",
@@ -7893,41 +7491,16 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "Lecture capture: Practical recommendations for students and instructors",
-      "year": 2018,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/sd7u4",
-      "url": "https://doi.org/10.31234/osf.io/sd7u4",
-      "network_authors": "Emily Nordmann; Carolina Kuepper-Tetzel",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081; 0000-0003-0830-7915",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
       "title": "Outcomes, experiences and palliative care in major stroke: A multicentre, mixed-method, longitudinal study",
       "year": 2018,
       "journal": "CMAJ",
       "type": "journal-article",
       "doi": "10.1503/cmaj.170604",
       "url": "https://doi.org/10.1503/cmaj.170604",
-      "network_authors": "Eileen Cowey",
-      "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0001-9241-9500",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "is_sotl": false
-    },
-    {
-      "title": "Outcomes, experiences and palliative care in major stroke: A multicentre, mixed-method, longitudinal study.",
-      "year": 2018,
-      "journal": "Canadian Medical Association Journal",
-      "type": "journal-article",
-      "url": "http://www.cmaj.ca/content/190/9/E238",
-      "network_authors": "Eileen Cowey",
-      "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0001-9241-9500",
-      "network_schools": "School of Medicine Dentistry and Nursing",
+      "network_authors": "Eileen Cowey; Eileen Cowey",
+      "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]; Eileen Cowey [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9241-9500; 0000-0001-9241-9500",
+      "network_schools": "School of Medicine Dentistry and Nursing; School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -8032,19 +7605,6 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-4496-6141; 0000-0001-8756-6848",
       "network_schools": "School of Health & Wellbeing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Stakeholder perception of student employability: Does the duration, type and location of work experience matter?",
-      "year": 2018,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/htd8r",
-      "url": "https://doi.org/10.31234/osf.io/htd8r",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
-      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -9358,6 +8918,7 @@
     {
       "title": "Putting the squeeze on PDs - a role for RETICULONS in primary plasmodesmata formation.",
       "year": 2015,
+      "journal": "Plant Physiology",
       "type": "journal-article",
       "doi": "10.1104/pp.15.00668",
       "url": "https://doi.org/10.1104/pp.15.00668",
@@ -10090,6 +9651,7 @@
     {
       "title": "The relationship between sensory sensitivity and autistic traits in the general population",
       "year": 2013,
+      "journal": "Journal of Autism and Developmental Disorders",
       "type": "journal-article",
       "doi": "10.1007/s10803-012-1608-7",
       "url": "https://doi.org/10.1007/s10803-012-1608-7",
@@ -10404,21 +9966,10 @@
       "type": "journal-article",
       "doi": "10.7748/ns.26.27.42.s55",
       "url": "https://doi.org/10.7748/ns.26.27.42.s55",
-      "network_authors": "Eileen Cowey",
-      "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0001-9241-9500",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "is_sotl": false
-    },
-    {
-      "title": "End of life care for patients following acute stroke.",
-      "year": 2012,
-      "type": "journal-article",
-      "url": "http://europepmc.org/abstract/med/22482175",
-      "network_authors": "Eileen Cowey",
-      "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0001-9241-9500",
-      "network_schools": "School of Medicine Dentistry and Nursing",
+      "network_authors": "Eileen Cowey; Eileen Cowey",
+      "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]; Eileen Cowey [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0001-9241-9500; 0000-0001-9241-9500",
+      "network_schools": "School of Medicine Dentistry and Nursing; School of Medicine Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -11730,22 +11281,10 @@
       "type": "journal-article",
       "doi": "10.1097/01.hcr.0000265037.31780.af",
       "url": "https://doi.org/10.1097/01.hcr.0000265037.31780.af",
-      "network_authors": "Laura Sharp",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
-      "network_orcids": "0000-0003-4496-6141",
-      "network_schools": "School of Health & Wellbeing",
-      "is_sotl": false
-    },
-    {
-      "title": "Outcome evaluation of brief psychosocial training for cardiac rehabilitation staff",
-      "year": 2007,
-      "journal": "Journal of Cardiopulmonary Rehabilitation and Prevention",
-      "type": "journal-article",
-      "url": "https://publons.com/wos-op/publon/69793710/",
-      "network_authors": "Laura Sharp",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
-      "network_orcids": "0000-0003-4496-6141",
-      "network_schools": "School of Health & Wellbeing",
+      "network_authors": "Laura Sharp; Laura Sharp",
+      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]; Laura Sharp [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-4496-6141; 0000-0003-4496-6141",
+      "network_schools": "School of Health & Wellbeing; School of Health & Wellbeing",
       "is_sotl": false
     },
     {
@@ -12868,18 +12407,6 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "Embedding PPIE Training in Postgraduate Cancer Research Education",
-      "journal": "Research Involvement and Engagement",
-      "type": "preprint",
-      "url": "https://doi.org/10.21203/rs.3.rs-8347079/v1",
-      "network_authors": "Laura Richmond",
-      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
-      "network_orcids": "0000-0002-8514-7030",
-      "network_schools": "School of Cancer Sciences",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
       "title": "Experiences of HIV disclosure and stigma in the dental setting: findings\n   from the People Living with HIV Stigma Survey UK 2015",
       "journal": "HIV MEDICINE",
       "type": "journal-article",
@@ -12971,6 +12498,7 @@
     },
     {
       "title": "The people living with HIV stigma survey UK 2015: HIV-related sexual rejection and other experiences of stigma and discrimination among gay and heterosexual men.",
+      "journal": "AIDS Care",
       "type": "journal-article",
       "doi": "10.1080/09540121.2018.1479027",
       "url": "https://doi.org/10.1080/09540121.2018.1479027",
