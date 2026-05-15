@@ -272,8 +272,10 @@ get_orcid_works <- function(orcid_id) {
       if (!is.na(doi) && !is.na(journal)) break
     }
 
-    # Extract publication year
-    pub_year <- work$`publication-date`$year$value %||% NA_character_
+    # Extract publication date (month and day are often absent on ORCID records)
+    pub_year  <- work$`publication-date`$year$value  %||% NA_character_
+    pub_month <- work$`publication-date`$month$value %||% NA_character_
+    pub_day   <- work$`publication-date`$day$value   %||% NA_character_
 
     tibble(
       orcid_id = orcid_id,
@@ -281,6 +283,8 @@ get_orcid_works <- function(orcid_id) {
       title = work$title$title$value %||% NA_character_,
       type = work$type %||% NA_character_,
       year = as.integer(pub_year),
+      month = as.integer(pub_month),
+      day = as.integer(pub_day),
       journal = journal,
       doi = doi,
       url = if (!is.na(doi)) glue("https://doi.org/{doi}") else work$url$value %||% NA_character_
@@ -367,6 +371,12 @@ publications <- all_publications |>
 
 # ---- Deduplication / network-author aggregation ----
 
+# Helper: first non-NA value in a vector, or a typed NA if none are present
+first_non_na <- function(x) {
+  x_present <- x[!is.na(x)]
+  if (length(x_present) > 0) x_present[1] else x[NA_integer_]
+}
+
 # Helper: normalise a title string for cross-stream fuzzy matching
 normalise_title <- function(x) {
   x |>
@@ -392,7 +402,11 @@ with_doi <- publications2 |>
     all_authors = paste(unique(author_display[author_display != ""]), collapse = "; "),
     all_authors_with_school = paste(unique(author_with_school[author_with_school != ""]), collapse = "; "),
     all_orcids = paste(unique(orcid_id), collapse = "; "),
-    all_schools = paste(unique(school[!is.na(school) & school != ""]), collapse = "; ")
+    all_schools = paste(unique(school[!is.na(school) & school != ""]), collapse = "; "),
+    # Keep the most complete date across duplicate records of the same DOI
+    year = first_non_na(year),
+    month = first_non_na(month),
+    day = first_non_na(day)
   ) |>
   ungroup() |>
   distinct(doi, .keep_all = TRUE) |>
@@ -413,7 +427,11 @@ no_doi <- publications2 |>
     all_authors = paste(unique(author_display[author_display != ""]), collapse = "; "),
     all_authors_with_school = paste(unique(author_with_school[author_with_school != ""]), collapse = "; "),
     all_orcids = paste(unique(orcid_id), collapse = "; "),
-    all_schools = paste(unique(school[!is.na(school) & school != ""]), collapse = "; ")
+    all_schools = paste(unique(school[!is.na(school) & school != ""]), collapse = "; "),
+    # Keep the most complete date across records merged on title/year/type/journal
+    year = first_non_na(year),
+    month = first_non_na(month),
+    day = first_non_na(day)
   ) |>
   ungroup() |>
   distinct(merge_key, .keep_all = TRUE) |>
@@ -468,9 +486,22 @@ publications_deduped <- bind_rows(
     with_doi        |> select(-title_key),
     no_doi_unmatched |> select(-title_key)
   ) |>
+  mutate(
+    # Construct a sortable date. Missing month/day default to the start of the
+    # period so that year-only records still order sensibly against fuller dates.
+    pub_date = suppressWarnings(as.Date(sprintf(
+      "%04d-%02d-%02d",
+      year,
+      dplyr::coalesce(month, 1L),
+      dplyr::coalesce(day, 1L)
+    )))
+  ) |>
   select(
     title,
     year,
+    month,
+    day,
+    pub_date,
     journal,
     type,
     doi,
@@ -480,7 +511,7 @@ publications_deduped <- bind_rows(
     network_orcids = all_orcids,
     network_schools = all_schools
   ) |>
-  arrange(desc(year), title) |>
+  arrange(desc(pub_date), desc(year), title) |>
   filter(!is.na(title), title != "")
 
 # ---- Preprint suppression ----

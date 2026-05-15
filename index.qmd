@@ -41,8 +41,17 @@ Publications are automatically classified based on journal name and keywords to 
 
 pubs <- pub_data$publications |>
  as_tibble() |>
- filter(type == "journal-article",
-        !is.na(sotl_matched_on)) |>
+ filter(!is.na(sotl_matched_on))
+
+# pub_date is added by the fetch script. Fall back to year if an older data
+# file is still in place so the page continues to render.
+if (!"pub_date" %in% names(pubs)) {
+  pubs$pub_date <- as.Date(paste0(pubs$year, "-01-01"))
+}
+
+pubs <- pubs |>
+ mutate(pub_date = as.Date(pub_date)) |>
+ arrange(desc(pub_date), desc(year), title) |>
  head(10)
 
 for (i in seq_len(nrow(pubs))) {
