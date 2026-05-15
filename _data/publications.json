@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-12 20:57:56 UTC",
+  "last_updated": "2026-05-15 08:22:29 UTC",
   "n_authors": 67,
-  "n_publications": 934,
+  "n_publications": 935,
   "n_sotl": 256,
   "authors": [
     {
@@ -882,6 +882,17 @@
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Infection & Immunity",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Lived Experience: From tokenism to transformation [blog post]",
+      "year": 2026,
+      "type": "other",
+      "url": "https://www.pathway.org.uk/2026/05/13/lived-experience-from-tokenism-to-transformation/",
+      "network_authors": "Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
     },
     {
       "title": "Long-read sequencing reveals increased isoform diversity in key transcription factor effectors of intercellular signalling at the invertebrate-vertebrate transition",
