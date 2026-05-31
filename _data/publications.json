@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-24 05:58:09 UTC",
+  "last_updated": "2026-05-31 06:12:10 UTC",
   "n_authors": 67,
-  "n_publications": 935,
+  "n_publications": 937,
   "n_sotl": 256,
   "authors": [
     {
@@ -681,6 +681,21 @@
       "is_sotl": false
     },
     {
+      "title": "The Use of FLIM for Characterising Chromosomes and Their Structure in Response to Low-Dose X-Ray Irradiation",
+      "year": 2026,
+      "month": 5,
+      "pub_date": "2026-05-01",
+      "journal": "DNA",
+      "type": "journal-article",
+      "doi": "10.3390/dna6020026",
+      "url": "https://doi.org/10.3390/dna6020026",
+      "network_authors": "Sarah Lea Berger",
+      "network_authors_school": "Sarah Berger [School of Molecular Biosciences]",
+      "network_orcids": "0009-0007-3998-9329",
+      "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
       "title": "Atendimento Arco-Íris: uma experiência de acolhimento lgbtq+ no ensino superior e seus potenciais para o contexto brasileiro",
       "year": 2026,
       "month": 4,
@@ -773,6 +788,22 @@
       "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing; School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Community health workers’ perceptions of depression and barriers and facilitators to mental health care in Sierra Leone: A qualitative study <i>{under peer review}<\/i>",
+      "year": 2026,
+      "month": 3,
+      "day": 23,
+      "pub_date": "2026-03-23",
+      "journal": "Mental Health Open",
+      "type": "journal-article",
+      "doi": "10.64257/6ka4x586",
+      "url": "https://doi.org/10.64257/6ka4x586",
+      "network_authors": "Dimitar Karadzhov",
+      "network_authors_school": "Dimitar Karadzhov [School of Health & Wellbeing]",
+      "network_orcids": "0000-0001-8756-6848",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
     },
     {
       "title": "Studying with GenAI: Student views on the opportunities and risks of GenAI in higher education",
