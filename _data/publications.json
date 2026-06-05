@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-31 06:12:10 UTC",
+  "last_updated": "2026-06-05 06:24:30 UTC",
   "n_authors": 67,
-  "n_publications": 937,
-  "n_sotl": 256,
+  "n_publications": 941,
+  "n_sotl": 259,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -604,6 +604,22 @@
   ],
   "publications": [
     {
+      "title": "Beyond the myths: Epistemic justice in curriculum contestation",
+      "year": 2026,
+      "month": 7,
+      "pub_date": "2026-07-01",
+      "journal": "Medical Education",
+      "type": "journal-article",
+      "doi": "10.1111/medu.70216",
+      "url": "https://doi.org/10.1111/medu.70216",
+      "network_authors": "Lynsay Crawford; Lindsey Pope; Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]; Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854; 0000-0003-0899-9616; 0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing; School of Health & Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Beyond compliance: A transferable and scalable framework for introducing Equality, Diversity and Inclusion in higher education",
       "year": 2026,
       "month": 6,
@@ -771,23 +787,6 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Beyond the myths: Epistemic justice in curriculum contestation",
-      "year": 2026,
-      "month": 3,
-      "day": 27,
-      "pub_date": "2026-03-27",
-      "journal": "Medical Education",
-      "type": "journal-article",
-      "doi": "10.1111/medu.70216",
-      "url": "https://doi.org/10.1111/medu.70216",
-      "network_authors": "Lynsay Crawford; Lindsey Pope; Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]; Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]",
-      "network_orcids": "0000-0003-0148-0854; 0000-0003-0899-9616; 0000-0003-0148-0854",
-      "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing; School of Health & Wellbeing",
-      "is_sotl": true,
-      "sotl_matched_on": "journal"
     },
     {
       "title": "Community health workers’ perceptions of depression and barriers and facilitators to mental health care in Sierra Leone: A qualitative study <i>{under peer review}<\/i>",
@@ -1757,6 +1756,23 @@
       "is_sotl": false
     },
     {
+      "title": "The Memrise Prize, an international research competition: A pragmatic trial to compare methods for learning foreign language vocabulary.",
+      "year": 2025,
+      "month": 9,
+      "day": 15,
+      "pub_date": "2025-09-15",
+      "journal": "Journal of Applied Research in Memory and Cognition",
+      "type": "journal-article",
+      "doi": "10.1037/mac0000224",
+      "url": "https://doi.org/10.1037/mac0000224",
+      "network_authors": "Carolina Kuepper-Tetzel",
+      "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-0830-7915",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "WNT-mediating TCF/LEF transcription factor gene expression in early human pluripotency and cell lineages differs from the rodent paradigm",
       "year": 2025,
       "month": 9,
@@ -2242,6 +2258,23 @@
       "network_authors": "Zayba Ghazali-Mohammed",
       "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0003-2975-5581",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Service learning: Applying knowledge through community service",
+      "year": 2025,
+      "month": 5,
+      "day": 22,
+      "pub_date": "2025-05-22",
+      "journal": "Psychology Teaching Review",
+      "type": "journal-article",
+      "doi": "10.53841/bpsptr.2025.31.1.87",
+      "url": "https://doi.org/10.53841/bpsptr.2025.31.1.87",
+      "network_authors": "Carolina Kuepper-Tetzel",
+      "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-0830-7915",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
@@ -4205,6 +4238,21 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Ace That Test",
+      "year": 2023,
+      "month": 5,
+      "day": 16,
+      "pub_date": "2023-05-16",
+      "type": "book",
+      "doi": "10.4324/9781003327530",
+      "url": "https://doi.org/10.4324/9781003327530",
+      "network_authors": "Carolina Kuepper-Tetzel",
+      "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-0830-7915",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Developing a career as a GP educationalist: contemporary challenges and workforce solutions",
       "year": 2023,
       "month": 5,
@@ -4653,6 +4701,20 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-7789-1185",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "The Learning Scientists: Promoting communication about the science of learning.",
+      "year": 2023,
+      "pub_date": "2023-01-01",
+      "journal": "In their own words: What scholars want you to know about why and how to apply the science of learning in your academic setting",
+      "type": "book-chapter",
+      "url": "https://teachpsych.org/ebooks/itow",
+      "network_authors": "Carolina Kuepper-Tetzel",
+      "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-0830-7915",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
