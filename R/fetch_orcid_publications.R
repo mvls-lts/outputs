@@ -118,7 +118,13 @@ sotl_journals <- c(
 # ---- Load ORCID IDs from Excel ----
 
 # Read the Excel file with network members
+# Source is now a Microsoft Form export, so column headers are the full
+# question text (e.g. "In which School are you based?") rather than short
+# labels. Rename them back to ORCiD / School before processing. Matching on
+# keywords keeps this robust to minor wording changes in the form.
 members_df <- read_excel("_data/MVLS LTS ORCiD.xlsx") |>
+  rename_with(~ "ORCiD", .cols = matches("(?i)orcid")) |>
+  rename_with(~ "School", .cols = matches("(?i)school")) |>
   mutate(
     # Clean up ORCID URLs to extract just the ID
     orcid_id = str_extract(ORCiD, "[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]"),
@@ -126,7 +132,8 @@ members_df <- read_excel("_data/MVLS LTS ORCiD.xlsx") |>
     school = str_trim(School),
     name = str_trim(Name)
   ) |>
-  filter(!is.na(orcid_id))  # Remove any rows without valid ORCID
+  filter(!is.na(orcid_id)) |>  # Remove any rows without valid ORCID
+  distinct(orcid_id, .keep_all = TRUE)  # Drop duplicate form submissions, keep first
 
 orcid_ids <- members_df$orcid_id
 
