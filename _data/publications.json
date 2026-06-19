@@ -1,9 +1,18 @@
 {
-  "last_updated": "2026-06-14 06:28:19 UTC",
-  "n_authors": 67,
+  "last_updated": "2026-06-19 08:10:35 UTC",
+  "n_authors": 64,
   "n_publications": 942,
   "n_sotl": 260,
   "authors": [
+    {
+      "orcid_id": "0000-0002-0806-1081",
+      "given_name": "Emily",
+      "family_name": "Nordmann",
+      "affiliation": "University of Glasgow",
+      "name": "Emily Nordmann",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Emily Nordmann"
+    },
     {
       "orcid_id": "0000-0003-4241-4933",
       "given_name": "Susan",
@@ -337,15 +346,6 @@
       "display_name": "Sarah Berger"
     },
     {
-      "orcid_id": "0000-0002-0806-1081",
-      "given_name": "Emily",
-      "family_name": "Nordmann",
-      "affiliation": "University of Glasgow",
-      "name": "Emily Nordmann",
-      "school": "School of Psychology and Neuroscience",
-      "display_name": "Emily Nordmann"
-    },
-    {
       "orcid_id": "0000-0001-9914-3199",
       "given_name": "Ashley",
       "family_name": "Robertson",
@@ -505,33 +505,6 @@
       "display_name": "Denise Hough"
     },
     {
-      "orcid_id": "0000-0002-5478-693X",
-      "given_name": "Denise",
-      "family_name": "Hough",
-      "affiliation": "University of Glasgow",
-      "name": "Clare McFeely",
-      "school": "Scool of Medicine, Dentistry and Nursing",
-      "display_name": "Clare McFeely"
-    },
-    {
-      "orcid_id": "0000-0002-5478-693X",
-      "given_name": "Denise",
-      "family_name": "Hough",
-      "affiliation": "University of Glasgow",
-      "name": "Denise Hough",
-      "school": "School of Biodiversity, One Health and Veterinary Medicine",
-      "display_name": "Denise Hough"
-    },
-    {
-      "orcid_id": "0000-0002-5478-693X",
-      "given_name": "Denise",
-      "family_name": "Hough",
-      "affiliation": "University of Glasgow",
-      "name": "Clare McFeely",
-      "school": "Scool of Medicine, Dentistry and Nursing",
-      "display_name": "Clare McFeely"
-    },
-    {
       "orcid_id": "0000-0002-8809-2303",
       "given_name": "Alexia",
       "family_name": "Revueltas Roux",
@@ -618,6 +591,23 @@
       "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing; School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Educating for academic integrity: effectiveness of a digital resource on plagiarism awareness among postgraduate bioscience students",
+      "year": 2026,
+      "month": 6,
+      "day": 15,
+      "pub_date": "2026-06-15",
+      "journal": "International Journal for Educational Integrity",
+      "type": "journal-article",
+      "doi": "10.1007/s40979-026-00224-y",
+      "url": "https://doi.org/10.1007/s40979-026-00224-y",
+      "network_authors": "Rafael Venson; Laura Richmond",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]; Laura Richmond [School of Cancer Sciences]",
+      "network_orcids": "0000-0002-1959-8503; 0000-0002-8514-7030",
+      "network_schools": "School of Medicine, Dentistry and Nursing; School of Cancer Sciences",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Ten Simple Rules for Inclusively Supporting Attendance and Engagement in Higher Education",
@@ -945,21 +935,6 @@
       "network_orcids": "0009-0003-8135-3114",
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": false
-    },
-    {
-      "title": "Educating for academic integrity: effectiveness of a digital resource on plagiarism awareness among postgraduate bioscience students",
-      "year": 2026,
-      "month": 2,
-      "day": 18,
-      "pub_date": "2026-02-18",
-      "journal": "Research Square",
-      "type": "journal-article",
-      "network_authors": "Laura Richmond",
-      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
-      "network_orcids": "0000-0002-8514-7030",
-      "network_schools": "School of Cancer Sciences",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
@@ -1655,9 +1630,9 @@
       "doi": "10.5281/zenodo.17456344",
       "url": "https://doi.org/10.5281/ZENODO.17456344",
       "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-5478-693X",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1672,9 +1647,9 @@
       "doi": "10.5281/zenodo.17312533",
       "url": "https://doi.org/10.5281/ZENODO.17312533",
       "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-5478-693X",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1845,9 +1820,9 @@
       "doi": "10.5281/zenodo.17304831",
       "url": "https://doi.org/10.5281/ZENODO.17304831",
       "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-5478-693X",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -7755,9 +7730,9 @@
       "doi": "10.1016/j.psyneuen.2019.06.008",
       "url": "https://doi.org/10.1016/j.psyneuen.2019.06.008",
       "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-5478-693X",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -10560,9 +10535,9 @@
       "doi": "10.1016/j.mce.2015.01.018",
       "url": "https://doi.org/10.1016/j.mce.2015.01.018",
       "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]; Clare McFeely [Scool of Medicine, Dentistry and Nursing]",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-5478-693X",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; Scool of Medicine, Dentistry and Nursing",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
