@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-19 08:17:58 UTC",
-  "n_authors": 64,
-  "n_publications": 942,
-  "n_sotl": 260,
+  "last_updated": "2026-06-21 06:45:31 UTC",
+  "n_authors": 65,
+  "n_publications": 951,
+  "n_sotl": 262,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -573,6 +573,15 @@
       "name": "Leah Martin",
       "school": "School of Medicine Dentistry and Nursing",
       "display_name": "Leah Martin"
+    },
+    {
+      "orcid_id": "0000-0003-3616-7745",
+      "given_name": "Eleanor",
+      "family_name": "Wigham",
+      "affiliation": "University of Glasgow",
+      "name": "Ellie Wigham",
+      "school": "School of Biodiversity, One Health, & Veterinary Medicine",
+      "display_name": "Ellie Wigham"
     }
   ],
   "publications": [
@@ -608,6 +617,23 @@
       "network_schools": "School of Medicine, Dentistry and Nursing; School of Cancer Sciences",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "The Use of Content Warnings in Veterinary Education; Teaching Staff and Student Perspectives",
+      "year": 2026,
+      "month": 6,
+      "day": 12,
+      "pub_date": "2026-06-12",
+      "journal": "Journal of Veterinary Medical Education",
+      "type": "journal-article",
+      "doi": "10.3138/jvme-2025-0116",
+      "url": "https://doi.org/10.3138/jvme-2025-0116",
+      "network_authors": "Eleanor Wigham; Eleanor Wigham",
+      "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]; Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0000-0003-3616-7745; 0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine; School of Biodiversity, One Health, & Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
     },
     {
       "title": "Ten Simple Rules for Inclusively Supporting Attendance and Engagement in Higher Education",
@@ -2065,10 +2091,10 @@
       "day": 2,
       "pub_date": "2025-07-02",
       "type": "conference-paper",
-      "network_authors": "Emilie Law",
-      "network_authors_school": "Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_orcids": "0009-0009-7322-675X",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "network_authors": "Emilie Law; Eleanor Wigham",
+      "network_authors_school": "Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]; Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0009-0009-7322-675X; 0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Biodiversity, One Health, & Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -2316,6 +2342,20 @@
       "network_schools": "MVLS Graduate School",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "An Observational Study of Rump Pusher Use in a UK Cattle Abattoir",
+      "year": 2025,
+      "month": 5,
+      "day": 9,
+      "pub_date": "2025-05-09",
+      "type": "conference-paper",
+      "url": "https://evcbmaw.org/wp-content/uploads/2025/09/EVCBMAW-2025-proceedings.pdf",
+      "network_authors": "Eleanor Wigham",
+      "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
+      "is_sotl": false
     },
     {
       "title": "The Effectiveness of a Cognitive-Behavioural Therapy Group for Managing Menopausal Symptoms in Breast Cancer Survivors",
@@ -2693,6 +2733,20 @@
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Assessing the use of a mechanical rump pusher in a commercial cattle slaughter plant",
+      "year": 2025,
+      "pub_date": "2025-01-01",
+      "journal": "Animal Welfare",
+      "type": "journal-article",
+      "doi": "10.1017/awf.2025.10011",
+      "url": "https://doi.org/10.1017/awf.2025.10011",
+      "network_authors": "Eleanor Wigham; Eleanor Wigham",
+      "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]; Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0000-0003-3616-7745; 0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine; School of Biodiversity, One Health, & Veterinary Medicine",
+      "is_sotl": false
     },
     {
       "title": "Graphic Medicine: Comics, Health and the Power of Stories",
@@ -3535,6 +3589,23 @@
       "network_orcids": "0000-0001-9914-3199",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "How do veterinary students perceive and prepare for compulsory slaughterhouse visits?",
+      "year": 2024,
+      "month": 1,
+      "day": 20,
+      "pub_date": "2024-01-20",
+      "journal": "Veterinary Record",
+      "type": "journal-article",
+      "doi": "10.1002/vetr.3712",
+      "url": "https://doi.org/10.1002/vetr.3712",
+      "network_authors": "Eleanor Wigham",
+      "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Short Take: Designing a Multinational Smartphone App Survey during COVID-19: Rewards, Risks, and Recommendations",
@@ -6789,6 +6860,22 @@
       "is_sotl": false
     },
     {
+      "title": "‘All Ears’: A Questionnaire of 1516 Owner Perceptions of the Mental Abilities of Pet Rabbits, Subsequent Resource Provision, and the Effect on Welfare",
+      "year": 2020,
+      "month": 9,
+      "day": 23,
+      "pub_date": "2020-09-23",
+      "journal": "Animals",
+      "type": "journal-article",
+      "doi": "10.3390/ani10101730",
+      "url": "https://doi.org/10.3390/ani10101730",
+      "network_authors": "Eleanor Wigham",
+      "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "Student-Staff Partnerships to Enhance Assessment and Feedback",
       "year": 2020,
       "month": 9,
@@ -6893,6 +6980,22 @@
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Gender and job characteristics of slaughter industry personnel influence their attitudes to animal welfare",
+      "year": 2020,
+      "month": 8,
+      "day": 1,
+      "pub_date": "2020-08-01",
+      "journal": "Animal Welfare",
+      "type": "journal-article",
+      "doi": "10.7120/09627286.29.3.313",
+      "url": "https://doi.org/10.7120/09627286.29.3.313",
+      "network_authors": "Eleanor Wigham",
+      "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
+      "is_sotl": false
     },
     {
       "title": "A marking of the cricothyroid membrane with extended neck returns to correct position after neck manipulation and repositioning",
@@ -7853,6 +7956,22 @@
       "is_sotl": false
     },
     {
+      "title": "The Influence of Welfare Training on Bird Welfare and Carcass Quality in Two Commercial Poultry Primary Processing Plants",
+      "year": 2019,
+      "month": 8,
+      "day": 20,
+      "pub_date": "2019-08-20",
+      "journal": "Animals",
+      "type": "journal-article",
+      "doi": "10.3390/ani9080584",
+      "url": "https://doi.org/10.3390/ani9080584",
+      "network_authors": "Eleanor Wigham",
+      "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
       "title": "The Transcriptional and Protein Profile From Human Infected Neuroprogenitor Cells Is Strongly Correlated to Zika Virus Microcephaly Cytokines Phenotype Evidencing a Persistent Inflammation in the CNS",
       "year": 2019,
       "month": 8,
@@ -8621,6 +8740,21 @@
       "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-4191-5245",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Assessing cattle welfare at slaughter – Why is it important and what challenges are faced?",
+      "year": 2018,
+      "month": 11,
+      "pub_date": "2018-11-01",
+      "journal": "Meat Science",
+      "type": "journal-article",
+      "doi": "10.1016/j.meatsci.2018.06.010",
+      "url": "https://doi.org/10.1016/j.meatsci.2018.06.010",
+      "network_authors": "Eleanor Wigham",
+      "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -9438,6 +9572,21 @@
       "network_authors_school": "Jayne Orr [School of Biodiversity One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-4343-7128",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Seasonality in oestrus and litter size in an assistance dog breeding colony in the United Kingdom",
+      "year": 2017,
+      "month": 10,
+      "pub_date": "2017-10-01",
+      "journal": "Veterinary Record",
+      "type": "journal-article",
+      "doi": "10.1136/vr.104217",
+      "url": "https://doi.org/10.1136/vr.104217",
+      "network_authors": "Eleanor Wigham",
+      "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
+      "network_orcids": "0000-0003-3616-7745",
+      "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
       "is_sotl": false
     },
     {
