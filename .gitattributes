@@ -1,0 +1,11 @@
+# Normalise line endings: store text as LF in the repo, check out as LF.
+# Prevents Windows/OneDrive CRLF churn from creating spurious diffs and
+# merge conflicts against the LF-based CI runner.
+* text=auto eol=lf
+
+# Generated/binary data: never attempt text merges on these.
+*.rds binary
+*.xlsx binary
+*.png binary
+*.jpg binary
+*.ico binary
