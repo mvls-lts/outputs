@@ -392,13 +392,41 @@ normalise_title <- function(x) {
     str_squish()
 }
 
+# Helper: de-duplicate a "; "-separated list, keeping the first occurrence of
+# each entry (case-insensitive). Used to tidy the aggregated author/orcid/school
+# lists after cross-stream merges, which can otherwise repeat a name.
+dedupe_semicolon_list <- function(x) {
+  vapply(x, function(s) {
+    if (is.na(s) || s == "") return(s)
+    parts <- str_trim(str_split(s, ";\\s*")[[1]])
+    parts <- parts[parts != ""]
+    parts <- parts[!duplicated(str_to_lower(parts))]
+    paste(parts, collapse = "; ")
+  }, character(1), USE.NAMES = FALSE)
+}
+
+# Helper: de-duplicate an authors-with-school list by *person* (the text before
+# the " [School ...]" suffix), keeping the first occurrence. This absorbs cases
+# where the same person carries slightly different school spellings (e.g.
+# "& Wellbeing" vs "and Wellbeing") which a plain string de-dupe would miss.
+dedupe_authors_school_list <- function(x) {
+  vapply(x, function(s) {
+    if (is.na(s) || s == "") return(s)
+    parts <- str_trim(str_split(s, ";\\s*")[[1]])
+    parts <- parts[parts != ""]
+    person <- str_trim(str_remove(parts, "\\s*\\[.*$"))
+    parts <- parts[!duplicated(str_to_lower(person))]
+    paste(parts, collapse = "; ")
+  }, character(1), USE.NAMES = FALSE)
+}
+
 # Normalise DOI (strip URL prefix, lowercase, strip OSF version suffixes)
 publications2 <- publications |>
   mutate(
     doi = str_trim(doi),
     doi = str_to_lower(doi),
     doi = str_remove(doi, "^https?://(dx\\.)?doi\\.org/"),
-    doi = str_remove(doi, "_v\\d+$"),  # collapse OSF versioned DOIs (e.g. _v1, _v2, _v3)
+    doi = str_remove(doi, "[._]v\\d+$"),  # collapse versioned DOIs (e.g. _v1, .v1, .v2 from OSF/figshare)
     doi = na_if(doi, "")
   )
 
@@ -421,39 +449,38 @@ with_doi <- publications2 |>
 
 no_doi <- publications2 |>
   filter(is.na(doi)) |>
-  mutate(
-    title_key = normalise_title(title),
-    journal_key = replace_na(journal, "") |>
-      str_to_lower() |>
-      str_replace_all("[[:punct:]]+", " ") |>
-      str_squish(),
-    merge_key = paste0("t:", title_key, "|y:", year, "|ty:", type, "|j:", journal_key)
-  ) |>
+  # Merge no-DOI records on normalised title alone. Two network members logging
+  # the same un-DOI'd output (e.g. a conference abstract) often record slightly
+  # different venue strings, years, or types, so title is the only reliable key.
+  mutate(merge_key = normalise_title(title)) |>
   group_by(merge_key) |>
   mutate(
     all_authors = paste(unique(author_display[author_display != ""]), collapse = "; "),
     all_authors_with_school = paste(unique(author_with_school[author_with_school != ""]), collapse = "; "),
     all_orcids = paste(unique(orcid_id), collapse = "; "),
     all_schools = paste(unique(school[!is.na(school) & school != ""]), collapse = "; "),
-    # Keep the most complete date across records merged on title/year/type/journal
+    # Keep the most complete metadata across the merged records
+    journal = first_non_na(journal),
+    type = first_non_na(type),
     year = first_non_na(year),
     month = first_non_na(month),
     day = first_non_na(day)
   ) |>
   ungroup() |>
   distinct(merge_key, .keep_all = TRUE) |>
-  select(-journal_key, -merge_key)
+  rename(title_key = merge_key)
 
-# Title + year fallback: attach no-DOI rows to DOI rows where title and year match.
-# This catches cases where one author's record has a DOI and another's does not.
-no_doi_matched   <- no_doi |> semi_join(with_doi, by = c("title_key", "year"))
-no_doi_unmatched <- no_doi |> anti_join(with_doi, by = c("title_key", "year"))
+# Title fallback: attach no-DOI rows to DOI rows where the normalised title matches.
+# This catches cases where one author's record has a DOI and another's does not,
+# even when the year or other metadata differs between the two records.
+no_doi_matched   <- no_doi |> semi_join(with_doi, by = "title_key")
+no_doi_unmatched <- no_doi |> anti_join(with_doi, by = "title_key")
 
 if (nrow(no_doi_matched) > 0) {
-  message(glue("  Merging {nrow(no_doi_matched)} no-DOI row(s) into DOI rows via title+year match"))
+  message(glue("  Merging {nrow(no_doi_matched)} no-DOI row(s) into DOI rows via title match"))
 
   extra <- no_doi_matched |>
-    group_by(title_key, year) |>
+    group_by(title_key) |>
     summarise(
       extra_authors        = paste(unique(all_authors[all_authors != ""]),             collapse = "; "),
       extra_authors_school = paste(unique(all_authors_with_school[all_authors_with_school != ""]), collapse = "; "),
@@ -463,7 +490,7 @@ if (nrow(no_doi_matched) > 0) {
     )
 
   with_doi <- with_doi |>
-    left_join(extra, by = c("title_key", "year")) |>
+    left_join(extra, by = "title_key") |>
     mutate(
       all_authors = case_when(
         !is.na(extra_authors) & extra_authors != "" ~
@@ -518,6 +545,13 @@ publications_deduped <- bind_rows(
     network_orcids = all_orcids,
     network_schools = all_schools
   ) |>
+  # Tidy aggregated lists: cross-stream merges can repeat a name/orcid/school.
+  mutate(
+    network_authors        = dedupe_semicolon_list(network_authors),
+    network_authors_school = dedupe_authors_school_list(network_authors_school),
+    network_orcids         = dedupe_semicolon_list(network_orcids),
+    network_schools        = dedupe_semicolon_list(network_schools)
+  ) |>
   arrange(desc(pub_date), desc(year), title) |>
   filter(!is.na(title), title != "")
 
@@ -525,27 +559,36 @@ publications_deduped <- bind_rows(
 # When a non-preprint row exists with the same normalised title, suppress the preprint.
 # This handles the common case of a paper appearing as both a preprint and a journal article.
 
+# A record counts as a preprint if its type says so, OR if its journal/DOI points
+# to a known preprint server. ORCID often types preprints as "journal-article" or
+# "other", so the type field alone misses many of them.
+is_preprint <- function(type, journal, doi) {
+  type_l    <- str_to_lower(coalesce(type, ""))
+  source    <- str_to_lower(paste(coalesce(journal, ""), coalesce(doi, "")))
+  doi_l     <- str_to_lower(coalesce(doi, ""))
+  str_detect(type_l, "preprint") |
+    str_detect(source, "biorxiv|medrxiv|chemrxiv|psyarxiv|arxiv|ssrn|research ?square|preprint") |
+    str_detect(doi_l, "^10\\.1101/|^10\\.21203/|^10\\.31234/|^10\\.31219/|^10\\.2139/|^10\\.26434/")
+}
+
 publications_deduped <- publications_deduped |>
-  mutate(title_key = normalise_title(title))
+  mutate(
+    title_key   = normalise_title(title),
+    .is_preprint = is_preprint(type, journal, doi)
+  )
 
 titles_with_published_version <- publications_deduped |>
-  filter(!str_detect(tolower(coalesce(type, "")), "preprint")) |>
+  filter(!.is_preprint) |>
   pull(title_key) |>
   unique()
 
 n_suppressed <- publications_deduped |>
-  filter(
-    str_detect(tolower(coalesce(type, "")), "preprint"),
-    title_key %in% titles_with_published_version
-  ) |>
+  filter(.is_preprint, title_key %in% titles_with_published_version) |>
   nrow()
 
 publications_deduped <- publications_deduped |>
-  filter(!(
-    str_detect(tolower(coalesce(type, "")), "preprint") &
-    title_key %in% titles_with_published_version
-  )) |>
-  select(-title_key)
+  filter(!(.is_preprint & title_key %in% titles_with_published_version)) |>
+  select(-title_key, -.is_preprint)
 
 if (n_suppressed > 0) {
   message(glue("  Suppressed {n_suppressed} preprint(s) superseded by a published version"))
