@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-21 06:45:31 UTC",
-  "n_authors": 65,
-  "n_publications": 951,
-  "n_sotl": 262,
+  "last_updated": "2026-06-25 18:40:25 UTC",
+  "n_authors": 66,
+  "n_publications": 976,
+  "n_sotl": 273,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -582,6 +582,15 @@
       "name": "Ellie Wigham",
       "school": "School of Biodiversity, One Health, & Veterinary Medicine",
       "display_name": "Ellie Wigham"
+    },
+    {
+      "orcid_id": "0000-0001-8771-4185",
+      "given_name": "Sarah",
+      "family_name": "Meek",
+      "affiliation": "University of Glasgow",
+      "name": "Sarah Meek",
+      "school": "School of Medicine, Dentistry, & Nursing",
+      "display_name": "Sarah Meek"
     }
   ],
   "publications": [
@@ -7307,10 +7316,10 @@
       "type": "journal-article",
       "doi": "10.2196/15177",
       "url": "https://doi.org/10.2196/15177",
-      "network_authors": "Leah Marks",
-      "network_authors_school": "Leah Martin [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0001-9284-5518",
-      "network_schools": "School of Medicine Dentistry and Nursing",
+      "network_authors": "Leah Marks; Sarah Meek",
+      "network_authors_school": "Leah Martin [School of Medicine Dentistry and Nursing]; Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-9284-5518; 0000-0001-8771-4185",
+      "network_schools": "School of Medicine Dentistry and Nursing; School of Medicine, Dentistry, & Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -7940,6 +7949,22 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Is Self-Regulated Learning a Threshold Concept? An Audio-Diary Study of PBL in Two UK Medical Schools. ",
+      "year": 2019,
+      "month": 8,
+      "day": 27,
+      "pub_date": "2019-08-27",
+      "journal": "AMEE 2019",
+      "type": "conference-paper",
+      "url": "https://eprints.gla.ac.uk/215658/",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Arterial Anatomy of the Anterior Abdominal Wall: Evidence-Based Safe Sites for Instrumentation based on Radiological Analysis of 100 Patients.",
       "year": 2019,
       "month": 8,
@@ -8213,6 +8238,22 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-7789-1185",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Audit of Representation of Protected Characteristics in Learning Materials in a Block of the MBChB. ",
+      "year": 2019,
+      "month": 5,
+      "day": 9,
+      "pub_date": "2019-05-09",
+      "journal": "9th National Scottish Medical Education Conference 2019",
+      "type": "conference-poster",
+      "url": "https://eprints.gla.ac.uk/227987/",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
     },
@@ -8608,6 +8649,21 @@
       "is_sotl": false
     },
     {
+      "title": "Student-Created Online Teaching Resources for Students",
+      "year": 2019,
+      "pub_date": "2019-01-01",
+      "journal": "Advances in Experimental Medicine and Biology",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-030-24281-7_4",
+      "url": "https://doi.org/10.1007/978-3-030-24281-7_4",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "The circadian clock components BMAL1 and REV-ERBα regulate flavivirus replication.",
       "year": 2019,
       "month": 1,
@@ -8787,6 +8843,22 @@
       "network_orcids": "0000-0002-0493-6135",
       "network_schools": "School of Infection & Immunity",
       "is_sotl": false
+    },
+    {
+      "title": "Using the Threshold Concept Framework to Explore Student Learning by PBL in Two UK Medical Schools.",
+      "year": 2018,
+      "month": 10,
+      "day": 26,
+      "pub_date": "2018-10-26",
+      "journal": "ISSOTL18: Toward a Learning Culture",
+      "type": "conference-paper",
+      "url": "https://eprints.gla.ac.uk/215659/",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "The comparative efficacy of antiseptics against Candida auris biofilms.",
@@ -9248,6 +9320,23 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Blending MOOCs into Medical Education",
+      "year": 2018,
+      "month": 3,
+      "day": 9,
+      "pub_date": "2018-03-09",
+      "journal": "MedEdPublish",
+      "type": "journal-article",
+      "doi": "10.15694/mep.2018.0000060.1",
+      "url": "https://doi.org/10.15694/mep.2018.0000060.1",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Infection with a Brazilian isolate of Zika virus generates RIG-I stimulatory RNA and the viral NS5 protein blocks type I IFN induction and signaling.",
       "year": 2018,
       "month": 3,
@@ -9680,6 +9769,23 @@
       "network_orcids": "0000-0002-0493-6135",
       "network_schools": "School of Infection & Immunity",
       "is_sotl": false
+    },
+    {
+      "title": "Is peer review an appropriate form of assessment in a MOOC? Student participation and performance in formative peer review",
+      "year": 2017,
+      "month": 8,
+      "day": 18,
+      "pub_date": "2017-08-18",
+      "journal": "Assessment &amp; Evaluation in Higher Education",
+      "type": "journal-article",
+      "doi": "10.1080/02602938.2016.1221052",
+      "url": "https://doi.org/10.1080/02602938.2016.1221052",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
     },
     {
       "title": "Interventions by healthcare professionals to improve management of physical long-term conditions in adults who are homeless: a systematic review protocol",
@@ -10335,6 +10441,22 @@
       "is_sotl": false
     },
     {
+      "title": "Using MOOCs to Increase Exposure to Genomics in an Undergraduate Medical Curriculum. The European Human Genetics Conference 2016, Barcelona, Spain, 21-24 May 2016.",
+      "year": 2016,
+      "month": 5,
+      "day": 22,
+      "pub_date": "2016-05-22",
+      "journal": "The European Human Genetics Conference 2016",
+      "type": "conference-poster",
+      "url": "https://eprints.gla.ac.uk/153284/",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Comparative miRNA-Based Fingerprinting Reveals Biological Differences in Human Olfactory Mucosa- and Bone-Marrow-Derived Mesenchymal Stromal Cells.",
       "year": 2016,
       "month": 4,
@@ -10349,6 +10471,22 @@
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
       "is_sotl": false
+    },
+    {
+      "title": "Playing the Numbers Game: Students as Assessors in a MOOC Context.",
+      "year": 2016,
+      "month": 4,
+      "day": 12,
+      "pub_date": "2016-04-12",
+      "journal": "9th Annual University of Glasgow Learning and Teaching Conference",
+      "type": "conference-paper",
+      "url": "https://eprints.gla.ac.uk/151998/",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Prestimulus influences on auditory perception from sensory representations and decision processes.",
@@ -10379,6 +10517,22 @@
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
       "is_sotl": false
+    },
+    {
+      "title": "What to do with a MOOC? Using the Latest e-Learning Trend to Enhance Medical Education. ",
+      "year": 2016,
+      "month": 2,
+      "day": 25,
+      "pub_date": "2016-02-25",
+      "journal": "HEA Health and Social Care Conference",
+      "type": "conference-paper",
+      "url": "https://eprints.gla.ac.uk/153282/",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Biofilm formation is a risk factor for mortality in patients with Candida albicans bloodstream infection—Scotland, 2012–2013",
@@ -10612,6 +10766,22 @@
       "network_orcids": "0000-0001-8262-9248",
       "network_schools": "MVLS Graduate School",
       "is_sotl": false
+    },
+    {
+      "title": "Is Peer Review an Appropriate Assessment and Feedback Tool for a MOOC? AMEE eLearning Symposium, Glasgow, Scotland, 06-09 Sep 2015.",
+      "year": 2015,
+      "month": 9,
+      "day": 8,
+      "pub_date": "2015-09-08",
+      "journal": "AMEE eLearning Symposium 2015",
+      "type": "conference-paper",
+      "url": "https://eprints.gla.ac.uk/153287/",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Polymicrobial Candida biofilms: friends and foe in the oral cavity.",
@@ -10978,6 +11148,22 @@
       "is_sotl": false
     },
     {
+      "title": "Threshold concepts and troublesome knowledge in the first year curriculum at a UK medical school [Poster]. In: O'Mahoney, C., Buchanan, A., O'Rourke, M. and Higgs, B. (eds.) .",
+      "year": 2014,
+      "month": 10,
+      "day": 1,
+      "pub_date": "2014-10-01",
+      "journal": "NAIRTL",
+      "type": "report",
+      "url": "https://eprints.gla.ac.uk/100939/",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Resolving distinct genetic regulators of tomato leaf shape within a heteroblastic and ontogenetic context.",
       "year": 2014,
       "month": 9,
@@ -11110,6 +11296,21 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "The Making of a MOOC: Reflections from the Journey! ",
+      "year": 2014,
+      "month": 4,
+      "day": 10,
+      "pub_date": "2014-04-10",
+      "journal": "7th Annual University of Glasgow Learning and Teaching Conference",
+      "type": "conference-poster",
+      "url": "https://eprints.gla.ac.uk/151978/",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": false
     },
     {
@@ -12852,6 +13053,20 @@
       "is_sotl": false
     },
     {
+      "title": "p53 and Immunity",
+      "year": 2010,
+      "pub_date": "2010-01-01",
+      "journal": "p53",
+      "type": "book-chapter",
+      "doi": "10.1007/978-1-4419-8231-5_12",
+      "url": "https://doi.org/10.1007/978-1-4419-8231-5_12",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "A Systematic Review and Meta-analysis of the Efficacy and Safety of Etanercept for Treating Rheumatoid Arthritis",
       "year": 2009,
       "month": 10,
@@ -13199,6 +13414,22 @@
       "is_sotl": false
     },
     {
+      "title": "Phosphorylation of the Par-1 polarity kinase by protein kinase D regulates 14-3-3 binding and membrane association",
+      "year": 2008,
+      "month": 11,
+      "day": 25,
+      "pub_date": "2008-11-25",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "type": "journal-article",
+      "doi": "10.1073/pnas.0809661105",
+      "url": "https://doi.org/10.1073/pnas.0809661105",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Innervation and receptor profiles of the human apocrine (epitrichial) sweat gland: routes for intervention in bromhidrosis.",
       "year": 2008,
       "month": 7,
@@ -13533,6 +13764,36 @@
       "is_sotl": false
     },
     {
+      "title": "A Novel Repressor Domain Is Required for Maximal Growth Inhibition by the IRF-1 Tumor Suppressor",
+      "year": 2006,
+      "month": 8,
+      "pub_date": "2006-08-01",
+      "journal": "Journal of Biological Chemistry",
+      "type": "journal-article",
+      "doi": "10.1074/jbc.m512589200",
+      "url": "https://doi.org/10.1074/jbc.m512589200",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Phosphorylation and 14-3-3 binding of Arabidopsis trehalose-phosphate synthase  5 in response to 2-deoxyglucose",
+      "year": 2006,
+      "month": 7,
+      "pub_date": "2006-07-01",
+      "journal": "The Plant Journal",
+      "type": "journal-article",
+      "doi": "10.1111/j.1365-313x.2006.02780.x",
+      "url": "https://doi.org/10.1111/j.1365-313x.2006.02780.x",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "The type III pseudomonal exotoxin U activates the c-Jun NH2-terminal kinase pathway and increases human epithelial interleukin-8 production.",
       "year": 2006,
       "month": 7,
@@ -13749,6 +14010,21 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Lack of PTEN sequesters CHK1 and initiates genetic instability",
+      "year": 2005,
+      "month": 2,
+      "pub_date": "2005-02-01",
+      "journal": "Cancer Cell",
+      "type": "journal-article",
+      "doi": "10.1016/j.ccr.2005.01.009",
+      "url": "https://doi.org/10.1016/j.ccr.2005.01.009",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Changes in mouse granulosa cell gene expression during early luteinization",
       "year": 2005,
       "pub_date": "2005-01-01",
@@ -13831,6 +14107,21 @@
       "is_sotl": false
     },
     {
+      "title": "Comprehensive Proteomic Analysis of Interphase and Mitotic 14-3-3-binding Proteins",
+      "year": 2004,
+      "month": 7,
+      "pub_date": "2004-07-01",
+      "journal": "Journal of Biological Chemistry",
+      "type": "journal-article",
+      "doi": "10.1074/jbc.m403044200",
+      "url": "https://doi.org/10.1074/jbc.m403044200",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Localisation of the vacuolar proton pump (V-H+ -ATPase) and carbonic anhydrase II in the human eccrine sweat gland.",
       "year": 2004,
       "month": 5,
@@ -13844,6 +14135,21 @@
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_orcids": "0000-0003-4241-4933",
       "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
+      "title": "Phosphorylation and 14-3-3 binding of Arabidopsis 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase",
+      "year": 2004,
+      "month": 3,
+      "pub_date": "2004-03-01",
+      "journal": "The Plant Journal",
+      "type": "journal-article",
+      "doi": "10.1111/j.1365-313x.2003.01992.x",
+      "url": "https://doi.org/10.1111/j.1365-313x.2003.01992.x",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": false
     },
     {
@@ -13899,6 +14205,36 @@
       "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-5487-1763",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "Dual phosphorylation controls Cdc25 phosphatases and mitotic entry",
+      "year": 2003,
+      "month": 6,
+      "pub_date": "2003-06-01",
+      "journal": "Nature Cell Biology",
+      "type": "journal-article",
+      "doi": "10.1038/ncb994",
+      "url": "https://doi.org/10.1038/ncb994",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Purification of a plant nucleotide pyrophosphatase as a protein that interferes with nitrate reductase and glutamine synthetase assays",
+      "year": 2003,
+      "month": 3,
+      "pub_date": "2003-03-01",
+      "journal": "European Journal of Biochemistry",
+      "type": "journal-article",
+      "doi": "10.1046/j.1432-1033.2003.03509.x",
+      "url": "https://doi.org/10.1046/j.1432-1033.2003.03509.x",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": false
     },
     {
@@ -14073,6 +14409,21 @@
       "is_sotl": false
     },
     {
+      "title": "Regulation of plant NR activity by reversible phosphorylation, 14-3-3 proteins and proteolysis",
+      "year": 2001,
+      "month": 2,
+      "pub_date": "2001-02-01",
+      "journal": "Cellular and Molecular Life Sciences",
+      "type": "journal-article",
+      "doi": "10.1007/pl00000848",
+      "url": "https://doi.org/10.1007/pl00000848",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Alterations in intrafollicular regulatory factors and apoptosis during selection of follicles in the first follicular wave of the bovine estrous cycle",
       "year": 2001,
       "pub_date": "2001-01-01",
@@ -14203,6 +14554,22 @@
       "is_sotl": false
     },
     {
+      "title": "14-3-3s regulate global cleavage of their diverse binding partners in sugar-starved Arabidopsis cells",
+      "year": 2000,
+      "month": 6,
+      "day": 14,
+      "pub_date": "2000-06-14",
+      "journal": "The EMBO Journal",
+      "type": "journal-article",
+      "doi": "10.1093/emboj/19.12.2869",
+      "url": "https://doi.org/10.1093/emboj/19.12.2869",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Beatson International Cancer Conference: invasion and metastasis",
       "year": 2000,
       "month": 4,
@@ -14271,6 +14638,37 @@
       "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0001-7715-5973",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Microcystin affinity purification of plant protein phosphatases: PP1C, PP5 and a regulatory A-subunit of PP2A",
+      "year": 1999,
+      "month": 9,
+      "day": 3,
+      "pub_date": "1999-09-03",
+      "journal": "FEBS Letters",
+      "type": "journal-article",
+      "doi": "10.1016/s0014-5793(99)01093-5",
+      "url": "https://doi.org/10.1016/s0014-5793(99)01093-5",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Phosphorylation-dependent interactions between enzymes of plant metabolism and 14-3-3 proteins",
+      "year": 1999,
+      "month": 4,
+      "pub_date": "1999-04-01",
+      "journal": "The Plant Journal",
+      "type": "journal-article",
+      "doi": "10.1046/j.1365-313x.1999.00417.x",
+      "url": "https://doi.org/10.1046/j.1365-313x.1999.00417.x",
+      "network_authors": "Sarah Meek",
+      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0001-8771-4185",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": false
     },
     {
