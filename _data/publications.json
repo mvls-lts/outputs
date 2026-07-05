@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-06-28 06:11:19 UTC",
+  "last_updated": "2026-07-05 05:58:28 UTC",
   "n_authors": 66,
-  "n_publications": 958,
-  "n_sotl": 264,
+  "n_publications": 959,
+  "n_sotl": 265,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -595,6 +595,22 @@
   ],
   "publications": [
     {
+      "title": "Ten Simple Rules for Inclusively Supporting Attendance and Engagement in Higher Education",
+      "year": 2026,
+      "month": 7,
+      "day": 3,
+      "pub_date": "2026-07-03",
+      "type": "preprint",
+      "doi": "10.35542/osf.io/3pd6s",
+      "url": "https://doi.org/10.35542/osf.io/3pd6s_v2",
+      "network_authors": "Emily Nordmann",
+      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-0806-1081",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Beyond the myths: Epistemic justice in curriculum contestation",
       "year": 2026,
       "month": 7,
@@ -609,6 +625,22 @@
       "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Knowledge and attitudes towards trauma-informed pedagogy in forensic science education: a national survey in the United Kingdom",
+      "year": 2026,
+      "month": 6,
+      "day": 17,
+      "pub_date": "2026-06-17",
+      "type": "preprint",
+      "doi": "10.35542/osf.io/84ysz",
+      "url": "https://doi.org/10.35542/osf.io/84ysz_v1",
+      "network_authors": "Rafael Venson",
+      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-1959-8503",
+      "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Educating for academic integrity: effectiveness of a digital resource on plagiarism awareness among postgraduate bioscience students",
@@ -643,22 +675,6 @@
       "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "journal"
-    },
-    {
-      "title": "Ten Simple Rules for Inclusively Supporting Attendance and Engagement in Higher Education",
-      "year": 2026,
-      "month": 6,
-      "day": 8,
-      "pub_date": "2026-06-08",
-      "type": "preprint",
-      "doi": "10.35542/osf.io/3pd6s",
-      "url": "https://doi.org/10.35542/osf.io/3pd6s_v1",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-0806-1081",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "Beyond compliance: A transferable and scalable framework for introducing Equality, Diversity and Inclusion in higher education",
