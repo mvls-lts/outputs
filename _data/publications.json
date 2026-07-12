@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-07-05 05:58:28 UTC",
+  "last_updated": "2026-07-12 05:20:12 UTC",
   "n_authors": 66,
-  "n_publications": 959,
-  "n_sotl": 265,
+  "n_publications": 963,
+  "n_sotl": 268,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -595,6 +595,22 @@
   ],
   "publications": [
     {
+      "title": "Geopolitics, international collaborations and publication ethics",
+      "year": 2026,
+      "month": 8,
+      "pub_date": "2026-08-01",
+      "journal": "Medical Education",
+      "type": "journal-article",
+      "doi": "10.1111/medu.70207",
+      "url": "https://doi.org/10.1111/medu.70207",
+      "network_authors": "Lindsey Pope",
+      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
+      "network_orcids": "0000-0003-0899-9616",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Ten Simple Rules for Inclusively Supporting Attendance and Engagement in Higher Education",
       "year": 2026,
       "month": 7,
@@ -625,6 +641,61 @@
       "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Empowering Educators for Global Health: Embedding Sustainability in Medical Education",
+      "year": 2026,
+      "month": 7,
+      "day": 1,
+      "pub_date": "2026-07-01",
+      "type": "conference-paper",
+      "network_authors": "Katie  Brown",
+      "network_authors_school": "Katie Brown [School of Health and Wellbeing]",
+      "network_orcids": "0009-0003-8516-6199",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "From Theory to Practice: Building Sustainable Healthcare into Medical Training",
+      "year": 2026,
+      "month": 7,
+      "day": 1,
+      "pub_date": "2026-07-01",
+      "type": "conference-paper",
+      "network_authors": "Katie  Brown",
+      "network_authors_school": "Katie Brown [School of Health and Wellbeing]",
+      "network_orcids": "0009-0003-8516-6199",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Medical Education Engagement in the Post-Pandemic Era",
+      "year": 2026,
+      "month": 7,
+      "day": 1,
+      "pub_date": "2026-07-01",
+      "type": "conference-paper",
+      "network_authors": "Katie  Brown",
+      "network_authors_school": "Katie Brown [School of Health and Wellbeing]",
+      "network_orcids": "0009-0003-8516-6199",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Student Belonging and the Hidden Curriculum of Isolation",
+      "year": 2026,
+      "month": 6,
+      "day": 25,
+      "pub_date": "2026-06-25",
+      "type": "conference-paper",
+      "network_authors": "Hayley  Connell",
+      "network_authors_school": "Hayley Connell [School of Health and Wellbeing]",
+      "network_orcids": "0009-0009-9107-2520",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Knowledge and attitudes towards trauma-informed pedagogy in forensic science education: a national survey in the United Kingdom",
@@ -877,23 +948,6 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Geopolitics, international collaborations and publication ethics",
-      "year": 2026,
-      "month": 3,
-      "day": 14,
-      "pub_date": "2026-03-14",
-      "journal": "Medical Education",
-      "type": "journal-article",
-      "doi": "10.1111/medu.70207",
-      "url": "https://doi.org/10.1111/medu.70207",
-      "network_authors": "Lindsey Pope",
-      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
-      "network_orcids": "0000-0003-0899-9616",
-      "network_schools": "School of Health and Wellbeing",
-      "is_sotl": true,
-      "sotl_matched_on": "journal"
     },
     {
       "title": "Undergraduate Medical Student Teaching in Out of Hours General Practice",
