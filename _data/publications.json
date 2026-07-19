@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-07-12 05:20:12 UTC",
+  "last_updated": "2026-07-19 05:14:02 UTC",
   "n_authors": 66,
-  "n_publications": 963,
-  "n_sotl": 268,
+  "n_publications": 965,
+  "n_sotl": 269,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -609,6 +609,38 @@
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Inter- and intra- individual variability in audiovisual multisensory processes in healthy ageing",
+      "year": 2026,
+      "month": 7,
+      "day": 17,
+      "pub_date": "2026-07-17",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/an5d8",
+      "url": "https://doi.org/10.31234/osf.io/an5d8_v1",
+      "network_authors": "James Bartlett",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-4191-5245",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Livestreaming clinical education in general practice: practical lessons from implementation across seven UK medical schools",
+      "year": 2026,
+      "month": 7,
+      "day": 14,
+      "pub_date": "2026-07-14",
+      "journal": "Education for Primary Care",
+      "type": "journal-article",
+      "doi": "10.1080/14739879.2026.2673398",
+      "url": "https://doi.org/10.1080/14739879.2026.2673398",
+      "network_authors": "Lindsey Pope",
+      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
+      "network_orcids": "0000-0003-0899-9616",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Ten Simple Rules for Inclusively Supporting Attendance and Engagement in Higher Education",
