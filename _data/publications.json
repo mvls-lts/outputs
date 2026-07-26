@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-19 05:14:02 UTC",
+  "last_updated": "2026-07-26 05:26:43 UTC",
   "n_authors": 66,
-  "n_publications": 965,
+  "n_publications": 967,
   "n_sotl": 269,
   "authors": [
     {
@@ -611,6 +611,21 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Debunking decreases mistaken causal inferences: A direct replication of Irving et al. (2022)",
+      "year": 2026,
+      "month": 7,
+      "day": 24,
+      "pub_date": "2026-07-24",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/am6rg",
+      "url": "https://doi.org/10.31234/osf.io/am6rg_v2",
+      "network_authors": "James Bartlett",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-4191-5245",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Inter- and intra- individual variability in audiovisual multisensory processes in healthy ageing",
       "year": 2026,
       "month": 7,
@@ -712,6 +727,22 @@
       "network_authors_school": "Katie Brown [School of Health and Wellbeing]",
       "network_orcids": "0009-0003-8516-6199",
       "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Studying with GenAI: Student views on the opportunities and risks of GenAI in higher education",
+      "year": 2026,
+      "month": 7,
+      "pub_date": "2026-07-01",
+      "journal": "Education and Information Technologies",
+      "type": "journal-article",
+      "doi": "10.1007/s10639-026-13923-3",
+      "url": "https://doi.org/10.1007/s10639-026-13923-3",
+      "network_authors": "Ashley Robertson",
+      "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-9914-3199",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -901,6 +932,20 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Loss of MITF activity leads to emergent cell states from the melanocyte stem cell lineage",
+      "year": 2026,
+      "month": 4,
+      "day": 12,
+      "pub_date": "2026-04-12",
+      "journal": "bioRxiv",
+      "type": "journal-article",
+      "network_authors": "Alessandro Brombin",
+      "network_authors_school": "Alessandro Brombin [MVLS Graduate School]",
+      "network_orcids": "0000-0001-8262-9248",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "Interprofessional Feedback for Communication Skills Development: Collaborative Learning Between Dentistry and Clinical Psychology Students",
       "year": 2026,
       "month": 4,
@@ -963,23 +1008,6 @@
       "network_orcids": "0000-0001-8756-6848",
       "network_schools": "School of Health & Wellbeing",
       "is_sotl": false
-    },
-    {
-      "title": "Studying with GenAI: Student views on the opportunities and risks of GenAI in higher education",
-      "year": 2026,
-      "month": 3,
-      "day": 16,
-      "pub_date": "2026-03-16",
-      "journal": "Education and Information Technologies",
-      "type": "journal-article",
-      "doi": "10.1007/s10639-026-13923-3",
-      "url": "https://doi.org/10.1007/s10639-026-13923-3",
-      "network_authors": "Ashley Robertson",
-      "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-9914-3199",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "Undergraduate Medical Student Teaching in Out of Hours General Practice",
