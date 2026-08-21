@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-08-16 02:56:39 UTC",
-  "n_authors": 66,
-  "n_publications": 977,
-  "n_sotl": 283,
+  "last_updated": "2026-08-21 14:30:13 UTC",
+  "n_authors": 70,
+  "n_publications": 1017,
+  "n_sotl": 302,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -591,9 +591,59 @@
       "name": "Sarah Meek",
       "school": "School of Medicine, Dentistry, & Nursing",
       "display_name": "Sarah Meek"
+    },
+    {
+      "orcid_id": "0000-0002-1568-2046",
+      "given_name": "Jennifer",
+      "family_name": "Clancy",
+      "affiliation": "University of Glasgow",
+      "name": "Jenny Clancy",
+      "school": "School of Medicine, Dentistry, & Nursing",
+      "display_name": "Jenny Clancy"
+    },
+    {
+      "orcid_id": "0009-0002-1963-2545",
+      "given_name": "Jennifer",
+      "family_name": "Hammond",
+      "name": "Jennifer Hammond",
+      "school": "School of Biodiversity, One Health, & Veterinary Medicine",
+      "display_name": "Jennifer Hammond"
+    },
+    {
+      "orcid_id": "0000-0002-2819-0673",
+      "given_name": "Courtney",
+      "family_name": "Taylor Browne Lūka",
+      "affiliation": "University of Glasgow",
+      "name": "Courtney Taylor Browne Luka",
+      "school": "School of Psychology and Neuroscience",
+      "display_name": "Courtney Taylor Browne Luka"
+    },
+    {
+      "orcid_id": "0000-0002-9313-4280",
+      "given_name": "Sandy",
+      "family_name": "Wilson",
+      "affiliation": "University of Glasgow",
+      "name": "Sandy Wilson",
+      "school": "Graduate School",
+      "display_name": "Sandy Wilson"
     }
   ],
   "publications": [
+    {
+      "title": "What Makes an Anatomist “Clinical”? A Perspective From the British Association of Clinical Anatomists (\n                    <scp>BACA<\/scp>\n                    )",
+      "year": 2026,
+      "month": 9,
+      "pub_date": "2026-09-01",
+      "journal": "Clinical Anatomy",
+      "type": "journal-article",
+      "doi": "10.1002/ca.70061",
+      "url": "https://doi.org/10.1002/ca.70061",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
     {
       "title": "Guest editorial: Navigating and developing identity in intercultural education practices",
       "year": 2026,
@@ -889,6 +939,23 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Feedback strategies: Applying theory to practice",
+      "year": 2026,
+      "month": 6,
+      "day": 19,
+      "pub_date": "2026-06-19",
+      "journal": "Anatomical Sciences Education",
+      "type": "journal-article",
+      "doi": "10.1002/ase.70290",
+      "url": "https://doi.org/10.1002/ase.70290",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Knowledge and attitudes towards trauma-informed pedagogy in forensic science education: a national survey in the United Kingdom",
       "year": 2026,
       "month": 6,
@@ -937,6 +1004,23 @@
       "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Sleeping but struggling: a qualitative study of the lived experiences of sleep in student-athletes",
+      "year": 2026,
+      "month": 6,
+      "day": 2,
+      "pub_date": "2026-06-02",
+      "journal": "Scientific Reports",
+      "type": "journal-article",
+      "doi": "10.1038/s41598-026-55657-9",
+      "url": "https://doi.org/10.1038/s41598-026-55657-9",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Beyond compliance: A transferable and scalable framework for introducing Equality, Diversity and Inclusion in higher education",
@@ -1520,6 +1604,21 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "Guest editorial: Engaging with artificial intelligence technologies to support implementation of sustainable development goals in higher education: implications for strategic management and leadership",
+      "year": 2026,
+      "pub_date": "2026-01-01",
+      "journal": "INTERNATIONAL JOURNAL OF EDUCATIONAL MANAGEMENT",
+      "type": "journal-article",
+      "doi": "10.1108/ijem-02-2026-911",
+      "url": "https://doi.org/10.1108/IJEM-02-2026-911",
+      "network_authors": "Thinh Pham",
+      "network_authors_school": "Thinh Pham [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2237-5087",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "LinkedIn to Get In: embedding learning activities to support student career development through online professional networking",
       "year": 2026,
       "month": 1,
@@ -1705,6 +1804,22 @@
       "network_authors_school": "Hayley Connell [School of Health and Wellbeing]",
       "network_orcids": "0009-0009-9107-2520",
       "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Creation and pilot evaluation of a behavioural sleep intervention for student-athletes",
+      "year": 2025,
+      "month": 12,
+      "pub_date": "2025-12-01",
+      "journal": "Sport Sciences for Health",
+      "type": "journal-article",
+      "doi": "10.1007/s11332-025-01567-8",
+      "url": "https://doi.org/10.1007/s11332-025-01567-8",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -2241,6 +2356,20 @@
       "sotl_matched_on": "journal"
     },
     {
+      "title": "‘Conversations’: The Efficacy of Chat Platforms to Build a Community of Postgraduate Learners Across On‑Campus and Online Cohorts",
+      "year": 2025,
+      "month": 8,
+      "day": 21,
+      "pub_date": "2025-08-21",
+      "type": "conference-paper",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Making space for positionality stories in higher education: using embodied feminist and critical pedagogies in practice",
       "year": 2025,
       "month": 8,
@@ -2416,6 +2545,22 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "How to Enhance Sleep for Athletes? A Narrative Review of Sleep Hygiene and Sleep Extension Practices",
+      "year": 2025,
+      "month": 7,
+      "day": 18,
+      "pub_date": "2025-07-18",
+      "journal": "Current Sleep Medicine Reports",
+      "type": "journal-article",
+      "doi": "10.1007/s40675-025-00342-y",
+      "url": "https://doi.org/10.1007/s40675-025-00342-y",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
+      "is_sotl": false
+    },
+    {
       "title": "Responding to Student Substance Use in Higher Education: Adapting Research Findings into Practice",
       "year": 2025,
       "month": 7,
@@ -2426,6 +2571,23 @@
       "network_authors_school": "Sharon Greenwood [School of Health & Wellbeing]",
       "network_orcids": "0000-0003-4143-4430",
       "network_schools": "School of Health & Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Sleep Health in the Student-Athlete: A Narrative Review of Current Research and Future Directions",
+      "year": 2025,
+      "month": 7,
+      "day": 14,
+      "pub_date": "2025-07-14",
+      "journal": "Current Sleep Medicine Reports",
+      "type": "journal-article",
+      "doi": "10.1007/s40675-025-00341-z",
+      "url": "https://doi.org/10.1007/s40675-025-00341-z",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -2490,6 +2652,32 @@
       "network_orcids": "0000-0002-4500-1395",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "Digital 3D Veterinary Anatomy: Impact on Learning Gain, Experience and Engagement",
+      "year": 2025,
+      "month": 7,
+      "pub_date": "2025-07-01",
+      "type": "conference-paper",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Moulding the Future of Veterinary Education: Initial Stages in Development of a Canine Echocardiography Simulator",
+      "year": 2025,
+      "month": 7,
+      "pub_date": "2025-07-01",
+      "type": "conference-paper",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "The first report of quadricuspid aortic valve in cattle: clinical, anatomical and histological findings in three Holstein cattle",
@@ -2987,6 +3175,22 @@
       "network_authors_school": "Claire Donald [School of Infection & Immunity]",
       "network_orcids": "0000-0002-4370-0707",
       "network_schools": "School of Infection & Immunity",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Irregular sleep/wake patterns in student-athletes exposed to early morning training",
+      "year": 2025,
+      "month": 2,
+      "pub_date": "2025-02-01",
+      "journal": "Journal of Sports Sciences",
+      "type": "journal-article",
+      "doi": "10.1080/02640414.2025.2452726",
+      "url": "https://doi.org/10.1080/02640414.2025.2452726",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -3608,9 +3812,9 @@
       "type": "journal-article",
       "doi": "10.1177/10731911241262140",
       "url": "https://doi.org/10.1177/10731911241262140",
-      "network_authors": "Judith Stevenson",
-      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-6222-354X",
+      "network_authors": "Judith Stevenson; Courtney Taylor Browne Lūka",
+      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]; Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-6222-354X; 0000-0002-2819-0673",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
@@ -3629,6 +3833,38 @@
       "network_authors_school": "Simon Hanzal [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0003-2659-1980",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Terminologia Anatomica 2nd edition: perspectives from anatomy educators in the United Kingdom",
+      "year": 2024,
+      "month": 7,
+      "day": 9,
+      "pub_date": "2024-07-09",
+      "journal": "Anatomical Science International",
+      "type": "journal-article",
+      "doi": "10.1007/s12565-024-00784-4",
+      "url": "https://doi.org/10.1007/s12565-024-00784-4",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Behavioral interventions and behavior change techniques used to improve sleep outcomes in athlete populations: A scoping review",
+      "year": 2024,
+      "month": 7,
+      "day": 4,
+      "pub_date": "2024-07-04",
+      "journal": "Behavioral Sleep Medicine",
+      "type": "journal-article",
+      "doi": "10.1080/15402002.2024.2374257",
+      "url": "https://doi.org/10.1080/15402002.2024.2374257",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
       "is_sotl": false
     },
     {
@@ -3834,6 +4070,22 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Early morning sport scheduling is associated with poorer subjective sleep characteristics in British student‐athletes",
+      "year": 2024,
+      "month": 3,
+      "pub_date": "2024-03-01",
+      "journal": "Scandinavian Journal of Medicine & Science in Sports",
+      "type": "journal-article",
+      "doi": "10.1111/sms.14598",
+      "url": "https://doi.org/10.1111/sms.14598",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Improving CRISPR-Cas9 directed faithful transgene integration outcomes by reducing unwanted random DNA integration.",
       "year": 2024,
       "month": 3,
@@ -4020,6 +4272,21 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Cerebral Magnetic Resonance Angiography (MRA) Learning: A Methodological Framework to Develop a Web-Based Interactive 3D Application for Indonesian Medical Education",
+      "year": 2024,
+      "pub_date": "2024-01-01",
+      "journal": "Biomedical Visualization",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-031-63463-5_8",
+      "url": "https://doi.org/10.1007/978-3-031-63463-5_8",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Clinical and Functional Outcomes of Community-Recruited Individuals at Clinical High-Risk for Psychosis: Results From the Youth Mental Health Risk and Resilience Study (YouR-Study)",
       "year": 2024,
       "month": 1,
@@ -4092,6 +4359,20 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Medical Visualization and Applications of Technology ‒ Volume 2",
+      "year": 2024,
+      "pub_date": "2024-01-01",
+      "journal": "Springer Nature Switzerland",
+      "type": "book",
+      "doi": "10.1007/978-3-031-63463-5",
+      "url": "https://doi.org/10.1007/978-3-031-63463-5",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "MindMap: Developing and Evaluating a Novel Digital Revision Tool for Cranial Nerve Nuclei and Their Resulting Pathways",
       "year": 2024,
       "pub_date": "2024-01-01",
@@ -4104,6 +4385,21 @@
       "network_orcids": "0000-0003-3826-9956",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
+    },
+    {
+      "title": "Virtual Reality Surgical Simulation Model to Train Microsurgical Digit Revascularization and Replantation",
+      "year": 2024,
+      "pub_date": "2024-01-01",
+      "journal": "Biomedical Visualization",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-031-63463-5_2",
+      "url": "https://doi.org/10.1007/978-3-031-63463-5_2",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "What brought us together to form a community for scholarship",
@@ -4307,6 +4603,38 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "O11 Irregular sleep/wake patterns in student-athletes",
+      "year": 2023,
+      "month": 10,
+      "pub_date": "2023-10-01",
+      "journal": "Abstracts",
+      "type": "conference-abstract",
+      "doi": "10.1136/bmjresp-2023-bssconf.11",
+      "url": "https://doi.org/10.1136/bmjresp-2023-bssconf.11",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Health Care Providers’ Readiness to Adopt an Interactive 3D Web App in Consultations About Female Genital Mutilation/Cutting: Qualitative Evaluation of a Prototype",
+      "year": 2023,
+      "month": 9,
+      "day": 28,
+      "pub_date": "2023-09-28",
+      "journal": "JMIR Formative Research",
+      "type": "journal-article",
+      "doi": "10.2196/44696",
+      "url": "https://doi.org/10.2196/44696",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
     },
     {
       "title": "Benefits, risks, barriers, and facilitators to cycling: a narrative review",
@@ -4581,9 +4909,41 @@
       "type": "preprint",
       "doi": "10.31234/osf.io/v6qna",
       "url": "https://doi.org/10.31234/osf.io/v6qna",
-      "network_authors": "Judith Stevenson",
-      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0001-6222-354X",
+      "network_authors": "Judith Stevenson; Courtney Taylor Browne Lūka",
+      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]; Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-6222-354X; 0000-0002-2819-0673",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Using the Situated Assessment Method (SAM²) to measure social connectedness, social support, and loneliness before and during COVID-19",
+      "year": 2023,
+      "month": 5,
+      "day": 18,
+      "pub_date": "2023-05-18",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/j7kph",
+      "url": "https://doi.org/10.31234/osf.io/j7kph",
+      "network_authors": "Courtney Taylor Browne Lūka",
+      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2819-0673",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Developing the Situated Assessment Method (SAM²) to assess social connectedness and social support",
+      "year": 2023,
+      "month": 5,
+      "day": 17,
+      "pub_date": "2023-05-17",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/m3d65",
+      "url": "https://doi.org/10.31234/osf.io/m3d65",
+      "network_authors": "Courtney Taylor Browne Lūka",
+      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2819-0673",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
@@ -5007,6 +5367,20 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-7789-1185",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Virtuous opinion change in structured groups",
+      "year": 2023,
+      "pub_date": "2023-01-01",
+      "journal": "Judgment and Decision Making",
+      "type": "journal-article",
+      "doi": "10.1017/jdm.2023.22",
+      "url": "https://doi.org/10.1017/jdm.2023.22",
+      "network_authors": "Courtney Taylor Browne Lūka",
+      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2819-0673",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -5970,6 +6344,22 @@
       "is_sotl": false
     },
     {
+      "title": "Structured groups make more accurate veracity judgements than individuals",
+      "year": 2021,
+      "month": 11,
+      "day": 8,
+      "pub_date": "2021-11-08",
+      "journal": "Applied Cognitive Psychology",
+      "type": "journal-article",
+      "doi": "10.1002/acp.3892",
+      "url": "https://doi.org/10.1002/acp.3892",
+      "network_authors": "Courtney Taylor Browne Lūka",
+      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2819-0673",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Limited replication of human cytomegalovirus in a trophoblast cell line",
       "year": 2021,
       "month": 11,
@@ -6078,6 +6468,37 @@
       "network_orcids": "0000-0002-4500-1395",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "Cohort profile: The ‘Children’s Health in Care in Scotland’ (CHiCS) study—a longitudinal dataset to compare health outcomes for care experienced children and general population children",
+      "year": 2021,
+      "month": 9,
+      "pub_date": "2021-09-01",
+      "journal": "BMJ Open",
+      "type": "journal-article",
+      "doi": "10.1136/bmjopen-2021-054664",
+      "url": "https://doi.org/10.1136/bmjopen-2021-054664",
+      "network_authors": "Courtney Taylor Browne Lūka",
+      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2819-0673",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Delphi with feedback of rationales: How large can a Delphi group be such that participants are not overloaded, de-motivated, or disengaged?",
+      "year": 2021,
+      "month": 9,
+      "pub_date": "2021-09-01",
+      "journal": "Technological Forecasting and Social Change",
+      "type": "journal-article",
+      "doi": "10.1016/j.techfore.2021.120897",
+      "url": "https://doi.org/10.1016/j.techfore.2021.120897",
+      "network_authors": "Courtney Taylor Browne Lūka",
+      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2819-0673",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "How to investigate a stillbirth on farm",
@@ -6380,6 +6801,21 @@
       "network_authors_school": "Claire Donald [School of Infection & Immunity]",
       "network_orcids": "0000-0002-4370-0707",
       "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "The effect of Delphi group size and opinion diversity on participant experience",
+      "year": 2021,
+      "month": 5,
+      "day": 4,
+      "pub_date": "2021-05-04",
+      "type": "preprint",
+      "doi": "10.31219/osf.io/e9ubm",
+      "url": "https://doi.org/10.31219/osf.io/e9ubm",
+      "network_authors": "Courtney Taylor Browne Lūka",
+      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2819-0673",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -7209,6 +7645,21 @@
       "is_sotl": false
     },
     {
+      "title": "The Simulated Group Response Paradigm: A new approach to the study of opinion change in Delphi and other structured-group techniques",
+      "year": 2020,
+      "month": 6,
+      "day": 27,
+      "pub_date": "2020-06-27",
+      "type": "preprint",
+      "doi": "10.31219/osf.io/4ufzg",
+      "url": "https://doi.org/10.31219/osf.io/4ufzg",
+      "network_authors": "Courtney Taylor Browne Lūka",
+      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2819-0673",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "­­­­­­Widespread conservation and lineage-specific diversification of genome-wide DNA methylation patterns across arthropods",
       "year": 2020,
       "month": 6,
@@ -7756,6 +8207,20 @@
       "is_sotl": false
     },
     {
+      "title": "Virtual Anatomy Museum: Facilitating Public Engagement Through an Interactive Application",
+      "year": 2020,
+      "pub_date": "2020-01-01",
+      "journal": "Advances in Experimental Medicine and Biology",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-030-43961-3_1",
+      "url": "https://doi.org/10.1007/978-3-030-43961-3_1",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "Why GPs Refer to Chaplaincy: A Qualitative Study",
       "year": 2020,
       "pub_date": "2020-01-01",
@@ -7768,6 +8233,21 @@
       "network_orcids": "0000-0001-9241-9500",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": false
+    },
+    {
+      "title": "eLearning and Embryology: Designing an Application to Improve 3D Comprehension of Embryological Structures",
+      "year": 2020,
+      "pub_date": "2020-01-01",
+      "journal": "Advances in Experimental Medicine and Biology",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-030-43961-3_2",
+      "url": "https://doi.org/10.1007/978-3-030-43961-3_2",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Antagonistic action of blood-feeding and mating on the gut immunity in the female mosquito Aedes aegypti",
@@ -7984,6 +8464,22 @@
       "network_orcids": "0000-0002-8514-7030",
       "network_schools": "School of Cancer Sciences",
       "is_sotl": false
+    },
+    {
+      "title": "Use of a virtual 3D anterolateral thigh model in medical education: Augmentation and not replacement of traditional teaching?",
+      "year": 2019,
+      "month": 10,
+      "pub_date": "2019-10-01",
+      "journal": "Journal of plastic, reconstructive & aesthetic surgery : JPRAS",
+      "type": "journal-article",
+      "doi": "10.1016/j.bjps.2019.09.034",
+      "url": "https://doi.org/10.1016/j.bjps.2019.09.034",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Designing a Massive Open Online Course (MOOC)",
@@ -8210,6 +8706,21 @@
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Effects of transcutaneous vagus nerve stimulation in individuals aged 55 years or above: potential benefits of daily stimulation.",
+      "year": 2019,
+      "month": 7,
+      "pub_date": "2019-07-01",
+      "journal": "Aging",
+      "type": "journal-article",
+      "doi": "10.18632/aging.102074",
+      "url": "https://doi.org/10.18632/aging.102074",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
     },
     {
       "title": "Foraging rates of ram‐filtering North Atlantic right whales",
@@ -8831,6 +9342,22 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Using Photogrammetry to Create a Realistic 3D Anatomy Learning Aid with Unity Game Engine.",
+      "year": 2019,
+      "month": 1,
+      "pub_date": "2019-01-01",
+      "journal": "Advances in experimental medicine and biology",
+      "type": "journal-article",
+      "doi": "10.1007/978-3-030-31904-5_7",
+      "url": "https://doi.org/10.1007/978-3-030-31904-5_7",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Antiviral RNA Interference Activity in Cells of the Predatory Mosquito, <i>Toxorhynchites amboinensis<\/i>",
       "year": 2018,
       "month": 12,
@@ -9089,6 +9616,21 @@
       "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0001-9914-3199",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "A safe technique for insertion of heel wires for hindfoot external fixation frames: an anatomical study.",
+      "year": 2018,
+      "month": 8,
+      "pub_date": "2018-08-01",
+      "journal": "The bone & joint journal",
+      "type": "journal-article",
+      "doi": "10.1302/0301-620x.100b8.bjj-2017-1427.r1",
+      "url": "https://doi.org/10.1302/0301-620x.100b8.bjj-2017-1427.r1",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": false
     },
     {
@@ -9695,6 +10237,21 @@
       "network_authors_school": "Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-0240-707X",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Mechanisms underpinning sympathetic nervous activity and its modulation using transcutaneous vagus nerve stimulation.",
+      "year": 2017,
+      "month": 12,
+      "pub_date": "2017-12-01",
+      "journal": "Experimental physiology",
+      "type": "journal-article",
+      "doi": "10.1113/ep086433",
+      "url": "https://doi.org/10.1113/EP086433",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": false
     },
     {
@@ -11364,6 +11921,21 @@
       "is_sotl": false
     },
     {
+      "title": "Non-invasive vagus nerve stimulation in healthy humans reduces sympathetic nerve activity.",
+      "year": 2014,
+      "month": 7,
+      "pub_date": "2014-07-01",
+      "journal": "Brain stimulation",
+      "type": "journal-article",
+      "doi": "10.1016/j.brs.2014.07.031",
+      "url": "https://doi.org/10.1016/j.brs.2014.07.031",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "p300-mediated acetylation of COMMD1 regulates its stability, and the ubiquitylation and nucleolar translocation of the RelA NF-κB subunit.",
       "year": 2014,
       "month": 7,
@@ -11678,6 +12250,21 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
+      "title": "Anodal transcranial direct current stimulation (tDCS) over the motor cortex increases sympathetic nerve activity.",
+      "year": 2013,
+      "month": 9,
+      "pub_date": "2013-09-01",
+      "journal": "Brain stimulation",
+      "type": "journal-article",
+      "doi": "10.1016/j.brs.2013.08.005",
+      "url": "https://doi.org/10.1016/j.brs.2013.08.005",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": false
     },
     {
@@ -12085,6 +12672,21 @@
       "is_sotl": false
     },
     {
+      "title": "Highlights in basic autonomic neurosciences: exploring novel and atypical circuits.",
+      "year": 2012,
+      "month": 8,
+      "pub_date": "2012-08-01",
+      "journal": "Autonomic neuroscience : basic & clinical",
+      "type": "journal-article",
+      "doi": "10.1016/j.autneu.2012.08.001",
+      "url": "https://doi.org/10.1016/j.autneu.2012.08.001",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
       "title": "In Vitro Candida albicans Biofilm Induced Proteinase Activity and SAP8 Expression Correlates with In Vivo Denture Stomatitis Severity",
       "year": 2012,
       "month": 7,
@@ -12097,6 +12699,21 @@
       "network_authors_school": "Leighann Sherry [School of Infection & Immunity]",
       "network_orcids": "0000-0002-0493-6135",
       "network_schools": "School of Infection & Immunity",
+      "is_sotl": false
+    },
+    {
+      "title": "The wonders of the Wanderer.",
+      "year": 2012,
+      "month": 7,
+      "pub_date": "2012-07-01",
+      "journal": "Experimental physiology",
+      "type": "journal-article",
+      "doi": "10.1113/expphysiol.2012.064543",
+      "url": "https://doi.org/10.1113/expphysiol.2012.064543",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": false
     },
     {
@@ -12623,6 +13240,21 @@
       "network_authors_school": "Emanuele Conte [School of Molecular Biosciences]",
       "network_orcids": "0000-0002-7938-8743",
       "network_schools": "School of Molecular Biosciences",
+      "is_sotl": false
+    },
+    {
+      "title": "HIGHLIGHTS IN BASIC AUTONOMIC NEUROSCIENCES: NEW AVENUES FOR THE STUDY OF AUTONOMIC FUNCTION IN HEALTH AND DISEASE",
+      "year": 2011,
+      "month": 4,
+      "pub_date": "2011-04-01",
+      "journal": "Autonomic Neuroscience",
+      "type": "journal-article",
+      "doi": "10.1016/j.autneu.2011.02.002",
+      "url": "https://doi.org/10.1016/j.autneu.2011.02.002",
+      "network_authors": "Jennifer Clancy",
+      "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
+      "network_orcids": "0000-0002-1568-2046",
+      "network_schools": "School of Medicine, Dentistry, & Nursing",
       "is_sotl": false
     },
     {
@@ -15225,6 +15857,17 @@
       "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-1959-8503",
       "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Improving the production and evaluation of structural models using a Delphi process",
+      "type": "other",
+      "doi": "10.31219/osf.io/v6qsp",
+      "url": "https://doi.org/10.31219/osf.io/v6qsp",
+      "network_authors": "Courtney Taylor Browne Lūka",
+      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-2819-0673",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
