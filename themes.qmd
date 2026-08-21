@@ -1,0 +1,283 @@
+---
+title: "Themes"
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(jsonlite)
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(stringr)
+library(glue)
+library(DT)
+library(ggplot2)
+
+themes_path <- here::here("_data", "themes.json")
+
+# jsonlite silently treats a non-existent path as literal JSON text, which fails
+# with an unhelpful lexical error. Check first and say what to do about it.
+if (!file.exists(themes_path)) {
+  stop(
+    "\n_data/themes.json not found.\n",
+    "Generate it before rendering:\n",
+    "  Rscript R/fetch_abstracts.R    # abstracts, cached; a few minutes first run\n",
+    "  Rscript R/classify_themes.R   # writes _data/themes.json\n",
+    call. = FALSE
+  )
+}
+
+theme_data <- fromJSON(themes_path, simplifyVector = TRUE)
+
+theme_defs <- as_tibble(theme_data$themes)
+cross_def  <- theme_data$cross
+counts     <- as_tibble(theme_data$counts)
+
+outputs <- as_tibble(theme_data$outputs) |>
+  mutate(
+    theme_list = str_split(replace_na(themes, ""), ";"),
+    theme_list = map(theme_list, ~ .x[.x != ""]),
+    n_themes   = lengths(theme_list)
+  )
+
+# UofG brand colours
+uofg_blue   <- "#003865"
+uofg_cobalt <- "#0075B0"
+
+#' Render one output as a formatted citation line
+cite_line <- function(pub) {
+  authors <- if (!is.na(pub$network_authors_school) && pub$network_authors_school != "") {
+    glue("{pub$network_authors_school}. ")
+  } else {
+    ""
+  }
+  title_text <- if (!is.na(pub$url) && pub$url != "") {
+    glue("[{pub$title}]({pub$url})")
+  } else {
+    pub$title
+  }
+  year_text    <- if (!is.na(pub$year)) glue(" ({pub$year})") else ""
+  journal_text <- if (!is.na(pub$journal) && pub$journal != "") glue(" *{pub$journal}*.") else ""
+  glue("- {authors}{title_text}{year_text}.{journal_text}")
+}
+
+# How many outputs to show under each theme heading
+n_show <- 10
+
+#' Write a markdown block, bypassing glue()'s newline trimming.
+#' glue() strips leading and trailing newlines, which silently welds a heading
+#' or lead-in onto the list that follows and swallows the first bullet.
+md <- function(...) cat(..., "\n\n", sep = "")
+
+#' Write one list item. Single trailing newline keeps the list tight; the
+#' blank line that closes the list is emitted by the next md() call.
+li <- function(...) cat(..., "\n", sep = "")
+
+#' Print the most recent outputs carrying a given theme id
+print_theme <- function(id, limit = n_show) {
+  sel <- outputs |>
+    filter(map_lgl(theme_list, ~ id %in% .x)) |>
+    arrange(desc(year), title)
+
+  if (nrow(sel) == 0) {
+    md("*No outputs currently matched to this theme.*")
+    return(invisible(NULL))
+  }
+
+  shown <- head(sel, limit)
+  for (i in seq_len(nrow(shown))) {
+    li(cite_line(shown[i, ]))
+  }
+
+  cat("\n")
+  if (nrow(sel) > limit) {
+    md(sprintf(
+      "*Showing the %d most recent of %d. Use the table above to see the rest.*",
+      limit, nrow(sel)
+    ))
+  }
+}
+```
+
+These `r theme_data$n_outputs` outputs are the ones the site has flagged as Scholarship of Teaching and Learning, sorted into themes so you can see what work is happening where. Themes were revised after the network symposium in August 2026.
+
+::: {.callout-warning collapse="true"}
+## How this grouping is made, and where it goes wrong
+
+The grouping is automatic. Each output is matched on its title, journal name and — where one could be retrieved — its abstract, against a set of keywords for each theme. Nothing here has been read by a person.
+
+Three things follow from that:
+
+- **An output can appear under more than one theme.** Most SoTL work touches several at once, and forcing a single label would misrepresent it. `r sum(outputs$n_themes > 1)` outputs carry more than one theme.
+- **`r theme_data$n_unclassified` outputs are not matched to any theme.** They are listed at the foot of this page. Usually the title is too oblique for the matching to work, not that the work sits outside every theme.
+- **Some outputs are in the wrong place.** Abstracts were available for `r theme_data$n_with_abstract` of `r theme_data$n_outputs` outputs; the rest were matched on title and journal alone, which is thin evidence.
+
+These are browsing categories for a publication list, produced to give a rough view of where the college's scholarship sits. They are not a structure the network has adopted, and nothing here constrains what anyone works on.
+:::
+
+## Outputs per theme
+
+```{r}
+#| label: theme-chart
+#| echo: false
+#| fig-width: 9
+#| fig-height: 4.5
+
+plot_counts <- counts |>
+  filter(id != cross_def$id) |>
+  mutate(label = str_wrap(label, 28)) |>
+  arrange(n)
+
+ggplot(plot_counts, aes(x = reorder(label, n), y = n)) +
+  geom_col(fill = uofg_blue, width = 0.7) +
+  geom_text(aes(label = n), hjust = -0.3, size = 3.5, colour = uofg_blue) +
+  coord_flip() +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.12))) +
+  labs(x = NULL, y = "Number of outputs") +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor   = element_blank(),
+    axis.title         = element_text(colour = uofg_blue),
+    axis.text.y        = element_text(colour = uofg_blue, lineheight = 0.95)
+  )
+```
+
+Counts sum to more than the number of outputs because an output can sit in several themes. The differences between themes reflect what has been published and registered on ORCID, not what the college thinks is important — a small theme is a gap, not a verdict.
+
+## Browse everything
+
+```{r}
+#| label: master-table
+#| echo: false
+
+label_lookup <- set_names(theme_defs$label, theme_defs$id)
+
+# One row per output-theme pair. DT only renders a dropdown filter for factor
+# columns, and it matches the whole cell exactly, so a combined "A; B" cell
+# could never be found by picking "A". Exploding keeps the filter usable; an
+# output in several themes appears once under each.
+table_data <- outputs |>
+  mutate(
+    Title = if_else(
+      !is.na(url) & url != "",
+      glue('<a href="{url}" target="_blank">{title}</a>'),
+      title
+    ),
+    Methods = if_else(is_cross %in% TRUE, "Yes", "No"),
+    School  = replace_na(network_schools, "—"),
+    Theme   = map(theme_list, function(ids) {
+      if (length(ids) == 0) return("Unclassified")
+      unname(label_lookup[ids])
+    })
+  ) |>
+  unnest_longer(Theme) |>
+  mutate(
+    # Factor levels fix the dropdown order and keep Unclassified last
+    Theme   = factor(Theme, levels = c(theme_defs$label, "Unclassified")),
+    Methods = factor(Methods, levels = c("Yes", "No"))
+  ) |>
+  select(Theme, Title, Year = year, Methods, School, Journal = journal,
+         `Network authors` = network_authors) |>
+  arrange(Theme, desc(Year))
+
+datatable(
+  table_data,
+  escape  = FALSE,
+  filter  = "top",
+  options = list(
+    pageLength = 15,
+    order      = list(list(2, "desc")),
+    columnDefs = list(
+      list(width = "18%", targets = 0),
+      list(width = "30%", targets = 1),
+      list(width = "5%",  targets = 2),
+      list(width = "5%",  targets = 3),
+      list(className = "dt-left", targets = "_all")
+    )
+  ),
+  rownames = FALSE
+)
+```
+
+Pick a theme from the dropdown at the top of the first column. An output that spans several themes is listed once under each, so the table has more rows than there are outputs. The **Methods** column flags outputs that also engage with SoTL research methods, statistics or open scholarship; it cuts across the themes rather than sitting alongside them.
+
+```{r}
+#| label: theme-sections
+#| echo: false
+#| results: asis
+
+for (i in seq_len(nrow(theme_defs))) {
+  d <- theme_defs[i, ]
+  n <- counts$n[counts$id == d$id]
+
+  md("## ", d$label)
+  md("*", d$blurb, "*")
+  md("**", n, " output", if (n == 1) "" else "s", " in total**")
+  print_theme(d$id)
+}
+```
+
+## `r cross_def$label` {#sotl-methods}
+
+*`r cross_def$blurb`*
+
+```{r}
+#| label: cross-section
+#| echo: false
+#| results: asis
+
+sel <- outputs |>
+  filter(is_cross %in% TRUE) |>
+  arrange(desc(year), title)
+
+md("**", nrow(sel), " outputs in total**")
+
+if (nrow(sel) == 0) {
+  md("*No outputs currently matched.*")
+} else {
+  for (i in seq_len(min(nrow(sel), n_show))) li(cite_line(sel[i, ]))
+  cat("\n")
+  if (nrow(sel) > n_show) {
+    md(sprintf(
+      "*Showing the %d most recent of %d. Use the table above to see the rest.*",
+      n_show, nrow(sel)
+    ))
+  }
+}
+```
+
+## Not yet classified
+
+```{r}
+#| label: unclassified-section
+#| echo: false
+#| results: asis
+
+sel <- outputs |>
+  filter(n_themes == 0) |>
+  arrange(desc(year), title)
+
+if (nrow(sel) == 0) {
+  md("*Every output is matched to at least one theme.*")
+} else {
+  md(
+    "**", nrow(sel), " outputs** did not match any theme strongly enough. ",
+    "This is a limitation of the keyword matching, not a judgement about the work."
+  )
+  for (i in seq_len(min(nrow(sel), n_show))) li(cite_line(sel[i, ]))
+  cat("\n")
+  if (nrow(sel) > n_show) {
+    md(sprintf(
+      "*Showing the %d most recent of %d. Use the table above to see the rest.*",
+      n_show, nrow(sel)
+    ))
+  }
+}
+```
+
+------------------------------------------------------------------------
+
+*Themes assigned automatically from title, journal and abstract. Last updated: `r theme_data$last_updated`*

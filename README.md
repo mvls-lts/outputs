@@ -77,13 +77,52 @@ install.packages(c(
 
 ### Fetch Data and Preview
 
+Run the three data scripts in order, then preview:
+
 ```bash
-# Fetch publication data
+# 1. Fetch publication data from ORCID (slow, ~1 request per author)
 Rscript R/fetch_orcid_publications.R
+
+# 2. Fetch abstracts from OpenAlex, falling back to Crossref
+#    Cached in _data/abstracts.json and only topped up on later runs
+Rscript R/fetch_abstracts.R
+
+# 3. Group the SoTL outputs into themes
+Rscript R/classify_themes.R
 
 # Preview the site
 quarto preview
 ```
+
+Steps 2 and 3 are cheap to repeat. If you are only tuning the theme keywords,
+re-run step 3 alone.
+
+## Themes
+
+`themes.qmd` groups the SoTL outputs into seven topic themes plus one
+cross-cutting tag. Assignment is automatic and multi-label: an output can carry
+up to three themes.
+
+**Scoring.** Each theme holds a list of regular expressions matched against the
+title, journal and abstract. A title match scores 3, a journal match 2, and each
+distinct abstract match 1 (capped at 4). A theme is assigned at a score of 3 or
+more, so one title hit is enough but a single passing mention in an abstract is
+not. Thresholds are the configuration block at the top of `R/classify_themes.R`.
+
+**Abstracts matter.** On title and journal alone roughly a quarter of outputs
+match nothing. Abstracts are available for the outputs that carry a DOI, which
+is a substantial but partial subset. Anything unmatched is listed openly at the
+foot of the themes page rather than hidden.
+
+**Corrections.** Edit `_data/theme_overrides.csv`. It is applied after the
+keyword pass and always wins, so a correction made once stays made. Match on DOI
+where possible, or on exact title where there is no DOI. Set `themes` to `none`
+to remove an output from every theme.
+
+**Changing the themes themselves.** Edit `theme_defs` in
+`R/classify_themes.R`. Each entry needs an `id` (used in the override file and
+in `themes.json`), a `label`, a `blurb` shown on the page, and a `patterns`
+vector. Re-run step 3 and check the counts it prints before rendering.
 
 ## Project Structure
 
@@ -92,14 +131,20 @@ network-publications/
 ├── _quarto.yml           # Quarto configuration
 ├── index.qmd             # Homepage
 ├── publications.qmd      # Full publication list
+├── themes.qmd            # SoTL outputs grouped into themes
 ├── authors.qmd           # Network authors
 ├── about.qmd             # About page
 ├── styles.css            # Custom styling
 ├── R/
-│   └── fetch_orcid_publications.R  # ORCID data fetching script
+│   ├── fetch_orcid_publications.R  # ORCID data fetching script
+│   ├── fetch_abstracts.R           # OpenAlex / Crossref abstract enrichment
+│   └── classify_themes.R           # Keyword theme classifier
 ├── _data/                # Generated data (gitignored except JSON)
 │   ├── publications.json
-│   └── publications.rds
+│   ├── publications.rds
+│   ├── abstracts.json          # Abstract cache, topped up not refetched
+│   ├── themes.json             # Theme assignments used by themes.qmd
+│   └── theme_overrides.csv     # Manual corrections, applied last
 ├── docs/                 # Rendered site (gitignored)
 └── .github/
     └── workflows/

@@ -13,6 +13,8 @@ website:
         text: Home
       - href: publications.qmd
         text: All Outputs
+      - href: themes.qmd
+        text: Themes
       - href: authors.qmd
         text: Authors
       - href: about.qmd

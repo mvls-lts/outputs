@@ -74,7 +74,13 @@ jobs:
       
       - name: Fetch ORCID publications
         run: Rscript R/fetch_orcid_publications.R
-      
+
+      - name: Fetch abstracts (OpenAlex / Crossref)
+        run: Rscript R/fetch_abstracts.R
+
+      - name: Classify themes
+        run: Rscript R/classify_themes.R
+
       - name: Clear cached content
         run: |
           rm -rf _freeze
