@@ -99,9 +99,16 @@ re-run step 3 alone.
 
 ## Themes
 
-`themes.qmd` groups the SoTL outputs into seven topic themes plus one
-cross-cutting tag. Assignment is automatic and multi-label: an output can carry
-up to three themes.
+`themes.qmd` groups the SoTL publications into eight themes. Assignment is
+automatic and multi-label: a publication can carry up to three themes. The page
+is a chart and a filterable table, nothing else.
+
+**Publications only.** `publication_types` in `R/classify_themes.R` restricts the
+page to journal articles, books and book chapters. Conference papers, abstracts,
+posters, presentations, reports, blog posts and theses are excluded, as are
+preprints — the fetch script already suppresses any preprint with a published
+version, so the remainder are unpublished. Add `"preprint"` to that vector to
+count them. The script prints what it excluded and why on every run.
 
 **Scoring.** Each theme holds a list of regular expressions matched against the
 title, journal and abstract. A title match scores 3, a journal match 2, and each

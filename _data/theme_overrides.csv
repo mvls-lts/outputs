@@ -1,8 +1,7 @@
-doi,title,themes,cross,note
-,,,,"Manual corrections to the automatic theme classification. Applied after the keyword pass; always wins."
-,,,,"doi: normalised DOI (lowercase, no https://doi.org/ prefix). Preferred."
-,,,,"title: exact title, used only when doi is blank."
-,,,,"themes: semicolon-separated ids, or 'none' to clear. Valid ids: teaching-practice; digital-simulation; assessment; inclusion-wellbeing; employability; transitions-voice; sustainability-global"
-,,,,"cross: TRUE or FALSE to set the SoTL methods tag. Leave blank to keep the automatic value."
-,,,,"note: free text, ignored by the site."
-,,,,"Example: 10.1111/medu.70216,,inclusion-wellbeing;teaching-practice,FALSE,Reclassified after author query"
+doi,title,themes,note
+,,,"Manual corrections to the automatic theme classification. Applied after the keyword pass; always wins."
+,,,"doi: normalised DOI (lowercase, no https://doi.org/ prefix). Preferred."
+,,,"title: exact title, used only when doi is blank."
+,,,"themes: semicolon-separated ids, or 'none' to clear. Valid ids: teaching-practice; digital-simulation; assessment; inclusion-wellbeing; employability; transitions-voice; sustainability-global; sotl-methods"
+,,,"note: free text, ignored by the site."
+,,,"Example: 10.1111/medu.70216,,inclusion-wellbeing;teaching-practice,Reclassified after author query"

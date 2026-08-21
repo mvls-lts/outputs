@@ -27,6 +27,15 @@ library(glue)
 
 score_threshold <- 3
 max_themes      <- 3
+
+# ORCID output types counted as publications. Everything else — conference
+# papers, abstracts, posters, presentations, reports, blog posts, theses — is
+# excluded from the themes page.
+#
+# Preprints are excluded deliberately: the fetch script already suppresses any
+# preprint that has a published version, so the ones left are unpublished. Add
+# "preprint" to this vector if you would rather count them.
+publication_types <- c("journal-article", "book", "book-chapter")
 w_title         <- 3
 w_journal       <- 2
 w_abstract      <- 1
@@ -39,8 +48,7 @@ out_path       <- "_data/themes.json"
 
 # ---- Theme definitions ----
 #
-# Revised August 2026 following the network symposium. Seven topic themes plus
-# one cross-cutting tag applied in addition to them. See
+# Revised August 2026 following the network symposium. See
 # Themes/theme-revision-proposal.md for the rationale.
 
 theme_defs <- list(
@@ -165,28 +173,26 @@ theme_defs <- list(
       "civic (education|engagement|university)", "internationali[sz]ation",
       "decarbon", "green (curriculum|skill)", "ecolog"
     )
+  ),
+  list(
+    id    = "sotl-methods",
+    label = "SoTL methods, data & open scholarship",
+    blurb = "Research methods and study design, statistics and data skills, open and reproducible scholarship, OERs, evaluation and review methodology.",
+    patterns = c(
+      "open (science|research|scholarship|access|data|educational resource)", "\\boer(s)?\\b",
+      "reproduc", "replicat", "pre.?registration", "registered report",
+      "statistic", "data (skill|science|literac)", "\\br programming\\b",
+      "\\brstudio\\b", "coding", "computational", "bioinformatic",
+      "research method", "methodolog", "qualitative", "quantitative", "mixed method",
+      "psychometric", "scoping review", "systematic review", "narrative review",
+      "meta.?analys", "scholarship of teaching", "\\bsotl\\b",
+      "evaluation framework", "programme evaluation", "publication ethic",
+      "supervis", "survey design"
+    )
   )
 )
 
-# Cross-cutting: applied in addition to a topic theme, never instead of one.
-cross_def <- list(
-  id    = "sotl-methods",
-  label = "SoTL methods, data & open scholarship",
-  blurb = "Cross-cutting. Research methods and study design, statistics and data skills, open and reproducible scholarship, OERs, evaluation and review methodology.",
-  patterns = c(
-    "open (science|research|scholarship|access|data|educational resource)", "\\boer(s)?\\b",
-    "reproduc", "replicat", "pre.?registration", "registered report",
-    "statistic", "data (skill|science|literac)", "\\br programming\\b",
-    "\\brstudio\\b", "coding", "computational", "bioinformatic",
-    "research method", "methodolog", "qualitative", "quantitative", "mixed method",
-    "psychometric", "scoping review", "systematic review", "narrative review",
-    "meta.?analys", "scholarship of teaching", "\\bsotl\\b",
-    "evaluation framework", "programme evaluation", "publication ethic",
-    "supervis", "survey design"
-  )
-)
-
-all_defs <- c(theme_defs, list(cross_def))
+all_defs <- theme_defs
 
 # ---- Helpers ----
 
@@ -220,11 +226,26 @@ if (!file.exists(pub_path)) {
 
 pub_data <- fromJSON(pub_path, simplifyVector = TRUE)
 
-pubs <- as_tibble(pub_data$publications) |>
-  filter(is_sotl %in% TRUE) |>
+all_sotl <- as_tibble(pub_data$publications) |>
+  filter(is_sotl %in% TRUE)
+
+pubs <- all_sotl |>
+  filter(type %in% publication_types) |>
   mutate(doi_key = normalise_doi(doi))
 
-message(glue("SoTL outputs to classify: {nrow(pubs)}"))
+n_excluded <- nrow(all_sotl) - nrow(pubs)
+
+message(glue("SoTL outputs: {nrow(all_sotl)}"))
+message(glue("  Publications to classify: {nrow(pubs)}"))
+message(glue("  Excluded as non-publications: {n_excluded}"))
+
+excluded_types <- all_sotl |>
+  filter(!type %in% publication_types) |>
+  count(type, sort = TRUE)
+
+for (i in seq_len(nrow(excluded_types))) {
+  message(glue("    {excluded_types$n[i]}\t{excluded_types$type[i]}"))
+}
 
 # Abstracts are optional; the classifier degrades to title + journal without them
 empty_abstracts <- tibble(
@@ -282,7 +303,6 @@ names(score_cols) <- map_chr(all_defs, "id")
 scores <- as_tibble(score_cols)
 
 topic_ids <- map_chr(theme_defs, "id")
-cross_id  <- cross_def$id
 
 # ---- Assign ----
 
@@ -298,13 +318,10 @@ assign_row <- function(i) {
 
 assigned <- map(seq_len(nrow(pubs)), assign_row)
 
-cross_flag <- scores[[cross_id]] >= score_threshold
-
 pubs <- pubs |>
   mutate(
     themes        = assigned,
     n_themes      = lengths(assigned),
-    is_cross      = cross_flag,
     theme_source  = if_else(n_themes > 0, "auto", "unclassified")
   )
 
@@ -314,7 +331,6 @@ pubs <- pubs |>
 #   doi         normalised DOI, or blank to match on title
 #   title       exact title, used only when doi is blank
 #   themes      semicolon-separated theme ids, or "none" to clear all
-#   cross       TRUE / FALSE / blank (blank leaves the automatic value)
 #   note        free text, not used by the site
 
 if (file.exists(override_path)) {
@@ -322,17 +338,17 @@ if (file.exists(override_path)) {
     as_tibble()
 
   # Tolerate a template that is present but has no rows, or missing columns
-  for (col in c("doi", "title", "themes", "cross", "note")) {
+  for (col in c("doi", "title", "themes", "note")) {
     if (!col %in% names(ov)) ov[[col]] <- character(nrow(ov))
   }
 
   ov <- ov |>
     mutate(across(everything(), ~ na_if(str_trim(.x), ""))) |>
-    filter(!is.na(themes) | !is.na(cross))
+    filter(!is.na(themes))
 
   if (nrow(ov) > 0) {
     message(glue("\n--- Applying {nrow(ov)} override(s) ---"))
-    valid_ids <- c(topic_ids, cross_id)
+    valid_ids <- topic_ids
 
     for (k in seq_len(nrow(ov))) {
       o   <- ov[k, ]
@@ -364,11 +380,6 @@ if (file.exists(override_path)) {
         for (j in idx) pubs$themes[[j]] <- new_themes
         pubs$theme_source[idx] <- "manual"
       }
-
-      if (!is.na(o$cross) && o$cross != "") {
-        pubs$is_cross[idx] <- str_to_lower(str_trim(o$cross)) %in% c("true", "yes", "1")
-        pubs$theme_source[idx] <- "manual"
-      }
     }
 
     pubs <- pubs |> mutate(n_themes = lengths(themes))
@@ -381,12 +392,7 @@ if (file.exists(override_path)) {
 
 message("\n--- Theme counts ---")
 counts <- map_dfr(all_defs, function(d) {
-  n <- if (d$id == cross_id) {
-    sum(pubs$is_cross)
-  } else {
-    sum(map_lgl(pubs$themes, ~ d$id %in% .x))
-  }
-  tibble(id = d$id, label = d$label, n = n)
+  tibble(id = d$id, label = d$label, n = sum(map_lgl(pubs$themes, ~ d$id %in% .x)))
 })
 
 for (i in seq_len(nrow(counts))) {
@@ -406,7 +412,7 @@ export <- pubs |>
   select(
     title, year, journal, type, doi, url,
     network_authors, network_authors_school, network_schools,
-    themes = themes_str, is_cross, theme_source, n_themes
+    themes = themes_str, theme_source, n_themes
   )
 
 write_json(
@@ -415,10 +421,11 @@ write_json(
     n_outputs       = nrow(export),
     n_unclassified  = n_unclassified,
     n_with_abstract = n_with_abstract,
+    n_excluded      = n_excluded,
+    publication_types = publication_types,
     score_threshold = score_threshold,
     max_themes      = max_themes,
     themes = map(theme_defs, ~ list(id = .x$id, label = .x$label, blurb = .x$blurb)),
-    cross  = list(id = cross_def$id, label = cross_def$label, blurb = cross_def$blurb),
     counts = counts,
     outputs = export
   ),

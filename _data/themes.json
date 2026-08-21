@@ -1,8 +1,10 @@
 {
-  "last_updated": "2026-08-21 14:30:33 UTC",
-  "n_outputs": 302,
-  "n_unclassified": 71,
-  "n_with_abstract": 162,
+  "last_updated": "2026-08-21 16:08:01 BST",
+  "n_outputs": 176,
+  "n_unclassified": 28,
+  "n_with_abstract": 144,
+  "n_excluded": 126,
+  "publication_types": ["journal-article", "book", "book-chapter"],
   "score_threshold": 3,
   "max_themes": 3,
   "themes": [
@@ -40,53 +42,53 @@
       "id": "sustainability-global",
       "label": "Sustainability & global/civic education",
       "blurb": "Sustainability and the SDGs, planetary and global health, civic and public engagement, and global citizenship."
-    }
-  ],
-  "cross": {
-    "id": "sotl-methods",
-    "label": "SoTL methods, data & open scholarship",
-    "blurb": "Cross-cutting. Research methods and study design, statistics and data skills, open and reproducible scholarship, OERs, evaluation and review methodology."
-  },
-  "counts": [
-    {
-      "id": "teaching-practice",
-      "label": "Teaching practice & curriculum design",
-      "n": 77
-    },
-    {
-      "id": "digital-simulation",
-      "label": "Digital, simulation & immersive learning",
-      "n": 68
-    },
-    {
-      "id": "assessment",
-      "label": "Assessment, feedback & academic integrity",
-      "n": 58
-    },
-    {
-      "id": "inclusion-wellbeing",
-      "label": "Inclusive education & student wellbeing",
-      "n": 64
-    },
-    {
-      "id": "employability",
-      "label": "Employability, skills & professional identity",
-      "n": 39
-    },
-    {
-      "id": "transitions-voice",
-      "label": "Transitions, engagement & student voice",
-      "n": 25
-    },
-    {
-      "id": "sustainability-global",
-      "label": "Sustainability & global/civic education",
-      "n": 10
     },
     {
       "id": "sotl-methods",
       "label": "SoTL methods, data & open scholarship",
-      "n": 41
+      "blurb": "Research methods and study design, statistics and data skills, open and reproducible scholarship, OERs, evaluation and review methodology."
+    }
+  ],
+  "counts": [
+    {
+      "id": "teaching-practice",
+      "label": "Teaching practice & curriculum design",
+      "n": 49
+    },
+    {
+      "id": "digital-simulation",
+      "label": "Digital, simulation & immersive learning",
+      "n": 39
+    },
+    {
+      "id": "assessment",
+      "label": "Assessment, feedback & academic integrity",
+      "n": 31
+    },
+    {
+      "id": "inclusion-wellbeing",
+      "label": "Inclusive education & student wellbeing",
+      "n": 38
+    },
+    {
+      "id": "employability",
+      "label": "Employability, skills & professional identity",
+      "n": 28
+    },
+    {
+      "id": "transitions-voice",
+      "label": "Transitions, engagement & student voice",
+      "n": 13
+    },
+    {
+      "id": "sustainability-global",
+      "label": "Sustainability & global/civic education",
+      "n": 7
+    },
+    {
+      "id": "sotl-methods",
+      "label": "SoTL methods, data & open scholarship",
+      "n": 32
     }
   ],
   "outputs": [
@@ -101,7 +103,6 @@
       "network_authors_school": "Thinh Pham [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "inclusion-wellbeing;teaching-practice;employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -115,25 +116,9 @@
       "network_authors": "Lindsey Pope",
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "\"Like Solving a Puzzle\": Psychology Students' Experiences of Data Wrangling and Analysis",
-      "year": 2026,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/mgyjv",
-      "url": "https://doi.org/10.31234/osf.io/mgyjv_v2",
-      "network_authors": "James Bartlett",
-      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
+      "themes": "sotl-methods",
+      "theme_source": "auto",
+      "n_themes": 1
     },
     {
       "title": "Seeing ourselves in anatomy: embedding equity, diversity and inclusivity to transform learning in a UK BSc curriculum",
@@ -146,7 +131,6 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "inclusion-wellbeing;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -160,25 +144,9 @@
       "network_authors": "Lindsey Pope",
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "GenAI in Assessment & Curriculum Design",
-      "year": 2026,
-      "journal": "AIchemy",
-      "type": "public-speech",
-      "doi": null,
-      "url": "https://aichemy.ac.uk/genai-in-chemistry-education-shaping-the-future-of-teaching-together/",
-      "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "teaching-practice;digital-simulation;assessment",
-      "is_cross": false,
+      "themes": "sotl-methods",
       "theme_source": "auto",
-      "n_themes": 3
+      "n_themes": 1
     },
     {
       "title": "Livestreaming clinical education in general practice: practical lessons from implementation across seven UK medical schools",
@@ -191,54 +159,8 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Creating Psychologically Safe, High-Stakes Simulation to Empower Final-Year Veterinary Students in Euthanasia Consultations at the University of Glasgow",
-      "year": 2026,
-      "journal": "VetEd International Symposium of the Veterinary Schools Council 2026",
-      "type": "conference-presentation",
-      "doi": null,
-      "url": "https://airdrive.eventsair.com/eventsairwesteuprod/production-delegatereg-public/3dac1a83cae940cb9e8aa62e6b1738f2",
-      "network_authors": "Gemma Masterton; Emilie Law",
-      "network_authors_school": "Gemma Masterton [School of Biodiversity One Health and Veterinary Medicine]; Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity One Health and Veterinary Medicine; School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Preparing Veterinary Students for Peer Assessment: An Evaluation of Training for Fourth-Year Students in Formative OSCEs",
-      "year": 2026,
-      "journal": "VetEd International Symposium of the Veterinary Schools Council 2026",
-      "type": "conference-presentation",
-      "doi": null,
-      "url": "https://airdrive.eventsair.com/eventsairwesteuprod/production-delegatereg-public/3dac1a83cae940cb9e8aa62e6b1738f2",
-      "network_authors": "Gemma Masterton; Emilie Law",
-      "network_authors_school": "Gemma Masterton [School of Biodiversity One Health and Veterinary Medicine]; Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity One Health and Veterinary Medicine; School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Ten Simple Rules for Inclusively Supporting Attendance and Engagement in Higher Education",
-      "year": 2026,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/3pd6s",
-      "url": "https://doi.org/10.35542/osf.io/3pd6s_v2",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "inclusion-wellbeing;transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Beyond the myths: Epistemic justice in curriculum contestation",
@@ -251,39 +173,8 @@
       "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]; Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing",
       "themes": "inclusion-wellbeing;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
-    },
-    {
-      "title": "Empowering Educators for Global Health: Embedding Sustainability in Medical Education",
-      "year": 2026,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Katie  Brown",
-      "network_authors_school": "Katie Brown [School of Health and Wellbeing]",
-      "network_schools": "School of Health and Wellbeing",
-      "themes": "sustainability-global",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Medical Education Engagement in the Post-Pandemic Era",
-      "year": 2026,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Katie  Brown",
-      "network_authors_school": "Katie Brown [School of Health and Wellbeing]",
-      "network_schools": "School of Health and Wellbeing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "Studying with GenAI: Student views on the opportunities and risks of GenAI in higher education",
@@ -296,22 +187,6 @@
       "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "digital-simulation;assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Student Belonging and the Hidden Curriculum of Isolation",
-      "year": 2026,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Hayley  Connell",
-      "network_authors_school": "Hayley Connell [School of Health and Wellbeing]",
-      "network_schools": "School of Health and Wellbeing",
-      "themes": "inclusion-wellbeing;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -326,22 +201,6 @@
       "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
       "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Knowledge and attitudes towards trauma-informed pedagogy in forensic science education: a national survey in the United Kingdom",
-      "year": 2026,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/84ysz",
-      "url": "https://doi.org/10.35542/osf.io/84ysz_v1",
-      "network_authors": "Rafael Venson",
-      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_schools": "School of Medicine, Dentistry and Nursing",
-      "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -356,7 +215,6 @@
       "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]; Laura Richmond [School of Cancer Sciences]",
       "network_schools": "School of Medicine, Dentistry and Nursing; School of Cancer Sciences",
       "themes": "assessment;digital-simulation;inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -371,7 +229,6 @@
       "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
       "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -385,10 +242,9 @@
       "network_authors": "Sandy Wilson",
       "network_authors_school": "Sandy Wilson [Graduate School]",
       "network_schools": "Graduate School",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
+      "themes": "sotl-methods",
+      "theme_source": "auto",
+      "n_themes": 1
     },
     {
       "title": "Beyond compliance: A transferable and scalable framework for introducing Equality, Diversity and Inclusion in higher education",
@@ -401,7 +257,6 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "inclusion-wellbeing;transitions-voice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -415,55 +270,9 @@
       "network_authors": "Emily Nordmann; Ashley Robertson",
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Ashley Robertson [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "The Human Library - learning how to unjudge",
-      "year": 2026,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Top tips for responsible Gen-AI from a higher education community of practice",
-      "year": 2026,
-      "journal": "Society for Experimental Biology (SEB)",
-      "type": "public-speech",
-      "doi": null,
-      "url": "https://youtu.be/Jpqlhpbz4KQ?list=PLbQMipJZx270ZQIWDK8z0aRZJSjxPQzwq",
-      "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Interprofessional Feedback for Communication Skills Development: Collaborative Learning Between Dentistry and Clinical Psychology Students",
-      "year": 2026,
-      "journal": "19th Annual University of Glasgow Learning & Teaching Conference ",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://easychair.org/smart-program/LTConf26/",
-      "network_authors": "Dougie Marks",
-      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "themes": "employability;assessment",
-      "is_cross": false,
+      "themes": "sotl-methods",
       "theme_source": "auto",
-      "n_themes": 2
+      "n_themes": 1
     },
     {
       "title": "Practice What You Preach: Designing Student Assignments That Advance Open and Reproducible Science",
@@ -475,10 +284,9 @@
       "network_authors": "Emily Nordmann; James Bartlett; Gaby Mahrholz",
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; James Bartlett [School of Psychology and Neuroscience]; Gaby Mahrholz [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
-      "themes": "assessment;teaching-practice",
-      "is_cross": true,
+      "themes": "assessment;sotl-methods;teaching-practice",
       "theme_source": "auto",
-      "n_themes": 2
+      "n_themes": 3
     },
     {
       "title": "‘The best year’/‘I struggled with everything’: Widening participation experiences of pandemic online learning",
@@ -491,24 +299,8 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Wilhelmiina Toivo [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "inclusion-wellbeing;transitions-voice;digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
-    },
-    {
-      "title": "Undergraduate Medical Student Teaching in Out of Hours General Practice",
-      "year": 2026,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Katie  Brown",
-      "network_authors_school": "Katie Brown [School of Health and Wellbeing]",
-      "network_schools": "School of Health and Wellbeing",
-      "themes": "employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "A manifesto for plant science education",
@@ -521,7 +313,6 @@
       "network_authors_school": "Lauren Headland [School of Molecular Biosciences]",
       "network_schools": "School of Molecular Biosciences",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -536,7 +327,6 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "inclusion-wellbeing;teaching-practice;digital-simulation",
-      "is_cross": true,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -551,7 +341,6 @@
       "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "themes": "assessment;teaching-practice;digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -566,7 +355,6 @@
       "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
       "network_schools": "School of Medicine, Dentistry and Nursing",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -581,37 +369,6 @@
       "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
-      "year": 2026,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/wc49t",
-      "url": "https://doi.org/10.35542/osf.io/wc49t_v1",
-      "network_authors": "Sue Campbell; Tomoko Iwata; Rafael Venson",
-      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]; Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing; School of Medicine, Dentistry and Nursing",
-      "themes": "inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Embedding Reproducibility and Replicability in a Regression Modelling Assessment",
-      "year": 2026,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31219/osf.io/nce4y",
-      "url": "https://doi.org/10.31219/osf.io/nce4y_v4",
-      "network_authors": "James Bartlett",
-      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "assessment",
-      "is_cross": true,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -626,7 +383,6 @@
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_schools": "MVLS Graduate School",
       "themes": "employability;sustainability-global",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -640,10 +396,9 @@
       "network_authors": "Lindsey Pope",
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "inclusion-wellbeing",
-      "is_cross": true,
+      "themes": "inclusion-wellbeing;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Long-read sequencing reveals increased isoform diversity in key transcription factor effectors of intercellular signalling at the invertebrate-vertebrate transition",
@@ -656,52 +411,6 @@
       "network_authors_school": "Marika Salonna [School of Molecular Biosciences]",
       "network_schools": "School of Molecular Biosciences",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Experiences of Introducing  Virtual Clinical Experiences  (VCE) to Undergraduate GP  teaching at the University of  Glasgow",
-      "year": 2026,
-      "journal": "NADEGS 2026",
-      "type": "conference-poster",
-      "doi": null,
-      "url": null,
-      "network_authors": "Lynsey  Yeoman",
-      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Incorporating GenAI into critical appraisal undergraduate medical education summative coursework",
-      "year": 2026,
-      "journal": "NADEGS 2025",
-      "type": "conference-presentation",
-      "doi": null,
-      "url": null,
-      "network_authors": "Lynsey  Yeoman",
-      "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "assessment;digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "A Model for Student-selected Components in Artificial Intelligence: Design of Artificial Intelligence Tools for Real-world Application",
-      "year": 2026,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://www.gla.ac.uk/myglasgow/add/events/annuallearningandteachingconference/",
-      "network_authors": "Hamish Runciman",
-      "network_authors_school": "Hamish Runciman [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -716,7 +425,6 @@
       "network_authors_school": "Jayne Orr [School of Biodiversity One Health and Veterinary Medicine]; Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine; School of Biodiversity, One Health and Veterinary Medicine",
       "themes": "digital-simulation;assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -731,7 +439,6 @@
       "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
       "network_schools": "School of Molecular Biosciences",
       "themes": "teaching-practice;digital-simulation;transitions-voice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -746,7 +453,6 @@
       "network_authors_school": "Thinh Pham [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "sustainability-global;digital-simulation;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -761,7 +467,6 @@
       "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]; Leighann Sherry [School of Infection & Immunity]",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Infection & Immunity",
       "themes": "employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -776,7 +481,6 @@
       "network_authors_school": "Mia Wilson [School of Health & Wellbeing]; Ailsa Foley [School of Health & Wellbeing]; Laura Sharp [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "sustainability-global",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -791,7 +495,6 @@
       "network_authors_school": "Alexia Revueltas Roux [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -805,10 +508,9 @@
       "network_authors": "Dimitar Karadzhov",
       "network_authors_school": "Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
-      "themes": "inclusion-wellbeing",
-      "is_cross": true,
+      "themes": "inclusion-wellbeing;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Clinician and Client Reports of the Negative Effects of Neuropsychological Assessment for Dementia",
@@ -820,10 +522,9 @@
       "network_authors": "David Grinter",
       "network_authors_school": "David Grinter [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "assessment",
-      "is_cross": true,
+      "themes": "assessment;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Embedding PPIE training in postgraduate cancer research education",
@@ -836,24 +537,8 @@
       "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
       "network_schools": "School of Cancer Sciences",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Generative AI for Healthcare Students and Professionals MOOC",
-      "year": 2025,
-      "journal": null,
-      "type": "other",
-      "doi": null,
-      "url": "https://www.coursera.org/learn/generative-ai-for-healthcare-students-and-professionals",
-      "network_authors": "Hamish Runciman",
-      "network_authors_school": "Hamish Runciman [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "‘There is a chance you can just avoid the topic altogether’: registrars’ perceptions of learning about health inequalities in GP specialty training",
@@ -866,24 +551,8 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "The Hidden Curriculum of Isolation",
-      "year": 2025,
-      "journal": null,
-      "type": "other",
-      "doi": null,
-      "url": "https://uofgsotl.blog/day-3-belonging/#aioseo-red-black-green-blue-purple-dark-blue-orange-brown-pink-and-light-blue-1",
-      "network_authors": "Hayley  Connell",
-      "network_authors_school": "Hayley Connell [School of Health and Wellbeing]",
-      "network_schools": "School of Health and Wellbeing",
-      "themes": "inclusion-wellbeing;teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Creation and pilot evaluation of a behavioural sleep intervention for student-athletes",
@@ -896,7 +565,6 @@
       "network_authors_school": "Sandy Wilson [Graduate School]",
       "network_schools": "Graduate School",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -911,24 +579,8 @@
       "network_authors_school": "Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "inclusion-wellbeing;sustainability-global;employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
-    },
-    {
-      "title": "Assessment as Partnership: Building Trust Through Dialogue",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Susan Lindsay; Helena Paterson",
-      "network_authors_school": "Susan Lindsay [MVLS Graduate School]; Helena Paterson [School of Psychology and Neuroscience]",
-      "network_schools": "MVLS Graduate School; School of Psychology and Neuroscience",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Assessment of distinct effects of Parinari curatellifolia Planch.ex Benth Ethanolic leaf extract on glucose transport in different cell types",
@@ -941,54 +593,8 @@
       "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
       "network_schools": "School of Molecular Biosciences",
       "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "‘Fun Feedback Friday’: Remote online lectures that support belonging and engagement",
-      "year": 2025,
-      "journal": null,
-      "type": "other",
-      "doi": null,
-      "url": "https://uofgsotl.blog/fun-feedback-friday-remote-online-lectures-that-support-belonging-and-engagement/",
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "teaching-practice;assessment;inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 3
-    },
-    {
-      "title": "Veterinary Communication Skills: a new approach to inclusive and equal learning opportunities",
-      "year": 2025,
-      "journal": "University of Glasgow MVLS Equality, Diversity and Inclusion Conference 2025",
-      "type": "conference-poster",
-      "doi": null,
-      "url": null,
-      "network_authors": "Gemma Masterton",
-      "network_authors_school": "Gemma Masterton [School of Biodiversity One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
-      "themes": "inclusion-wellbeing;employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Preparing Students for Honours Research: Process-Focussed Redesign of the Literature Review Assessment in a GenAI-Enabled World",
-      "year": 2025,
-      "journal": "AdvanceHE Assessment and Feedback Symposium",
-      "type": "conference-presentation",
-      "doi": null,
-      "url": "https://youtu.be/iELrmznqGKI?list=PL3Vi4pS1qqnHg7-iXQSYpjGOWeErHgeCp&t=2196",
-      "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "assessment;digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Entrustable professional activities – the missing piece of the assessment jigsaw for UK undergraduate medical education? Is general practice the perfect place to start?",
@@ -1001,7 +607,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -1016,54 +621,8 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Empower LBGTQ+ people to be their authentic selves on campus with Rainbow Office Hours",
-      "year": 2025,
-      "journal": "Times Higher Education",
-      "type": "blog-post",
-      "doi": null,
-      "url": "https://www.timeshighereducation.com/campus/empower-lbgtq-people-be-their-authentic-selves-campus-rainbow-office-hours",
-      "network_authors": "Rafael Venson",
-      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_schools": "School of Medicine, Dentistry and Nursing",
-      "themes": "inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Assessment Redesign Package: Process-Focused Redesign of an Honours-level Literature Review in a GenAI-Enabled World",
-      "year": 2025,
-      "journal": "Zenodo",
-      "type": "other",
-      "doi": "10.5281/zenodo.17456344",
-      "url": "https://doi.org/10.5281/ZENODO.17456344",
-      "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "digital-simulation;assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "MVLS GAINEd Advisory on UofG GenAI Assessment Scenarios",
-      "year": 2025,
-      "journal": "Zenodo",
-      "type": "other",
-      "doi": "10.5281/zenodo.17312533",
-      "url": "https://doi.org/10.5281/ZENODO.17312533",
-      "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "digital-simulation;assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Investigating the behavioural responses of sheep used for teaching veterinary undergraduates",
@@ -1076,7 +635,6 @@
       "network_authors_school": "Jayne Orr [School of Biodiversity One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -1091,7 +649,6 @@
       "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "themes": "teaching-practice;sustainability-global;assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -1106,24 +663,8 @@
       "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Top Tips and Updates from MVLS Generative AI Network for Education (GAINEd)",
-      "year": 2025,
-      "journal": "Zenodo",
-      "type": "public-speech",
-      "doi": "10.5281/zenodo.17304831",
-      "url": "https://doi.org/10.5281/ZENODO.17304831",
-      "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Role of nurses in moderating the emotional dynamics in the clinical learning environments: Implications for medical students' experience",
@@ -1136,24 +677,8 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "‘Conversations’: The Efficacy of Chat Platforms to Build a Community of Postgraduate Learners Across On‑Campus and Online Cohorts",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Sandy Wilson",
-      "network_authors_school": "Sandy Wilson [Graduate School]",
-      "network_schools": "Graduate School",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "Making space for positionality stories in higher education: using embodied feminist and critical pedagogies in practice",
@@ -1166,7 +691,6 @@
       "network_authors_school": "Sharon Greenwood [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "teaching-practice;inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -1181,7 +705,6 @@
       "network_authors_school": "Mia Wilson [School of Health & Wellbeing]; Ailsa Foley [School of Health & Wellbeing]; Laura Sharp [School of Health & Wellbeing]; Julie Langan Martin [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "inclusion-wellbeing;teaching-practice;sustainability-global",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -1196,7 +719,6 @@
       "network_authors_school": "Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -1211,24 +733,8 @@
       "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "inclusion-wellbeing;teaching-practice;transitions-voice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
-    },
-    {
-      "title": "Responding to Student Substance Use in Higher Education: Adapting Research Findings into Practice",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Sharon Greenwood",
-      "network_authors_school": "Sharon Greenwood [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Sleep Health in the Student-Athlete: A Narrative Review of Current Research and Future Directions",
@@ -1240,173 +746,7 @@
       "network_authors": "Sandy Wilson",
       "network_authors_school": "Sandy Wilson [Graduate School]",
       "network_schools": "Graduate School",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "op Tips on Student Guidance for the Responsible Use of Generative AI in Higher Education",
-      "year": 2025,
-      "journal": "Association for Learning Technology (ALT) ",
-      "type": "public-speech",
-      "doi": null,
-      "url": "https://youtu.be/ZiJdV7AdZO4",
-      "network_authors": "Denise Hough",
-      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "A Cross-years Course Leader Collaboration to Improve Veterinary Students' Assessment and Feedback Literacy",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Emilie Law; Eleanor Wigham",
-      "network_authors_school": "Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]; Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine; School of Biodiversity, One Health, & Veterinary Medicine",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Communication Skills Training: A New Approach To Supporting Students with Specific Learning Difficulties and Anxiety",
-      "year": 2025,
-      "journal": "VetEd - International Symposium of the Veterinary Schools Council 2025",
-      "type": "conference-presentation",
-      "doi": null,
-      "url": "https://virtual.oxfordabstracts.com/event/74477/submission/41",
-      "network_authors": "Gemma Masterton",
-      "network_authors_school": "Gemma Masterton [School of Biodiversity One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
-      "themes": "employability;inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Digital 3D Veterinary Anatomy: Impact on Learning Gain, Experience and Engagement",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Alison Reid",
-      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Moulding the Future of Veterinary Education: Initial Stages in Development of a Canine Echocardiography Simulator",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Alison Reid",
-      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Developing Student Academic Integrity Literacy: Evaluation of a Moodle-Based Training Resource Incorporating Formative Assessment",
-      "year": 2025,
-      "journal": "Assessment in Higher Education (AHE)",
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Laura Richmond",
-      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
-      "network_schools": "School of Cancer Sciences",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Enhancing Academic Integrity and Literacy Among Life Sciences Postgraduates via a Moodle-based Intervention",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Laura Richmond",
-      "network_authors_school": "Laura Richmond [School of Cancer Sciences]",
-      "network_schools": "School of Cancer Sciences",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Reflecting on a Triple Helix Transdisciplinary Collaboration for Postgraduate Course Development",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Susan Lindsay",
-      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
-      "network_schools": "MVLS Graduate School",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Use of Debate as an Authentic, Active Learning Assessment to Enhance Student Engagement and Development",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Susan Lindsay",
-      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
-      "network_schools": "MVLS Graduate School",
-      "themes": "teaching-practice;assessment;transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 3
-    },
-    {
-      "title": "Enhancing Academic Integrity & Literacy Among Life Sciences Postgraduates via a Moodle-based Intervention",
-      "year": 2025,
-      "journal": "Assessment in Higher Education Conference 2025",
-      "type": "conference-presentation",
-      "doi": null,
-      "url": null,
-      "network_authors": "Rafael Venson",
-      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_schools": "School of Medicine, Dentistry and Nursing",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Creating Connection at a Distance: Evaluating Online Community Engagement in Postgraduate Masters Education",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Hayley  Connell",
-      "network_authors_school": "Hayley Connell [School of Health and Wellbeing]",
-      "network_schools": "School of Health and Wellbeing",
-      "themes": "transitions-voice",
-      "is_cross": false,
+      "themes": "sotl-methods",
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -1421,7 +761,6 @@
       "network_authors_school": "Jayne Orr [School of Biodiversity One Health and Veterinary Medicine]; Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine; School of Biodiversity, One Health and Veterinary Medicine",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -1436,7 +775,6 @@
       "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -1451,7 +789,6 @@
       "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -1466,84 +803,8 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "Use of Debate to Engage Students in Critical Thinking Surrounding the Contentious Issue of Use of Artificial Intelligence in Precision Medicine",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Susan Lindsay",
-      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
-      "network_schools": "MVLS Graduate School",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Decolonising the curricula as a student-staff partnership",
-      "year": 2025,
-      "journal": "University of Glasgow Learning and Teaching conference 2025",
-      "type": "conference-output",
-      "doi": null,
-      "url": "https://www.youtube.com/watch?v=deUaf5twp3w",
-      "network_authors": "Shaun Bremner-Hart",
-      "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
-      "network_schools": "School of Molecular Biosciences",
-      "themes": "teaching-practice;inclusion-wellbeing;transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 3
-    },
-    {
-      "title": "Decolonisation and diversification of the curricula as a student-staff partnership",
-      "year": 2025,
-      "journal": "Equality, Diversity and Inclusion Conference 2025: The sum of many parts: Embedding intersectionality in HE practice",
-      "type": "conference-presentation",
-      "doi": null,
-      "url": null,
-      "network_authors": "Shaun Bremner-Hart",
-      "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
-      "network_schools": "School of Molecular Biosciences",
-      "themes": "inclusion-wellbeing;teaching-practice;transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 3
-    },
-    {
-      "title": "Investigating the relationship between emotion regulation and perfectionism in university students",
-      "year": 2025,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/68hts",
-      "url": "https://doi.org/10.31234/osf.io/68hts_v1",
-      "network_authors": "Carolina Kuepper-Tetzel",
-      "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "The Great Big Online SoTL Glossary",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Helena Paterson",
-      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "Enabling and inhibiting doctors transitions: introducing the social identity resource and belonginess model (SIRB)",
@@ -1556,7 +817,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "inclusion-wellbeing;employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -1570,10 +830,9 @@
       "network_authors": "Lindsey Pope",
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "inclusion-wellbeing",
-      "is_cross": true,
+      "themes": "sotl-methods;inclusion-wellbeing",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Exploring content vs writer focus in written student feedback: Perceived impact on student emotional response, attention, and usefulness",
@@ -1585,10 +844,9 @@
       "network_authors": "James Bartlett; Judith Stevenson; Eugene Dawydiak",
       "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]; Judith Stevenson [School of Psychology and Neuroscience]; Eugene Dawydiak [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
-      "themes": "assessment",
-      "is_cross": true,
+      "themes": "assessment;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "From tokenism to transformation: Acknowledging the missing voices of marginalised students in higher education, beyond box-ticking frameworks",
@@ -1601,7 +859,6 @@
       "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
       "network_schools": "MVLS Graduate School",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -1616,7 +873,6 @@
       "network_authors_school": "Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
       "themes": "employability;transitions-voice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -1630,10 +886,9 @@
       "network_authors": "Sharon Greenwood",
       "network_authors_school": "Sharon Greenwood [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
-      "themes": "employability;assessment",
-      "is_cross": true,
+      "themes": "employability;assessment;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 2
+      "n_themes": 3
     },
     {
       "title": "Experiential learning through virtual reality by-proxy",
@@ -1646,7 +901,6 @@
       "network_authors_school": "Claire Donald [School of Infection & Immunity]",
       "network_schools": "School of Infection & Immunity",
       "themes": "digital-simulation;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -1661,7 +915,6 @@
       "network_authors_school": "Sandy Wilson [Graduate School]",
       "network_schools": "Graduate School",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -1675,38 +928,7 @@
       "network_authors": "Lindsey Pope",
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Reflections on Use of Debate as a Summative Group Assessment Method",
-      "year": 2025,
-      "journal": "University of Glasgow  ADD Blog",
-      "type": "blog-post",
-      "doi": null,
-      "url": "https://uofgadd.team/2025/01/29/reflections-on-use-of-debate-as-a-summative-group-assessment-method/",
-      "network_authors": "Susan Lindsay",
-      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
-      "network_schools": "MVLS Graduate School",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Acknowledging the Missing Voices of Marginalised Students in Higher Education, Beyond Box-Ticking Frameworks: Ensuring Successful Outcomes for All. Ensuring Successful Outcomes for All",
-      "year": 2025,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Susan Lindsay",
-      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
-      "network_schools": "MVLS Graduate School",
-      "themes": "inclusion-wellbeing",
-      "is_cross": false,
+      "themes": "sotl-methods",
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -1720,10 +942,9 @@
       "network_authors": "Sharon Greenwood",
       "network_authors_school": "Sharon Greenwood [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
+      "themes": "sotl-methods",
+      "theme_source": "auto",
+      "n_themes": 1
     },
     {
       "title": "Trauma-informed pedagogy in forensic science education: Scoping review of and reflection on (very limited) available evidence",
@@ -1735,10 +956,9 @@
       "network_authors": "Rafael Venson",
       "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
       "network_schools": "School of Medicine, Dentistry and Nursing",
-      "themes": "teaching-practice",
-      "is_cross": true,
+      "themes": "teaching-practice;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Ensuring equality, diversity, and inclusion in teaching: a case study of the application of Whose W.O.R.D.D. Counts? A tool to critically assess the diversity of curricula",
@@ -1751,24 +971,8 @@
       "network_authors_school": "Ailsa Foley [School of Health & Wellbeing]; Laura Sharp [School of Health & Wellbeing]; Julie Langan Martin [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "inclusion-wellbeing;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
-    },
-    {
-      "title": "Open Research as an Ally to Teaching and Scholarship-Track Academics",
-      "year": 2024,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/anxp9",
-      "url": "https://doi.org/10.35542/osf.io/anxp9",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "Education is essential for implementing the NHS workforce plan",
@@ -1781,7 +985,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -1796,7 +999,6 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "inclusion-wellbeing;teaching-practice;digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -1811,67 +1013,6 @@
       "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Transforming Histology Education Using a Freely Available Virtual Microscope Software",
-      "year": 2024,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "A phenomenon-based approach to teaching biochemistry using 3D-printed protein models",
-      "year": 2024,
-      "journal": "It’s Scholarly but it’s Real: Using Phenomenon Based Learning to future-proof effective learning in Higher Education",
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Shaun Bremner-Hart",
-      "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
-      "network_schools": "School of Molecular Biosciences",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Decolonising molecular bioscience education",
-      "year": 2024,
-      "journal": "Reimagining higher education Journeys of decolonising conference 2024",
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Shaun Bremner-Hart",
-      "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
-      "network_schools": "School of Molecular Biosciences",
-      "themes": "inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "How to Evaluate Your Teaching Practice",
-      "year": 2024,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -1886,24 +1027,8 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]; Katie Brown [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Facilitators and Barriers to Implementing Global Health Policies to Address Non- Communicable Diseases – The Example of the WHO Framework Convention on Tobacco Control",
-      "year": 2024,
-      "journal": "CABI Global health cases",
-      "type": "other",
-      "doi": null,
-      "url": "https://www.cabidigitallibrary.org/doi/10.1079/globalhealthcases.2024.0002",
-      "network_authors": "Sue Campbell",
-      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "themes": "sustainability-global",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Girls in scrubs: An ethnographic exploration of the clinical learning environment",
@@ -1916,7 +1041,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "employability;inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -1931,69 +1055,8 @@
       "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
       "network_schools": "School of Medicine, Dentistry and Nursing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Embedding Accredited Qualification and Work-Related Training Into Postgraduate Courses",
-      "year": 2024,
-      "journal": "ECE Official Conference Proceedings",
-      "type": "conference-paper",
-      "doi": "10.22492/issn.2188-1162.2024.69",
-      "url": "https://doi.org/10.22492/issn.2188-1162.2024.69",
-      "network_authors": "Susan Lindsay",
-      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
-      "network_schools": "MVLS Graduate School",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Using Combined Flipped Classroom and Case-Based Learning to Teach Pharmacology in a Nursing Undergraduate Degree: Student’s Learning Gains and Satisfaction",
-      "year": 2024,
-      "journal": "British Educational Research Association (BERA) Conference 2024",
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Rafael Venson",
-      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_schools": "School of Medicine, Dentistry and Nursing",
-      "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Dr Hamish Runciman and Miss Lauren Duguid (New AI in education MOOC special)",
-      "year": 2024,
-      "journal": null,
-      "type": "other",
-      "doi": null,
-      "url": "https://meinpodcast.libsyn.com/dr-hamish-runciman-and-miss-lauren-duguid-new-ai-in-education-mooc-special",
-      "network_authors": "Hamish Runciman",
-      "network_authors_school": "Hamish Runciman [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Impact of Clinical Case Discussion in a Flipped Classroom Setting to Teach Pharmacology to Nursing",
-      "year": 2024,
-      "journal": "Association for Medical Education in Europe (AMEE) Conference 2024",
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Rafael Venson",
-      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_schools": "School of Medicine, Dentistry and Nursing",
-      "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "‘It was building a plane as we were flying it!’ Adapting teaching through a crisis: lessons from educational leadership staff in Higher Education",
@@ -2006,24 +1069,8 @@
       "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Delivering Patient Centred Care; Inclusive Communication Skills Teaching at Glasgow Medical School",
-      "year": 2024,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "inclusion-wellbeing;employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Developing and Evaluating a Situated Assessment Instrument for Trichotillomania: The SAM2 TAI",
@@ -2036,7 +1083,6 @@
       "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]; Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2050,23 +1096,7 @@
       "network_authors": "Lindsey Pope",
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Why don’t we talk about Trauma-Informed Pedagogy in Forensic Science Education? A Scoping Review",
-      "year": 2024,
-      "journal": "University of West of Scotland Learning and Teaching Conference 2024",
-      "type": "conference-poster",
-      "doi": null,
-      "url": null,
-      "network_authors": "Rafael Venson",
-      "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_schools": "School of Medicine, Dentistry and Nursing",
-      "themes": "teaching-practice",
-      "is_cross": true,
+      "themes": "sotl-methods",
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2081,24 +1111,8 @@
       "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Principles and Examples of Inclusive Assessment",
-      "year": 2024,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Helena Paterson",
-      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "assessment;inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "More than just an add-on: Enhancing discipline-specific employability skills and awareness via the virtual learning environment",
@@ -2111,22 +1125,6 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "employability;digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Transforming Higher Education: How Can We Integrate Equality, Diversity, and Inclusion into Our Practice and Curriculum?",
-      "year": 2024,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "inclusion-wellbeing;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -2141,7 +1139,6 @@
       "network_authors_school": "Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
       "themes": "employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2156,7 +1153,6 @@
       "network_authors_school": "Sandy Wilson [Graduate School]",
       "network_schools": "Graduate School",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -2171,24 +1167,8 @@
       "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "Category is... Staff and student experiences of Rainbow Office Hours",
-      "year": 2024,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/f9r5k",
-      "url": "https://doi.org/10.35542/osf.io/f9r5k",
-      "network_authors": "Emily Nordmann; Rafael Venson",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_schools": "School of Psychology and Neuroscience; School of Medicine, Dentistry and Nursing",
-      "themes": "inclusion-wellbeing;transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Winter meeting of the Anatomical Society, Nottingham 2023: A focus on anatomy education",
@@ -2201,7 +1181,6 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2216,7 +1195,6 @@
       "network_authors_school": "Ellie Wigham [School of Biodiversity, One Health, & Veterinary Medicine]",
       "network_schools": "School of Biodiversity, One Health, & Veterinary Medicine",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -2231,7 +1209,6 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2245,10 +1222,9 @@
       "network_authors": "James Bartlett",
       "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
+      "themes": "sotl-methods",
+      "theme_source": "auto",
+      "n_themes": 1
     },
     {
       "title": "Cerebral Magnetic Resonance Angiography (MRA) Learning: A Methodological Framework to Develop a Web-Based Interactive 3D Application for Indonesian Medical Education",
@@ -2260,25 +1236,9 @@
       "network_authors": "Jennifer Clancy",
       "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
-      "themes": "digital-simulation",
-      "is_cross": true,
+      "themes": "digital-simulation;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Delivering Patient Centred Care; Advanced Communication Skills Teaching",
-      "year": 2024,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Identifying core global mental health professional competencies: A multi-sectoral perspective",
@@ -2291,24 +1251,8 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "inclusion-wellbeing;sustainability-global;employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
-    },
-    {
-      "title": "Incorporating Quality Improvement into the Undergraduate Medical Curriculum - Ideas for Change",
-      "year": 2024,
-      "journal": "NADEGS 2024",
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Lynsay Crawford; Lynsey  Yeoman",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]; Lynsey Yeoman [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Virtual Reality Surgical Simulation Model to Train Microsurgical Digit Revascularization and Replantation",
@@ -2321,7 +1265,6 @@
       "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2335,10 +1278,9 @@
       "network_authors": "Lindsey Pope",
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
+      "themes": "sotl-methods",
+      "theme_source": "auto",
+      "n_themes": 1
     },
     {
       "title": "Maximising the Educational and Research Value of the Undergraduate Dissertation in Psychology",
@@ -2351,7 +1293,6 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -2366,24 +1307,8 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "\"DECOLONISING THE CURRICULUM\": REPORTING BACK ON GLOBAL MENTAL HEALTH INITIATIVES",
-      "year": 2023,
-      "journal": "Hawkeye University of Glasgow",
-      "type": "newsletter-article",
-      "doi": null,
-      "url": "https://www.gla.ac.uk/schools/healthwellbeing/news/headline_1022799_en.html",
-      "network_authors": "Laura Sharp",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "inclusion-wellbeing;teaching-practice;sustainability-global",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 3
     },
     {
       "title": "Clinical supervisors' and students' perspectives on preparedness for veterinary workplace clinical training: An international study",
@@ -2395,23 +1320,7 @@
       "network_authors": "Alison Reid",
       "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Teaching resources for EDI in Psychology",
-      "year": 2023,
-      "journal": null,
-      "type": "online-resource",
-      "doi": null,
-      "url": "https://sway.office.com/pEkWwnG2KrCAjJUe",
-      "network_authors": "Zayba Ghazali-Mohammed",
-      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "inclusion-wellbeing",
-      "is_cross": false,
+      "themes": "sotl-methods",
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2425,25 +1334,9 @@
       "network_authors": "Lindsey Pope",
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "employability",
-      "is_cross": true,
+      "themes": "employability;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Helping our Students Swallow Information: The Use of Bitesized Teaching and Mentimeter in the Small Animal Primary Care Rotation",
-      "year": 2023,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Emilie Law",
-      "network_authors_school": "Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
+      "n_themes": 2
     },
     {
       "title": "Evaluating the Pedagogical Effectiveness of Study Preregistration in the Undergraduate Dissertation",
@@ -2455,25 +1348,9 @@
       "network_authors": "Emily Nordmann",
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
-      "themes": "teaching-practice",
-      "is_cross": true,
+      "themes": "sotl-methods;teaching-practice",
       "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "O11 Irregular sleep/wake patterns in student-athletes",
-      "year": 2023,
-      "journal": "Abstracts",
-      "type": "conference-abstract",
-      "doi": "10.1136/bmjresp-2023-bssconf.11",
-      "url": "https://doi.org/10.1136/bmjresp-2023-bssconf.11",
-      "network_authors": "Sandy Wilson",
-      "network_authors_school": "Sandy Wilson [Graduate School]",
-      "network_schools": "Graduate School",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
+      "n_themes": 2
     },
     {
       "title": "Students’ and tutors’ experiences of remote ‘student–patient’ consultations",
@@ -2486,37 +1363,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Veterinary student competence and confidence in calving cows after simulator training in a blended learning approach",
-      "year": 2023,
-      "journal": "University of Glasgow",
-      "type": "dissertation-thesis",
-      "doi": "10.5525/gla.thesis.83619",
-      "url": "https://doi.org/10.5525/GLA.THESIS.83619",
-      "network_authors": "Jayne Orr",
-      "network_authors_school": "Jayne Orr [School of Biodiversity One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
-      "themes": "digital-simulation;employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Evaluating the benefits of virtual laboratory simulations for biomolecular science students",
-      "year": 2023,
-      "journal": "International Union of Basic and Clinical Pharmacology (IUPHAR) Education Satellite Meeting",
-      "type": "conference-poster",
-      "doi": null,
-      "url": null,
-      "network_authors": "Shaun Bremner-Hart",
-      "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
-      "network_schools": "School of Molecular Biosciences",
-      "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2531,52 +1377,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Developing and Evaluating a Situated Assessment Instrument for Trichotillomania: The SAM² TAI",
-      "year": 2023,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/v6qna",
-      "url": "https://doi.org/10.31234/osf.io/v6qna",
-      "network_authors": "Judith Stevenson; Courtney Taylor Browne Lūka",
-      "network_authors_school": "Judith Stevenson [School of Psychology and Neuroscience]; Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Using the Situated Assessment Method (SAM²) to measure social connectedness, social support, and loneliness before and during COVID-19",
-      "year": 2023,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/j7kph",
-      "url": "https://doi.org/10.31234/osf.io/j7kph",
-      "network_authors": "Courtney Taylor Browne Lūka",
-      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "assessment;inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Developing the Situated Assessment Method (SAM²) to assess social connectedness and social support",
-      "year": 2023,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/m3d65",
-      "url": "https://doi.org/10.31234/osf.io/m3d65",
-      "network_authors": "Courtney Taylor Browne Lūka",
-      "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2590,10 +1390,9 @@
       "network_authors": "James Bartlett",
       "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
-      "themes": "teaching-practice",
-      "is_cross": true,
+      "themes": "sotl-methods;teaching-practice",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Developing a career as a GP educationalist: contemporary challenges and workforce solutions",
@@ -2606,7 +1405,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2621,7 +1419,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "inclusion-wellbeing;assessment;employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -2635,25 +1432,9 @@
       "network_authors": "Ourania Varsou",
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "themes": "inclusion-wellbeing;digital-simulation",
-      "is_cross": true,
+      "themes": "inclusion-wellbeing;digital-simulation;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "General Practice - It's Just Sitting Down! Perceptions of a General Practice-focussed Curriculum: A Qualitative Study of First-year Medical Students",
-      "year": 2023,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "teaching-practice",
-      "is_cross": true,
-      "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 3
     },
     {
       "title": "Biomedical Visualisation Volume 14 ‒ COVID-19 Technology and Visualisation Adaptations for Biomedical Teaching",
@@ -2666,7 +1447,6 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2681,7 +1461,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2696,7 +1475,6 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]; Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing; Scool of Medicine, Dentistry and Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2711,7 +1489,6 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "transitions-voice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2726,22 +1503,6 @@
       "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Embedding Data Skills in Research Methods Education: Preparing Students for Reproducible Research",
-      "year": 2022,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/hq68s",
-      "url": "https://doi.org/10.31234/osf.io/hq68s",
-      "network_authors": "Emily Nordmann; Helena Paterson; Carolina Kuepper-Tetzel",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Helena Paterson [School of Psychology and Neuroscience]; Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": true,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -2756,7 +1517,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]; Lynsay Crawford [School of Health & Wellbeing]",
       "network_schools": "School of Health and Wellbeing; School of Health & Wellbeing",
       "themes": "inclusion-wellbeing;employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -2771,22 +1531,6 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "assessment;teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "The Future is Connected, Active, Supportive, and Flexible: Psychology Student Perceptions of Best Practice in Teaching and Learning",
-      "year": 2022,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/csznw",
-      "url": "https://doi.org/10.31234/osf.io/csznw",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "transitions-voice;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -2801,7 +1545,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2816,7 +1559,6 @@
       "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "teaching-practice;transitions-voice;assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -2831,24 +1573,8 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "teaching-practice;digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
-    },
-    {
-      "title": "Sharing Practice on Framing Feedback Around Student Development",
-      "year": 2022,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/9qe8n",
-      "url": "https://doi.org/10.35542/osf.io/9qe8n",
-      "network_authors": "Helena Paterson",
-      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "GP trainee prescribing assessment – a qualitative evaluation of the involvement of pharmacists",
@@ -2860,10 +1586,9 @@
       "network_authors": "Katie  Brown",
       "network_authors_school": "Katie Brown [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
-      "themes": "assessment",
-      "is_cross": true,
+      "themes": "assessment;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Lecture rapture: the place and case for lectures in the new normal",
@@ -2876,7 +1601,6 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -2890,10 +1614,9 @@
       "network_authors": "Emma Bailey; Genevieve Stapleton; Sharon Sneddon; Ashley Le Vin",
       "network_authors_school": "Emma Bailey [School of Medicine Dentistry and Nursing]; Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Sneddon [School of Medicine Dentistry and Nursing]; Ashley Le Vin [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Medicine Dentistry and Nursing; School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "transitions-voice",
-      "is_cross": true,
+      "themes": "sotl-methods;transitions-voice",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Cultural diversity and inclusion in UK medical schools",
@@ -2906,24 +1629,8 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "Blended Learning Experiences of LGBTQ+ and Neurodivergent Students: A mixed-methods study",
-      "year": 2022,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/xhpwe",
-      "url": "https://doi.org/10.35542/osf.io/xhpwe",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "inclusion-wellbeing;digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Embedding 21st century employability into assessment and feedback practice through a student–staff partnership",
@@ -2936,39 +1643,8 @@
       "network_authors_school": "Anna McGregor [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "themes": "assessment;employability;transitions-voice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
-    },
-    {
-      "title": "Ensuring Diversity in Learning Materials: Whose W.O.R.D.D Counts?",
-      "year": 2022,
-      "journal": "15th Annual University of Glasgow Learning & Teaching Conference",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://easychair.org/smart-program/UofGLT2022/2022-03-29.html#talk:188572",
-      "network_authors": "Laura Sharp",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Harnessing Problem-Based Learning to Foster Student Adaptability and Inter-Cultural Awareness and Exchange",
-      "year": 2022,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://easychair.org/smart-program/UofGLT2022/2022-03-29.html#talk:188550",
-      "network_authors": "Laura Sharp",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Lights, camera, active! appreciation of active learning predicts positive attitudes towards lecture capture",
@@ -2981,7 +1657,6 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "teaching-practice;digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -2996,7 +1671,6 @@
       "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "employability;assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -3011,24 +1685,8 @@
       "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "themes": "teaching-practice;digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
-    },
-    {
-      "title": "COVID-19: Inequalities and Undergraduate Medical Education",
-      "year": 2022,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "inclusion-wellbeing",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Reflections on the integration of virtual GP tutorials to the medical undergraduate curriculum at Glasgow",
@@ -3041,7 +1699,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3055,10 +1712,9 @@
       "network_authors": "Helena Paterson",
       "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
-      "themes": "teaching-practice",
-      "is_cross": true,
+      "themes": "sotl-methods;teaching-practice",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Watch party lectures: synchronous delivery of asynchronous material",
@@ -3071,7 +1727,6 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]; Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3086,7 +1741,6 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]; Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing; Scool of Medicine, Dentistry and Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3101,24 +1755,8 @@
       "network_authors_school": "Courtney Taylor Browne Luka [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "Using posters to assess undergraduate student nurses’ understanding of public health issues.",
-      "year": 2021,
-      "journal": "Networking in Education for Healthcare ",
-      "type": "conference-poster",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/229135/",
-      "network_authors": "Sue Campbell",
-      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "Lessons learned from early adopters of blended and online learning",
@@ -3131,7 +1769,6 @@
       "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing; School of Biodiversity One Health and Veterinary Medicine",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3145,25 +1782,9 @@
       "network_authors": "Dimitar Karadzhov",
       "network_authors_school": "Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
-      "themes": "inclusion-wellbeing;digital-simulation",
-      "is_cross": true,
+      "themes": "inclusion-wellbeing;digital-simulation;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Using Mentimeter to Capture the Efficacy of Bitesized Teaching in Small Animal Primary Care",
-      "year": 2021,
-      "journal": "VetEd Symposium VetEd Internation Symposium of the Veterinary Schools Council 2021",
-      "type": "conference-poster",
-      "doi": null,
-      "url": "https://vetedsymposium.org/wp-content/uploads/2022/10/veted-2021-proceedings-book.pdf",
-      "network_authors": "Gemma Masterton; Emilie Law",
-      "network_authors_school": "Gemma Masterton [School of Biodiversity One Health and Veterinary Medicine]; Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]",
-      "network_schools": "School of Biodiversity One Health and Veterinary Medicine; School of Biodiversity, One Health and Veterinary Medicine",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
+      "n_themes": 3
     },
     {
       "title": "Integrating disciplinary practices to optimally deliver alternative assessments and embed graduate attributes in a Global Mental Health Master’s programme",
@@ -3176,24 +1797,8 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]; Julie Langan Martin [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "assessment;employability;inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
-    },
-    {
-      "title": "Practitioners’ and Policymakers’ Successes, Challenges, Innovations, and Learning in Promoting Children’s Well-being During COVID-19: Protocol for a Multinational Smartphone App Survey (Preprint)",
-      "year": 2021,
-      "journal": null,
-      "type": "other",
-      "doi": "10.2196/preprints.31013",
-      "url": "https://doi.org/10.2196/preprints.31013",
-      "network_authors": "Dimitar Karadzhov",
-      "network_authors_school": "Dimitar Karadzhov [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "inclusion-wellbeing;digital-simulation",
-      "is_cross": true,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Learning needs, preferred learning methods and learning challenges of first five general practitioners in NHS Scotland: a qualitative study",
@@ -3205,10 +1810,9 @@
       "network_authors": "Lynsey  Yeoman",
       "network_authors_school": "Lynsey Yeoman [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
-      "themes": "",
-      "is_cross": true,
-      "theme_source": "unclassified",
-      "n_themes": 0
+      "themes": "sotl-methods",
+      "theme_source": "auto",
+      "n_themes": 1
     },
     {
       "title": "The relationship between cognitive deficits and impaired short-term functional outcome in clinical high-risk for psychosis participants: A machine learning and modelling approach",
@@ -3221,7 +1825,6 @@
       "network_authors_school": "Kate Haining [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3236,39 +1839,8 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "The use of television documentary review and group discussion for intercultural learning between nursing students in Glasgow and Singapore",
-      "year": 2021,
-      "journal": "14th Annual University of Glasgow Learning & Teaching conference",
-      "type": "conference-presentation",
-      "doi": null,
-      "url": null,
-      "network_authors": "Sue Campbell",
-      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "The cost of asking ‘say that again?’: a social capital theory view into how lecture recording supports widening participation",
-      "year": 2021,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.35542/osf.io/t7e5q",
-      "url": "https://doi.org/10.35542/osf.io/t7e5q",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "inclusion-wellbeing;teaching-practice;digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 3
     },
     {
       "title": "Heard, valued, supported? Doctors' wellbeing during transitions triggered by COVID-19",
@@ -3281,7 +1853,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3296,7 +1867,6 @@
       "network_authors_school": "Monika Mihm Carmichael [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3311,7 +1881,6 @@
       "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3325,10 +1894,9 @@
       "network_authors": "Stevie Bain",
       "network_authors_school": "Stevie Bain [School of Molecular Biosciences]",
       "network_schools": "School of Molecular Biosciences",
-      "themes": "teaching-practice",
-      "is_cross": true,
+      "themes": "sotl-methods;teaching-practice",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Why The Flipped Lecture Is Not A ‘One Size Fits All’ Solution To Undergraduate Medical Education.",
@@ -3341,7 +1909,6 @@
       "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Sneddon [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3356,7 +1923,6 @@
       "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]; Sharon Sneddon [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3371,39 +1937,8 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Student-Staff Partnerships to Enhance Assessment and Feedback",
-      "year": 2020,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": null,
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "assessment;transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Truth Told in Jest? Professional Value Confessions at the End of a Medical Curriculum",
-      "year": 2020,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://www.gla.ac.uk/media/Media_736116_smxx.pptx",
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "A marking of the cricothyroid membrane with extended neck returns to correct position after neck manipulation and repositioning",
@@ -3416,39 +1951,8 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "Capturing engagement in early science learning",
-      "year": 2020,
-      "journal": "Proceedings of the 2020 ACM Interaction Design and Children Conference: Extended Abstracts",
-      "type": "conference-paper",
-      "doi": "10.1145/3397617.3398032",
-      "url": "https://doi.org/10.1145/3397617.3398032",
-      "network_authors": "Zayba Ghazali-Mohammed; Alexia Revueltas Roux",
-      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]; Alexia Revueltas Roux [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "10 simple rules for supporting a temporary online pivot in higher education",
-      "year": 2020,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/qdh25",
-      "url": "https://doi.org/10.31234/osf.io/qdh25",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "Equipping Learners to Evaluate Online Health Care Resources: Longitudinal Study of Learning Design Strategies in a Health Care Massive Open Online Course",
@@ -3460,10 +1964,9 @@
       "network_authors": "Leah Marks; Sarah Meek",
       "network_authors_school": "Leah Martin [School of Medicine Dentistry and Nursing]; Sarah Meek [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing; School of Medicine, Dentistry, & Nursing",
-      "themes": "digital-simulation",
-      "is_cross": true,
+      "themes": "digital-simulation;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Dissecting Art: Developing Object-Based Teaching Using Historical Collections.",
@@ -3476,7 +1979,6 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -3491,7 +1993,6 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3506,7 +2007,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3520,10 +2020,9 @@
       "network_authors": "Eileen Cowey",
       "network_authors_school": "Eileen Cowey [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "assessment",
-      "is_cross": true,
+      "themes": "assessment;sotl-methods",
       "theme_source": "auto",
-      "n_themes": 1
+      "n_themes": 2
     },
     {
       "title": "Quarantining the OSCE: reflections on the Glasgow experience",
@@ -3536,7 +2035,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3551,7 +2049,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3566,7 +2063,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3581,7 +2077,6 @@
       "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3596,52 +2091,6 @@
       "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
       "themes": "employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Flipped Classroom and Resources",
-      "year": 2019,
-      "journal": null,
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "A Learning Community to Support Staff Scholarship and Progression",
-      "year": 2019,
-      "journal": null,
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Is Self-Regulated Learning a Threshold Concept? An Audio-Diary Study of PBL in Two UK Medical Schools. ",
-      "year": 2019,
-      "journal": "AMEE 2019",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/215658/",
-      "network_authors": "Sarah Meek",
-      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
-      "network_schools": "School of Medicine, Dentistry, & Nursing",
-      "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3656,22 +2105,6 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Equipping Learners to Evaluate Online Health Care Resources: Longitudinal Study of Learning Design Strategies in a Health Care Massive Open Online Course (Preprint)",
-      "year": 2019,
-      "journal": null,
-      "type": "other",
-      "doi": "10.2196/preprints.15177",
-      "url": "https://doi.org/10.2196/preprints.15177",
-      "network_authors": "Leah Marks",
-      "network_authors_school": "Leah Martin [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "digital-simulation",
-      "is_cross": true,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3686,7 +2119,6 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "transitions-voice;teaching-practice;digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -3701,54 +2133,8 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Audit of Representation of Protected Characteristics in Learning Materials in a Block of the MBChB. ",
-      "year": 2019,
-      "journal": "9th National Scottish Medical Education Conference 2019",
-      "type": "conference-poster",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/227987/",
-      "network_authors": "Sarah Meek",
-      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
-      "network_schools": "School of Medicine, Dentistry, & Nursing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "First Year Medical Students' Understanding of Professionalism",
-      "year": 2019,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://www.scotlanddeanery.nhs.scot/news-events/9th-scottish-medical-education-conference-2019-resources/",
-      "network_authors": "Lynsay Crawford",
-      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Alternative (Authentic) Assessments: Professional Skill Enhancement and Development of Graduate Attributes.",
-      "year": 2019,
-      "journal": "12th Annual University of Glasgow Learning and Teaching Conference, Glasgow, UK",
-      "type": "conference-abstract",
-      "doi": null,
-      "url": "https://www.gla.ac.uk/myglasgow/leads/events/annuallearningandteachingconference/programme/#/day2programme-wed3rdapril-morning",
-      "network_authors": "Laura Sharp; Dimitar Karadzhov",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "assessment;employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Stakeholder perception of student employability: does the duration, type and location of work experience matter?",
@@ -3761,24 +2147,8 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "Enhancing the Quality of Student Learning Using Distributed Practice",
-      "year": 2019,
-      "journal": "The Cambridge Handbook of Cognition and Education",
-      "type": "other",
-      "doi": "10.1017/9781108235631.023",
-      "url": "https://doi.org/10.1017/9781108235631.023",
-      "network_authors": "Carolina Kuepper-Tetzel",
-      "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "Embodied Museum Learning: Multimodal design for preschool scientists.",
@@ -3791,7 +2161,6 @@
       "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -3806,7 +2175,6 @@
       "network_authors_school": "Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "assessment;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -3821,7 +2189,6 @@
       "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3836,7 +2203,6 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3851,37 +2217,6 @@
       "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Using the Threshold Concept Framework to Explore Student Learning by PBL in Two UK Medical Schools.",
-      "year": 2018,
-      "journal": "ISSOTL18: Toward a Learning Culture",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/215659/",
-      "network_authors": "Sarah Meek",
-      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
-      "network_schools": "School of Medicine, Dentistry, & Nursing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Using Interactive 3D Visualisations in Postgraduate Education",
-      "year": 2018,
-      "journal": "The Royal College of Psychiatrists in Scotland Autumn Meeting, Royal College of Surgeons, Edinburgh",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://www.rcpsych.ac.uk/members/devolved-nations/rcpsych-in-scotland/events-and-training/event-resources",
-      "network_authors": "Laura Sharp",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -3896,84 +2231,8 @@
       "network_authors_school": "Samantha Fontaine [School of Biodiversity One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
       "themes": "employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "Development of a Faculty Learning Community to support Scholarship and Feedback",
-      "year": 2018,
-      "journal": null,
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Development of Faculty Learning Community",
-      "year": 2018,
-      "journal": null,
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Development of a Faculty Learning Community",
-      "year": 2018,
-      "journal": null,
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Development of a Faculty Learning Community to Support Scholarship and Career Progression",
-      "year": 2018,
-      "journal": null,
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "employability;transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Understanding the role of embodied interaction in pre-school children’s learning about science in informal settings.",
-      "year": 2018,
-      "journal": " Rethinking Learning in the Digital Age. Making the Learning Sciences count",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://repository.isls.org/bitstream/1/869/1/514.pdf",
-      "network_authors": "Zayba Ghazali-Mohammed",
-      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "Atheists on the Santiago Way: Examining Motivations to Go On Pilgrimage",
@@ -3986,39 +2245,8 @@
       "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Lecture capture in higher education: time to learn from the learners",
-      "year": 2018,
-      "journal": null,
-      "type": "preprint",
-      "doi": "10.31234/osf.io/ux29v",
-      "url": "https://doi.org/10.31234/osf.io/ux29v",
-      "network_authors": "Emily Nordmann",
-      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "digital-simulation;teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "‘Blended Assessment’ of Problem-Based Learning to Encourage the Development of Professional Attributes",
-      "year": 2018,
-      "journal": null,
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "teaching-practice;assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Enhancing theoretical understanding of a practical biology course using active and self-directed learning strategies",
@@ -4031,22 +2259,6 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Staged Introduction of Blended Learning – To Blend or Not to Blend?",
-      "year": 2018,
-      "journal": "11th Annual University of Glasgow Learning and Teaching Conference, Glasgow, UK",
-      "type": "conference-abstract",
-      "doi": null,
-      "url": "https://www.gla.ac.uk/media/Media_585508_smxx.pdf",
-      "network_authors": "Laura Sharp; Dimitar Karadzhov",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -4061,7 +2273,6 @@
       "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
       "themes": "digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -4076,7 +2287,6 @@
       "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "teaching-practice;inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -4091,7 +2301,6 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -4106,7 +2315,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "assessment;employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -4121,24 +2329,8 @@
       "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "themes": "teaching-practice;transitions-voice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
-    },
-    {
-      "title": "Predicting Student Progression",
-      "year": 2017,
-      "journal": null,
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Is peer review an appropriate form of assessment in a MOOC? Student participation and performance in formative peer review",
@@ -4151,54 +2343,8 @@
       "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
       "themes": "assessment;digital-simulation;transitions-voice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
-    },
-    {
-      "title": "Evaluation of Road Safety Scotland’s Learning Resources ",
-      "year": 2017,
-      "journal": "Transport Scotland: Scottish Government",
-      "type": "report",
-      "doi": null,
-      "url": "https://www.transport.gov.scot/media/39512/evaluationofrsslearningresourcesjuly2017.pdf",
-      "network_authors": "Laura Sharp",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Promoting Medical Career Choices in Scotland to Early Years Medical Students",
-      "year": 2017,
-      "journal": null,
-      "type": "conference-abstract",
-      "doi": null,
-      "url": null,
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "employability",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": " Cracking the Code: Girls’ and women’s’ education in STEM.",
-      "year": 2017,
-      "journal": "nited Nations Educational, Scientific and cultural organization (UNESCO)",
-      "type": "report",
-      "doi": null,
-      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000253479",
-      "network_authors": "Zayba Ghazali-Mohammed",
-      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
-      "network_schools": "School of Psychology and Neuroscience",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "THE CURIOUS CASE OF BLENDED LEARNING: AN EVALUATION OF A CURRICULUM INNOVATION IN THE GLOBAL MENTAL HEALTH MASTER’S PROGRAMME",
@@ -4211,7 +2357,6 @@
       "network_authors_school": "Laura Sharp [School of Health & Wellbeing]; Dimitar Karadzhov [School of Health & Wellbeing]",
       "network_schools": "School of Health & Wellbeing",
       "themes": "teaching-practice;digital-simulation;inclusion-wellbeing",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 3
     },
@@ -4226,7 +2371,6 @@
       "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -4241,67 +2385,6 @@
       "network_authors_school": "Sharon Sneddon [School of Medicine Dentistry and Nursing]",
       "network_schools": "School of Medicine Dentistry and Nursing",
       "themes": "teaching-practice;assessment",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Using MOOCs to Increase Exposure to Genomics in an Undergraduate Medical Curriculum. The European Human Genetics Conference 2016, Barcelona, Spain, 21-24 May 2016.",
-      "year": 2016,
-      "journal": "The European Human Genetics Conference 2016",
-      "type": "conference-poster",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/153284/",
-      "network_authors": "Sarah Meek",
-      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
-      "network_schools": "School of Medicine, Dentistry, & Nursing",
-      "themes": "teaching-practice;digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Playing the Numbers Game: Students as Assessors in a MOOC Context.",
-      "year": 2016,
-      "journal": "9th Annual University of Glasgow Learning and Teaching Conference",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/151998/",
-      "network_authors": "Sarah Meek",
-      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
-      "network_schools": "School of Medicine, Dentistry, & Nursing",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "What to do with a MOOC? Using the Latest e-Learning Trend to Enhance Medical Education. ",
-      "year": 2016,
-      "journal": "HEA Health and Social Care Conference",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/153282/",
-      "network_authors": "Sarah Meek",
-      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
-      "network_schools": "School of Medicine, Dentistry, & Nursing",
-      "themes": "digital-simulation",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "Is Peer Review an Appropriate Assessment and Feedback Tool for a MOOC? AMEE eLearning Symposium, Glasgow, Scotland, 06-09 Sep 2015.",
-      "year": 2015,
-      "journal": "AMEE eLearning Symposium 2015",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/153287/",
-      "network_authors": "Sarah Meek",
-      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
-      "network_schools": "School of Medicine, Dentistry, & Nursing",
-      "themes": "assessment;digital-simulation",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -4316,7 +2399,6 @@
       "network_authors_school": "Claire Donald [School of Infection & Immunity]",
       "network_schools": "School of Infection & Immunity",
       "themes": "employability",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -4331,7 +2413,6 @@
       "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     },
@@ -4346,54 +2427,8 @@
       "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "Improving Student Engagement in Lectures: The ‘Flipped Lecture’ in Medical Education",
-      "year": 2015,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": "http://www.amee.org/conferences/amee-past-conferences/amee-2015",
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "teaching-practice;transitions-voice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 2
-    },
-    {
-      "title": "Student-Centred Learning and Engagement in Undergraduate Medical Education Using Peerwise",
-      "year": 2015,
-      "journal": null,
-      "type": "conference-paper",
-      "doi": null,
-      "url": "http://www.amee.org/conferences/amee-past-conferences/amee-2015",
-      "network_authors": "Genevieve Stapleton",
-      "network_authors_school": "Genevieve Stapleton [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Threshold concepts and troublesome knowledge in the first year curriculum at a UK medical school [Poster]. In: O'Mahoney, C., Buchanan, A., O'Rourke, M. and Higgs, B. (eds.) .",
-      "year": 2014,
-      "journal": "NAIRTL",
-      "type": "report",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/100939/",
-      "network_authors": "Sarah Meek",
-      "network_authors_school": "Sarah Meek [School of Medicine, Dentistry, & Nursing]",
-      "network_schools": "School of Medicine, Dentistry, & Nursing",
-      "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Contracting, equal, and expanding learning schedules: The optimal distribution of learning sessions depends on retention interval",
@@ -4406,7 +2441,6 @@
       "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "transitions-voice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -4421,7 +2455,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -4436,7 +2469,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "inclusion-wellbeing;teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 2
     },
@@ -4451,24 +2483,8 @@
       "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "teaching-practice",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "Using Data To Show The Barriers To Treatment Literacy And Recommendations For Improving Adherence To HIV Treatment Regimens Examples From Ethiopia And Swaziland",
-      "year": 2013,
-      "journal": "17th ICASA Conference 2013, Cape Town, South Africa",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://www.who.int/hiv/events/2013/icasa13/en/",
-      "network_authors": "Laura Sharp",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
     },
     {
       "title": "Barriers and attitudes influencing non-engagement in a peer feedback model to inform evidence for GP appraisal",
@@ -4481,7 +2497,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -4496,52 +2511,6 @@
       "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
-    },
-    {
-      "title": "What Influences Binge Drinking in Students, and How Can We Intervene?",
-      "year": 2011,
-      "journal": "Emotions 2011: Fifth International Conference on the (Non)Expression of Emotions in Health and Disease",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "http://www.enpm.eu/contents/meetings/5th%20Emotions%20Conference%20Tilburg.pdf",
-      "network_authors": "Dougie Marks",
-      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "How Does Personality Influence Binge Drinking Behaviours in Students?",
-      "year": 2010,
-      "journal": "24th European Health Psychology Conference, Cluj-Napoca",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://www.tandfonline.com/toc/gpsh20/25/sup1",
-      "network_authors": "Dougie Marks",
-      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Assessing the Influence of Health Professionals’ Attitudes on Breast-feeding Rates",
-      "year": 2009,
-      "journal": "European Health Psychology Society Conference 2009",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "https://share.google/Dz8vdFL4ZyNGKzCgD",
-      "network_authors": "Dougie Marks",
-      "network_authors_school": "Dougie Marks [Scool of Medicine, Dentistry and Nursing]",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -4556,7 +2525,6 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_schools": "School of Health and Wellbeing",
       "themes": "assessment",
-      "is_cross": false,
       "theme_source": "auto",
       "n_themes": 1
     },
@@ -4571,39 +2539,8 @@
       "network_authors_school": "Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
-    },
-    {
-      "title": "An easy to administer intervention that can support cognitive development in individuals with special educational needs",
-      "year": 2005,
-      "journal": "BPS Scottish Branch Annual Conference",
-      "type": "conference-abstract",
-      "doi": null,
-      "url": "https://www.bps.org.uk/sites/bps.org.uk/files/Page%20-%20Files/Proceedings%20of%20the%20BPS%20-%20Vol%2013-1%20February%202005.pdf",
-      "network_authors": "Laura Sharp",
-      "network_authors_school": "Laura Sharp [School of Health & Wellbeing]",
-      "network_schools": "School of Health & Wellbeing",
-      "themes": "",
-      "is_cross": false,
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Arts-based Pedagogies in Level 3 Anatomy ",
-      "year": null,
-      "journal": null,
-      "type": "website",
-      "doi": null,
-      "url": "https://www.gla.ac.uk/myglasgow/learningandteaching/activelearning/casestudies/arts-based-pedagogies-in-anatomy/",
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "teaching-practice",
-      "is_cross": false,
-      "theme_source": "auto",
-      "n_themes": 1
     },
     {
       "title": "Can we be scientific about science education? ",
@@ -4616,7 +2553,6 @@
       "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
       "network_schools": "School of Psychology and Neuroscience",
       "themes": "",
-      "is_cross": false,
       "theme_source": "unclassified",
       "n_themes": 0
     }
