@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21 15:23:13 UTC",
+  "last_updated": "2026-08-23 02:56:58 UTC",
   "n_authors": 70,
   "n_publications": 1017,
   "n_sotl": 302,
@@ -645,6 +645,21 @@
       "is_sotl": false
     },
     {
+      "title": "Debunking decreases mistaken causal inferences: A direct replication of Irving et al. (2022)",
+      "year": 2026,
+      "month": 8,
+      "day": 21,
+      "pub_date": "2026-08-21",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/am6rg",
+      "url": "https://doi.org/10.31234/osf.io/am6rg_v3",
+      "network_authors": "James Bartlett",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-4191-5245",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Guest editorial: Navigating and developing identity in intercultural education practices",
       "year": 2026,
       "month": 8,
@@ -724,21 +739,6 @@
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
-    },
-    {
-      "title": "Debunking decreases mistaken causal inferences: A direct replication of Irving et al. (2022)",
-      "year": 2026,
-      "month": 7,
-      "day": 24,
-      "pub_date": "2026-07-24",
-      "type": "preprint",
-      "doi": "10.31234/osf.io/am6rg",
-      "url": "https://doi.org/10.31234/osf.io/am6rg_v2",
-      "network_authors": "James Bartlett",
-      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-4191-5245",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
     },
     {
       "title": "GenAI in Assessment & Curriculum Design",
