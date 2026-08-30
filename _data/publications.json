@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-08-23 02:56:58 UTC",
+  "last_updated": "2026-08-30 07:44:04 UTC",
   "n_authors": 70,
-  "n_publications": 1017,
-  "n_sotl": 302,
+  "n_publications": 1022,
+  "n_sotl": 305,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -645,6 +645,23 @@
       "is_sotl": false
     },
     {
+      "title": "Seeing ourselves in anatomy: Embedding equity, diversity, and inclusivity to transform learning in a UK BSc curriculum",
+      "year": 2026,
+      "month": 8,
+      "day": 27,
+      "pub_date": "2026-08-27",
+      "journal": "Anatomical Sciences Education",
+      "type": "journal-article",
+      "doi": "10.1002/ase.70333",
+      "url": "https://doi.org/10.1002/ase.70333",
+      "network_authors": "Michelle Welsh; Ourania Varsou",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]; Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201; 0000-0002-7789-1185",
+      "network_schools": "School of Medicine Dentistry and Nursing; Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Debunking decreases mistaken causal inferences: A direct replication of Irving et al. (2022)",
       "year": 2026,
       "month": 8,
@@ -708,21 +725,6 @@
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Seeing ourselves in anatomy: embedding equity, diversity and inclusivity to transform learning in a UK BSc curriculum",
-      "year": 2026,
-      "month": 8,
-      "day": 4,
-      "pub_date": "2026-08-04",
-      "journal": "Anatomical Sciences Education",
-      "type": "journal-article",
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_orcids": "0000-0003-1469-0201",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "is_sotl": true,
-      "sotl_matched_on": "journal"
     },
     {
       "title": "Geopolitics, international collaborations and publication ethics",
@@ -2667,6 +2669,19 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Impact of Hybrid Virtual Cases on Student Self-Confidence in Veterinary Clinical Reasoning and Case-Based Decision-Making",
+      "year": 2025,
+      "month": 7,
+      "pub_date": "2025-07-01",
+      "type": "conference-paper",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Moulding the Future of Veterinary Education: Initial Stages in Development of a Canine Echocardiography Simulator",
       "year": 2025,
       "month": 7,
@@ -3852,6 +3867,46 @@
       "is_sotl": false
     },
     {
+      "title": "Evaluation of a Simulator Used to Teach Aseptic Preparation of the Canine Eye and Ear",
+      "year": 2024,
+      "month": 7,
+      "day": 5,
+      "pub_date": "2024-07-05",
+      "type": "conference-paper",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "Peer Academic Mentoring: Developing Learners",
+      "year": 2024,
+      "month": 7,
+      "day": 5,
+      "pub_date": "2024-07-05",
+      "type": "conference-paper",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": false
+    },
+    {
+      "title": "University of Liverpool Clinical Skills Society: Bringing a Student-Approach to Clinical Skills Teaching",
+      "year": 2024,
+      "month": 7,
+      "day": 5,
+      "pub_date": "2024-07-05",
+      "type": "conference-paper",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Behavioral interventions and behavior change techniques used to improve sleep outcomes in athlete populations: A scoping review",
       "year": 2024,
       "month": 7,
@@ -3881,6 +3936,19 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_orcids": "0000-0003-0899-9616",
       "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Hybrid Virtual Cases for Building Case-Based Decision-Making Skills in Early-Years’ Students",
+      "year": 2024,
+      "month": 7,
+      "pub_date": "2024-07-01",
+      "type": "conference-paper",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },

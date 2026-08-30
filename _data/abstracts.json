@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-23 02:56:59 UTC",
-  "n_records": 197,
-  "n_abstracts": 164,
+  "last_updated": "2026-08-30 07:44:05 UTC",
+  "n_records": 198,
+  "n_abstracts": 165,
   "records": [
     {
       "doi": "10.1002/ase.1894",
@@ -13,6 +13,12 @@
       "doi": "10.1002/ase.70290",
       "abstract": "Feedback is a cornerstone of the learning process, as evidenced by extensive educational research on enhancing its process and impact. However, learners consistently rate the quality of feedback lower compared to other aspects of teaching. Over the past decade, feedback models have shifted from a traditional, one-way transmission from educator to learner toward more learner-engaged approaches that position learners as active participants, perhaps even drivers of the conversation. This shift emphasizes the importance of students' engagement with feedback that targets their own meaningful learning and performance improvement. However, fostering a student-driven feedback culture requires recognizing the affective dimensions of feedback and sociocultural factors that influence how learners receive, accept, and act on feedback. Feedback literacy is a newer concept that focusses on learners' appreciation of feedback as a fundamental factor that promotes their ability to accept and enact action plans for improvement. This communication explores how incorporating concepts such as self-determination theory, sociocultural theory, feedback literacy, and coaching principles into the feedback conversation can enhance student motivation to engage with feedback. Practical strategies for applying these principles in anatomy education will be discussed, with a focus on fostering a feedback culture that promotes a growth mindset, enhances student performance, and prepares learners for self-reflection and lifelong learning.",
       "subjects": "Student Assessment and Feedback; Innovations in Medical Education; Evaluation of Teaching Practices",
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1002/ase.70333",
+      "abstract": "Embedding intersectional equity, diversity, and inclusion (EDI) in anatomy education is essential to reflect the growing diversity of student populations, support all learners, and prepare graduates for a more inclusive, socially responsive global workforce. Anatomical textbooks and models have typically focused on white, cis-gender, able-bodied individuals who perpetuates biases and underrepresentation, impacting learners' professional development. We embedded five workshops in the junior honors BSc anatomy curriculum, which all adopted an intersectional EDI approach. These were strongly anchored to anatomy as a discipline and framed around learners building knowledge through social interaction, encouraging active student engagement and reflection. A mixed methods analysis using pre- and postteaching surveys and assessment data from 2021 to 2025 showed that the anatomy-focused EDI content challenged students to explore personal and disciplinary representation, bias, and diversity through real-world examples such as textbook imagery, donor demographics, and historical figures. By combining collaborative tasks, critical reflection, and authentic assessments, students developed cultural awareness, and personal accountability, embedding inclusive thinking into both their academic practice and professional identity, with their understanding shifting over time from more basic awareness to reflective, critical engagement. Students also consistently achieved higher grades in EDI coursework and exam essays compared to non-EDI assessments. This approach allowed students to build complexity across the sessions, from historical critique to structural analysis and applied outputs. These findings support the continued integration of EDI as a dynamic and essential component of anatomy and broader biomedical curricula while also offering a transferable framework for other academics to adopt.",
+      "subjects": "Anatomy and Medical Technology; Career Development and Diversity; Diversity and Career in Medicine",
       "source": "openalex"
     },
     {

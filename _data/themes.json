@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-23 02:57:10 UTC",
+  "last_updated": "2026-08-30 07:44:16 UTC",
   "n_outputs": 176,
   "n_unclassified": 28,
-  "n_with_abstract": 144,
-  "n_excluded": 126,
+  "n_with_abstract": 145,
+  "n_excluded": 129,
   "publication_types": ["journal-article", "book", "book-chapter"],
   "score_threshold": 3,
   "max_themes": 3,
@@ -63,7 +63,7 @@
     {
       "id": "assessment",
       "label": "Assessment, feedback & academic integrity",
-      "n": 31
+      "n": 32
     },
     {
       "id": "inclusion-wellbeing",
@@ -93,6 +93,20 @@
   ],
   "outputs": [
     {
+      "title": "Seeing ourselves in anatomy: Embedding equity, diversity, and inclusivity to transform learning in a UK BSc curriculum",
+      "year": 2026,
+      "journal": "Anatomical Sciences Education",
+      "type": "journal-article",
+      "doi": "10.1002/ase.70333",
+      "url": "https://doi.org/10.1002/ase.70333",
+      "network_authors": "Michelle Welsh; Ourania Varsou",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]; Ourania Varsou [Scool of Medicine, Dentistry and Nursing]",
+      "network_schools": "School of Medicine Dentistry and Nursing; Scool of Medicine, Dentistry and Nursing",
+      "themes": "inclusion-wellbeing;teaching-practice;assessment",
+      "theme_source": "auto",
+      "n_themes": 3
+    },
+    {
       "title": "Guest editorial: Navigating and developing identity in intercultural education practices",
       "year": 2026,
       "journal": "Journal for Multicultural Education",
@@ -119,20 +133,6 @@
       "themes": "sotl-methods",
       "theme_source": "auto",
       "n_themes": 1
-    },
-    {
-      "title": "Seeing ourselves in anatomy: embedding equity, diversity and inclusivity to transform learning in a UK BSc curriculum",
-      "year": 2026,
-      "journal": "Anatomical Sciences Education",
-      "type": "journal-article",
-      "doi": null,
-      "url": null,
-      "network_authors": "Michelle Welsh",
-      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
-      "network_schools": "School of Medicine Dentistry and Nursing",
-      "themes": "inclusion-wellbeing;teaching-practice",
-      "theme_source": "auto",
-      "n_themes": 2
     },
     {
       "title": "Geopolitics, international collaborations and publication ethics",
