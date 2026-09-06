@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-30 07:44:05 UTC",
-  "n_records": 198,
-  "n_abstracts": 165,
+  "last_updated": "2026-09-06 06:43:23 UTC",
+  "n_records": 199,
+  "n_abstracts": 166,
   "records": [
     {
       "doi": "10.1002/ase.1894",
@@ -1165,6 +1165,12 @@
       "doi": "10.56433/4dwar095",
       "abstract": "This case study explores the application of the Whose W.O.R.D.D. Counts? tool to promote Equality, Diversity, and Inclusion (EDI) within the Global Mental Health (GMH) MSc Programme in the School of Health and Wellbeing (SHW) at the University of Glasgow. It underscores the importance of diversifying curricula to challenge systemic biases, promote inclusivity, and address pervasive attainment gaps in higher education linked to gender, ethnicity, and socioeconomic status. Developed by the Open University, the tool guided a comprehensive review of the GMH online learning materials under the following topic headings: writing with the audience in mind, opportunity for exchange of experience, representation through different lenses, drawing on different student experiences, and diversity as the subject matter (W.O.R.D.D.). The review identified good practices and areas needing improvement, leading to significant content expansions and new reflective tasks. Larger developments fell into three broader themes: diversifying case studies from low-, middle-, and high-income countries; increasing discussion of gender and sexuality; and framing Western culture. Despite the time and energy-intensive process of reviewing 60 weeks' worth of content, the effort has beneficially impacted teaching practices and received positive student feedback. The findings, disseminated through various academic platforms, have inspired the teaching team to initiate the process of decolonising the curriculum. Decolonisation goes beyond EDI by critically examining and uprooting colonial systems, practices, and power structures, rather than merely integrating non-White perspectives or making space for marginalised groups within existing frameworks. The study advocates for continuous improvement and active student involvement to foster a genuinely inclusive educational environment.",
       "subjects": "Education Systems and Policy; Gender Diversity and Inequality; Teacher Education and Leadership Studies",
+      "source": "openalex"
+    },
+    {
+      "doi": "10.56433/4sj2yr84",
+      "abstract": "Mentoring is one of the important modalities that are known to enhance professional development of staff, including those who engage in teaching and learning of Health Professions in Higher Education as well as research of patients-focused subjects. However, while multiple mentoring schemes are available at University level, the impact they bring to the local community of staff is often unclear. With an aim to identify the current status of mentoring within School of Medicine, Dentistry and Nursing, University of Glasgow, the Athena Swan-led Aspiration and Development Working Group has conducted a reflective study. We analysed benefits of the existing mentoring schemes, as well as challenges met by staff in the early stages of career in the Learning, Teaching and Scholarship and the Research and Teaching tracks. Reflection was also made on the equality, diversity and inclusion of Postgraduate Research students and LGBTQ+ members of the community. We have found that there was a limited uptake despite benefits, and that there were multiple causes for this, which was beyond a lack of time. This has led to a proposal of a new mentoring scheme that focuses on local needs and the process that centres more favourably to the prospective mentees, with an integrated monitoring platform of the scheme, which supports sustainability. We find that, for provision of a meaningful mentoring, careful design and implementation based on the EDI ethos is essential.",
+      "subjects": "Mentoring and Academic Development; Nursing education and management; Higher Education Practises and Engagement",
       "source": "openalex"
     },
     {

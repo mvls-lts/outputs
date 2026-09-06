@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-08-30 07:44:04 UTC",
+  "last_updated": "2026-09-06 06:43:22 UTC",
   "n_authors": 70,
-  "n_publications": 1022,
-  "n_sotl": 305,
+  "n_publications": 1027,
+  "n_sotl": 308,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -630,6 +630,23 @@
   ],
   "publications": [
     {
+      "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
+      "year": 2026,
+      "month": 9,
+      "day": 4,
+      "pub_date": "2026-09-04",
+      "journal": "Journal of Perspectives in Applied Academic Practice",
+      "type": "journal-article",
+      "doi": "10.56433/4sj2yr84",
+      "url": "https://doi.org/10.56433/4sj2yr84",
+      "network_authors": "Sue Campbell; Tomoko Iwata",
+      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0003-3098-156X; 0000-0002-9634-9738",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "What Makes an Anatomist “Clinical”? A Perspective From the British Association of Clinical Anatomists (\n                    <scp>BACA<\/scp>\n                    )",
       "year": 2026,
       "month": 9,
@@ -642,6 +659,22 @@
       "network_authors_school": "Jenny Clancy [School of Medicine, Dentistry, & Nursing]",
       "network_orcids": "0000-0002-1568-2046",
       "network_schools": "School of Medicine, Dentistry, & Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "Why early pathology input matters in biologically rich cancer trials",
+      "year": 2026,
+      "month": 9,
+      "day": 1,
+      "pub_date": "2026-09-01",
+      "journal": "British Journal of Cancer",
+      "type": "journal-article",
+      "doi": "10.1038/s41416-026-03605-9",
+      "url": "https://doi.org/10.1038/s41416-026-03605-9",
+      "network_authors": "Tomoko Iwata",
+      "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-9634-9738",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": false
     },
     {
@@ -675,6 +708,20 @@
       "network_orcids": "0000-0002-4191-5245",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "A Pilot Study Exploring the Use of Self-collected Data Within a Taught Workshop to Enhance Postgraduate Student Engagement",
+      "year": 2026,
+      "month": 8,
+      "day": 20,
+      "pub_date": "2026-08-20",
+      "type": "conference-paper",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Guest editorial: Navigating and developing identity in intercultural education practices",
@@ -755,6 +802,35 @@
       "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-5478-693X",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "How to get involved in clinical trials pathology: next-generation pathology for precision medicine",
+      "year": 2026,
+      "month": 7,
+      "day": 20,
+      "pub_date": "2026-07-20",
+      "journal": "Royal College of Pathologists Bulletin",
+      "type": "journal-article",
+      "network_authors": "Tomoko Iwata",
+      "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-9634-9738",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "The developing landscape of pathology education and educational research",
+      "year": 2026,
+      "month": 7,
+      "day": 20,
+      "pub_date": "2026-07-20",
+      "journal": "Royal College of Pathologists Bulletin",
+      "type": "journal-article",
+      "network_authors": "Tomoko Iwata",
+      "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-9634-9738",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -1347,22 +1423,6 @@
       "network_orcids": "0009-0003-8135-3114",
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": false
-    },
-    {
-      "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
-      "year": 2026,
-      "month": 2,
-      "day": 11,
-      "pub_date": "2026-02-11",
-      "type": "preprint",
-      "doi": "10.35542/osf.io/wc49t",
-      "url": "https://doi.org/10.35542/osf.io/wc49t_v1",
-      "network_authors": "Sue Campbell; Tomoko Iwata; Rafael Venson",
-      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]; Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
-      "network_orcids": "0000-0003-3098-156X; 0000-0002-9634-9738; 0000-0002-1959-8503",
-      "network_schools": "Scool of Medicine, Dentistry and Nursing; School of Medicine, Dentistry and Nursing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
     },
     {
       "title": "Evaluating risk of burnout and psychological challenges among forensic odontologists: A pilot study",
@@ -2356,6 +2416,20 @@
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Model of Collaborative Course Development with Researcher and Stakeholders for Enhanced Learning and Real-World Experiences of a Novel Technology",
+      "year": 2025,
+      "month": 8,
+      "day": 21,
+      "pub_date": "2025-08-21",
+      "type": "conference-paper",
+      "network_authors": "Tomoko Iwata",
+      "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-9634-9738",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "‘Conversations’: The Efficacy of Chat Platforms to Build a Community of Postgraduate Learners Across On‑Campus and Online Cohorts",

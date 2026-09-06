@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-30 07:44:16 UTC",
-  "n_outputs": 176,
-  "n_unclassified": 28,
-  "n_with_abstract": 145,
-  "n_excluded": 129,
+  "last_updated": "2026-09-06 06:43:34 UTC",
+  "n_outputs": 178,
+  "n_unclassified": 29,
+  "n_with_abstract": 146,
+  "n_excluded": 130,
   "publication_types": ["journal-article", "book", "book-chapter"],
   "score_threshold": 3,
   "max_themes": 3,
@@ -68,7 +68,7 @@
     {
       "id": "inclusion-wellbeing",
       "label": "Inclusive education & student wellbeing",
-      "n": 38
+      "n": 39
     },
     {
       "id": "employability",
@@ -92,6 +92,20 @@
     }
   ],
   "outputs": [
+    {
+      "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
+      "year": 2026,
+      "journal": "Journal of Perspectives in Applied Academic Practice",
+      "type": "journal-article",
+      "doi": "10.56433/4sj2yr84",
+      "url": "https://doi.org/10.56433/4sj2yr84",
+      "network_authors": "Sue Campbell; Tomoko Iwata",
+      "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]; Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "themes": "inclusion-wellbeing",
+      "theme_source": "auto",
+      "n_themes": 1
+    },
     {
       "title": "Seeing ourselves in anatomy: Embedding equity, diversity, and inclusivity to transform learning in a UK BSc curriculum",
       "year": 2026,
@@ -147,6 +161,20 @@
       "themes": "sotl-methods",
       "theme_source": "auto",
       "n_themes": 1
+    },
+    {
+      "title": "The developing landscape of pathology education and educational research",
+      "year": 2026,
+      "journal": "Royal College of Pathologists Bulletin",
+      "type": "journal-article",
+      "doi": null,
+      "url": null,
+      "network_authors": "Tomoko Iwata",
+      "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "themes": "",
+      "theme_source": "unclassified",
+      "n_themes": 0
     },
     {
       "title": "Livestreaming clinical education in general practice: practical lessons from implementation across seven UK medical schools",
