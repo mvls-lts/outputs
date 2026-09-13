@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-06 06:43:34 UTC",
+  "last_updated": "2026-09-13 07:03:20 UTC",
   "n_outputs": 178,
   "n_unclassified": 29,
   "n_with_abstract": 146,
-  "n_excluded": 130,
+  "n_excluded": 131,
   "publication_types": ["journal-article", "book", "book-chapter"],
   "score_threshold": 3,
   "max_themes": 3,

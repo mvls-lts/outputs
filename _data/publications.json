@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-09-06 06:43:22 UTC",
+  "last_updated": "2026-09-13 07:03:08 UTC",
   "n_authors": 70,
-  "n_publications": 1027,
-  "n_sotl": 308,
+  "n_publications": 1030,
+  "n_sotl": 309,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -722,6 +722,33 @@
       "network_schools": "Graduate School",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Collaborative Manuscript Preparation as an Effective Approach in Ensuring Engagement and Team Working in Multi-disciplinary SoMDN Athena Swan Working Group",
+      "year": 2026,
+      "month": 8,
+      "day": 20,
+      "pub_date": "2026-08-20",
+      "type": "conference-paper",
+      "network_authors": "Tomoko Iwata",
+      "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-9634-9738",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "ARID1A immunohistochemical expression is associated with metachronous colorectal polyp risk: Evidence from integrated genomic and transcriptomic analyses",
+      "year": 2026,
+      "month": 8,
+      "day": 18,
+      "pub_date": "2026-08-18",
+      "journal": "medRxiv",
+      "type": "journal-article",
+      "network_authors": "Tomoko Iwata",
+      "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
+      "network_orcids": "0000-0002-9634-9738",
+      "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
     },
     {
       "title": "Guest editorial: Navigating and developing identity in intercultural education practices",
@@ -1664,6 +1691,19 @@
       "network_schools": "School of Molecular Biosciences",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "GenAI in Assessment and Curriculum Design: AIchemy Workshop",
+      "year": 2026,
+      "pub_date": "2026-01-01",
+      "type": "conference-paper",
+      "url": "https://aichemy.ac.uk/genai-in-chemistry-education-shaping-the-future-of-teaching-together/",
+      "network_authors": "Denise Hough",
+      "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0002-5478-693X",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Guest editorial: Engaging with artificial intelligence technologies to support implementation of sustainable development goals in higher education: implications for strategic management and leadership",
