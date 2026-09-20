@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-13 07:03:09 UTC",
-  "n_records": 199,
-  "n_abstracts": 166,
+  "last_updated": "2026-09-20 07:18:20 UTC",
+  "n_records": 202,
+  "n_abstracts": 167,
   "records": [
     {
       "doi": "10.1002/ase.1894",
@@ -1024,6 +1024,12 @@
       "source": "none"
     },
     {
+      "doi": "10.35542/osf.io/95dvh",
+      "abstract": null,
+      "subjects": null,
+      "source": "none"
+    },
+    {
       "doi": "10.35542/osf.io/9qe8n",
       "abstract": "In this article we share practical and evidence-based advice on framing assessment feedback around student development. The practices that we share are centred on two aspects of framing feedback. The first is in how feedback is generated and how the teacher can author effective feedback by making it personal, situated within the student’s learning journey and by providing actionable points for the next assignment. The second aspect that we share is the framing of feedback in relation to student reflection and use of the feedback, scaffolding the development of a dialogue between student and teacher, and helping the student to situate their assignment and feedback within their own wider learning journey. Ultimately, we want students to find feedback useful and for feedback to represent a positive interaction between teacher and student, but both teachers and students need tools that help them to create usable feedback.",
       "subjects": "Student Assessment and Feedback; Reflective Practices in Education; Educational and Psychological Assessments",
@@ -1084,6 +1090,12 @@
       "source": "openalex"
     },
     {
+      "doi": "10.4337/9781049400648.00013",
+      "abstract": null,
+      "subjects": "Service-Learning and Community Engagement; Global Education and Multiculturalism; Appreciative Inquiry and Organizational Change",
+      "source": "openalex"
+    },
+    {
       "doi": "10.47408/jldhe.vi22.696",
       "abstract": "When the Covid-19 pandemic hit in early 2020, the majority of university activities on campus were suspended across the world, and teaching pivoted online The challenge was to provide students who were enrolled and expecting a face-to-face, oncampus learning experience with a similar university experience that would encourage them to engage with learning and to develop a sense of belonging As year leads for first-and second-year Psychology at our university, our cohorts were particularly large with approximately 600 first-year students and 250 second-year students. Each week students attend three to five lectures and one practical lab session, and previously all teaching was delivered in person on campus.",
       "subjects": "Modular Robots and Swarm Intelligence; Model-Driven Software Engineering Techniques; Scheduling and Optimization Algorithms",
@@ -1124,6 +1136,12 @@
       "abstract": null,
       "subjects": null,
       "source": "none"
+    },
+    {
+      "doi": "10.5281/zenodo.22712485",
+      "abstract": "The Assessment Skills Map for GenAI-use is a toolkit developed within the Generative AI Network for Education (GAINEd) community of practice in the College of Medical, Veterinary & Life Sciences (MVLS), University of Glasgow. The toolkit supports educators in designing, reviewing, and communicating assessment expectations that take account of the emerging role of generative AI (GenAI) in higher education and professional practice. Access the full toolkit at: https://philmcaleer.github.io/assessmentai/",
+      "subjects": null,
+      "source": "openalex"
     },
     {
       "doi": "10.53841/bpsptr.2025.31.1.61",

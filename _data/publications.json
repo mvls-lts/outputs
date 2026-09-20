@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-09-13 07:03:08 UTC",
+  "last_updated": "2026-09-20 07:18:17 UTC",
   "n_authors": 70,
-  "n_publications": 1030,
-  "n_sotl": 309,
+  "n_publications": 1034,
+  "n_sotl": 312,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -630,6 +630,38 @@
   ],
   "publications": [
     {
+      "title": "Opting in to opt-out: A sector-wide content analysis of UK recording-of-teaching policy",
+      "year": 2026,
+      "month": 9,
+      "day": 17,
+      "pub_date": "2026-09-17",
+      "type": "preprint",
+      "doi": "10.35542/osf.io/95dvh",
+      "url": "https://doi.org/10.35542/osf.io/95dvh_v1",
+      "network_authors": "Emily Nordmann",
+      "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-0806-1081",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Service-learning as an innovative teaching practice and how to make it successful",
+      "year": 2026,
+      "month": 9,
+      "day": 15,
+      "pub_date": "2026-09-15",
+      "type": "book-chapter",
+      "doi": "10.4337/9781049400648.00013",
+      "url": "https://doi.org/10.4337/9781049400648.00013",
+      "network_authors": "Carolina Kuepper-Tetzel",
+      "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-0830-7915",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
       "year": 2026,
       "month": 9,
@@ -675,6 +707,21 @@
       "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-9634-9738",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
+      "is_sotl": false
+    },
+    {
+      "title": "‘You Feel Like You Failed Your Child’: Parental Experiences of Autism Diagnostic Report Language",
+      "year": 2026,
+      "month": 9,
+      "pub_date": "2026-09-01",
+      "journal": "Neurodiversity",
+      "type": "journal-article",
+      "doi": "10.1177/27546330261483779",
+      "url": "https://doi.org/10.1177/27546330261483779",
+      "network_authors": "Ashley Robertson",
+      "network_authors_school": "Ashley Robertson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-9914-3199",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
     },
     {
@@ -860,21 +907,6 @@
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Inter- and intra- individual variability in audiovisual multisensory processes in healthy ageing",
-      "year": 2026,
-      "month": 7,
-      "day": 17,
-      "pub_date": "2026-07-17",
-      "type": "preprint",
-      "doi": "10.31234/osf.io/an5d8",
-      "url": "https://doi.org/10.31234/osf.io/an5d8_v1",
-      "network_authors": "James Bartlett",
-      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-4191-5245",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
     },
     {
       "title": "Livestreaming clinical education in general practice: practical lessons from implementation across seven UK medical schools",
@@ -1721,6 +1753,20 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Inter- and intra- individual variability in audiovisual multisensory processes in healthy ageing",
+      "year": 2026,
+      "pub_date": "2026-01-01",
+      "journal": "Aging Brain",
+      "type": "journal-article",
+      "doi": "10.1016/j.nbas.2026.100168",
+      "url": "https://doi.org/10.1016/j.nbas.2026.100168",
+      "network_authors": "James Bartlett",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-4191-5245",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "LinkedIn to Get In: embedding learning activities to support student career development through online professional networking",
       "year": 2026,
       "month": 1,
@@ -2411,6 +2457,23 @@
       "network_authors_school": "Denise Hough [School of Biodiversity, One Health and Veterinary Medicine]",
       "network_orcids": "0000-0002-5478-693X",
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Assessment Skills Map for GenAI Use",
+      "year": 2025,
+      "month": 9,
+      "day": 9,
+      "pub_date": "2025-09-09",
+      "journal": "Zenodo",
+      "type": "other",
+      "doi": "10.5281/zenodo.22712485",
+      "url": "https://doi.org/10.5281/zenodo.22712485",
+      "network_authors": "Helena Paterson",
+      "network_authors_school": "Helena Paterson [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0001-7715-5973",
+      "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },

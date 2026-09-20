@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-13 07:03:20 UTC",
-  "n_outputs": 178,
+  "last_updated": "2026-09-20 07:18:31 UTC",
+  "n_outputs": 179,
   "n_unclassified": 29,
   "n_with_abstract": 146,
-  "n_excluded": 131,
+  "n_excluded": 133,
   "publication_types": ["journal-article", "book", "book-chapter"],
   "score_threshold": 3,
   "max_themes": 3,
@@ -53,12 +53,12 @@
     {
       "id": "teaching-practice",
       "label": "Teaching practice & curriculum design",
-      "n": 49
+      "n": 50
     },
     {
       "id": "digital-simulation",
       "label": "Digital, simulation & immersive learning",
-      "n": 39
+      "n": 40
     },
     {
       "id": "assessment",
@@ -92,6 +92,20 @@
     }
   ],
   "outputs": [
+    {
+      "title": "Service-learning as an innovative teaching practice and how to make it successful",
+      "year": 2026,
+      "journal": null,
+      "type": "book-chapter",
+      "doi": "10.4337/9781049400648.00013",
+      "url": "https://doi.org/10.4337/9781049400648.00013",
+      "network_authors": "Carolina Kuepper-Tetzel",
+      "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
+      "network_schools": "School of Psychology and Neuroscience",
+      "themes": "digital-simulation;teaching-practice",
+      "theme_source": "auto",
+      "n_themes": 2
+    },
     {
       "title": "Mentoring scheme as a driver of equality, diversity and inclusion in health professions education and research",
       "year": 2026,
