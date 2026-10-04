@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27 07:24:12 UTC",
+  "last_updated": "2026-10-04 07:38:58 UTC",
   "n_authors": 70,
   "n_publications": 1036,
   "n_sotl": 313,
@@ -695,6 +695,23 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Livestreaming clinical education in general practice: practical lessons from implementation across seven UK medical schools",
+      "year": 2026,
+      "month": 9,
+      "day": 3,
+      "pub_date": "2026-09-03",
+      "journal": "Education for Primary Care",
+      "type": "journal-article",
+      "doi": "10.1080/14739879.2026.2673398",
+      "url": "https://doi.org/10.1080/14739879.2026.2673398",
+      "network_authors": "Lindsey Pope",
+      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
+      "network_orcids": "0000-0003-0899-9616",
+      "network_schools": "School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "What Makes an Anatomist “Clinical”? A Perspective From the British Association of Clinical Anatomists (\n                    <scp>BACA<\/scp>\n                    )",
       "year": 2026,
       "month": 9,
@@ -921,23 +938,6 @@
       "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-9634-9738",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
-      "title": "Livestreaming clinical education in general practice: practical lessons from implementation across seven UK medical schools",
-      "year": 2026,
-      "month": 7,
-      "day": 14,
-      "pub_date": "2026-07-14",
-      "journal": "Education for Primary Care",
-      "type": "journal-article",
-      "doi": "10.1080/14739879.2026.2673398",
-      "url": "https://doi.org/10.1080/14739879.2026.2673398",
-      "network_authors": "Lindsey Pope",
-      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
-      "network_orcids": "0000-0003-0899-9616",
-      "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },

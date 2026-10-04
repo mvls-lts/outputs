@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27 07:24:26 UTC",
+  "last_updated": "2026-10-04 07:39:09 UTC",
   "n_outputs": 179,
   "n_unclassified": 29,
   "n_with_abstract": 146,
@@ -121,6 +121,20 @@
       "n_themes": 1
     },
     {
+      "title": "Livestreaming clinical education in general practice: practical lessons from implementation across seven UK medical schools",
+      "year": 2026,
+      "journal": "Education for Primary Care",
+      "type": "journal-article",
+      "doi": "10.1080/14739879.2026.2673398",
+      "url": "https://doi.org/10.1080/14739879.2026.2673398",
+      "network_authors": "Lindsey Pope",
+      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
+      "network_schools": "School of Health and Wellbeing",
+      "themes": "",
+      "theme_source": "unclassified",
+      "n_themes": 0
+    },
+    {
       "title": "Seeing ourselves in anatomy: Embedding equity, diversity, and inclusivity to transform learning in a UK BSc curriculum",
       "year": 2026,
       "journal": "Anatomical Sciences Education",
@@ -186,20 +200,6 @@
       "network_authors": "Tomoko Iwata",
       "network_authors_school": "Tomoko Iwata [Scool of Medicine, Dentistry and Nursing]",
       "network_schools": "Scool of Medicine, Dentistry and Nursing",
-      "themes": "",
-      "theme_source": "unclassified",
-      "n_themes": 0
-    },
-    {
-      "title": "Livestreaming clinical education in general practice: practical lessons from implementation across seven UK medical schools",
-      "year": 2026,
-      "journal": "Education for Primary Care",
-      "type": "journal-article",
-      "doi": "10.1080/14739879.2026.2673398",
-      "url": "https://doi.org/10.1080/14739879.2026.2673398",
-      "network_authors": "Lindsey Pope",
-      "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
-      "network_schools": "School of Health and Wellbeing",
       "themes": "",
       "theme_source": "unclassified",
       "n_themes": 0
