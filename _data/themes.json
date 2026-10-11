@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-10-04 07:39:09 UTC",
+  "last_updated": "2026-10-11 08:04:25 UTC",
   "n_outputs": 179,
   "n_unclassified": 29,
   "n_with_abstract": 146,
-  "n_excluded": 134,
+  "n_excluded": 135,
   "publication_types": ["journal-article", "book", "book-chapter"],
   "score_threshold": 3,
   "max_themes": 3,
@@ -1465,7 +1465,7 @@
       "n_themes": 3
     },
     {
-      "title": "Online teaching using medical and anatomical imagery to explore research methods ",
+      "title": "Online teaching using medical and anatomical imagery to explore research methods",
       "year": 2023,
       "journal": "Inclusive Learning Design in Higher Education",
       "type": "book-chapter",
@@ -2585,7 +2585,7 @@
       "n_themes": 0
     },
     {
-      "title": "Can we be scientific about science education? ",
+      "title": "Can we be scientific about science education?",
       "year": null,
       "journal": "The Psychologist",
       "type": "journal-article",

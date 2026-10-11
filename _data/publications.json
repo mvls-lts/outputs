@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-10-04 07:38:58 UTC",
+  "last_updated": "2026-10-11 08:04:14 UTC",
   "n_authors": 70,
-  "n_publications": 1036,
-  "n_sotl": 313,
+  "n_publications": 1037,
+  "n_sotl": 314,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -630,6 +630,36 @@
   ],
   "publications": [
     {
+      "title": "A Pilot: Simulating the Multidisciplinary Team in Undergraduate Medicine Anatomy Teaching",
+      "year": 2026,
+      "month": 12,
+      "day": 19,
+      "pub_date": "2026-12-19",
+      "type": "conference-paper",
+      "network_authors": "Michelle Welsh",
+      "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0003-1469-0201",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Debunking decreases mistaken causal inferences: A direct replication of Irving et al. (2022)",
+      "year": 2026,
+      "month": 10,
+      "day": 6,
+      "pub_date": "2026-10-06",
+      "journal": "Replication Research",
+      "type": "journal-article",
+      "doi": "10.17879/replicationresearch-2026-10085",
+      "url": "https://doi.org/10.17879/REPLICATIONRESEARCH-2026-10085",
+      "network_authors": "James Bartlett",
+      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0002-4191-5245",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": false
+    },
+    {
       "title": "Lecture Capture, Access, and the Attendance Question in Post-Pandemic Higher Education",
       "year": 2026,
       "month": 9,
@@ -773,21 +803,6 @@
       "network_schools": "School of Medicine Dentistry and Nursing; Scool of Medicine, Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
-    },
-    {
-      "title": "Debunking decreases mistaken causal inferences: A direct replication of Irving et al. (2022)",
-      "year": 2026,
-      "month": 8,
-      "day": 21,
-      "pub_date": "2026-08-21",
-      "type": "preprint",
-      "doi": "10.31234/osf.io/am6rg",
-      "url": "https://doi.org/10.31234/osf.io/am6rg_v3",
-      "network_authors": "James Bartlett",
-      "network_authors_school": "James Bartlett [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0002-4191-5245",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": false
     },
     {
       "title": "A Pilot Study Exploring the Use of Self-collected Data Within a Taught Workshop to Enhance Postgraduate Student Engagement",
@@ -1332,7 +1347,7 @@
       "month": 4,
       "day": 1,
       "pub_date": "2026-04-01",
-      "journal": "19th Annual University of Glasgow Learning & Teaching Conference ",
+      "journal": "19th Annual University of Glasgow Learning & Teaching Conference",
       "type": "conference-paper",
       "url": "https://easychair.org/smart-program/LTConf26/",
       "network_authors": "Dougie Marks",
@@ -2162,7 +2177,7 @@
       "month": 11,
       "day": 5,
       "pub_date": "2025-11-05",
-      "journal": "MVLS Equality, Diversity and Inclusion conference  ",
+      "journal": "MVLS Equality, Diversity and Inclusion conference",
       "type": "conference-poster",
       "network_authors": "Shaun Bremner-Hart",
       "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
@@ -2395,7 +2410,7 @@
       "sotl_matched_on": "journal"
     },
     {
-      "title": " ‘MI in Dentistry’. Talking To Change – A Motivational Interviewing Podcast",
+      "title": "‘MI in Dentistry’. Talking To Change – A Motivational Interviewing Podcast",
       "year": 2025,
       "month": 9,
       "day": 25,
@@ -2805,7 +2820,7 @@
       "month": 7,
       "day": 9,
       "pub_date": "2025-07-09",
-      "journal": "Association for Learning Technology (ALT) ",
+      "journal": "Association for Learning Technology (ALT)",
       "type": "public-speech",
       "url": "https://youtu.be/ZiJdV7AdZO4",
       "network_authors": "Denise Hough",
@@ -3598,7 +3613,7 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "World Trade Game – demonstrating how inequalities play out on the world stage  ",
+      "title": "World Trade Game – demonstrating how inequalities play out on the world stage",
       "year": 2024,
       "month": 12,
       "day": 17,
@@ -5320,7 +5335,7 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "Online teaching using medical and anatomical imagery to explore research methods ",
+      "title": "Online teaching using medical and anatomical imagery to explore research methods",
       "year": 2023,
       "month": 3,
       "day": 30,
@@ -6795,7 +6810,7 @@
       "month": 9,
       "day": 1,
       "pub_date": "2021-09-01",
-      "journal": "Networking in Education for Healthcare ",
+      "journal": "Networking in Education for Healthcare",
       "type": "conference-poster",
       "url": "https://eprints.gla.ac.uk/229135/",
       "network_authors": "Sue Campbell",
@@ -6944,7 +6959,7 @@
       "is_sotl": false
     },
     {
-      "title": "Theme 1: person-centred care\r\n",
+      "title": "Theme 1: person-centred care",
       "year": 2021,
       "month": 7,
       "pub_date": "2021-07-01",
@@ -7020,7 +7035,7 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "Future Arrangements for Early Medical Abortion at Home: Consultation Analysis Report. ",
+      "title": "Future Arrangements for Early Medical Abortion at Home: Consultation Analysis Report.",
       "year": 2021,
       "month": 6,
       "pub_date": "2021-06-01",
@@ -7373,7 +7388,7 @@
       "is_sotl": false
     },
     {
-      "title": "Analysis of Responses to the Scottish Government Consultation on Free Bus Travel for People Resident in Scotland aged Under 19. ",
+      "title": "Analysis of Responses to the Scottish Government Consultation on Free Bus Travel for People Resident in Scotland aged Under 19.",
       "year": 2021,
       "month": 1,
       "pub_date": "2021-01-01",
@@ -7471,7 +7486,7 @@
       "sotl_matched_on": "journal"
     },
     {
-      "title": "Hybrid Happened. So what now? ",
+      "title": "Hybrid Happened. So what now?",
       "year": 2021,
       "pub_date": "2021-01-01",
       "journal": "Teaching Matters",
@@ -8232,7 +8247,7 @@
       "is_sotl": false
     },
     {
-      "title": "World cafe ",
+      "title": "World cafe",
       "year": 2020,
       "month": 1,
       "day": 12,
@@ -8603,7 +8618,7 @@
       "is_sotl": false
     },
     {
-      "title": "Mental Health, Suicide and Suicide Prevention in a Global Context. ",
+      "title": "Mental Health, Suicide and Suicide Prevention in a Global Context.",
       "year": 2019,
       "month": 11,
       "day": 19,
@@ -8842,7 +8857,7 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "Is Self-Regulated Learning a Threshold Concept? An Audio-Diary Study of PBL in Two UK Medical Schools. ",
+      "title": "Is Self-Regulated Learning a Threshold Concept? An Audio-Diary Study of PBL in Two UK Medical Schools.",
       "year": 2019,
       "month": 8,
       "day": 27,
@@ -9150,7 +9165,7 @@
       "sotl_matched_on": "journal"
     },
     {
-      "title": "Audit of Representation of Protected Characteristics in Learning Materials in a Block of the MBChB. ",
+      "title": "Audit of Representation of Protected Characteristics in Learning Materials in a Block of the MBChB.",
       "year": 2019,
       "month": 5,
       "day": 9,
@@ -9651,7 +9666,7 @@
       "year": 2018,
       "month": 12,
       "pub_date": "2018-12-01",
-      "journal": " Sociological Research Online",
+      "journal": "Sociological Research Online",
       "type": "book-review",
       "url": "https://doi.org/10.1177%2F1360780418819009",
       "network_authors": "Sharon Greenwood",
@@ -10000,7 +10015,7 @@
       "month": 6,
       "day": 23,
       "pub_date": "2018-06-23",
-      "journal": " Rethinking Learning in the Digital Age. Making the Learning Sciences count",
+      "journal": "Rethinking Learning in the Digital Age. Making the Learning Sciences count",
       "type": "conference-paper",
       "url": "https://repository.isls.org/bitstream/1/869/1/514.pdf",
       "network_authors": "Zayba Ghazali-Mohammed",
@@ -10761,7 +10776,7 @@
       "is_sotl": false
     },
     {
-      "title": "Evaluation of Road Safety Scotland’s Learning Resources ",
+      "title": "Evaluation of Road Safety Scotland’s Learning Resources",
       "year": 2017,
       "month": 7,
       "pub_date": "2017-07-01",
@@ -10987,20 +11002,6 @@
       "is_sotl": false
     },
     {
-      "title": " Cracking the Code: Girls’ and women’s’ education in STEM.",
-      "year": 2017,
-      "pub_date": "2017-01-01",
-      "journal": "nited Nations Educational, Scientific and cultural organization (UNESCO)",
-      "type": "report",
-      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000253479",
-      "network_authors": "Zayba Ghazali-Mohammed",
-      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
-      "network_orcids": "0000-0003-2975-5581",
-      "network_schools": "School of Psychology and Neuroscience",
-      "is_sotl": true,
-      "sotl_matched_on": "keyword"
-    },
-    {
       "title": "A comparison of experiences of HIV stigma and discrimination between heterosexual men and men who have sex with men (MSM), and the influence of chemsex: findings from the People Living with HIV Stigma Survey UK 2015",
       "year": 2017,
       "pub_date": "2017-01-01",
@@ -11052,6 +11053,20 @@
       "network_orcids": "0000-0002-7786-5315",
       "network_schools": "School of Biodiversity One Health and Veterinary Medicine",
       "is_sotl": false
+    },
+    {
+      "title": "Cracking the Code: Girls’ and women’s’ education in STEM.",
+      "year": 2017,
+      "pub_date": "2017-01-01",
+      "journal": "nited Nations Educational, Scientific and cultural organization (UNESCO)",
+      "type": "report",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000253479",
+      "network_authors": "Zayba Ghazali-Mohammed",
+      "network_authors_school": "Zayba Ghazali-Mohammed [School of Psychology and Neuroscience]",
+      "network_orcids": "0000-0003-2975-5581",
+      "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Experiences of stigma and discrimination among women living with HIV in the UK: findings from the <i>People Living with HIV Stigma Survey UK 2015<\/i>",
@@ -11325,7 +11340,7 @@
       "is_sotl": false
     },
     {
-      "title": "Evaluation of Road Safety Scotland’s Early Years Resource  ",
+      "title": "Evaluation of Road Safety Scotland’s Early Years Resource",
       "year": 2016,
       "month": 6,
       "pub_date": "2016-06-01",
@@ -11445,7 +11460,7 @@
       "is_sotl": false
     },
     {
-      "title": "What to do with a MOOC? Using the Latest e-Learning Trend to Enhance Medical Education. ",
+      "title": "What to do with a MOOC? Using the Latest e-Learning Trend to Enhance Medical Education.",
       "year": 2016,
       "month": 2,
       "day": 25,
@@ -12015,7 +12030,7 @@
       "is_sotl": false
     },
     {
-      "title": "Your PhD initiation: The Upgrade. ",
+      "title": "Your PhD initiation: The Upgrade.",
       "year": 2015,
       "pub_date": "2015-01-01",
       "journal": "A Guide for Psychology Postgraduates: Surviving Postgraduate Study.",
@@ -12240,7 +12255,7 @@
       "is_sotl": false
     },
     {
-      "title": "The Making of a MOOC: Reflections from the Journey! ",
+      "title": "The Making of a MOOC: Reflections from the Journey!",
       "year": 2014,
       "month": 4,
       "day": 10,
@@ -13413,7 +13428,7 @@
       "is_sotl": false
     },
     {
-      "title": "Good practice guidelines concerning regional telemedicine services for chronic cardiovascular disease (CVD). ",
+      "title": "Good practice guidelines concerning regional telemedicine services for chronic cardiovascular disease (CVD).",
       "year": 2011,
       "month": 11,
       "day": 11,
@@ -16082,7 +16097,7 @@
       "is_sotl": false
     },
     {
-      "title": "Arts-based Pedagogies in Level 3 Anatomy ",
+      "title": "Arts-based Pedagogies in Level 3 Anatomy",
       "type": "website",
       "url": "https://www.gla.ac.uk/myglasgow/learningandteaching/activelearning/casestudies/arts-based-pedagogies-in-anatomy/",
       "network_authors": "Michelle Welsh",
@@ -16093,7 +16108,7 @@
       "sotl_matched_on": "keyword"
     },
     {
-      "title": "Can we be scientific about science education? ",
+      "title": "Can we be scientific about science education?",
       "journal": "The Psychologist",
       "type": "journal-article",
       "network_authors": "Zayba Ghazali-Mohammed",
@@ -16114,7 +16129,7 @@
       "is_sotl": false
     },
     {
-      "title": "Flu pandemic planning and mitigation update ",
+      "title": "Flu pandemic planning and mitigation update",
       "type": "journal-article",
       "url": "https://link.gale.com/apps/doc/A186019827/EAIM?u=glasuni&sid=EAIM&xid=ba29c355",
       "network_authors": "Sue Campbell",
@@ -16145,7 +16160,7 @@
       "is_sotl": false
     },
     {
-      "title": "Insect borne diseases and their prevention ",
+      "title": "Insect borne diseases and their prevention",
       "type": "journal-article",
       "network_authors": "Sue Campbell",
       "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]",
@@ -16154,7 +16169,7 @@
       "is_sotl": false
     },
     {
-      "title": "Malaria control and prevention ",
+      "title": "Malaria control and prevention",
       "type": "journal-article",
       "network_authors": "Sue Campbell",
       "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]",
@@ -16173,7 +16188,7 @@
       "is_sotl": false
     },
     {
-      "title": "Understanding rabies: avoidance and treatment ",
+      "title": "Understanding rabies: avoidance and treatment",
       "type": "journal-article",
       "network_authors": "Sue Campbell",
       "network_authors_school": "Sue Campbell [Scool of Medicine, Dentistry and Nursing]",
