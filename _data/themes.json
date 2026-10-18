@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-10-11 08:04:25 UTC",
-  "n_outputs": 179,
+  "last_updated": "2026-10-18 06:53:31 UTC",
+  "n_outputs": 180,
   "n_unclassified": 29,
-  "n_with_abstract": 146,
+  "n_with_abstract": 147,
   "n_excluded": 135,
   "publication_types": ["journal-article", "book", "book-chapter"],
   "score_threshold": 3,
@@ -53,12 +53,12 @@
     {
       "id": "teaching-practice",
       "label": "Teaching practice & curriculum design",
-      "n": 50
+      "n": 51
     },
     {
       "id": "digital-simulation",
       "label": "Digital, simulation & immersive learning",
-      "n": 40
+      "n": 41
     },
     {
       "id": "assessment",
@@ -78,7 +78,7 @@
     {
       "id": "transitions-voice",
       "label": "Transitions, engagement & student voice",
-      "n": 13
+      "n": 14
     },
     {
       "id": "sustainability-global",
@@ -92,6 +92,20 @@
     }
   ],
   "outputs": [
+    {
+      "title": "Veterinary Student Experience and Learning Using a 4D Electrocardiogram Simulator",
+      "year": 2026,
+      "journal": "Journal of Veterinary Medical Education",
+      "type": "journal-article",
+      "doi": "10.3138/jvme-2026-0037",
+      "url": "https://doi.org/10.3138/jvme-2026-0037",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "themes": "digital-simulation;teaching-practice;transitions-voice",
+      "theme_source": "auto",
+      "n_themes": 3
+    },
     {
       "title": "Service-learning as an innovative teaching practice and how to make it successful",
       "year": 2026,

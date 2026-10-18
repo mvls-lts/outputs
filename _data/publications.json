@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-10-11 08:04:14 UTC",
+  "last_updated": "2026-10-18 06:53:18 UTC",
   "n_authors": 70,
-  "n_publications": 1037,
-  "n_sotl": 314,
+  "n_publications": 1038,
+  "n_sotl": 315,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -642,6 +642,23 @@
       "network_schools": "School of Medicine Dentistry and Nursing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Veterinary Student Experience and Learning Using a 4D Electrocardiogram Simulator",
+      "year": 2026,
+      "month": 10,
+      "day": 15,
+      "pub_date": "2026-10-15",
+      "journal": "Journal of Veterinary Medical Education",
+      "type": "journal-article",
+      "doi": "10.3138/jvme-2026-0037",
+      "url": "https://doi.org/10.3138/jvme-2026-0037",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
     },
     {
       "title": "Debunking decreases mistaken causal inferences: A direct replication of Irving et al. (2022)",

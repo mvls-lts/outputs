@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-11 08:04:14 UTC",
-  "n_records": 203,
-  "n_abstracts": 167,
+  "last_updated": "2026-10-18 06:53:20 UTC",
+  "n_records": 204,
+  "n_abstracts": 168,
   "records": [
     {
       "doi": "10.1002/ase.1894",
@@ -967,6 +967,12 @@
       "doi": "10.3138/jvme-2025-0116",
       "abstract": "The use of content warnings (CWs) in higher education has been widely studied and debated, particularly regarding their utility and potential effects on censorship, engagement, and anticipatory anxiety. Although several core learning subjects in veterinary education require engagement with potentially distressing topics, little is known about how CWs are used in veterinary educational establishments (VEEs) or the views of veterinary students or teaching staff towards their use. Further understanding in this area may help inform policy and practice on the use of CWs, specifically in VEEs, with the aim of improving the learning environment, especially around certain distressing topics. To address this gap, preliminary data were gathered using two anonymous online surveys. One survey was distributed to teaching staff at a UK VEE, and the other was distributed to students enrolled in years two to five of the veterinary medicine programme at the same VEE. The responses of 32 academic staff and 168 students were analysed. Most students (79.7%) had experienced a CW during the veterinary program, and 40.6% of staff reported using a CW. Topics most likely to be associated with a CW include animal death, animal abuse, and cadaver use. Students expressed a more favourable opinion of CWs than staff, with 70% of students supporting their use compared with 31% of staff. Across both groups, the most common reason given to support CW use was allowing students time to prepare for potentially distressing content, whilst staff raised concerns around academic freedoms and increased risk of avoidance of certain topics.",
       "subjects": "Veterinary Practice and Education Studies; Innovations in Medical Education; Communication in Education and Healthcare",
+      "source": "openalex"
+    },
+    {
+      "doi": "10.3138/jvme-2026-0037",
+      "abstract": "Abstract Cardiac electrophysiology and electrocardiogram (ECG) interpretation present challenges for veterinary and medical education. Various resources and simulators exist to address this challenge. This study investigates the impact on learning and student experience of Epicardio Simulation™—VET in a UK undergraduate veterinary curriculum. This multi-method study invited students at the University of Liverpool School of Veterinary Science to complete a survey, comprising Likert-type and free-text questions, exploring their Epicardio experience. A case–control study used a pre- and post-learning quiz to compare learning gain in a self-directed clinical rotation ECG tutorial between a group learning with Epicardio and one learning with traditional resources. Survey responses were generally positive, with median scores of 4/5, except in response to the statement “Epicardio is easy to navigate” ( Mdn 3/5), and “Epicardio workshops should replace traditional lectures” ( Mdn 2/5; considerable variability in responses). Students also varied on whether “the tutorials were easy to follow.” Thematic analysis identified positive themes around application, clarification, visualization, interactivity, formative assessment, and user-friendliness. Negative themes highlighted technical difficulties including navigation and structure of the software, as well as curricular integration. The case–control study showed learning gains in both groups and no difference between groups before or after the self-directed tutorial. Students valued Epicardio as an additional learning tool and learned equally well with Epicardio and traditional resources in a self-directed format.",
+      "subjects": "Simulation-Based Education in Healthcare; Innovations in Medical Education; Veterinary Practice and Education Studies",
       "source": "openalex"
     },
     {
