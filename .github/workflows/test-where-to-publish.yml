@@ -1,6 +1,7 @@
 # Temporary: tests the Where to Publish page on the where-to-publish branch.
-# Renders the page and uploads it as an artifact. Does not deploy, commit or
-# open issues. Delete this file before merging to master.
+# Renders the page and saves logs and output to the where-to-publish-test-output
+# branch for review. Does not deploy, touch master or open issues.
+# Delete this file before merging to master.
 name: Test Where to Publish
 
 on:
@@ -10,7 +11,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   test:
@@ -39,34 +40,29 @@ jobs:
                            lib = lib, dependencies = TRUE, Ncpus = 2L)
         shell: Rscript {0}
 
-      - name: Refresh open access journal data
-        run: Rscript R/fetch_oa_journal_data.R
-
-      - name: Second refresh (tests change detection and no repeat alerts)
+      - name: Run checks and render
         run: |
+          mkdir -p test-output
+          set +e
+          Rscript R/fetch_oa_journal_data.R > test-output/01_fetch.log 2>&1; echo "exit $?" >> test-output/01_fetch.log
+          cp oa_alerts.md test-output/alerts_run1.md 2>/dev/null
           rm -f oa_alerts.md
-          Rscript R/fetch_oa_journal_data.R
-          if [ -f oa_alerts.md ]; then echo "ALERT FILE WRITTEN ON SECOND RUN"; cat oa_alerts.md; fi
+          Rscript R/fetch_oa_journal_data.R > test-output/02_fetch_again.log 2>&1; echo "exit $?" >> test-output/02_fetch_again.log
+          cp oa_alerts.md test-output/alerts_run2.md 2>/dev/null
+          Rscript R/check_uofg_arrangements.R > test-output/03_uofg.log 2>&1; echo "exit $?" >> test-output/03_uofg.log
+          Rscript R/check_uofg_arrangements.R > test-output/04_uofg_again.log 2>&1; echo "exit $?" >> test-output/04_uofg_again.log
+          quarto render oa-journals.qmd > test-output/05_render.log 2>&1; echo "exit $?" >> test-output/05_render.log
+          cp -r docs test-output/docs 2>/dev/null
+          cp _data/oa_journals_live.json _data/oa_alerts_state.txt _data/uofg_arrangements_snapshot.txt test-output/ 2>/dev/null
+          exit 0
 
-      - name: Check UofG publisher arrangements page
+      - name: Save output to a review branch
+        if: always()
         run: |
-          Rscript R/check_uofg_arrangements.R
-          Rscript R/check_uofg_arrangements.R
-          wc -l _data/uofg_arrangements_snapshot.txt || true
-          head -60 _data/uofg_arrangements_snapshot.txt || true
-
-      - name: Show alerts from first run
-        run: cat oa_alerts.md || echo "No alerts file"
-
-      - name: Render the page
-        run: quarto render oa-journals.qmd
-
-      - name: Upload rendered site and data
-        uses: actions/upload-artifact@v4
-        with:
-          name: where-to-publish-test
-          path: |
-            docs/
-            _data/oa_journals_live.json
-            _data/oa_alerts_state.txt
-            _data/uofg_arrangements_snapshot.txt
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          cd test-output
+          git init -q -b where-to-publish-test-output
+          git add -A
+          git -c user.email="github-actions[bot]@users.noreply.github.com" -c user.name="github-actions[bot]" commit -q -m "Test output ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" where-to-publish-test-output
