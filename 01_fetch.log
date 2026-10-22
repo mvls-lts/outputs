@@ -1,0 +1,25 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘jsonlite’
+
+The following object is masked from ‘package:purrr’:
+
+    flatten
+
+Journals: 100; ISSNs to look up: 148
+Querying DOAJ...
+  DOAJ records matched: 41
+Querying OpenAlex...
+  OpenAlex records matched: 99
+Wrote _data/oa_journals_live.json
+exit 0

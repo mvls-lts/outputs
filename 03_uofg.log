@@ -1,0 +1,9 @@
+
+Attaching package: ‘xml2’
+
+The following object is masked from ‘package:httr2’:
+
+    url_parse
+
+Saved first snapshot (219 lines).
+exit 0

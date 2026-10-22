@@ -1,0 +1,43 @@
+[31m
+
+processing file: oa-journals.qmd
+[39m1/9            
+2/9 [setup]    
+3/9            
+4/9 [load-data]
+5/9            
+6/9 [oa-table] 
+7/9            
+8/9 [data-note]
+9/9            
+[31moutput file: oa-journals.knit.md
+
+[39m[1mpandoc [22m
+  to: html
+  output-file: oa-journals.html
+  standalone: true
+  title-prefix: MVLS LTS Network
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  css:
+    - styles.css
+  toc: false
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme:
+    light: flatly
+    dark: darkly
+  code-summary: Show code
+  title: Where to Publish
+  subtitle: Open access journals for learning and teaching scholarship
+  page-layout: full
+  
+Output created: docs/oa-journals.html
+
+exit 0
