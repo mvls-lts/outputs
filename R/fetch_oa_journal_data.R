@@ -124,7 +124,7 @@ doaj_ok <- TRUE
 doaj_records <- split(all_issns, ceiling(seq_along(all_issns) / doaj_batch)) |>
   map(\(batch) {
     q   <- paste0("issn:", batch, collapse = " OR ")
-    url <- paste0("https://doaj.org/api/search/journals/", utils::URLencode(q, reserved = TRUE))
+    url <- paste0("https://doaj.org/api/search/journals/", str_replace_all(q, " ", "%20"))
     res <- get_json(url, list(pageSize = 100))
     if (is.null(res)) doaj_ok <<- FALSE
     res$results %||% list()
