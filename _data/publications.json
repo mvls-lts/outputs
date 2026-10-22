@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-18 06:53:18 UTC",
+  "last_updated": "2026-10-22 15:41:35 UTC",
   "n_authors": 70,
-  "n_publications": 1038,
+  "n_publications": 1039,
   "n_sotl": 315,
   "authors": [
     {
@@ -659,6 +659,20 @@
       "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Sleep behaviours and difficulties in international event riders: a cross-sectional study",
+      "year": 2026,
+      "month": 10,
+      "day": 8,
+      "pub_date": "2026-10-08",
+      "journal": "Comparative Exercise Physiology",
+      "type": "journal-article",
+      "network_authors": "Sandy Wilson",
+      "network_authors_school": "Sandy Wilson [Graduate School]",
+      "network_orcids": "0000-0002-9313-4280",
+      "network_schools": "Graduate School",
+      "is_sotl": false
     },
     {
       "title": "Debunking decreases mistaken causal inferences: A direct replication of Irving et al. (2022)",
