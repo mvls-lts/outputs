@@ -19,6 +19,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: "pages"
@@ -68,7 +69,9 @@ jobs:
             "DT",
             "ggplot2",
             "here",
-            "readxl"
+            "readxl",
+            "readr",
+            "xml2"
           ), lib = lib, dependencies = TRUE, Ncpus = 2L)
         shell: Rscript {0}
       
@@ -80,6 +83,16 @@ jobs:
 
       - name: Classify themes
         run: Rscript R/classify_themes.R
+
+      - name: Refresh open access journal data (DOAJ / OpenAlex)
+        run: Rscript R/fetch_oa_journal_data.R
+        continue-on-error: true
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+
+      - name: Check UofG publisher arrangements page for changes
+        run: Rscript R/check_uofg_arrangements.R
+        continue-on-error: true
 
       - name: Clear cached content
         run: |
@@ -105,6 +118,13 @@ jobs:
           done
           echo "Push failed after 3 attempts" && exit 1
       
+      - name: Open an issue if the journal finder needs review
+        if: hashFiles('oa_alerts.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "Where to Publish: items to review ($(date +%Y-%m-%d))" --body-file oa_alerts.md
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
       

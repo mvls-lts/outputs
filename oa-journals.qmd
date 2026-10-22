@@ -1,0 +1,215 @@
+---
+title: "Where to Publish"
+subtitle: "Open access journals for learning and teaching scholarship"
+page-layout: full
+toc: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(readr)
+library(jsonlite)
+library(dplyr)
+library(stringr)
+library(DT)
+library(htmltools)
+
+`%||%` <- function(x, y) if (is.null(x) || length(x) == 0) y else x
+```
+
+```{r}
+#| label: load-data
+#| include: false
+
+journals <- read_csv(here::here("_data", "oa_journals.csv"),
+                     col_types = cols(.default = col_character()))
+routes   <- read_csv(here::here("_data", "oa_routes.csv"),
+                     col_types = cols(.default = col_character()))
+
+live_path <- here::here("_data", "oa_journals_live.json")
+live_raw  <- if (file.exists(live_path)) fromJSON(live_path) else NULL
+live      <- if (!is.null(live_raw)) as_tibble(live_raw$journals) else tibble(journal = character())
+fetched   <- live_raw$fetched_at %||% NA_character_
+
+# Make sure every live column exists, even before the first refresh
+live_cols <- c("doaj_title", "doaj_has_apc", "doaj_apc", "doaj_licence", "doaj_url",
+               "doaj_last_updated", "openalex_apc", "last_publication_year")
+for (col in live_cols) if (!col %in% names(live)) live[[col]] <- NA
+
+cat_levels <- c(
+  "Free to publish",
+  "Low or conditional fee",
+  "Covered by UofG agreement",
+  "Covered while Wiley national fund lasts",
+  "Unclear: check before submitting",
+  "Discount only: you pay the rest",
+  "Covered only if externally funded (UKRI/Wellcome/BHF)",
+  "No UofG agreement",
+  "Not currently an option"
+)
+cat_colours <- c("#C6E0B4", "#E2EFDA", "#BDD7EE", "#DDEBF7", "#FFE699",
+                 "#F8CBAD", "#F4B6B6", "#E7E6E6", "#BFBFBF")
+area_levels <- c("General HE & SoTL", "Learning technology", "Psychology & statistics",
+                 "Biosciences & neuroscience", "Veterinary", "Medicine & health professions",
+                 "Dentistry", "Nursing & health")
+
+esc <- function(x) htmlEscape(coalesce(x, ""))
+
+tbl <- journals |>
+  left_join(select(routes, route_key, route_category = category, route_text), by = "route_key") |>
+  left_join(live, by = "journal") |>
+  mutate(
+    category = coalesce(category, route_category),
+    how      = str_squish(paste(coalesce(route_text, ""), coalesce(route_note, ""))),
+    in_doaj  = case_when(!is.na(doaj_title) ~ "Yes",
+                         !is.null(live_raw) ~ "No",
+                         TRUE ~ "—"),
+    # Short versions of the hand-checked values, for journals not in DOAJ
+    curated_fee_short = str_trim(str_extract(coalesce(curated_apc, ""), "^[^(;]+")),
+    curated_fee_short = if_else(curated_fee_short == "" | str_starts(curated_fee_short, "unverified"),
+                                "See journal", str_trunc(curated_fee_short, 60)),
+    curated_licence_short = str_trim(str_extract(coalesce(curated_licence, ""), "^[^(;:]+")),
+    curated_licence_short = if_else(curated_licence_short == "" | str_starts(curated_licence_short, "unverified"),
+                                    "Not stated", str_trunc(curated_licence_short, 40)),
+    fee = case_when(
+      !is.na(fee_note)     ~ fee_note,
+      !is.na(doaj_title) & !as.logical(doaj_has_apc) ~ "No APC (DOAJ)",
+      !is.na(doaj_apc)     ~ paste0("Up to ", doaj_apc, " (DOAJ)"),
+      !is.na(openalex_apc) ~ paste0(openalex_apc, " (list price, OpenAlex)"),
+      TRUE                 ~ curated_fee_short
+    ),
+    licence = coalesce(na_if(doaj_licence, ""), curated_licence_short),
+    journal_cell = paste0(
+      '<a href="', esc(url), '" target="_blank">', esc(journal), "</a>",
+      '<br><span class="oa-publisher">', esc(publisher), "</span>"
+    ),
+    details = paste0(
+      "<details><summary>More</summary>",
+      "<p><strong>How to publish open access:</strong> ", esc(how), "</p>",
+      if_else(is.na(scope), "", paste0("<p><strong>Scope:</strong> ", esc(scope), "</p>")),
+      if_else(is.na(cautions), "", paste0("<p><strong>Notes:</strong> ", esc(cautions), "</p>")),
+      paste0("<p><strong>Fees and licence (checked ", esc(last_reviewed), "):</strong> ",
+             esc(coalesce(curated_apc, "not recorded")), ". Licence: ", esc(coalesce(curated_licence, "not recorded")), "</p>"),
+      if_else(is.na(check_with_oa_team), "",
+              paste0("<p><strong>Check with the Open Access Team:</strong> ", esc(check_with_oa_team), "</p>")),
+      "<p class='oa-meta'>ISSN ", esc(coalesce(issn_online, issn_print, "not found")),
+      if_else(!is.na(doaj_url) & !is.na(doaj_title),
+              paste0(" &middot; <a href='", esc(doaj_url), "' target='_blank'>DOAJ record</a>"), ""),
+      " &middot; University route last reviewed ", esc(last_reviewed), "</p>",
+      "</details>"
+    ),
+    area     = factor(area, levels = area_levels),
+    category = factor(category, levels = cat_levels)
+  ) |>
+  arrange(area, category, journal)
+
+last_reviewed <- max(c(journals$last_reviewed, routes$last_reviewed), na.rm = TRUE)
+```
+
+This page lists journals that publish higher education learning and teaching research and scholarship (SoTL), from general higher education and SoTL journals to education journals for MVLS disciplines. For each journal it shows how you can publish open access as a University of Glasgow author, and what that would cost you if your paper has no external funding, which is the usual position for SoTL.
+
+::: {.callout-important}
+## Check before you submit
+
+This is a guide, not official University advice. Agreements, fees and journal policies change. Before submitting to anything that is not free to publish, check with the Open Access Team at [research-openaccess@glasgow.ac.uk](mailto:research-openaccess@glasgow.ac.uk), and see the University's [publisher arrangements](https://www.gla.ac.uk/myglasgow/openresearch/openaccess/publisherarrangements/) page.
+:::
+
+## How to use this list
+
+1. Filter by **Area** and by **Cost to you** using the boxes above each column, or search for a journal by name.
+2. Start with journals that are **free to publish**, then those **covered by a University agreement**.
+3. Agreements generally need a University of Glasgow corresponding author, and many cover only research and review articles. Opinion pieces, editorials and short practice reports may not be covered.
+4. Open **More** on any row for the details of the open access route, the journal's scope and anything to watch out for.
+5. Check that the journal suits your paper and is legitimate. [Think. Check. Submit.](https://thinkchecksubmit.org/) is a useful checklist.
+
+## Things to know
+
+- **Unfunded papers.** Most University agreements cover unfunded papers. BMJ, Frontiers, PLOS and full fees in BMC/Springer Nature fully open access journals are paid only for papers with UKRI (and in some cases Wellcome or BHF) funding. There is no central University fund for fees on unfunded papers.
+- **Wiley fully open access journals** are paid for from a capped national fund that can run out late in the year. Wiley's hybrid journals are not affected.
+- **Hybrid agreements may not be renewed from 2028**, because UKRI will stop allowing its funds to be used for hybrid open access.
+- **If no agreement applies**, you can still make your paper open. Under the University's [Research Publications and Copyright Policy](https://www.gla.ac.uk/research/strategy/ourpolicies/publications-policy/), your accepted manuscript can be made public in Enlighten under a CC BY licence when the paper is published. The policy recommends adding this statement to your acknowledgements or cover letter: *"In order to meet institutional open access requirements, any accepted manuscript arising from this submission will be open access under a Creative Commons Attribution (CC BY) licence with zero embargo."*
+- **When your paper is accepted**, email the acceptance and your accepted manuscript to the Open Access Team, whichever route you use.
+- **Licences vary.** Several free-to-publish journals use CC BY-NC or CC BY-ND, which is usually fine for an unfunded SoTL paper. If your project has external funding, check whether the funder requires CC BY.
+
+## The journals
+
+```{r}
+#| label: oa-table
+#| echo: false
+
+tbl |>
+  select(
+    Journal        = journal_cell,
+    Area           = area,
+    `Cost to you`  = category,
+    `List price`   = fee,
+    Licence        = licence,
+    `In DOAJ`      = in_doaj,
+    Details        = details
+  ) |>
+  datatable(
+    escape     = FALSE,
+    rownames   = FALSE,
+    filter     = "top",
+    extensions = "Buttons",
+    options = list(
+      pageLength = 25,
+      dom        = "Bfrtip",
+      buttons    = list(list(extend = "csv", text = "Download CSV",
+                             exportOptions = list(columns = 0:5))),
+      autoWidth  = TRUE,
+      scrollX    = TRUE,
+      columnDefs = list(
+        list(width = "26%", targets = 0),
+        list(width = "12%", targets = 1),
+        list(width = "14%", targets = 2),
+        list(width = "16%", targets = 3),
+        list(width = "10%", targets = 4),
+        list(width = "6%",  targets = 5),
+        list(width = "16%", targets = 6, orderable = FALSE)
+      )
+    )
+  ) |>
+  formatStyle(
+    "Cost to you",
+    backgroundColor = styleEqual(cat_levels, cat_colours),
+    color = "#1a1a1a",
+    fontWeight = "500"
+  )
+```
+
+## What the categories mean
+
+| Cost to you | What it means |
+|---|---|
+| Free to publish | Diamond open access: no author fees, so no agreement is needed. |
+| Low or conditional fee | No article processing charge (APC), but small page charges, or a fee unless an author is a society member. |
+| Covered by UofG agreement | A University agreement pays for open access when a UofG author is the corresponding author (usually research and review articles only). |
+| Covered while Wiley national fund lasts | Wiley fully open access title paid from a capped national fund. See **More** for the current position. |
+| Unclear: check before submitting | Published information does not make coverage clear. Ask the Open Access Team first. |
+| Discount only: you pay the rest | Fully open access journal with an APC. UofG authors get a 15–20% discount but pay the rest unless funded. |
+| Covered only if externally funded | The fee is paid only for papers acknowledging UKRI (and in some cases Wellcome or BHF) funding. |
+| No UofG agreement | Pay the fee, or publish without paying and make the accepted manuscript open through Enlighten. |
+| Not currently an option | Ceased or closed to submissions when last checked. |
+
+## About the data
+
+```{r}
+#| label: data-note
+#| echo: false
+#| results: asis
+
+cat(
+  "The **List price**, **Licence** and **In DOAJ** columns are refreshed automatically every week from the ",
+  "[Directory of Open Access Journals](https://doaj.org/) and [OpenAlex](https://openalex.org/)",
+  if (!is.na(fetched)) paste0(" (last refreshed ", fetched, ")") else "",
+  ". List prices are for information: where a University agreement applies, the fee does not fall to you. ",
+  "The University agreement information is curated by hand and was last reviewed on ", last_reviewed, ". ",
+  "The weekly update also checks the University's publisher arrangements page and flags changes for review.\n",
+  sep = ""
+)
+```
+
+Suggestions for journals to add, or corrections, are welcome via the [MVLS LTS Network](about.qmd).
