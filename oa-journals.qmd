@@ -1,6 +1,8 @@
 ---
 title: "Where to Publish"
 subtitle: "Open access journals for learning and teaching scholarship"
+page-layout: full
+toc: false
 ---
 
 ```{r}
@@ -64,13 +66,21 @@ tbl <- journals |>
     in_doaj  = case_when(!is.na(doaj_title) ~ "Yes",
                          !is.null(live_raw) ~ "No",
                          TRUE ~ "—"),
+    # Short versions of the hand-checked values, for journals not in DOAJ
+    curated_fee_short = str_trim(str_extract(coalesce(curated_apc, ""), "^[^(;]+")),
+    curated_fee_short = if_else(curated_fee_short == "" | str_starts(curated_fee_short, "unverified"),
+                                "See journal", str_trunc(curated_fee_short, 60)),
+    curated_licence_short = str_trim(str_extract(coalesce(curated_licence, ""), "^[^(;:]+")),
+    curated_licence_short = if_else(curated_licence_short == "" | str_starts(curated_licence_short, "unverified"),
+                                    "Not stated", str_trunc(curated_licence_short, 40)),
     fee = case_when(
+      !is.na(fee_note)     ~ fee_note,
       !is.na(doaj_title) & !as.logical(doaj_has_apc) ~ "No APC (DOAJ)",
       !is.na(doaj_apc)     ~ paste0("Up to ", doaj_apc, " (DOAJ)"),
       !is.na(openalex_apc) ~ paste0(openalex_apc, " (list price, OpenAlex)"),
-      TRUE                 ~ paste0(str_trunc(coalesce(curated_apc, "See journal"), 110), " (checked ", last_reviewed, ")")
+      TRUE                 ~ curated_fee_short
     ),
-    licence = coalesce(na_if(doaj_licence, ""), str_trunc(coalesce(curated_licence, ""), 80)),
+    licence = coalesce(na_if(doaj_licence, ""), curated_licence_short),
     journal_cell = paste0(
       '<a href="', esc(url), '" target="_blank">', esc(journal), "</a>",
       '<br><span class="oa-publisher">', esc(publisher), "</span>"
@@ -80,6 +90,8 @@ tbl <- journals |>
       "<p><strong>How to publish open access:</strong> ", esc(how), "</p>",
       if_else(is.na(scope), "", paste0("<p><strong>Scope:</strong> ", esc(scope), "</p>")),
       if_else(is.na(cautions), "", paste0("<p><strong>Notes:</strong> ", esc(cautions), "</p>")),
+      paste0("<p><strong>Fees and licence (checked ", esc(last_reviewed), "):</strong> ",
+             esc(coalesce(curated_apc, "not recorded")), ". Licence: ", esc(coalesce(curated_licence, "not recorded")), "</p>"),
       if_else(is.na(check_with_oa_team), "",
               paste0("<p><strong>Check with the Open Access Team:</strong> ", esc(check_with_oa_team), "</p>")),
       "<p class='oa-meta'>ISSN ", esc(coalesce(issn_online, issn_print, "not found")),
@@ -148,6 +160,7 @@ tbl |>
       buttons    = list(list(extend = "csv", text = "Download CSV",
                              exportOptions = list(columns = 0:5))),
       autoWidth  = TRUE,
+      scrollX    = TRUE,
       columnDefs = list(
         list(width = "26%", targets = 0),
         list(width = "12%", targets = 1),

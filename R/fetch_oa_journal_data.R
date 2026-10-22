@@ -5,6 +5,9 @@
 # Inputs (curated by hand):
 #   _data/oa_journals.csv  one row per journal: area, publisher, ISSNs, which
 #                          UofG open access route applies (route_key), notes
+#                          Optional columns: fee_note (replaces the live fee
+#                          on the page) and alert_ignore (free_apc and/or
+#                          inactive, to silence a known false alarm)
 #   _data/oa_routes.csv    one row per route: category and explanation. When a
 #                          University agreement changes, edit the route here
 #                          once rather than every journal.
@@ -264,12 +267,14 @@ checked <- journals |>
 standing <- c(
   # Listed as free, but DOAJ now shows a fee
   checked |>
-    filter(category == free_category, doaj_has_apc | doaj_other_charges) |>
+    filter(category == free_category, doaj_has_apc | doaj_other_charges,
+           !str_detect(coalesce(alert_ignore, ""), "free_apc")) |>
     glue_lines("- **{journal}** is listed as free to publish, but DOAJ now shows an APC or other charge ({coalesce(doaj_apc, 'other charges')})."),
   # Possibly ceased: nothing indexed in OpenAlex for over a year
   checked |>
     filter(category != stopped_category, !is.na(last_publication_year),
-           last_publication_year < this_year - 1) |>
+           last_publication_year < this_year - 1,
+           !str_detect(coalesce(alert_ignore, ""), "inactive")) |>
     glue_lines("- **{journal}**: OpenAlex has nothing published since {last_publication_year}. Check the journal is still active."),
   # Review dates that have passed
   routes |>
