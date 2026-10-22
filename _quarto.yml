@@ -17,6 +17,8 @@ website:
         text: Themes
       - href: authors.qmd
         text: Authors
+      - href: oa-journals.qmd
+        text: Where to Publish
       - href: about.qmd
         text: About
     right:
@@ -25,7 +27,7 @@ website:
         aria-label: GitHub
   page-footer:
     center: |
-      Data sourced from [ORCID](https://orcid.org)
+      Data sourced from [ORCID](https://orcid.org), [OpenAlex](https://openalex.org) and [DOAJ](https://doaj.org)
 
 format:
   html:

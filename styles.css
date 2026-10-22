@@ -356,3 +356,25 @@ hr {
 ::-moz-selection {
   background-color: rgba(0, 117, 176, 0.3);
 }
+
+/* ---- Where to Publish (open access journal finder) ---- */
+.oa-publisher,
+.oa-meta {
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+table.dataTable details summary {
+  cursor: pointer;
+  color: var(--uofg-cobalt);
+  font-weight: 500;
+}
+
+table.dataTable details[open] {
+  min-width: 18rem;
+}
+
+table.dataTable details p {
+  margin: 0.4rem 0;
+  font-size: 0.9em;
+}

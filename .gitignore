@@ -25,3 +25,6 @@ Thumbs.db
 .quarto
 
 **/*.quarto_ipynb
+
+# Journal finder alerts (turned into a GitHub issue by the workflow)
+oa_alerts.md
