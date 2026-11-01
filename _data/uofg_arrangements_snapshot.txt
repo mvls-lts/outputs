@@ -23,19 +23,19 @@ Research Excellence Framework (REF)
 Before Submission
 Research Publications and Copyright Policy
 Glasgow Open Journals
-Many of our publisher agreements are restricted to original research articles and reviews. Please read the relevant publisher. You can contact research-openaccess@glasgow.ac.uk to check if your article will be covered by the arrangement.
-The majority of our arrangements are supported by funding from UKRI. In many cases authors not funded by UKRI can often benefit from them. Please note that some of these arrangements are likely to disappear from 2028 because UKRI are stopping funding for open access via traditional publishing routes (also known as hybrid or subscription journals)
+Many of our publisher agreements are restricted to original research articles and reviews. Please read the information for the relevant publisher. You can contact research-openaccess@glasgow.ac.uk to check if your article will be covered by the arrangement.
+The majority of our arrangements are supported by funding from UK Research and Innovation (UKRI). In many cases authors not funded by UKRI can often benefit from them. Please note that some of these arrangements are likely to disappear from 2028 because UKRI are stopping funding of open access via traditional publishing routes known as hybrid or subscription journals.
 Alternative routes to sharing your paper may be available if it is not possible to cover the cost of making the published version freely available.
-Adding a a rights retention statement to your manuscript at first submission is another option that may help with open access. See the Research Publications and Copyright Policy.
-For fully open access journals it is important to check with research-openaccess@glasgow.ac.uk or the local budget holder to confirm if they will pay before committing to the cost.
-Do not assume that costs will be met because we have covered open access for a similar article on a previous occasions. Sometimes arrangements cannot be renewed on basis that is acceptable to our funders or other details change.
+Adding a a rights retention statement to your manuscript at first submission is an option that may help with open access to the accepted version. See the Research Publications and Copyright Policy.
+For fully open access journals it is important to check with research-openaccess@glasgow.ac.uk or the local budget holder before committing to a cost, if you expect the costs to be covered by them.
+Do not assume that costs will be met because we have covered open access for a similar article on a previous occasions. Sometimes arrangements, funder requirements, and budgets change.
 Some publishers will grant a waiver to open access costs for fully open access journals. This often needs to be applied for during submission. Check their policy.
 There are many publishers each with different procedures that they will communicate to authors during the submission and acceptance process.
-Please note that as publishers have generic pages sometimes they may indicate that the University may cover open access via the arrangement when your case may not be eligible. Therefore it is important to check with research-openaccess@glasgow.ac.uk before choosing an option that has a cost regardless of what the publisher site may say.
+Please note that as publishers have generic pages sometimes they may indicate that the University may cover open access via the arrangement when your case may not be eligible. Therefore it is important to check with research-openaccess@glasgow.ac.uk before choosing an option that has a cost you are not planning to pay for yourself, regardless of what the publisher site may say.
 Some of the open access routes are open to corresponding authors with a current employment contract or student registration at the University. If there are several authors identified as corresponding author the publisher will often have one named author who has been doing most of the correspondence assigned as the corresponding author they will allow to benefit from the arrangement. A few publishers have allowed more than one corresponding author to benefit from the arrangement. Sometimes the authors need to check with the publisher.
 Other agreements facilitate open access to the published version when the paper acknowledges specific research grant funding held at the University. For example from UKRI, Wellcome Trust or British Heart Foundation.
 UKRI do not include facilities grants in their scope for open access.
-Most of the arrangements do not cover alumni, visiting, honorary or emeritus researchers because of the guidelines provided for the national negotiation rather than University of Glasgow policy.
+Most of the arrangements do not cover alumni, visiting, honorary or emeritus researchers. This is based on national guidelines.
 We consult on new publisher agreements for open access throughout the year and details of new agreements are added to the list below. Arrangements are generally negotiated nationally and terms are agreed at a national level. They are often restricted to original research and review papers from corresponding authors based at Glasgow but some do provide coverage of other article types.
 The publisher arrangements are set up such that compliance with most funder requirements is built in. In most cases this means the publisher providing a Creative Commons (CC BY) licence which allows best reuse of the material.
 Email research-openaccess@glasgow.ac.uk with enquiries and to inform us of accepted articles and we will advise accordingly.
@@ -205,7 +205,7 @@ Wiley
 Open Access publishing in Wiley’s subscription (hybrid) journals is unlimited. However, funding for publication in fully Open Access journals is provided through a finite national fund that is allocated on a first come, first served basis. As a result, funding may be restricted later in the calendar year if demand is high. Authors should be aware that funding for fully Open Access journals cannot be assumed to be available throughout the year.
 The agreement will operate for 2 years from 1st January 2026 – 31st Dec 2028. For subscription (hybrid) journals, eligible articles must be accepted for publication between 1 January 2026 and 31 December 2028. For fully open access journals, eligible articles must be submitted within 1 January 2026 and 31 December 2028.
 Important update (September 2026)
-The national fund that supports publication in Wiley's fully Open Access journals is projected to reach its funding cap on 4 November 2026.
+The national fund that supports publication in Wiley's fully Open Access journals is now projected to reach its funding cap on 2 November 2026.
 Funding is only secured once all three stages of the publication process have been completed:
 Institutional approval
 Editorial acceptance

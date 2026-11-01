@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-10-25 07:09:00 UTC",
-  "n_outputs": 180,
-  "n_unclassified": 29,
-  "n_with_abstract": 147,
-  "n_excluded": 135,
+  "last_updated": "2026-11-01 08:35:00 UTC",
+  "n_outputs": 181,
+  "n_unclassified": 30,
+  "n_with_abstract": 148,
+  "n_excluded": 136,
   "publication_types": ["journal-article", "book", "book-chapter"],
   "score_threshold": 3,
   "max_themes": 3,
@@ -92,6 +92,20 @@
     }
   ],
   "outputs": [
+    {
+      "title": "Amino Acid—Who R You? An interactive browser-based game for learning amino acid properties",
+      "year": 2026,
+      "journal": "Advances in Physiology Education",
+      "type": "journal-article",
+      "doi": "10.1152/advan.90089.2026",
+      "url": "https://doi.org/10.1152/advan.90089.2026",
+      "network_authors": "Kirsten Knox",
+      "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
+      "network_schools": "School of Molecular Biosciences",
+      "themes": "",
+      "theme_source": "unclassified",
+      "n_themes": 0
+    },
     {
       "title": "Veterinary Student Experience and Learning Using a 4D Electrocardiogram Simulator",
       "year": 2026,

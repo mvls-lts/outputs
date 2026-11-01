@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-25 07:08:49 UTC",
-  "n_records": 204,
-  "n_abstracts": 168,
+  "last_updated": "2026-11-01 08:34:51 UTC",
+  "n_records": 205,
+  "n_abstracts": 169,
   "records": [
     {
       "doi": "10.1002/ase.1894",
@@ -709,6 +709,12 @@
       "doi": "10.1152/advan.00246.2024",
       "abstract": "Generative artificial intelligence (GenAI) is transforming higher education by enabling rapid learning resource development, enhancing student engagement, and supporting authentic assessment. Our workshop-based case studies highlight GenAI's ability to foster interactive, process-oriented learning in biosciences while addressing challenges with creativity and originality. From creating tailored quizzes to promoting active learning and ethical AI use, these strategies empower educators to integrate AI responsibly, ensuring it enriches teaching and learning in bioscience education while maintaining academic integrity.",
       "subjects": "Genetics, Bioinformatics, and Biomedical Research; Artificial Intelligence in Healthcare and Education; Educational Leadership and Innovation",
+      "source": "openalex"
+    },
+    {
+      "doi": "10.1152/advan.90089.2026",
+      "abstract": "Connecting amino acid side-chain properties to protein structure and physiological function is foundational, yet physiology and biomedical science students have uneven chemistry backgrounds, and this knowledge is often assumed rather than revisited. We developed Amino Acid-Who R You?, a browser-based game for scalable, low-stakes practice. Across three modes, learners identify a hidden residue through yes-or-no questions, classify residues using cumulative clues, or retrieve full names from codes and structures. Adjustable visual, textual and symbolic cues allow learners to vary support while practicing the same chemistry. Requiring no installation or account, the resource was introduced in a lecture after amino acid structures and properties were taught, then made available through the virtual learning environment for independent study. It aims to consolidate this chemistry for reasoning about enzyme catalysis, receptor binding, ion-channel gating and membrane transport. We describe its rationale, mechanics, implementation and limitations.",
+      "subjects": "Educational Games and Gamification; Multimedia Learning Systems; Science and Education Research",
       "source": "openalex"
     },
     {

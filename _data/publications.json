@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-10-25 07:08:48 UTC",
+  "last_updated": "2026-11-01 08:34:49 UTC",
   "n_authors": 70,
-  "n_publications": 1038,
-  "n_sotl": 315,
+  "n_publications": 1040,
+  "n_sotl": 317,
   "authors": [
     {
       "orcid_id": "0000-0002-0806-1081",
@@ -644,6 +644,23 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Amino Acid—Who R You? An interactive browser-based game for learning amino acid properties",
+      "year": 2026,
+      "month": 10,
+      "day": 22,
+      "pub_date": "2026-10-22",
+      "journal": "Advances in Physiology Education",
+      "type": "journal-article",
+      "doi": "10.1152/advan.90089.2026",
+      "url": "https://doi.org/10.1152/advan.90089.2026",
+      "network_authors": "Kirsten Knox",
+      "network_authors_school": "Kirsten Knox [School of Molecular Biosciences]",
+      "network_orcids": "0000-0002-5487-1763",
+      "network_schools": "School of Molecular Biosciences",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Veterinary Student Experience and Learning Using a 4D Electrocardiogram Simulator",
       "year": 2026,
       "month": 10,
@@ -721,6 +738,21 @@
       "network_authors_school": "Carolina Kuepper-Tetzel [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0003-0830-7915",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Transformational Change: But Where are the Gender Marginalised Students? From Feedback to Action",
+      "year": 2026,
+      "month": 9,
+      "day": 10,
+      "pub_date": "2026-09-10",
+      "type": "conference-paper",
+      "url": "https://www.raise-network.com/_files/ugd/12e0cd_697e345401ff4314b10829b09aa13509.pdf",
+      "network_authors": "Susan Lindsay",
+      "network_authors_school": "Susan Lindsay [MVLS Graduate School]",
+      "network_orcids": "0000-0003-4241-4933",
+      "network_schools": "MVLS Graduate School",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
