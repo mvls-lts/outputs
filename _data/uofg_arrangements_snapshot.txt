@@ -124,7 +124,7 @@ Eligible article types: Research / Review / Case Reports.
 The agreement is in place from 1st January 2026 – 31st December 2027.
 Please contact research-openaccess@glasgow.ac.uk on acceptance of a paper for further advice.
 Microbiology Society
-The University of Glasgow has an agreement with the Microbiology Society that covers article processing charges (APCs) for peer reviewed articles published by UoG corresponding authors in eligible subscription (hybrid) and fully open access journals, regardless of funding source. The agreement is in place until 31 December 2026
+The University of Glasgow has an agreement with the Microbiology Society that covers article processing charges (APCs) for peer reviewed articles published by UoG corresponding authors in eligible subscription (hybrid) and fully open access journals, regardless of funding source. The agreement is in place until 31 December 2027.
 Modern Languages Open (Liverpool University Press)
 The University of Glasgow holds an institutional membership to Modern Languages Open. This covers the publishing cost of an allocation of papers by University of Glasgow authors.
 Please contact research-openaccess@glasgow.ac.uk prior to submission for further advice.
@@ -204,16 +204,11 @@ https://wellcomeopenresearch.org/
 Wiley
 Open Access publishing in Wiley’s subscription (hybrid) journals is unlimited. However, funding for publication in fully Open Access journals is provided through a finite national fund that is allocated on a first come, first served basis. As a result, funding may be restricted later in the calendar year if demand is high. Authors should be aware that funding for fully Open Access journals cannot be assumed to be available throughout the year.
 The agreement will operate for 2 years from 1st January 2026 – 31st Dec 2028. For subscription (hybrid) journals, eligible articles must be accepted for publication between 1 January 2026 and 31 December 2028. For fully open access journals, eligible articles must be submitted within 1 January 2026 and 31 December 2028.
-Important update (September 2026)
-The national fund that supports publication in Wiley's fully Open Access journals is now projected to reach its funding cap on 2 November 2026.
-Funding is only secured once all three stages of the publication process have been completed:
-Institutional approval
-Editorial acceptance
-Author licence signing
-As a result, the date an article is submitted does not determine whether it is covered by the agreement. Coverage depends on when all three stages are completed:
-If an article has already been submitted and all three stages are completed before the funding cap is reached, the publication charge will be covered by the agreement.
-If an article has already been submitted but all three stages are completed after the funding cap has been reached and before the end of 2026, the publication charge cannot be funded through the agreement. Authors may still be eligible for support through the University's institutional Open Access grants where the article acknowledges funding from UKRI, Wellcome, or the British Heart Foundation.
-If an article has already been submitted but does not complete all three stages until 2027, it may be considered against the 2027 Gold Open Access fund allocation, subject to the terms and availability of that fund.
-Publication in eligible Wiley hybrid (subscription) journals remains covered under the agreement and is not affected by the funding cap.
-Authors without access to alternative funding for publication in Wiley fully Open Access journals may wish to consider alternative publishing venues.
-If you have any questions, or would like to check whether your article is likely to be covered, please contact the Open Access Support Service at research-openaccess@glasgow.ac.uk.
+Wiley Fully Open Access Fund 2026: Funding Cap Reached
+The national fund supporting publication in Wiley fully Open Access journals reached its funding cap on 2 November 2026.
+Articles that completed institutional approval, editorial acceptance, and licence signing before the cap was reached remain covered.
+Articles that had not completed all three stages before the cap was reached are not eligible for funding through the 2026 agreement, regardless of submission date.
+Original research papers acknowledging grants to Glasgow from UKRI, Wellcome Trust, or the British Heart Foundation may still be eligible for support from block grants from those funders.
+Authors without alternative funding may wish to consider other publishing options or contact the open access support service for advice: research-openaccess@glasgow.ac.uk
+Publication in eligible Wiley hybrid journals remains covered and is unaffected.
+Please contact the open access support service at research-openaccess@glasgow.ac.uk if you have any questions or want to check if your article will be covered.

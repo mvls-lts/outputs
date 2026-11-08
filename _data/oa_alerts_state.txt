@@ -1,0 +1,1 @@
+- Route **wiley_full_oa** (Covered while Wiley national fund lasts) was due for review by 2026-11-05. Check the UofG publisher arrangements page and update _data/oa_routes.csv.
